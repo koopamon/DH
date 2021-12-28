@@ -2073,7 +2073,7 @@ bumpty: {
 		heightm: 0.42,
 		weightkg: 12.3,
 		color: "Blue",
-		evos: ["Cooligan"]
+		evos: ["Cooligan"],
 		eggGroups: ["Monster"],
 	},
 dinotorch: {
@@ -2086,7 +2086,7 @@ dinotorch: {
 		heightm: 0.31,
 		weightkg: 22.3,
 		color: "Blue",
-		evos: ["Dino Rhino"]
+		evos: ["Dino Rhino"],
 		eggGroups: ["Monster"],
 	},
 dinorhino: {
