@@ -1,6 +1,6 @@
 export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	//Slate 1
-	volquag: {
+	plantranha: {
 		tier: "Koopamon",
 		doublesTier: "DUU",
 		randomBattleMoves: ["recover", "scald", "toxic", "flamethrower", "defog", "scorchingsands"],
@@ -9,4 +9,4 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleLevel: 100,
 	
 	
-}; 
+};
