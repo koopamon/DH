@@ -876,7 +876,7 @@ cheepskipper: {
 		types: ["Water"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 107, atk: 80, def: 93, spa: 99, spd: 93, spe: 58},
-		abilities: {0: "Oblivious", 1: "Water Veil" H: "Drizzle"},
+		abilities: {0: "Oblivious", 1: "Water Veil", H: "Drizzle"},
 		heightm: 4.4,
 		weightkg: 192.0,
 		color: "Green",
