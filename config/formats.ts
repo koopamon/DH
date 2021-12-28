@@ -3848,4 +3848,22 @@ export const Formats: FormatList = [
 			this.battle.megaCap = 6;
 		},
 	},
+	{
+        name: "[Gen 8] Koopamon",
+        mod: "koopamon",
+        desc: [
+            `<b>Koopamon</b>: Used for Koopamon battling`
+        ],
+        threads: [
+            `&bullet; <a href="https://www.smogon.com/forums/threads/fusion-evolution-under-used-submission-slate-3.3674163/">Fusion Evolution Under Used on Smogon Forums</a>`,
+            `&bullet; <a href="https://docs.google.com/spreadsheets/d/1zFk1_DBIoXFFn_7JpvYbVBrW-f1oFFh80Wn0CJNnbVo/edit#gid=0">Spreadsheet</a>`,
+        ],
+        ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod', 'Z-Move Clause', 'Data Mod', 'Mega Data Mod'],
+        banlist: [
+            'All Pokemon', 'Lopunnite', 'Red Orb', 'Baton Pass', 'Heracronite', 'Gardevoirite', 'Salamencite', 'Charizardite Y'
+        ],
+        unbanlist: [
+            'Plantranha'
+        ],
+    },
 ];
