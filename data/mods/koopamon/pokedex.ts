@@ -2128,7 +2128,7 @@ shrooblet: {
 		heightm: 0.3,
 		weightkg: 12.4,
 		color: "Purple",
-		evos: ["Shroob"]
+		evos: ["Shroob"],
 		eggGroups: ["Monster"],
 	},
 shroob: {
