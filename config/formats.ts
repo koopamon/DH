@@ -3863,7 +3863,7 @@ export const Formats: FormatList = [
             'All Pokemon', 'Lopunnite', 'Red Orb', 'Baton Pass', 'Heracronite', 'Gardevoirite', 'Salamencite', 'Charizardite Y'
         ],
         unbanlist: [
-            'Plantranha'
+            'Plantranha','Creeplant','Peteyranha'
         ],
     },
 ];
