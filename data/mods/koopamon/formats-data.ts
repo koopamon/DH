@@ -7,6 +7,5 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleLevel: 100,
 		randomDoubleBattleMoves: ["protect", "steameruption", "heatwave", "muddywater", "fireblast"],
 		randomDoubleBattleLevel: 100,
-	
-	
+	},
 };
