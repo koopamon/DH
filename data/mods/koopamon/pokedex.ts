@@ -1710,7 +1710,7 @@ mechakoopaelectric: {
 		num: 124,
 		name: "Mechakoopa-Electric",
 		types: ["Electric"],
-		gender: "N"
+		gender: "N",
 		baseStats: {hp: 65, atk: 45, def: 85, spa: 125, spd: 95, spe: 95},
 		abilities: {0: "Download", H: "Trace"},
 		heightm: 0.75,
@@ -1722,7 +1722,7 @@ mechakoopawater: {
 		num: 124,
 		name: "Mechakoopa-Water",
 		types: ["Electric", "Fire"],
-		gender: "N"
+		gender: "N",
 		baseStats: {hp: 65, atk: 45, def: 85, spa: 125, spd: 95, spe: 95},
 		abilities: {0: "Download", H: "Trace"},
 		heightm: 0.75,
@@ -1734,7 +1734,7 @@ mechakoopafire: {
 		num: 124,
 		name: "Mechakoopa-Fire",
 		types: ["Electric", "Fire"],
-		gender: "N"
+		gender: "N",
 		baseStats: {hp: 65, atk: 45, def: 85, spa: 125, spd: 95, spe: 95},
 		abilities: {0: "Download", H: "Trace"},
 		heightm: 0.75,
@@ -1746,7 +1746,7 @@ mechakoopaice: {
 		num: 124,
 		name: "Mechakoopa-Ice",
 		types: ["Electric", "Ice"],
-		gender: "N"
+		gender: "N",
 		baseStats: {hp: 65, atk: 45, def: 85, spa: 125, spd: 95, spe: 95},
 		abilities: {0: "Download", H: "Trace"},
 		heightm: 0.75,
@@ -1783,7 +1783,7 @@ topmini: {
 		num: 127,
 		name: "Topmini",
 		types: ["Electric", "Steel"],
-		gender: "N"
+		gender: "N",
 		baseStats: {hp: 30, atk: 30, def: 45, spa: 70, spd: 45, spe: 80},
 		abilities: {0: "Motor Drive", 1: "Soundproof", H: "Galvantize"},
 		heightm: 0.2,
@@ -1796,7 +1796,7 @@ topman: {
 		num: 128,
 		name: "Topman",
 		types: ["Electric", "Steel"],
-		gender: "N"
+		gender: "N",
 		baseStats: {hp: 50, atk: 60, def: 55, spa: 80, spd: 75, spe: 90},
 		abilities: {0: "Motor Drive", 1: "Soundproof", H: "Galvantize"},
 		heightm: 0.9,
@@ -1811,7 +1811,7 @@ topmaniac: {
 		num: 129,
 		name: "Topmaniac",
 		types: ["Electric", "Steel"],
-		gender: "N"
+		gender: "N",
 		baseStats: {hp: 65, atk: 85, def: 70, spa: 110, spd: 100, spe: 120},
 		abilities: {0: "Motor Drive", 1: "Soundproof", H: "Galvantize"},
 		heightm: 1.8,
