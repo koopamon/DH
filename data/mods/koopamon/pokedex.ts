@@ -390,8 +390,8 @@ icebro: {
 		weightkg: 61.6,
 		color: "Green",
 		prevo: "Hammer Bro",
-		evoItem: "Leaf Stone"
-		evoType: "useItem"
+		evoItem: "Leaf Stone",
+		evoType: "useItem",
 		eggGroups: ["Monster"],
 	},
 firebro: {
@@ -405,8 +405,8 @@ firebro: {
 		weightkg: 61.6,
 		color: "Green",
 		prevo: "Hammer Bro",
-		evoItem: "Fire Stone"
-		evoType: "useItem"
+		evoItem: "Fire Stone",
+		evoType: "useItem",
 		eggGroups: ["Monster"],
 	},
 sporer: {
@@ -2171,8 +2171,8 @@ sfo: {
 		weightkg: 112.8,
 		color: "Purple",
 		prevo: "Shroob",
-		evoType: "useItem"
-		evoItem: "Moon Stone"
+		evoType: "useItem",
+		evoItem: "Moon Stone",
 		eggGroups: ["Monster"],
 	},
 starbobomb: {
@@ -2324,7 +2324,7 @@ lumalee: {
 		color: "Blue",
 		prevo: "Luma",
 		evoType: "useItem",
-		evoItem: "Moon Stone"
+		evoItem: "Moon Stone",
 		eggGroups: ["Monster"],
 	},
 eggranha: {
