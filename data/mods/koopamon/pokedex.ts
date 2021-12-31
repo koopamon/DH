@@ -339,7 +339,7 @@ fuzzler: {
 	},
 lilslammer: {
 		num: 24,
-		name: "Lil' Slammer",
+		name: "Lil Slammer",
 		types: ["Fighting"],
 		genderRatio: {M: 0.75, F: 0.25},
 		baseStats: {hp: 40, atk: 65, def: 40, spa: 20, spd: 35, spe: 60},
@@ -360,7 +360,7 @@ hammerbro: {
 		heightm: 1.8,
 		weightkg: 61.6,
 		color: "Green",
-		prevo: "Lil' Slammer",
+		prevo: "Lil Slammer",
 		evoType: "levelFriendship",
 		evos: ["Sledge Bro", "Ice Bro", "Fire Bro"],
 		eggGroups: ["Monster"],
