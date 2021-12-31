@@ -843,5 +843,5 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	sluma: {
 		tier: "Koopamon",
 		doublesTier: "DUU",
-	
+	},
 };
