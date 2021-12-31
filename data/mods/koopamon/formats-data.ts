@@ -844,5 +844,5 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Koopamon",
 		doublesTier: "DUU",
 	},
-	
+
 };
