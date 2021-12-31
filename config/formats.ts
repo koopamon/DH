@@ -3859,24 +3859,16 @@ export const Formats: FormatList = [
             `&bullet; <a href="https://docs.google.com/spreadsheets/d/1zFk1_DBIoXFFn_7JpvYbVBrW-f1oFFh80Wn0CJNnbVo/edit#gid=0">Spreadsheet</a>`,
         ],
         ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod', 'Z-Move Clause', 'Data Mod', 'Mega Data Mod'],
-        banlist: [
-            'All Pokemon', 'Lopunnite', 'Red Orb', 'Baton Pass', 'Heracronite', 'Gardevoirite', 'Salamencite', 'Charizardite Y'
-        ],
-        unbanlist: [
-            'Plantranha','Creeplant','Peteyranha','Blooper','Gesso','Glooper','Podoboo','Magmaw','Charvaargh','Goomba','Gigagoom','Paragoom','Tinytroopa','Koopatroopa',
-			  'Paratroopa','Tubotroopa','Squiggler','Wiggler','Fuzzler','Flutter','Thwimp','Thwomp','Pouncer','Lil Slammer','Hammer Bro','Sledge Bro','Ice Bro','Fire Bro','Sporer',
-			  'Nipplant','Navalranha','Lakipuff','Lakitu','Lakilust','Foo','Ty-foo','Gooble','Protoranha','Fang','Swoop','Swampire','Skipsqueak','Spinysqueak','Fuzzy','Fuzzilla',
-			  'Spiny','Shyguy','Snifit','Gunnerguy','Cheepcheep','Bossbass','Cheepskipper','Madpole','Splounder','Electroopa','Voltroopa','Ninji','Shuriki','Boo','Boodies','Boolossus',
-			  'Peepa','Scaredy Rat','Monty Mole','Mega Mole','Rocky Wrench','Monty Tank','Sidestepper','Clawdaddy','Clawgrip','Fish Bone','Kingfin','Buzzybeetle','Spike Top','Parabeetle',
-			  'Lovubble','Smeech','Stingby','Beehoss','Crazydayzee','Amazydayzee','Ptooie','Volcanotus','Lavalotus','Bullet Bill','Banzai Bill','King Bill','Torpedo Ted','Conkdor','Needlenose',
-			  'Pokey','Mummipokey','Spike','Clubba','Jango','Klepto','Whimp','Whomp','Bony Beetle','Dry Bones','Elite Bones','Para Bones','Chibi Chomp','Chain Chomp','Unira','Urchin',
-			  'Komu','Komboo','Scuttler','Scuttlebug','Spark','Amp','Fizzlit','Liquilite','Polterpup','Virus','Trirus','Bumpty','Cooligan','Toady','Magikoopa','Psykamek','Bully','Nobull',
-			  'Chilly','Chief Chill','Mr. Blizzard','Royal Blizz','Flappy','Fighter Fly','Sumo Lad','Sumo Bro','Venomush','Zombimush','Bob-omb','Bob-arm','King-omb','Queen-omb','Fire Snake',
-			  'Angry Sun','Sushi','Cheep Chomp','Porcupuffer','Jelectro','Jellybeam','Broozer','Chargin Chuck','Runt','Rex','Mechakoopa','Shrooblet','Shroob','Shrooboid','S.F.O.','Dusty','Tweester',
-			  'Pupdozer','Glamdozer','Phanto','Pokio','Mommaranha','Mr. I','Cobrat','Tryclyde','Uproot','Brolder','Magmolder','Sluggy','Sluggard','Coin Coffer','Pidgit','Flurry',
-			  'Bitefrost','Topmini','Topman','Topmaniac','Lil Brr','Baron Brrr','Tanoomba','Luma','Lumalee','Antasman','Antasmimic','Dragoneel','Plessie','Eggranha','Dinoranha',
-			  'Star Child','Star Spririt','Star Sprite','Boom Boom','Star Plantranha','Star Blooper','Star Podoboo','Star Goomba','Star Koopatroopa','Star Boo','Star Bullet Bill',
-			  'Star Magikoopa','Star Cheep Cheep','Star Buzzy Beetle','Star Chain Chomp','Mr. Tropical','Dino Torch','Dino Rhino','Reznor','Wingo'
-        ],
+		banlist: ['Conversion', 'Conversion2', 'Libero', 'Protean', 'Transistor', 'Dragon\'s Maw', 'Steelworker', 'Steely Spirit', 'Color Change', 'Arena Trap', 'Shadow Tag', 'Moody'],
+		onValidateTeam(team, format) {
+			let speciesTable = {};
+			let allowedTiers = ['KOOPAMON'];
+			for (const set of team) {
+				let template = this.dex.getSpecies(set.species);
+				if ( !allowedTiers.includes(template.tier) ) {
+					return [set.species + ' is not useable in Koopamon.'];
+				}
+			}
+		},
     },
 ];
