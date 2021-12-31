@@ -3087,6 +3087,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "wiggler": {
     "learnset": {
+      "steamroller": [
+        "8M"
+      ],
       "tackle": [
         "8M"
       ],
@@ -3221,6 +3224,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dazzlinggleam": [
+        "8M"
+      ],
+      "steamroller": [
         "8M"
       ],
       "tackle": [
@@ -3372,6 +3378,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "spikes": [
+        "8M"
+      ],
+      "steamroller": [
         "8M"
       ],
       "tackle": [
@@ -6592,10 +6601,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bugbite": [
         "8M"
       ],
-      "glare": [
+      "rockthrow": [
         "8M"
       ],
-      "rockthrow": [
+      "glare": [
         "8M"
       ],
       "rockpolish": [
@@ -8132,7 +8141,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "electroball": [
         "8M"
       ],
-      "darkvoid": [
+      "hypnosis": [
         "8M"
       ],
       "nightmare": [
@@ -11552,7 +11561,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bounce": [
         "8M"
       ],
-      "knockoff": [
+      "firefang": [
         "8M"
       ],
       "pursuit": [
@@ -11706,7 +11715,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bounce": [
         "8M"
       ],
-      "knockoff": [
+      "firefang": [
         "8M"
       ],
       "fishiousrend": [
@@ -13480,16 +13489,28 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flameburst": [
         "8M"
       ],
-      "flashcannon": [
+      "seismictoss": [
+        "8M"
+      ],
+      "aurasphere": [
         "8M"
       ],
       "detect": [
         "8M"
       ],
+      "willowisp": [
+        "8M"
+      ],
       "flamethrower": [
         "8M"
       ],
-      "aurasphere": [
+      "bodypress": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "irondefense": [
         "8M"
       ],
       "nastyplot": [
@@ -13498,64 +13519,100 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "focusblast": [
         "8M"
       ],
-      "facade": [
+      "fireblast": [
         "8M"
       ],
-      "return": [
+      "overheat": [
         "8M"
       ],
-      "toxic": [
+      "darkpulse": [
         "8M"
       ],
-      "shadowball": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "incinerate": [
-        "8M"
-      ],
-      "taunt": [
-        "8M"
-      ],
-      "rocktomb": [
-        "8M"
-      ],
-      "thunderwave": [
-        "8M"
-      ],
-      "poweruppunch": [
-        "8M"
-      ],
-      "irondefense": [
-        "8M"
-      ],
-      "calmmind": [
-        "8M"
-      ],
-      "hyperbeam": [
+      "thundershock": [
         "8M"
       ],
       "thunderbolt": [
         "8M"
       ],
-      "round": [
+      "superpower": [
         "8M"
       ],
-      "takedown": [
+      "lowsweep": [
         "8M"
       ],
-      "gigaimpact": [
+      "poweruppunch": [
         "8M"
       ],
-      "dragonrush": [
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "safeguard": [
+        "8M"
+      ],
+      "finalgambit": [
+        "8M"
+      ],
+      "stockpile": [
+        "8M"
+      ],
+      "spitup": [
+        "8M"
+      ],
+      "swallow": [
         "8M"
       ]
     }
@@ -13563,6 +13620,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   "nobully": {
     "learnset": {
       "doomdesire": [
+        "8M"
+      ],
+      "heavyslam": [
         "8M"
       ],
       "tackle": [
@@ -13586,16 +13646,28 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flameburst": [
         "8M"
       ],
-      "flashcannon": [
+      "seismictoss": [
+        "8M"
+      ],
+      "aurasphere": [
         "8M"
       ],
       "detect": [
         "8M"
       ],
+      "willowisp": [
+        "8M"
+      ],
       "flamethrower": [
         "8M"
       ],
-      "aurasphere": [
+      "bodypress": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "irondefense": [
         "8M"
       ],
       "nastyplot": [
@@ -13607,43 +13679,82 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "fireblast": [
         "8M"
       ],
-      "facade": [
+      "overheat": [
         "8M"
       ],
-      "return": [
+      "darkpulse": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "shadowball": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "incinerate": [
-        "8M"
-      ],
-      "taunt": [
+      "thundershock": [
         "8M"
       ],
       "thunderbolt": [
         "8M"
       ],
-      "rocktomb": [
+      "superpower": [
         "8M"
       ],
-      "thunderwave": [
+      "lowsweep": [
         "8M"
       ],
       "poweruppunch": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "stealthrock": [
         "8M"
       ]
     }
@@ -13662,7 +13773,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "whirlwind": [
         "8M"
       ],
-      "hail": [
+      "mist": [
         "8M"
       ],
       "forcepalm": [
@@ -13674,7 +13785,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
-      "iciclecrash": [
+      "seismictoss": [
+        "8M"
+      ],
+      "icepunch": [
+        "8M"
+      ],
+      "icywind": [
         "8M"
       ],
       "brickbreak": [
@@ -13683,7 +13800,19 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bodyslam": [
         "8M"
       ],
+      "iciclecrash": [
+        "8M"
+      ],
+      "bodypress": [
+        "8M"
+      ],
       "superpower": [
+        "8M"
+      ],
+      "auroraveil": [
+        "8M"
+      ],
+      "hail": [
         "8M"
       ],
       "doubleedge": [
@@ -13692,43 +13821,61 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swordsdance": [
         "8M"
       ],
-      "sheercold": [
+      "tripleaxel": [
         "8M"
       ],
       "gigaimpact": [
         "8M"
       ],
-      "hurricane": [
+      "bounce": [
         "8M"
       ],
-      "avalanche": [
+      "sheercold": [
         "8M"
       ],
-      "facade": [
+      "knockoff": [
         "8M"
       ],
-      "return": [
+      "playrough": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
+      "focusblast": [
         "8M"
       ],
       "lowsweep": [
         "8M"
       ],
-      "sleeptalk": [
+      "poweruppunch": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "aerialace": [
         "8M"
       ],
       "defog": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "icebeam": [
         "8M"
       ],
       "aurorabeam": [
@@ -13737,22 +13884,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "haze": [
         "8M"
       ],
-      "poweruppunch": [
+      "facade": [
         "8M"
       ],
-      "iceball": [
+      "rockclimb": [
         "8M"
       ],
-      "aircutter": [
+      "return": [
         "8M"
       ],
-      "iciclespear": [
+      "sleeptalk": [
         "8M"
       ],
-      "aurasphere": [
+      "rest": [
         "8M"
       ],
-      "blizzard": [
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "stealthrock": [
         "8M"
       ],
       "iceshard": [
@@ -13762,9 +13918,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "skullbash": [
-        "8M"
-      ],
-      "takedown": [
         "8M"
       ]
     }
@@ -13786,7 +13939,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "whirlwind": [
         "8M"
       ],
-      "hail": [
+      "mist": [
         "8M"
       ],
       "forcepalm": [
@@ -13798,7 +13951,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
-      "iciclecrash": [
+      "seismictoss": [
+        "8M"
+      ],
+      "icepunch": [
+        "8M"
+      ],
+      "icywind": [
         "8M"
       ],
       "brickbreak": [
@@ -13807,7 +13966,19 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bodyslam": [
         "8M"
       ],
+      "iciclecrash": [
+        "8M"
+      ],
+      "bodypress": [
+        "8M"
+      ],
       "superpower": [
+        "8M"
+      ],
+      "auroraveil": [
+        "8M"
+      ],
+      "hail": [
         "8M"
       ],
       "doubleedge": [
@@ -13816,43 +13987,61 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swordsdance": [
         "8M"
       ],
-      "sheercold": [
+      "tripleaxel": [
         "8M"
       ],
       "gigaimpact": [
         "8M"
       ],
-      "hurricane": [
+      "bounce": [
         "8M"
       ],
-      "avalanche": [
+      "sheercold": [
         "8M"
       ],
-      "facade": [
+      "knockoff": [
         "8M"
       ],
-      "return": [
+      "playrough": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
+      "focusblast": [
         "8M"
       ],
       "lowsweep": [
         "8M"
       ],
-      "sleeptalk": [
+      "poweruppunch": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "aerialace": [
         "8M"
       ],
       "defog": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "icebeam": [
         "8M"
       ],
       "aurorabeam": [
@@ -13861,10 +14050,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "haze": [
         "8M"
       ],
-      "trickroom": [
+      "facade": [
         "8M"
       ],
-      "poweruppunch": [
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "stealthrock": [
         "8M"
       ]
     }
@@ -13883,6 +14093,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "growth": [
         "8M"
       ],
+      "megadrain": [
+        "8M"
+      ],
       "sandtomb": [
         "8M"
       ],
@@ -13892,28 +14105,40 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "needlearm": [
         "8M"
       ],
-      "mudbomb": [
+      "steamroller": [
         "8M"
       ],
-      "takedown": [
+      "bulldoze": [
+        "8M"
+      ],
+      "pinmissile": [
         "8M"
       ],
       "spikyshield": [
         "8M"
       ],
+      "mudbomb": [
+        "8M"
+      ],
       "gigadrain": [
         "8M"
       ],
-      "earthpower": [
+      "earthquake": [
         "8M"
       ],
       "rockslide": [
         "8M"
       ],
+      "cottonspore": [
+        "8M"
+      ],
       "synthesis": [
         "8M"
       ],
-      "earthquake": [
+      "earthpower": [
+        "8M"
+      ],
+      "energyball": [
         "8M"
       ],
       "swordsdance": [
@@ -13922,34 +14147,43 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "powerwhip": [
         "8M"
       ],
-      "facade": [
+      "leafstorm": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "cottonguard": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "megahorn": [
+        "8M"
+      ],
+      "pollenpuff": [
         "8M"
       ],
       "uturn": [
         "8M"
       ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "energyball": [
-        "8M"
-      ],
-      "incinerate": [
-        "8M"
-      ],
       "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "leafblade": [
         "8M"
       ],
       "grassknot": [
@@ -13958,28 +14192,61 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "leechseed": [
         "8M"
       ],
-      "dragondance": [
+      "dig": [
         "8M"
       ],
-      "curse": [
+      "facade": [
         "8M"
       ],
-      "bite": [
+      "rockclimb": [
         "8M"
       ],
-      "crunch": [
+      "return": [
         "8M"
       ],
-      "magnitude": [
+      "sleeptalk": [
         "8M"
       ],
-      "razorleaf": [
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "quiverdance": [
+        "8M"
+      ],
+      "scorchingsands": [
         "8M"
       ],
       "toxicspikes": [
-        "8M"
-      ],
-      "bulldoze": [
         "8M"
       ]
     }
@@ -13998,6 +14265,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "growth": [
         "8M"
       ],
+      "megadrain": [
+        "8M"
+      ],
       "sandtomb": [
         "8M"
       ],
@@ -14007,28 +14277,40 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "needlearm": [
         "8M"
       ],
-      "mudbomb": [
+      "steamroller": [
         "8M"
       ],
-      "takedown": [
+      "bulldoze": [
+        "8M"
+      ],
+      "pinmissile": [
         "8M"
       ],
       "spikyshield": [
         "8M"
       ],
+      "mudbomb": [
+        "8M"
+      ],
       "gigadrain": [
         "8M"
       ],
-      "earthpower": [
+      "earthquake": [
         "8M"
       ],
       "rockslide": [
         "8M"
       ],
+      "cottonspore": [
+        "8M"
+      ],
       "synthesis": [
         "8M"
       ],
-      "earthquake": [
+      "earthpower": [
+        "8M"
+      ],
+      "energyball": [
         "8M"
       ],
       "swordsdance": [
@@ -14037,34 +14319,43 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "powerwhip": [
         "8M"
       ],
-      "facade": [
+      "leafstorm": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "cottonguard": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "megahorn": [
+        "8M"
+      ],
+      "pollenpuff": [
         "8M"
       ],
       "uturn": [
         "8M"
       ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "energyball": [
-        "8M"
-      ],
-      "incinerate": [
-        "8M"
-      ],
       "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "leafblade": [
         "8M"
       ],
       "grassknot": [
@@ -14073,7 +14364,52 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "leechseed": [
         "8M"
       ],
-      "dragondance": [
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ],
       "curse": [
@@ -14098,7 +14434,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "mummipokey": {
     "learnset": {
-      "stealthrock": [
+      "sleeppowder": [
+        "8M"
+      ],
+      "stunspore": [
+        "8M"
+      ],
+      "poisonpowder": [
         "8M"
       ],
       "tackle": [
@@ -14113,6 +14455,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "growth": [
         "8M"
       ],
+      "megadrain": [
+        "8M"
+      ],
       "sandtomb": [
         "8M"
       ],
@@ -14122,28 +14467,40 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "needlearm": [
         "8M"
       ],
-      "mudbomb": [
+      "steamroller": [
         "8M"
       ],
-      "takedown": [
+      "bulldoze": [
+        "8M"
+      ],
+      "pinmissile": [
         "8M"
       ],
       "spikyshield": [
         "8M"
       ],
+      "mudbomb": [
+        "8M"
+      ],
       "gigadrain": [
         "8M"
       ],
-      "earthpower": [
+      "earthquake": [
         "8M"
       ],
       "rockslide": [
         "8M"
       ],
+      "cottonspore": [
+        "8M"
+      ],
       "synthesis": [
         "8M"
       ],
-      "earthquake": [
+      "earthpower": [
+        "8M"
+      ],
+      "energyball": [
         "8M"
       ],
       "swordsdance": [
@@ -14152,37 +14509,43 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "powerwhip": [
         "8M"
       ],
-      "facade": [
+      "leafstorm": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "cottonguard": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "megahorn": [
+        "8M"
+      ],
+      "pollenpuff": [
         "8M"
       ],
       "uturn": [
         "8M"
       ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "poisonfang": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "energyball": [
-        "8M"
-      ],
-      "incinerate": [
-        "8M"
-      ],
       "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "leafblade": [
         "8M"
       ],
       "grassknot": [
@@ -14191,7 +14554,52 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "leechseed": [
         "8M"
       ],
-      "firefang": [
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ]
     }
@@ -14213,16 +14621,25 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "magnitude": [
         "8M"
       ],
+      "metalclaw": [
+        "8M"
+      ],
       "sandstorm": [
+        "8M"
+      ],
+      "rocktomb": [
         "8M"
       ],
       "bellydrum": [
         "8M"
       ],
-      "rockslide": [
+      "bodyslam": [
         "8M"
       ],
       "spikeball": [
+        "8M"
+      ],
+      "rockslide": [
         "8M"
       ],
       "stockpile": [
@@ -14234,19 +14651,67 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swallow": [
         "8M"
       ],
-      "bodypress": [
+      "irondefense": [
+        "8M"
+      ],
+      "lowkick": [
+        "8M"
+      ],
+      "gyroball": [
         "8M"
       ],
       "circlethrow": [
         "8M"
       ],
+      "rockpolish": [
+        "8M"
+      ],
       "stoneedge": [
+        "8M"
+      ],
+      "swordsdance": [
         "8M"
       ],
       "heavyslam": [
         "8M"
       ],
+      "earthquake": [
+        "8M"
+      ],
       "rockwrecker": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "poweruppunch": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
         "8M"
       ],
       "avalanche": [
@@ -14255,49 +14720,46 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "facade": [
         "8M"
       ],
-      "earthquake": [
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "sleeptalk": [
         "8M"
       ],
-      "sandtomb": [
+      "toxic": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "lowsweep": [
+      "protect": [
         "8M"
       ],
-      "sleeptalk": [
+      "gigaimpact": [
         "8M"
       ],
-      "defog": [
+      "zenheadbutt": [
         "8M"
       ],
-      "stealthrock": [
-        "8M"
-      ],
-      "poweruppunch": [
-        "8M"
-      ],
-      "rollout": [
+      "amnesia": [
         "8M"
       ],
       "powergem": [
         "8M"
       ],
-      "bulldoze": [
+      "stealthrock": [
         "8M"
       ],
       "ironhead": [
         "8M"
       ],
-      "bodyslam": [
+      "flashcannon": [
         "8M"
       ],
       "doubleedge": [
@@ -14313,7 +14775,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "clubba": {
     "learnset": {
-      "knockoff": [
+      "rockblast": [
         "8M"
       ],
       "scratch": [
@@ -14331,16 +14793,25 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "magnitude": [
         "8M"
       ],
+      "metalclaw": [
+        "8M"
+      ],
       "sandstorm": [
+        "8M"
+      ],
+      "rocktomb": [
         "8M"
       ],
       "bellydrum": [
         "8M"
       ],
-      "rockslide": [
+      "bodyslam": [
         "8M"
       ],
       "spikeball": [
+        "8M"
+      ],
+      "rockslide": [
         "8M"
       ],
       "stockpile": [
@@ -14352,19 +14823,67 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swallow": [
         "8M"
       ],
-      "bodypress": [
+      "irondefense": [
+        "8M"
+      ],
+      "lowkick": [
+        "8M"
+      ],
+      "gyroball": [
         "8M"
       ],
       "circlethrow": [
         "8M"
       ],
+      "rockpolish": [
+        "8M"
+      ],
       "stoneedge": [
+        "8M"
+      ],
+      "swordsdance": [
         "8M"
       ],
       "heavyslam": [
         "8M"
       ],
+      "earthquake": [
+        "8M"
+      ],
       "rockwrecker": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "poweruppunch": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
         "8M"
       ],
       "avalanche": [
@@ -14373,34 +14892,46 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "facade": [
         "8M"
       ],
-      "earthquake": [
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "sleeptalk": [
         "8M"
       ],
-      "sandtomb": [
+      "toxic": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "lowsweep": [
+      "protect": [
         "8M"
       ],
-      "sleeptalk": [
+      "gigaimpact": [
         "8M"
       ],
-      "defog": [
+      "zenheadbutt": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "powergem": [
         "8M"
       ],
       "stealthrock": [
         "8M"
       ],
-      "poweruppunch": [
+      "ironhead": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ]
     }
@@ -14476,67 +15007,76 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "closecombat": [
         "8M"
       ],
-      "facade": [
+      "superpower": [
         "8M"
       ],
-      "swift": [
+      "bulkup": [
         "8M"
       ],
-      "fairywind": [
+      "brickbreak": [
         "8M"
       ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
+      "sunnyday": [
         "8M"
       ],
       "aerialace": [
         "8M"
       ],
-      "rest": [
+      "airslash": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "airslash": [
+      "rest": [
         "8M"
       ],
-      "taunt": [
+      "toxic": [
         "8M"
       ],
-      "rocktomb": [
+      "protect": [
         "8M"
       ],
-      "steelwing": [
+      "gigaimpact": [
         "8M"
       ],
-      "superpower": [
+      "zenheadbutt": [
         "8M"
       ],
-      "revenge": [
-        "8M"
-      ],
-      "stoneedge": [
+      "sandstorm": [
         "8M"
       ],
       "rockslide": [
         "8M"
       ],
+      "rocktomb": [
+        "8M"
+      ],
+      "reversal": [
+        "8M"
+      ],
+      "stoneedge": [
+        "8M"
+      ],
       "dragonrush": [
-        "8M"
-      ],
-      "slam": [
-        "8M"
-      ],
-      "strength": [
-        "8M"
-      ],
-      "detect": [
         "8M"
       ]
     }
@@ -14549,7 +15089,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "watergun": [
         "8M"
       ],
-      "growth": [
+      "leer": [
         "8M"
       ],
       "ingrain": [
@@ -14573,68 +15113,128 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "brine": [
         "8M"
       ],
-      "doubleteam": [
+      "gigadrain": [
         "8M"
       ],
-      "energyball": [
-        "8M"
-      ],
-      "surf": [
-        "8M"
-      ],
-      "leafstorm": [
-        "8M"
-      ],
-      "hydropump": [
-        "8M"
-      ],
-      "calmmind": [
+      "aromatherapy": [
         "8M"
       ],
       "raindance": [
         "8M"
       ],
-      "swift": [
+      "energyball": [
+        "8M"
+      ],
+      "growth": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "stunspore": [
+        "8M"
+      ],
+      "leafstorm": [
+        "8M"
+      ],
+      "soak": [
+        "8M"
+      ],
+      "whirlpool": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "xscissor": [
         "8M"
       ],
       "uturn": [
         "8M"
       ],
-      "return": [
+      "pollenpuff": [
         "8M"
       ],
-      "toxic": [
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "leafblade": [
+        "8M"
+      ],
+      "leechseed": [
         "8M"
       ],
       "mist": [
         "8M"
       ],
-      "infestation": [
+      "haze": [
         "8M"
       ],
-      "rest": [
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "gigadrain": [
+      "rest": [
         "8M"
       ],
-      "haze": [
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "venoshock": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "waterfall": [
         "8M"
       ],
       "waterpulse": [
         "8M"
       ],
-      "leechseed": [
+      "scald": [
         "8M"
       ]
     }
   },
   "klepto": {
     "learnset": {
-      "steelwing": [
+      "closecombat": [
         "8M"
       ],
       "sandattack": [
@@ -14697,37 +15297,28 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "earthquake": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "shadowsneak": [
-        "8M"
-      ],
       "pursuit": [
         "8M"
       ],
-      "fairywind": [
+      "darkpulse": [
         "8M"
       ],
-      "return": [
+      "taunt": [
         "8M"
       ],
-      "toxic": [
+      "payback": [
         "8M"
       ],
-      "mist": [
+      "torment": [
         "8M"
       ],
-      "sludgebomb": [
+      "superpower": [
         "8M"
       ],
-      "rest": [
+      "bulkup": [
         "8M"
       ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "fly": [
         "8M"
       ],
       "defog": [
@@ -14736,13 +15327,52 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
-      "taunt": [
+      "shadowsneak": [
         "8M"
       ],
-      "haze": [
+      "confuseray": [
         "8M"
       ],
-      "trickroom": [
+      "earthpower": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "steelwing": [
         "8M"
       ]
     }
@@ -14782,64 +15412,46 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "facade": [
         "8M"
       ],
-      "shadowsneak": [
-        "8M"
-      ],
-      "dragonpulse": [
-        "8M"
-      ],
-      "earthquake": [
-        "8M"
-      ],
       "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "shadowball": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "rest": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "taunt": [
+      "protect": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
         "8M"
       ],
       "shadowclaw": [
         "8M"
       ],
-      "shadowpunch": [
+      "earthpower": [
         "8M"
       ],
       "phantomforce": [
         "8M"
       ],
-      "mudbomb": [
-        "8M"
-      ],
-      "earthpower": [
-        "8M"
-      ],
       "bulldoze": [
         "8M"
       ],
-      "darkpulse": [
+      "memento": [
         "8M"
       ]
     }
@@ -14906,49 +15518,103 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "fissure": [
         "8M"
       ],
-      "facade": [
+      "darkpulse": [
         "8M"
       ],
-      "shadowsneak": [
-        "8M"
-      ],
-      "dragonpulse": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "shadowball": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "crunch": [
         "8M"
       ],
       "taunt": [
         "8M"
       ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "dragonpulse": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
       "shadowclaw": [
         "8M"
       ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
       "rocktomb": [
+        "8M"
+      ],
+      "stealthrock": [
         "8M"
       ]
     }
@@ -15021,58 +15687,85 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "oblivionwing": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "shadowsneak": [
-        "8M"
-      ],
-      "dragonpulse": [
-        "8M"
-      ],
-      "earthquake": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "aerialace": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "defog": [
+      "darkpulse": [
         "8M"
       ],
       "taunt": [
         "8M"
       ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
       "shadowclaw": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "sludgewave": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "defog": [
         "8M"
       ],
       "roost": [
         "8M"
       ],
-      "steelwing": [
+      "drillpeck": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ]
     }
@@ -15130,40 +15823,40 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "explosion": [
         "8M"
       ],
+      "willowisp": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
-      "willowisp": [
+      "swift": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "sleeptalk": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "lowsweep": [
+      "toxic": [
         "8M"
       ],
-      "sleeptalk": [
+      "protect": [
         "8M"
       ],
-      "taunt": [
+      "hyperbeam": [
         "8M"
       ],
       "inferno": [
         "8M"
       ],
-      "darkpulse": [
-        "8M"
-      ],
-      "powergem": [
-        "8M"
-      ],
-      "focusblast": [
+      "endure": [
         "8M"
       ],
       "mysticalfire": [
@@ -15227,31 +15920,46 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "explosion": [
         "8M"
       ],
+      "willowisp": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
-      "willowisp": [
+      "swift": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "sleeptalk": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "lowsweep": [
+      "toxic": [
         "8M"
       ],
-      "sleeptalk": [
+      "protect": [
         "8M"
       ],
-      "taunt": [
+      "hyperbeam": [
         "8M"
       ],
       "poweruppunch": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
         "8M"
       ]
     }
@@ -15330,44 +16038,77 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "blastburn": [
         "8M"
       ],
-      "powergem": [
-        "8M"
-      ],
       "nastyplot": [
-        "8M"
-      ],
-      "facade": [
         "8M"
       ],
       "willowisp": [
         "8M"
       ],
+      "sunnyday": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
       "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "taunt": [
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
         "8M"
       ],
       "poweruppunch": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "ironhead": [
         "8M"
       ]
     }
   },
   "broozer": {
     "learnset": {
-      "cometpunch": [
+      "tackle": [
         "8M"
       ],
       "bulkup": [
@@ -15376,7 +16117,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "scaryface": [
         "8M"
       ],
-      "shadowpunch": [
+      "astonish": [
         "8M"
       ],
       "machpunch": [
@@ -15385,16 +16126,19 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "pursuit": [
         "8M"
       ],
-      "megapunch": [
+      "shadowpunch": [
         "8M"
       ],
       "detect": [
         "8M"
       ],
+      "poweruppunch": [
+        "8M"
+      ],
       "skyuppercut": [
         "8M"
       ],
-      "phantompunch": [
+      "phantomforce": [
         "8M"
       ],
       "firepunch": [
@@ -15406,67 +16150,112 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "thunderpunch": [
         "8M"
       ],
-      "dynamicpunch": [
+      "phantompunch": [
         "8M"
       ],
-      "focuspunch": [
+      "knockoff": [
         "8M"
       ],
-      "counter": [
-        "8M"
-      ],
-      "reversal": [
-        "8M"
-      ],
-      "closecombat": [
-        "8M"
-      ],
-      "facade": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "shadowball": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "poweruppunch": [
+      "bulletpunch": [
         "8M"
       ],
       "drainpunch": [
         "8M"
       ],
-      "dizzypunch": [
+      "counter": [
         "8M"
       ],
-      "suckerpunch": [
+      "dynamicpunch": [
+        "8M"
+      ],
+      "reversal": [
+        "8M"
+      ],
+      "focuspunch": [
+        "8M"
+      ],
+      "closecombat": [
+        "8M"
+      ],
+      "swordsdance": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "payback": [
         "8M"
       ],
       "superpower": [
         "8M"
       ],
-      "swagger": [
+      "lowsweep": [
         "8M"
       ],
-      "spite": [
+      "brickbreak": [
         "8M"
       ],
-      "crunch": [
+      "aerialace": [
         "8M"
       ],
-      "bulletpunch": [
+      "hex": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "shadowclaw": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "dizzypunch": [
+        "8M"
+      ],
+      "meteormash": [
         "8M"
       ]
     }
@@ -15485,7 +16274,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rockfall": [
         "8M"
       ],
+      "sandtomb": [
+        "8M"
+      ],
       "screech": [
+        "8M"
+      ],
+      "rockblast": [
         "8M"
       ],
       "slam": [
@@ -15494,52 +16289,121 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "magnitude": [
         "8M"
       ],
-      "rockslide": [
+      "rocktomb": [
+        "8M"
+      ],
+      "irondefense": [
         "8M"
       ],
       "bulldoze": [
         "8M"
       ],
-      "doubleedge": [
+      "bodypress": [
         "8M"
       ],
-      "stoneedge": [
+      "bodyslam": [
+        "8M"
+      ],
+      "rockslide": [
         "8M"
       ],
       "earthquake": [
         "8M"
       ],
+      "crunch": [
+        "8M"
+      ],
+      "stoneedge": [
+        "8M"
+      ],
+      "doubleedge": [
+        "8M"
+      ],
+      "meteormash": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
       "heavyfall": [
+        "8M"
+      ],
+      "rockpolish": [
+        "8M"
+      ],
+      "closecombat": [
+        "8M"
+      ],
+      "headsmash": [
         "8M"
       ],
       "fissure": [
         "8M"
       ],
+      "payback": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "poweruppunch": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
       "facade": [
+        "8M"
+      ],
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "sleeptalk": [
         "8M"
       ],
-      "sandstorm": [
-        "8M"
-      ],
-      "sandtomb": [
+      "protect": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "sleeptalk": [
+      "toxic": [
         "8M"
       ],
-      "rocktomb": [
+      "gigaimpact": [
         "8M"
       ],
-      "poweruppunch": [
+      "sandstorm": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "ironhead": [
         "8M"
       ],
       "firepunch": [
@@ -15549,18 +16413,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dragonrush": [
-        "8M"
-      ],
-      "rockpolish": [
-        "8M"
-      ],
-      "metalburst": [
-        "8M"
-      ],
-      "skullbash": [
-        "8M"
-      ],
-      "rockblast": [
         "8M"
       ]
     }
@@ -15585,7 +16437,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rockfall": [
         "8M"
       ],
+      "sandtomb": [
+        "8M"
+      ],
       "screech": [
+        "8M"
+      ],
+      "rockblast": [
         "8M"
       ],
       "slam": [
@@ -15594,52 +16452,121 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "magnitude": [
         "8M"
       ],
-      "rockslide": [
+      "rocktomb": [
+        "8M"
+      ],
+      "irondefense": [
         "8M"
       ],
       "bulldoze": [
         "8M"
       ],
-      "doubleedge": [
+      "bodypress": [
         "8M"
       ],
-      "stoneedge": [
+      "bodyslam": [
+        "8M"
+      ],
+      "rockslide": [
         "8M"
       ],
       "earthquake": [
         "8M"
       ],
+      "crunch": [
+        "8M"
+      ],
+      "stoneedge": [
+        "8M"
+      ],
+      "doubleedge": [
+        "8M"
+      ],
+      "meteormash": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
       "heavyfall": [
+        "8M"
+      ],
+      "rockpolish": [
+        "8M"
+      ],
+      "closecombat": [
+        "8M"
+      ],
+      "headsmash": [
         "8M"
       ],
       "fissure": [
         "8M"
       ],
+      "payback": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "poweruppunch": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
       "facade": [
+        "8M"
+      ],
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "sleeptalk": [
         "8M"
       ],
-      "sandstorm": [
-        "8M"
-      ],
-      "sandtomb": [
+      "protect": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "sleeptalk": [
+      "toxic": [
         "8M"
       ],
-      "rocktomb": [
+      "gigaimpact": [
         "8M"
       ],
-      "poweruppunch": [
+      "sandstorm": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "ironhead": [
         "8M"
       ]
     }
@@ -15791,6 +16718,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "withdraw": [
         "8M"
       ],
+      "rapidspin": [
+        "8M"
+      ],
       "thundershock": [
         "8M"
       ],
@@ -15815,16 +16745,64 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "powergem": [
         "8M"
       ],
-      "thunderbolt": [
+      "paraboliccharge": [
         "8M"
       ],
       "protect": [
         "8M"
       ],
+      "discharge": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "nastyplot": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
       "dragonpulse": [
         "8M"
       ],
+      "raindance": [
+        "8M"
+      ],
       "thunder": [
+        "8M"
+      ],
+      "magnetrise": [
+        "8M"
+      ],
+      "zapcannon": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "grassknot": [
         "8M"
       ],
       "facade": [
@@ -15836,46 +16814,43 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "return": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "shadowball": [
+      "sleeptalk": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "lowsweep": [
+      "disable": [
         "8M"
       ],
-      "sleeptalk": [
+      "toxic": [
         "8M"
       ],
-      "incinerate": [
+      "psychic": [
         "8M"
       ],
-      "taunt": [
+      "reflect": [
         "8M"
       ],
-      "rocktomb": [
+      "lightscreen": [
         "8M"
       ],
-      "discharge": [
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ],
       "electroball": [
         "8M"
       ],
-      "uturn": [
+      "chargebeam": [
         "8M"
       ],
-      "raindance": [
-        "8M"
-      ],
-      "reflect": [
+      "iondeluge": [
         "8M"
       ]
     }
@@ -15891,6 +16866,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "withdraw": [
         "8M"
       ],
+      "rapidspin": [
+        "8M"
+      ],
       "thundershock": [
         "8M"
       ],
@@ -15915,19 +16893,37 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "powergem": [
         "8M"
       ],
-      "thunderbolt": [
+      "paraboliccharge": [
         "8M"
       ],
       "protect": [
         "8M"
       ],
+      "hypervoice": [
+        "8M"
+      ],
+      "nastyplot": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
       "dragonpulse": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ],
       "thunder": [
         "8M"
       ],
-      "megahorn": [
+      "magnetrise": [
+        "8M"
+      ],
+      "zapcannon": [
+        "8M"
+      ],
+      "hyperbeam": [
         "8M"
       ],
       "facade": [
@@ -15970,13 +16966,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rapidspin": [
         "8M"
       ],
-      "watergun": [
+      "bubble": [
         "8M"
       ],
       "attract": [
         "8M"
       ],
       "confusion": [
+        "8M"
+      ],
+      "clearsmog": [
         "8M"
       ],
       "sing": [
@@ -15988,7 +16987,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bubblebeam": [
         "8M"
       ],
+      "spikes": [
+        "8M"
+      ],
       "psybeam": [
+        "8M"
+      ],
+      "sludge": [
         "8M"
       ],
       "trickroom": [
@@ -16009,7 +17014,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hydropump": [
         "8M"
       ],
+      "sludgebomb": [
+        "8M"
+      ],
       "psychic": [
+        "8M"
+      ],
+      "healbell": [
         "8M"
       ],
       "calmmind": [
@@ -16018,67 +17029,100 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "storedpower": [
         "8M"
       ],
-      "raindance": [
-        "8M"
-      ],
-      "swift": [
+      "megahorn": [
         "8M"
       ],
       "fairywind": [
         "8M"
       ],
-      "willowisp": [
+      "dazzlinggleam": [
         "8M"
       ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "mist": [
+      "mysticburst": [
         "8M"
       ],
       "shadowball": [
         "8M"
       ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "rest": [
+      "hex": [
         "8M"
       ],
       "confuseray": [
         "8M"
       ],
-      "sleeptalk": [
+      "blizzard": [
         "8M"
       ],
-      "airslash": [
+      "icebeam": [
         "8M"
       ],
-      "energyball": [
-        "8M"
-      ],
-      "gigadrain": [
-        "8M"
-      ],
-      "aurorabeam": [
+      "mist": [
         "8M"
       ],
       "haze": [
         "8M"
       ],
-      "thunderbolt": [
+      "hail": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "waterfall": [
         "8M"
       ],
       "waterpulse": [
         "8M"
       ],
-      "thunderwave": [
+      "scald": [
         "8M"
       ],
-      "icebeam": [
+      "acidarmor": [
         "8M"
       ],
       "aquaring": [
@@ -16086,27 +17130,30 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "extrasensory": [
         "8M"
-      ],
-      "scald": [
-        "8M"
       ]
     }
   },
   "urchin": {
     "learnset": {
-      "dazzlinggleam": [
+      "toxicspikes": [
+        "8M"
+      ],
+      "pinmissile": [
         "8M"
       ],
       "rapidspin": [
         "8M"
       ],
-      "watergun": [
+      "bubble": [
         "8M"
       ],
       "attract": [
         "8M"
       ],
       "confusion": [
+        "8M"
+      ],
+      "clearsmog": [
         "8M"
       ],
       "sing": [
@@ -16118,7 +17165,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bubblebeam": [
         "8M"
       ],
+      "spikes": [
+        "8M"
+      ],
       "psybeam": [
+        "8M"
+      ],
+      "sludge": [
         "8M"
       ],
       "trickroom": [
@@ -16139,7 +17192,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hydropump": [
         "8M"
       ],
+      "sludgebomb": [
+        "8M"
+      ],
       "psychic": [
+        "8M"
+      ],
+      "healbell": [
         "8M"
       ],
       "calmmind": [
@@ -16148,64 +17207,97 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "storedpower": [
         "8M"
       ],
-      "raindance": [
-        "8M"
-      ],
-      "swift": [
+      "megahorn": [
         "8M"
       ],
       "fairywind": [
         "8M"
       ],
-      "willowisp": [
+      "dazzlinggleam": [
         "8M"
       ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "mist": [
+      "mysticburst": [
         "8M"
       ],
       "shadowball": [
         "8M"
       ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "rest": [
+      "hex": [
         "8M"
       ],
       "confuseray": [
         "8M"
       ],
-      "sleeptalk": [
+      "blizzard": [
         "8M"
       ],
-      "airslash": [
+      "icebeam": [
         "8M"
       ],
-      "energyball": [
-        "8M"
-      ],
-      "gigadrain": [
-        "8M"
-      ],
-      "aurorabeam": [
+      "mist": [
         "8M"
       ],
       "haze": [
         "8M"
       ],
-      "thunderbolt": [
+      "hail": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "waterfall": [
         "8M"
       ],
       "waterpulse": [
         "8M"
       ],
-      "thunderwave": [
+      "scald": [
         "8M"
       ]
     }
@@ -16230,7 +17322,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "quickattack": [
         "8M"
       ],
-      "knockoff": [
+      "payback": [
         "8M"
       ],
       "endure": [
@@ -16242,19 +17334,25 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "shoulderbash": [
         "8M"
       ],
-      "dynamicpunch": [
+      "drainpunch": [
         "8M"
       ],
       "batonpass": [
         "8M"
       ],
-      "payback": [
+      "knockoff": [
         "8M"
       ],
       "playrough": [
         "8M"
       ],
+      "swordsdance": [
+        "8M"
+      ],
       "focuspunch": [
+        "8M"
+      ],
+      "reversal": [
         "8M"
       ],
       "bulkup": [
@@ -16272,85 +17370,82 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "meteormash": [
         "8M"
       ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "poweruppunch": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
       "avalanche": [
         "8M"
       ],
       "facade": [
         "8M"
       ],
-      "swift": [
-        "8M"
-      ],
-      "uturn": [
-        "8M"
-      ],
-      "earthquake": [
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
+      "sleeptalk": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "lowsweep": [
+      "toxic": [
         "8M"
       ],
-      "sleeptalk": [
+      "protect": [
         "8M"
       ],
-      "taunt": [
+      "zenheadbutt": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "rockslide": [
         "8M"
       ],
       "rocktomb": [
         "8M"
       ],
-      "poweruppunch": [
-        "8M"
-      ],
-      "rockthrow": [
-        "8M"
-      ],
-      "vitalthrow": [
-        "8M"
-      ],
-      "megapunch": [
-        "8M"
-      ],
       "firepunch": [
         "8M"
       ],
-      "thunderpunch": [
+      "icepunch": [
         "8M"
       ],
       "machpunch": [
-        "8M"
-      ],
-      "crosschop": [
-        "8M"
-      ],
-      "detect": [
-        "8M"
-      ],
-      "revenge": [
-        "8M"
-      ],
-      "bodypress": [
-        "8M"
-      ],
-      "aurasphere": [
-        "8M"
-      ],
-      "vacuumwave": [
-        "8M"
-      ],
-      "focusblast": [
         "8M"
       ]
     }
@@ -16369,9 +17464,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "poisonpowder": [
         "8M"
       ],
-      "sleeppowder": [
-        "8M"
-      ],
       "stunspore": [
         "8M"
       ],
@@ -16387,6 +17479,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "refresh": [
         "8M"
       ],
+      "sleeppowder": [
+        "8M"
+      ],
       "suckerpunch": [
         "8M"
       ],
@@ -16396,16 +17491,70 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "recover": [
         "8M"
       ],
+      "gigadrain": [
+        "8M"
+      ],
       "sludgewave": [
+        "8M"
+      ],
+      "toxicspikes": [
         "8M"
       ],
       "acidarmor": [
         "8M"
       ],
+      "flareblitz": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
       "gunkshot": [
         "8M"
       ],
+      "pollenpuff": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "shadowclaw": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
       "hex": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "mist": [
         "8M"
       ],
       "facade": [
@@ -16414,55 +17563,61 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swift": [
         "8M"
       ],
-      "uturn": [
-        "8M"
-      ],
-      "willowisp": [
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "thundershock": [
+      "disable": [
         "8M"
       ],
-      "metalclaw": [
-        "8M"
-      ],
-      "rest": [
+      "hypervoice": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "gigadrain": [
+      "rest": [
         "8M"
       ],
-      "thunderwave": [
+      "protect": [
         "8M"
       ],
-      "trickroom": [
+      "hyperbeam": [
         "8M"
       ],
-      "amnesia": [
+      "gigaimpact": [
         "8M"
       ],
       "sludgebomb": [
         "8M"
       ],
+      "venoshock": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
       "calmmind": [
         "8M"
       ],
-      "tickle": [
+      "amnesia": [
         "8M"
       ],
-      "flamethrower": [
+      "trickroom": [
         "8M"
       ],
-      "icebeam": [
+      "crosspoison": [
         "8M"
       ],
-      "knockoff": [
+      "foulplay": [
+        "8M"
+      ],
+      "memento": [
         "8M"
       ]
     }
@@ -16484,9 +17639,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "poisonpowder": [
         "8M"
       ],
-      "sleeppowder": [
-        "8M"
-      ],
       "stunspore": [
         "8M"
       ],
@@ -16502,6 +17654,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "refresh": [
         "8M"
       ],
+      "sleeppowder": [
+        "8M"
+      ],
       "suckerpunch": [
         "8M"
       ],
@@ -16511,19 +17666,70 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "recover": [
         "8M"
       ],
-      "triattack": [
+      "gigadrain": [
         "8M"
       ],
       "sludgewave": [
         "8M"
       ],
+      "toxicspikes": [
+        "8M"
+      ],
       "acidarmor": [
+        "8M"
+      ],
+      "flareblitz": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "blizzard": [
         "8M"
       ],
       "gunkshot": [
         "8M"
       ],
+      "pollenpuff": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "shadowclaw": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
       "hex": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "mist": [
         "8M"
       ],
       "facade": [
@@ -16532,31 +17738,49 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swift": [
         "8M"
       ],
-      "uturn": [
-        "8M"
-      ],
-      "willowisp": [
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "thundershock": [
+      "disable": [
         "8M"
       ],
-      "metalclaw": [
-        "8M"
-      ],
-      "rest": [
+      "hypervoice": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "gigadrain": [
+      "rest": [
         "8M"
       ],
-      "thunderwave": [
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "venoshock": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "amnesia": [
         "8M"
       ],
       "trickroom": [
@@ -16566,6 +17790,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "rex": {
     "learnset": {
+      "razorwind": [
+        "8M"
+      ],
       "tailwhip": [
         "8M"
       ],
@@ -16587,13 +17814,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swift": [
         "8M"
       ],
-      "dragonbreath": [
+      "dragonrage": [
+        "8M"
+      ],
+      "flameburst": [
         "8M"
       ],
       "protect": [
         "8M"
       ],
-      "dragonrage": [
+      "dragonbreath": [
         "8M"
       ],
       "dragontail": [
@@ -16602,52 +17832,67 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flamethrower": [
         "8M"
       ],
+      "calmmind": [
+        "8M"
+      ],
       "dragonpulse": [
-        "8M"
-      ],
-      "hypervoice": [
-        "8M"
-      ],
-      "stompingtantrum": [
-        "8M"
-      ],
-      "hyperbeam": [
-        "8M"
-      ],
-      "megahorn": [
-        "8M"
-      ],
-      "dracometeor": [
         "8M"
       ],
       "healbell": [
         "8M"
       ],
-      "facade": [
+      "scald": [
         "8M"
       ],
-      "raindance": [
+      "hypervoice": [
         "8M"
       ],
-      "return": [
+      "agility": [
         "8M"
       ],
-      "toxic": [
+      "fireblast": [
         "8M"
       ],
-      "thundershock": [
+      "hyperbeam": [
         "8M"
       ],
-      "icebeam": [
+      "dracometeor": [
         "8M"
       ],
-      "rest": [
+      "megahorn": [
         "8M"
       ],
-      "lowsweep": [
+      "dragondance": [
         "8M"
       ],
-      "sleeptalk": [
+      "dragonclaw": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "aerialace": [
         "8M"
       ],
       "defog": [
@@ -16656,40 +17901,55 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
+      "tailwind": [
+        "8M"
+      ],
       "roost": [
         "8M"
       ],
-      "poweruppunch": [
+      "solarbeam": [
         "8M"
       ],
-      "steelwing": [
+      "earthpower": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ],
       "hurricane": [
-        "8M"
-      ],
-      "tailslap": [
-        "8M"
-      ],
-      "flameburst": [
         "8M"
       ],
       "overheat": [
         "8M"
       ],
       "outrage": [
-        "8M"
-      ],
-      "thunderbolt": [
-        "8M"
-      ],
-      "roar": [
-        "8M"
-      ],
-      "earthpower": [
-        "8M"
-      ],
-      "bodyslam": [
         "8M"
       ]
     }
@@ -16702,6 +17962,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "growl": [
         "8M"
       ],
+      "defensecurl": [
+        "8M"
+      ],
       "rollout": [
         "8M"
       ],
@@ -16729,22 +17992,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flashcannon": [
         "8M"
       ],
+      "superfang": [
+        "8M"
+      ],
       "crunch": [
+        "8M"
+      ],
+      "ironhead": [
         "8M"
       ],
       "irondefense": [
         "8M"
       ],
-      "meteormash": [
+      "bodypress": [
         "8M"
       ],
       "swordsdance": [
         "8M"
       ],
+      "meteormash": [
+        "8M"
+      ],
       "headsmash": [
         "8M"
       ],
-      "superfang": [
+      "superpower": [
         "8M"
       ],
       "earthquake": [
@@ -16753,59 +18025,89 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "heavyslam": [
         "8M"
       ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
-      "uturn": [
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "poisonfang": [
+      "sleeptalk": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "sleeptalk": [
+      "protect": [
         "8M"
       ],
-      "stealthrock": [
+      "toxic": [
         "8M"
       ],
-      "bite": [
+      "gigaimpact": [
         "8M"
       ],
       "rockslide": [
         "8M"
       ],
-      "bulldoze": [
+      "rocktomb": [
         "8M"
       ],
-      "defensecurl": [
+      "sandstorm": [
         "8M"
       ],
-      "hypervoice": [
+      "stompingtantrum": [
+        "8M"
+      ],
+      "stoneedge": [
         "8M"
       ],
       "steamroller": [
-        "8M"
-      ],
-      "bodypress": [
         "8M"
       ]
     }
   },
   "chainchomp": {
     "learnset": {
-      "thunderfang": [
+      "heatcrash": [
+        "8M"
+      ],
+      "wrap": [
         "8M"
       ],
       "tackle": [
@@ -16814,6 +18116,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "growl": [
         "8M"
       ],
+      "defensecurl": [
+        "8M"
+      ],
       "rollout": [
         "8M"
       ],
@@ -16841,22 +18146,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flashcannon": [
         "8M"
       ],
+      "superfang": [
+        "8M"
+      ],
       "crunch": [
+        "8M"
+      ],
+      "ironhead": [
         "8M"
       ],
       "irondefense": [
         "8M"
       ],
-      "meteormash": [
+      "bodypress": [
         "8M"
       ],
       "swordsdance": [
         "8M"
       ],
+      "meteormash": [
+        "8M"
+      ],
       "headsmash": [
         "8M"
       ],
-      "superfang": [
+      "superpower": [
         "8M"
       ],
       "earthquake": [
@@ -16865,31 +18179,70 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "heavyslam": [
         "8M"
       ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
-      "uturn": [
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "poisonfang": [
+      "sleeptalk": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "sleeptalk": [
+      "protect": [
         "8M"
       ],
-      "stealthrock": [
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "sandstorm": [
         "8M"
       ]
     }
@@ -16932,13 +18285,25 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "surf": [
         "8M"
       ],
+      "flipturn": [
+        "8M"
+      ],
       "nastyplot": [
+        "8M"
+      ],
+      "airslash": [
         "8M"
       ],
       "dragonpulse": [
         "8M"
       ],
+      "scald": [
+        "8M"
+      ],
       "aquatail": [
+        "8M"
+      ],
+      "psychicfangs": [
         "8M"
       ],
       "dracotornado": [
@@ -16953,82 +18318,109 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dracometeor": [
         "8M"
       ],
-      "facade": [
+      "dragondance": [
         "8M"
       ],
-      "earthquake": [
+      "thunderbolt": [
         "8M"
       ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "thundershock": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "shadowball": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "poisonfang": [
-        "8M"
-      ],
-      "aerialace": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "defog": [
-        "8M"
-      ],
-      "airslash": [
-        "8M"
-      ],
-      "incinerate": [
-        "8M"
-      ],
-      "aurorabeam": [
-        "8M"
-      ],
-      "haze": [
-        "8M"
-      ],
-      "roost": [
+      "aurasphere": [
         "8M"
       ],
       "firefang": [
         "8M"
       ],
-      "steelwing": [
+      "focusblast": [
         "8M"
       ],
-      "dragonrage": [
+      "flamethrower": [
         "8M"
       ],
-      "dragondance": [
+      "fireblast": [
         "8M"
       ],
-      "swordsdance": [
+      "fly": [
         "8M"
       ],
-      "calmmind": [
+      "aerialace": [
         "8M"
       ],
-      "scald": [
+      "defog": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "roost": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
         "8M"
       ],
       "waterfall": [
@@ -17038,9 +18430,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "thunderfang": [
-        "8M"
-      ],
-      "psychicfangs": [
         "8M"
       ]
     }
@@ -17089,79 +18478,109 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "zapcannon": [
         "8M"
       ],
-      "avalanche": [
-        "8M"
-      ],
-      "facade": [
-        "8M"
-      ],
-      "raindance": [
-        "8M"
-      ],
       "dragonpulse": [
         "8M"
       ],
-      "swift": [
+      "taunt": [
         "8M"
       ],
-      "willowisp": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "shadowball": [
-        "8M"
-      ],
-      "poisonfang": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "confuseray": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "airslash": [
-        "8M"
-      ],
-      "energyball": [
-        "8M"
-      ],
-      "incinerate": [
-        "8M"
-      ],
-      "aurorabeam": [
-        "8M"
-      ],
-      "haze": [
+      "torment": [
         "8M"
       ],
       "thunderbolt": [
         "8M"
       ],
-      "waterpulse": [
+      "wildcharge": [
         "8M"
       ],
-      "trickroom": [
+      "fireblast": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "incinerate": [
         "8M"
       ],
       "firefang": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
         "8M"
       ]
     }
@@ -17337,13 +18756,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "confide": [
         "8M"
       ],
-      "drainingkiss": [
+      "fairywind": [
         "8M"
       ],
       "charm": [
         "8M"
       ],
-      "aurorabeam": [
+      "icywind": [
+        "8M"
+      ],
+      "drainingkiss": [
         "8M"
       ],
       "haze": [
@@ -17352,10 +18774,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
+      "frostbreath": [
+        "8M"
+      ],
       "dazzlinggleam": [
         "8M"
       ],
       "icebeam": [
+        "8M"
+      ],
+      "calmmind": [
         "8M"
       ],
       "hail": [
@@ -17364,7 +18792,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "auroraveil": [
         "8M"
       ],
+      "agility": [
+        "8M"
+      ],
       "moonblast": [
+        "8M"
+      ],
+      "hypnosis": [
         "8M"
       ],
       "freezedry": [
@@ -17373,52 +18807,73 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "blizzard": [
         "8M"
       ],
+      "sheercold": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
       "mysticburst": [
         "8M"
       ],
-      "avalanche": [
-        "8M"
-      ],
-      "facade": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "tailwind": [
         "8M"
       ],
       "defog": [
         "8M"
       ],
-      "psybeam": [
+      "shadowball": [
         "8M"
       ],
-      "frostbreath": [
+      "avalanche": [
         "8M"
       ],
-      "sweetkiss": [
+      "mist": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "tripleaxel": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
         "8M"
       ],
       "amnesia": [
         "8M"
       ],
-      "psychic": [
+      "waterpulse": [
         "8M"
       ],
-      "icywind": [
+      "sweetkiss": [
         "8M"
       ],
       "hurricane": [
@@ -17488,31 +18943,55 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "steelbeam": [
         "8M"
       ],
-      "boomburst": [
+      "hyperbeam": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
         "8M"
       ],
       "facade": [
         "8M"
       ],
+      "swift": [
+        "8M"
+      ],
       "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "incinerate": [
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ]
     }
@@ -17579,31 +19058,55 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "steelbeam": [
         "8M"
       ],
-      "boomburst": [
+      "hyperbeam": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
         "8M"
       ],
       "facade": [
         "8M"
       ],
+      "swift": [
+        "8M"
+      ],
       "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "incinerate": [
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ]
     }
@@ -17676,31 +19179,55 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "steelbeam": [
         "8M"
       ],
-      "boomburst": [
+      "hyperbeam": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
         "8M"
       ],
       "facade": [
         "8M"
       ],
+      "swift": [
+        "8M"
+      ],
       "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "incinerate": [
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ]
     }
@@ -17767,55 +19294,73 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hyperbeam": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "raindance": [
-        "8M"
-      ],
-      "swift": [
-        "8M"
-      ],
       "uturn": [
         "8M"
       ],
-      "return": [
+      "pollenpuff": [
         "8M"
       ],
-      "toxic": [
+      "playrough": [
         "8M"
       ],
-      "mist": [
+      "mysticburst": [
         "8M"
       ],
-      "rest": [
+      "aurasphere": [
         "8M"
       ],
-      "confuseray": [
+      "sunnyday": [
         "8M"
       ],
-      "sleeptalk": [
+      "fly": [
         "8M"
       ],
       "defog": [
         "8M"
       ],
-      "haze": [
+      "gigadrain": [
         "8M"
       ],
-      "trickroom": [
+      "grassknot": [
         "8M"
       ],
-      "steelwing": [
+      "energyball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
         "8M"
       ],
       "barrier": [
         "8M"
       ],
-      "agility": [
-        "8M"
-      ],
-      "hypervoice": [
+      "healingwish": [
         "8M"
       ],
       "batonpass": [
@@ -17900,49 +19445,67 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "strengthsap": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "raindance": [
-        "8M"
-      ],
-      "swift": [
-        "8M"
-      ],
       "uturn": [
         "8M"
       ],
-      "return": [
+      "pollenpuff": [
         "8M"
       ],
-      "toxic": [
+      "playrough": [
         "8M"
       ],
-      "mist": [
+      "mysticburst": [
         "8M"
       ],
-      "rest": [
+      "aurasphere": [
         "8M"
       ],
-      "confuseray": [
+      "sunnyday": [
         "8M"
       ],
-      "sleeptalk": [
+      "fly": [
         "8M"
       ],
       "defog": [
         "8M"
       ],
-      "haze": [
-        "8M"
-      ],
-      "trickroom": [
-        "8M"
-      ],
-      "steelwing": [
-        "8M"
-      ],
       "gigadrain": [
+        "8M"
+      ],
+      "grassknot": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
         "8M"
       ]
     }
@@ -18305,7 +19868,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bodyslam": [
         "8M"
       ],
-      "blizzard": [
+      "tripleaxel": [
         "8M"
       ],
       "drillrun": [
@@ -18317,25 +19880,40 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sheercold": [
         "8M"
       ],
-      "facade": [
+      "payback": [
         "8M"
       ],
-      "return": [
+      "playrough": [
         "8M"
       ],
-      "toxic": [
+      "superpower": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "blizzard": [
         "8M"
       ],
       "icebeam": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
         "8M"
       ],
       "aurorabeam": [
@@ -18344,7 +19922,46 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "haze": [
         "8M"
       ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
       "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
         "8M"
       ]
     }
@@ -18466,9 +20083,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "ember": [
         "8M"
       ],
-      "tailwhip": [
-        "8M"
-      ],
       "confusion": [
         "8M"
       ],
@@ -18520,13 +20134,58 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sacredfire": [
         "8M"
       ],
+      "focusblast": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
       "facade": [
+        "8M"
+      ],
+      "swift": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "hypervoice": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "protect": [
         "8M"
       ],
       "rest": [
@@ -18535,37 +20194,40 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sleeptalk": [
         "8M"
       ],
-      "incinerate": [
-        "8M"
-      ],
-      "thunderbolt": [
-        "8M"
-      ],
-      "thunderwave": [
-        "8M"
-      ],
-      "fireblast": [
-        "8M"
-      ],
-      "psychic": [
-        "8M"
-      ],
-      "futuresight": [
-        "8M"
-      ],
-      "calmmind": [
-        "8M"
-      ],
-      "storedpower": [
-        "8M"
-      ],
-      "lightscreen": [
+      "toxic": [
         "8M"
       ],
       "reflect": [
         "8M"
       ],
+      "psychic": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "storedpower": [
+        "8M"
+      ],
       "lavaplume": [
+        "8M"
+      ],
+      "futuresight": [
         "8M"
       ]
     }
@@ -18629,13 +20291,55 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sacredfire": [
         "8M"
       ],
+      "focusblast": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
       "facade": [
+        "8M"
+      ],
+      "swift": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "hypervoice": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "protect": [
         "8M"
       ],
       "rest": [
@@ -18644,16 +20348,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sleeptalk": [
         "8M"
       ],
-      "airslash": [
+      "toxic": [
         "8M"
       ],
-      "incinerate": [
+      "reflect": [
         "8M"
       ],
-      "thunderbolt": [
+      "psychic": [
         "8M"
       ],
-      "thunderwave": [
+      "calmmind": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ]
     }
@@ -18708,43 +20427,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "wickedlaugh": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
       "pursuit": [
-        "8M"
-      ],
-      "uturn": [
-        "8M"
-      ],
-      "fairywind": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "thundershock": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "defog": [
-        "8M"
-      ],
-      "energyball": [
         "8M"
       ],
       "taunt": [
         "8M"
       ],
-      "aurorabeam": [
+      "payback": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "crunch": [
+        "8M"
+      ],
+      "shockwave": [
         "8M"
       ],
       "thunderbolt": [
@@ -18753,7 +20451,79 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "thunderwave": [
         "8M"
       ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "sludgewave": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
       "trickroom": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ]
     }
@@ -18763,7 +20533,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "thunderthrust": [
         "8M"
       ],
-      "superpower": [
+      "revenge": [
         "8M"
       ],
       "growl": [
@@ -18814,55 +20584,121 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "mysticburst": [
         "8M"
       ],
-      "avalanche": [
+      "zapcannon": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "dragonpulse": [
-        "8M"
-      ],
-      "pursuit": [
-        "8M"
-      ],
-      "earthquake": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "voltswitch": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "darkpulse": [
         "8M"
       ],
       "taunt": [
         "8M"
       ],
-      "rocktomb": [
+      "torment": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "wildcharge": [
         "8M"
       ],
       "thunderwave": [
         "8M"
       ],
+      "playrough": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
       "poweruppunch": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ]
     }
@@ -18941,10 +20777,55 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "gigaimpact": [
         "8M"
       ],
-      "dragonpulse": [
+      "payback": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
         "8M"
       ],
       "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
         "8M"
       ],
       "toxic": [
@@ -18953,52 +20834,19 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sandstorm": [
         "8M"
       ],
-      "sandtomb": [
-        "8M"
-      ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "poisonfang": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
       "rocktomb": [
         "8M"
       ],
-      "firefang": [
+      "stealthrock": [
         "8M"
       ],
       "thunderfang": [
         "8M"
       ],
-      "leechlife": [
-        "8M"
-      ],
       "superfang": [
         "8M"
       ],
-      "hyperfang": [
-        "8M"
-      ],
       "swordsdance": [
-        "8M"
-      ],
-      "agility": [
-        "8M"
-      ],
-      "iciclespear": [
-        "8M"
-      ],
-      "blizzard": [
         "8M"
       ]
     }
@@ -19056,61 +20904,82 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sludgewave": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "shadowsneak": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
       "infestation": [
         "8M"
       ],
-      "rest": [
+      "xscissor": [
         "8M"
       ],
-      "confuseray": [
+      "pollenpuff": [
         "8M"
       ],
-      "lowsweep": [
+      "uturn": [
         "8M"
       ],
-      "sleeptalk": [
+      "darkpulse": [
+        "8M"
+      ],
+      "shadowball": [
         "8M"
       ],
       "energyball": [
         "8M"
       ],
-      "taunt": [
+      "solarbeam": [
         "8M"
       ],
-      "firefang": [
+      "grassknot": [
         "8M"
       ],
-      "leechlife": [
+      "leechseed": [
         "8M"
       ],
-      "strugglebug": [
+      "earthpower": [
         "8M"
       ],
-      "superfang": [
+      "facade": [
         "8M"
       ],
-      "amnesia": [
+      "swift": [
         "8M"
       ],
       "substitute": [
         "8M"
       ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "silverwind": [
+        "8M"
+      ],
+      "superfang": [
+        "8M"
+      ],
       "toxicspikes": [
-        "8M"
-      ],
-      "poisonjab": [
-        "8M"
-      ],
-      "knockoff": [
         "8M"
       ]
     }
@@ -19171,43 +21040,79 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "leechlife": [
         "8M"
       ],
-      "nastyplot": [
-        "8M"
-      ],
-      "facade": [
-        "8M"
-      ],
-      "shadowsneak": [
-        "8M"
-      ],
-      "return": [
+      "quiverdance": [
         "8M"
       ],
       "infestation": [
         "8M"
       ],
-      "poisonfang": [
+      "xscissor": [
         "8M"
       ],
-      "rest": [
+      "pollenpuff": [
         "8M"
       ],
-      "confuseray": [
+      "uturn": [
         "8M"
       ],
-      "lowsweep": [
+      "crunch": [
         "8M"
       ],
-      "sleeptalk": [
+      "shadowball": [
         "8M"
       ],
       "energyball": [
         "8M"
       ],
-      "taunt": [
+      "solarbeam": [
         "8M"
       ],
-      "firefang": [
+      "grassknot": [
+        "8M"
+      ],
+      "leechseed": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "gunkshot": [
         "8M"
       ]
     }
@@ -19217,10 +21122,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "poisongas": [
         "8M"
       ],
-      "tackle": [
+      "bite": [
         "8M"
       ],
-      "bite": [
+      "tackle": [
         "8M"
       ],
       "acidspray": [
@@ -19235,7 +21140,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "feintattack": [
         "8M"
       ],
-      "venoshock": [
+      "poisonfang": [
         "8M"
       ],
       "torment": [
@@ -19247,7 +21152,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "toxic": [
         "8M"
       ],
-      "sludgebomb": [
+      "crosspoison": [
         "8M"
       ],
       "venomdrench": [
@@ -19265,55 +21170,97 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bulkup": [
         "8M"
       ],
-      "gunkshot": [
+      "partingshot": [
         "8M"
       ],
       "knockoff": [
         "8M"
       ],
-      "facade": [
+      "toxicspikes": [
         "8M"
       ],
-      "shadowsneak": [
+      "foulplay": [
         "8M"
       ],
-      "pursuit": [
+      "gunkshot": [
         "8M"
       ],
-      "return": [
-        "8M"
-      ],
-      "shadowball": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "taunt": [
+      "stoneedge": [
         "8M"
       ],
       "darkpulse": [
         "8M"
       ],
-      "poisonfang": [
+      "taunt": [
         "8M"
       ],
-      "crosspoison": [
+      "payback": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "venoshock": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "sludgewave": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "banefulbunker": [
         "8M"
       ],
       "nastyplot": [
-        "8M"
-      ],
-      "embargo": [
-        "8M"
-      ],
-      "fling": [
-        "8M"
-      ],
-      "beatup": [
         "8M"
       ],
       "icefang": [
@@ -19347,7 +21294,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "feintattack": [
         "8M"
       ],
-      "venoshock": [
+      "poisonfang": [
         "8M"
       ],
       "torment": [
@@ -19359,7 +21306,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "toxic": [
         "8M"
       ],
-      "sludgebomb": [
+      "crosspoison": [
         "8M"
       ],
       "venomdrench": [
@@ -19392,28 +21339,73 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "gunkshot": [
         "8M"
       ],
-      "facade": [
+      "stoneedge": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "willowisp": [
         "8M"
       ],
       "shadowsneak": [
         "8M"
       ],
-      "pursuit": [
+      "confuseray": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "shadowball": [
-        "8M"
-      ],
-      "rest": [
+      "disable": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "taunt": [
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "venoshock": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "ironhead": [
         "8M"
       ]
     }
@@ -19423,7 +21415,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "watergun": [
         "8M"
       ],
-      "growth": [
+      "leer": [
         "8M"
       ],
       "ingrain": [
@@ -19447,76 +21439,130 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "brine": [
         "8M"
       ],
-      "doubleteam": [
-        "8M"
-      ],
-      "energyball": [
-        "8M"
-      ],
-      "surf": [
-        "8M"
-      ],
-      "leafstorm": [
-        "8M"
-      ],
-      "hydropump": [
-        "8M"
-      ],
-      "calmmind": [
-        "8M"
-      ],
-      "raindance": [
-        "8M"
-      ],
-      "swift": [
-        "8M"
-      ],
-      "uturn": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "infestation": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
       "gigadrain": [
-        "8M"
-      ],
-      "haze": [
-        "8M"
-      ],
-      "waterpulse": [
-        "8M"
-      ],
-      "leechseed": [
-        "8M"
-      ],
-      "aurasphere": [
-        "8M"
-      ],
-      "muddywater": [
-        "8M"
-      ],
-      "solarbeam": [
         "8M"
       ],
       "aromatherapy": [
         "8M"
       ],
+      "raindance": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "growth": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "stunspore": [
+        "8M"
+      ],
+      "leafstorm": [
+        "8M"
+      ],
+      "soak": [
+        "8M"
+      ],
+      "whirlpool": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "uturn": [
+        "8M"
+      ],
+      "pollenpuff": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "leafblade": [
+        "8M"
+      ],
+      "leechseed": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "venoshock": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "muddywater": [
+        "8M"
+      ],
       "nastyplot": [
+        "8M"
+      ],
+      "powerwhip": [
         "8M"
       ]
     }
@@ -19568,73 +21614,127 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "focusblast": [
         "8M"
       ],
-      "avalanche": [
-        "8M"
-      ],
-      "facade": [
-        "8M"
-      ],
-      "dragonpulse": [
-        "8M"
-      ],
-      "pursuit": [
-        "8M"
-      ],
-      "earthquake": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "voltswitch": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "darkpulse": [
         "8M"
       ],
       "taunt": [
         "8M"
       ],
-      "rocktomb": [
+      "torment": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "wildcharge": [
         "8M"
       ],
       "thunderwave": [
         "8M"
       ],
+      "mysticburst": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
       "poweruppunch": [
         "8M"
       ],
-      "rockthrow": [
+      "brickbreak": [
         "8M"
       ],
-      "vitalthrow": [
+      "energyball": [
         "8M"
       ],
-      "megapunch": [
+      "solarbeam": [
         "8M"
       ],
-      "thunderpunch": [
+      "earthquake": [
         "8M"
       ],
-      "crosschop": [
+      "earthpower": [
         "8M"
       ],
-      "revenge": [
+      "dig": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "volttackle": [
+        "8M"
+      ],
+      "machpunch": [
         "8M"
       ],
       "reversal": [
@@ -19686,43 +21786,34 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bravebird": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "shadowsneak": [
+      "uturn": [
         "8M"
       ],
       "pursuit": [
         "8M"
       ],
-      "uturn": [
+      "darkpulse": [
         "8M"
       ],
-      "fairywind": [
+      "taunt": [
         "8M"
       ],
-      "return": [
+      "payback": [
         "8M"
       ],
-      "toxic": [
+      "torment": [
         "8M"
       ],
-      "mist": [
+      "knockoff": [
         "8M"
       ],
-      "sandstorm": [
+      "superpower": [
         "8M"
       ],
-      "sludgebomb": [
+      "bulkup": [
         "8M"
       ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "fly": [
         "8M"
       ],
       "defog": [
@@ -19731,13 +21822,55 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
-      "taunt": [
+      "shadowsneak": [
         "8M"
       ],
-      "haze": [
+      "confuseray": [
         "8M"
       ],
-      "trickroom": [
+      "earthquake": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
         "8M"
       ],
       "steelwing": [
@@ -19747,12 +21880,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "skyattack": [
-        "8M"
-      ],
-      "fly": [
-        "8M"
-      ],
-      "knockoff": [
         "8M"
       ],
       "bodyslam": [
@@ -19819,25 +21946,37 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "drillrun": [
         "8M"
       ],
-      "facade": [
+      "payback": [
         "8M"
       ],
-      "return": [
+      "playrough": [
         "8M"
       ],
-      "toxic": [
+      "superpower": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "dig": [
         "8M"
       ],
       "icebeam": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
         "8M"
       ],
       "aurorabeam": [
@@ -19846,13 +21985,52 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "haze": [
         "8M"
       ],
-      "waterpulse": [
+      "tripleaxel": [
         "8M"
       ],
-      "bodypress": [
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
         "8M"
       ],
       "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "bodypress": [
         "8M"
       ],
       "liquidation": [
@@ -19907,46 +22085,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dracometeor": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "willowisp": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "incinerate": [
-        "8M"
-      ],
-      "taunt": [
-        "8M"
-      ],
-      "aurasphere": [
-        "8M"
-      ],
-      "shadowball": [
-        "8M"
-      ],
-      "overheat": [
-        "8M"
-      ],
-      "dragondance": [
-        "8M"
-      ],
-      "foulplay": [
+      "megahorn": [
         "8M"
       ],
       "darkpulse": [
@@ -19955,7 +22094,112 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "crunch": [
         "8M"
       ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
       "firefang": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "overheat": [
+        "8M"
+      ],
+      "foulplay": [
+        "8M"
+      ],
+      "dragontail": [
         "8M"
       ]
     }
@@ -20004,31 +22248,112 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dracometeor": [
         "8M"
       ],
-      "facade": [
+      "megahorn": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "crunch": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "aurasphere": [
         "8M"
       ],
       "willowisp": [
         "8M"
       ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
       "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "rest": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "incinerate": [
+      "rest": [
         "8M"
       ],
-      "taunt": [
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ]
     }
@@ -20092,31 +22417,106 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "magmastorm": [
         "8M"
       ],
-      "facade": [
+      "crunch": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "aurasphere": [
         "8M"
       ],
       "willowisp": [
         "8M"
       ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
       "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "rest": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "incinerate": [
+      "rest": [
         "8M"
       ],
-      "taunt": [
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ]
     }
@@ -20162,22 +22562,52 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "facade": [
         "8M"
       ],
-      "fairywind": [
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "rest": [
+      "hypervoice": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "thunderwave": [
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
         "8M"
       ]
     }
@@ -20223,32 +22653,59 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "facade": [
         "8M"
       ],
-      "fairywind": [
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "rest": [
+      "hypervoice": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "taunt": [
+      "rest": [
         "8M"
       ],
-      "thunderwave": [
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
         "8M"
       ]
     }
   },
   "shrooboid": {
     "learnset": {
-      "dragonclaw": [
+      "meteormash": [
         "8M"
       ],
       "tackle": [
@@ -20311,34 +22768,112 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "drainpunch": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "fairywind": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "crunch": [
         "8M"
       ],
       "taunt": [
         "8M"
       ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
       "thunderwave": [
         "8M"
       ],
-      "firefang": [
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "lowsweep": [
         "8M"
       ],
       "poweruppunch": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "ironhead": [
         "8M"
       ]
     }
@@ -20411,61 +22946,79 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "steelbeam": [
         "8M"
       ],
-      "hex": [
-        "8M"
-      ],
       "facade": [
         "8M"
       ],
       "swift": [
         "8M"
       ],
-      "fairywind": [
+      "rockclimb": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "thundershock": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
+      "hypervoice": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "airslash": [
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "flamethrower": [
         "8M"
       ],
       "incinerate": [
         "8M"
       ],
-      "taunt": [
+      "confuseray": [
         "8M"
       ],
-      "aurorabeam": [
+      "hex": [
         "8M"
       ],
-      "haze": [
-        "8M"
-      ],
-      "thunderwave": [
-        "8M"
-      ],
-      "trickroom": [
+      "solarbeam": [
         "8M"
       ]
     }
@@ -20559,31 +23112,97 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "auroraveil": [
         "8M"
       ],
-      "avalanche": [
+      "thunder": [
         "8M"
       ],
-      "facade": [
+      "shockwave": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "dazzlinggleam": [
         "8M"
       ],
       "willowisp": [
         "8M"
       ],
-      "return": [
+      "incinerate": [
         "8M"
       ],
-      "toxic": [
+      "sunnyday": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "avalanche": [
         "8M"
       ],
       "mist": [
         "8M"
       ],
-      "rest": [
+      "tripleaxel": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "incinerate": [
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
         "8M"
       ]
     }
@@ -21389,7 +24008,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "twister": [
         "8M"
       ],
-      "dragonbreath": [
+      "featherdance": [
         "8M"
       ],
       "swift": [
@@ -21416,7 +24035,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "quiverdance": [
         "8M"
       ],
-      "dragonpulse": [
+      "dragonbreath": [
+        "8M"
+      ],
+      "uturn": [
         "8M"
       ],
       "bugbuzz": [
@@ -21428,10 +24050,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dragontail": [
         "8M"
       ],
+      "hurricane": [
+        "8M"
+      ],
       "moonlight": [
         "8M"
       ],
-      "dracometeor": [
+      "dragonpulse": [
         "8M"
       ],
       "nastyplot": [
@@ -21440,10 +24065,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "healingwish": [
         "8M"
       ],
-      "facade": [
+      "stickyweb": [
         "8M"
       ],
-      "uturn": [
+      "dracometeor": [
+        "8M"
+      ],
+      "facade": [
         "8M"
       ],
       "return": [
@@ -21503,13 +24131,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dazzlinggleam": [
         "8M"
       ],
-      "hurricane": [
-        "8M"
-      ],
       "hyperbeam": [
-        "8M"
-      ],
-      "stickyweb": [
         "8M"
       ],
       "focusblast": [
@@ -23014,10 +25636,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "knockoff": [
         "8M"
       ],
+      "counter": [
+        "8M"
+      ],
       "glare": [
         "8M"
       ],
+      "mirrorcoat": [
+        "8M"
+      ],
       "substitute": [
+        "8M"
+      ],
+      "triattack": [
+        "8M"
+      ],
+      "bounce": [
         "8M"
       ],
       "protect": [
@@ -23042,6 +25676,99 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "agility": [
+        "8M"
+      ],
+      "uturn": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "tripleaxel": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "swordsdance": [
+        "8M"
+      ],
+      "rapidspin": [
+        "8M"
+      ],
+      "batonpass": [
         "8M"
       ]
     }
@@ -23821,7 +26548,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "inferno": [
         "8M"
       ],
-      "armthrust": [
+      "firepunch": [
         "8M"
       ],
       "tackle": [
@@ -23884,7 +26611,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "overheat": [
         "8M"
       ],
-      "aurasphere": [
+      "focusblast": [
         "8M"
       ],
       "solarbeam": [
@@ -23896,28 +26623,64 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "morningsun": [
         "8M"
       ],
+      "willowisp": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
-      "willowisp": [
+      "swift": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "sleeptalk": [
         "8M"
       ],
       "rest": [
         "8M"
       ],
-      "lowsweep": [
+      "toxic": [
         "8M"
       ],
-      "sleeptalk": [
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
         "8M"
       ],
       "poweruppunch": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "ironhead": [
         "8M"
       ]
     }
@@ -24977,13 +27740,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swift": [
         "8M"
       ],
-      "dragonbreath": [
+      "dragonrage": [
+        "8M"
+      ],
+      "flameburst": [
         "8M"
       ],
       "protect": [
         "8M"
       ],
-      "dragonrage": [
+      "dragonbreath": [
         "8M"
       ],
       "dragontail": [
@@ -24992,52 +27758,67 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flamethrower": [
         "8M"
       ],
+      "calmmind": [
+        "8M"
+      ],
       "dragonpulse": [
-        "8M"
-      ],
-      "hypervoice": [
-        "8M"
-      ],
-      "stompingtantrum": [
-        "8M"
-      ],
-      "hyperbeam": [
-        "8M"
-      ],
-      "megahorn": [
-        "8M"
-      ],
-      "dracometeor": [
         "8M"
       ],
       "healbell": [
         "8M"
       ],
-      "facade": [
+      "scald": [
         "8M"
       ],
-      "raindance": [
+      "hypervoice": [
         "8M"
       ],
-      "return": [
+      "agility": [
         "8M"
       ],
-      "toxic": [
+      "fireblast": [
         "8M"
       ],
-      "thundershock": [
+      "hyperbeam": [
         "8M"
       ],
-      "icebeam": [
+      "dracometeor": [
         "8M"
       ],
-      "rest": [
+      "megahorn": [
         "8M"
       ],
-      "lowsweep": [
+      "dragondance": [
         "8M"
       ],
-      "sleeptalk": [
+      "dragonclaw": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "aerialace": [
         "8M"
       ],
       "defog": [
@@ -25046,40 +27827,55 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
+      "tailwind": [
+        "8M"
+      ],
       "roost": [
         "8M"
       ],
-      "poweruppunch": [
+      "solarbeam": [
         "8M"
       ],
-      "steelwing": [
+      "earthpower": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ],
       "hurricane": [
-        "8M"
-      ],
-      "tailslap": [
-        "8M"
-      ],
-      "flameburst": [
         "8M"
       ],
       "overheat": [
         "8M"
       ],
       "outrage": [
-        "8M"
-      ],
-      "thunderbolt": [
-        "8M"
-      ],
-      "roar": [
-        "8M"
-      ],
-      "earthpower": [
-        "8M"
-      ],
-      "bodyslam": [
         "8M"
       ]
     }
@@ -26882,5 +29678,1198 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ]
     }
+  },
+  "boomboom": {
+    "learnset": {
+      "poweruppunch": [
+        "8M"
+      ],
+      "rapidspin": [
+        "8M"
+      ],
+      "leer": [
+        "8M"
+      ],
+      "snarl": [
+        "8M"
+      ],
+      "machpunch": [
+        "8M"
+      ],
+      "beatup": [
+        "8M"
+      ],
+      "brutalswing": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "shadowpunch": [
+        "8M"
+      ],
+      "seismictoss": [
+        "8M"
+      ],
+      "bodypress": [
+        "8M"
+      ],
+      "lowkick": [
+        "8M"
+      ],
+      "bodyslam": [
+        "8M"
+      ],
+      "drainpunch": [
+        "8M"
+      ],
+      "stompingtantrum": [
+        "8M"
+      ],
+      "darkestlariat": [
+        "8M"
+      ],
+      "swordsdance": [
+        "8M"
+      ],
+      "crosschop": [
+        "8M"
+      ],
+      "agility": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "acrobatics": [
+        "8M"
+      ],
+      "firepunch": [
+        "8M"
+      ],
+      "icepunch": [
+        "8M"
+      ],
+      "meteormash": [
+        "8M"
+      ],
+      "dynamicpunch": [
+        "8M"
+      ],
+      "closecombat": [
+        "8M"
+      ],
+      "suckerpunch": [
+        "8M"
+      ],
+      "focuspunch": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ]
+    }
+  },
+  "antasman": {
+    "learnset": {
+      "confusion": [
+        "8M"
+      ],
+      "destinybond": [
+        "8M"
+      ],
+      "trick": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "magiccoat": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "psybeam": [
+        "8M"
+      ],
+      "thief": [
+        "8M"
+      ],
+      "snarl": [
+        "8M"
+      ],
+      "hypnosis": [
+        "8M"
+      ],
+      "nightmare": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "extrasensory": [
+        "8M"
+      ],
+      "partingshot": [
+        "8M"
+      ],
+      "fling": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "psyshock": [
+        "8M"
+      ],
+      "nastyplot": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "mirrorcoat": [
+        "8M"
+      ],
+      "recover": [
+        "8M"
+      ],
+      "cosmicpower": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "wish": [
+        "8M"
+      ],
+      "dreameater": [
+        "8M"
+      ],
+      "photongeyser": [
+        "8M"
+      ],
+      "crunch": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "batonpass": [
+        "8M"
+      ],
+      "safeguard": [
+        "8M"
+      ],
+      "discharge": [
+        "8M"
+      ]
+    }
+  },
+  "antasmimic": {
+    "learnset": {
+      "phantomforce": [
+        "8M"
+      ],
+      "nightslash": [
+        "8M"
+      ],
+      "psychocut": [
+        "8M"
+      ],
+      "confusion": [
+        "8M"
+      ],
+      "destinybond": [
+        "8M"
+      ],
+      "trick": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "magiccoat": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "psybeam": [
+        "8M"
+      ],
+      "thief": [
+        "8M"
+      ],
+      "snarl": [
+        "8M"
+      ],
+      "hypnosis": [
+        "8M"
+      ],
+      "nightmare": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "extrasensory": [
+        "8M"
+      ],
+      "partingshot": [
+        "8M"
+      ],
+      "fling": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "psyshock": [
+        "8M"
+      ],
+      "nastyplot": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "mirrorcoat": [
+        "8M"
+      ],
+      "recover": [
+        "8M"
+      ],
+      "cosmicpower": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "wish": [
+        "8M"
+      ],
+      "dreameater": [
+        "8M"
+      ],
+      "photongeyser": [
+        "8M"
+      ],
+      "darkvoid": [
+        "8M"
+      ],
+      "crunch": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ]
+    }
+  },
+  "strollinstu": {
+    "learnset": {
+      "tackle": [
+        "8M"
+      ],
+      "growl": [
+        "8M"
+      ],
+      "helpinghand": [
+        "8M"
+      ],
+      "faketears": [
+        "8M"
+      ],
+      "attract": [
+        "8M"
+      ],
+      "headbutt": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "charm": [
+        "8M"
+      ],
+      "wish": [
+        "8M"
+      ],
+      "takedown": [
+        "8M"
+      ],
+      "triattack": [
+        "8M"
+      ],
+      "healbell": [
+        "8M"
+      ],
+      "doubleedge": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ]
+    }
+  },
+  "searinstu": {
+    "learnset": {
+      "incinerate": [
+        "8M"
+      ],
+      "tackle": [
+        "8M"
+      ],
+      "growl": [
+        "8M"
+      ],
+      "helpinghand": [
+        "8M"
+      ],
+      "headbutt": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "takedown": [
+        "8M"
+      ],
+      "triattack": [
+        "8M"
+      ],
+      "doubleedge": [
+        "8M"
+      ],
+      "faketears": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "attract": [
+        "8M"
+      ],
+      "flamecharge": [
+        "8M"
+      ],
+      "flameburst": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "charm": [
+        "8M"
+      ],
+      "firespin": [
+        "8M"
+      ],
+      "wish": [
+        "8M"
+      ],
+      "lavaplume": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "healbell": [
+        "8M"
+      ],
+      "nastyplot": [
+        "8M"
+      ],
+      "overheat": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "inferno": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "crunch": [
+        "8M"
+      ]
+    }
+  },
+  "shockinstu": {
+    "learnset": {
+      "shockwave": [
+        "8M"
+      ],
+      "tackle": [
+        "8M"
+      ],
+      "growl": [
+        "8M"
+      ],
+      "helpinghand": [
+        "8M"
+      ],
+      "headbutt": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "takedown": [
+        "8M"
+      ],
+      "triattack": [
+        "8M"
+      ],
+      "doubleedge": [
+        "8M"
+      ],
+      "faketears": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "attract": [
+        "8M"
+      ],
+      "spark": [
+        "8M"
+      ],
+      "chargebeam": [
+        "8M"
+      ],
+      "magnetrise": [
+        "8M"
+      ],
+      "charm": [
+        "8M"
+      ],
+      "paraboliccharge": [
+        "8M"
+      ],
+      "wish": [
+        "8M"
+      ],
+      "discharge": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "healbell": [
+        "8M"
+      ],
+      "shiftgear": [
+        "8M"
+      ],
+      "volttackle": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "storedpower": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ]
+    }
+  },
+  "soakinstu": {
+    "learnset": {
+      "bubblebeam": [
+        "8M"
+      ],
+      "tackle": [
+        "8M"
+      ],
+      "growl": [
+        "8M"
+      ],
+      "helpinghand": [
+        "8M"
+      ],
+      "headbutt": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "takedown": [
+        "8M"
+      ],
+      "triattack": [
+        "8M"
+      ],
+      "doubleedge": [
+        "8M"
+      ],
+      "faketears": [
+        "8M"
+      ],
+      "aquaring": [
+        "8M"
+      ],
+      "attract": [
+        "8M"
+      ],
+      "flipturn": [
+        "8M"
+      ],
+      "whirlpool": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "charm": [
+        "8M"
+      ],
+      "razorshell": [
+        "8M"
+      ],
+      "wish": [
+        "8M"
+      ],
+      "liquidation": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "healbell": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "fishiousrend": [
+        "8M"
+      ],
+      "iciclecrash": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ]
+    }
+  },
+  "fishinboo": {
+    "learnset": {
+      "ember": [
+        "8M"
+      ],
+      "astonish": [
+        "8M"
+      ],
+      "scaryface": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "firespin": [
+        "8M"
+      ],
+      "nightshade": [
+        "8M"
+      ],
+      "curse": [
+        "8M"
+      ],
+      "mysticalfire": [
+        "8M"
+      ],
+      "phantomforce": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "destinybond": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "flamelure": [
+        "8M"
+      ],
+      "nastyplot": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "inferno": [
+        "8M"
+      ],
+      "spiritshackle": [
+        "8M"
+      ],
+      "hurricane": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "roost": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "shadowclaw": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "venoshock": [
+        "8M"
+      ]
+    }
   }
-}{"plantranha": {"learnset": {"tackle": ["8M"], "leer": ["8M"], "vinewhip": ["8M"], "bite": ["8M"], "ingrain": ["8M"], "ember": ["8M"], "leaftornado": ["8M"], "screech": ["8M"], "willowisp": ["8M"], "crunch": ["8M"], "sludgebomb": ["8M"], "powerwhip": ["8M"], "synthesis": ["8M"], "flamethrower": ["8M"], "uturn": ["8M"], "xscissor": ["8M"], "pollenpuff": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "firefang": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "sunnyday": ["8M"], "leafblade": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "gastroacid": ["8M"], "knockoff": ["8M"], "calmmind": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "powergem": ["8M"], "weatherball": ["8M"], "bulletseed": ["8M"], "petaldance": ["8M"], "skullbash": ["8M"], "gunkshot": ["8M"], "leafstorm": ["8M"]}}, "creeplant": {"learnset": {"tackle": ["8M"], "leer": ["8M"], "vinewhip": ["8M"], "bite": ["8M"], "ingrain": ["8M"], "ember": ["8M"], "leaftornado": ["8M"], "screech": ["8M"], "willowisp": ["8M"], "crunch": ["8M"], "sludgebomb": ["8M"], "powerwhip": ["8M"], "synthesis": ["8M"], "flamethrower": ["8M"], "uturn": ["8M"], "xscissor": ["8M"], "pollenpuff": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "firefang": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "sunnyday": ["8M"], "leafblade": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "gastroacid": ["8M"], "knockoff": ["8M"], "calmmind": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "powergem": ["8M"]}}, "peteyranha": {"learnset": {"wingattack": ["8M"], "knockoff": ["8M"], "hurricane": ["8M"], "tackle": ["8M"], "leer": ["8M"], "vinewhip": ["8M"], "bite": ["8M"], "ingrain": ["8M"], "ember": ["8M"], "screech": ["8M"], "leaftornado": ["8M"], "willowisp": ["8M"], "crunch": ["8M"], "sludgebomb": ["8M"], "leafcyclone": ["8M"], "acrobatics": ["8M"], "synthesis": ["8M"], "airslash": ["8M"], "flamethrower": ["8M"], "tailwind": ["8M"], "energyball": ["8M"], "hypervoice": ["8M"], "calmmind": ["8M"], "petalblizzard": ["8M"], "bravebird": ["8M"], "powerwhip": ["8M"], "petaldance": ["8M"], "uturn": ["8M"], "xscissor": ["8M"], "pollenpuff": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "firefang": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "solarbeam": ["8M"], "gigadrain": ["8M"], "sunnyday": ["8M"], "leafblade": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "gastroacid": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "powergem": ["8M"], "roost": ["8M"], "fly": ["8M"]}}, "blooper": {"learnset": {"tackle": ["8M"], "wrap": ["8M"], "watergun": ["8M"], "poisongas": ["8M"], "acid": ["8M"], "octazooka": ["8M"], "acidarmor": ["8M"], "sludge": ["8M"], "raindance": ["8M"], "surf": ["8M"], "toxic": ["8M"], "sludgebomb": ["8M"], "nastyplot": ["8M"], "hydropump": ["8M"], "flipturn": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "aurasphere": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "hex": ["8M"], "grassknot": ["8M"], "avalanche": ["8M"], "blizzard": ["8M"], "mist": ["8M"], "icebeam": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "hyperbeam": ["8M"], "venoshock": ["8M"], "gastroacid": ["8M"], "sludgewave": ["8M"], "gunkshot": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "flashcannon": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "scald": ["8M"], "aquajet": ["8M"], "aquaring": ["8M"], "clearsmog": ["8M"]}}, "gesso": {"learnset": {"tackle": ["8M"], "wrap": ["8M"], "watergun": ["8M"], "acid": ["8M"], "poisongas": ["8M"], "octazooka": ["8M"], "acidarmor": ["8M"], "sludge": ["8M"], "raindance": ["8M"], "surf": ["8M"], "toxic": ["8M"], "sludgebomb": ["8M"], "nastyplot": ["8M"], "hydropump": ["8M"], "flipturn": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "aurasphere": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "hex": ["8M"], "grassknot": ["8M"], "avalanche": ["8M"], "blizzard": ["8M"], "mist": ["8M"], "icebeam": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "hyperbeam": ["8M"], "venoshock": ["8M"], "gastroacid": ["8M"], "sludgewave": ["8M"], "gunkshot": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "flashcannon": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "scald": ["8M"]}}, "glooper": {"learnset": {"sludgewave": ["8M"], "tackle": ["8M"], "wrap": ["8M"], "watergun": ["8M"], "acid": ["8M"], "octazooka": ["8M"], "poisongas": ["8M"], "sludge": ["8M"], "acidarmor": ["8M"], "raindance": ["8M"], "surf": ["8M"], "toxic": ["8M"], "sludgebomb": ["8M"], "nastyplot": ["8M"], "pollutedwaters": ["8M"], "darkpulse": ["8M"], "knockoff": ["8M"], "hydropump": ["8M"], "gunkshot": ["8M"], "flipturn": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "aurasphere": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "hex": ["8M"], "grassknot": ["8M"], "avalanche": ["8M"], "blizzard": ["8M"], "mist": ["8M"], "icebeam": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "hyperbeam": ["8M"], "venoshock": ["8M"], "gastroacid": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "flashcannon": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "scald": ["8M"]}}, "podoboo": {"learnset": {"tackle": ["8M"], "harden": ["8M"], "ember": ["8M"], "quickattack": ["8M"], "rollout": ["8M"], "agility": ["8M"], "flameburst": ["8M"], "dragonbreath": ["8M"], "sunnyday": ["8M"], "scorchslam": ["8M"], "bulkup": ["8M"], "doubleedge": ["8M"], "flareblitz": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "crunch": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "wildcharge": ["8M"], "playrough": ["8M"], "superpower": ["8M"], "brickbreak": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "firefang": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "solarbeam": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "earthpower": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "toxic": ["8M"], "zenheadbutt": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "rocktomb": ["8M"], "scorchingsands": ["8M"], "suckerpunch": ["8M"], "dragontail": ["8M"]}}, "magmaw": {"learnset": {"tackle": ["8M"], "harden": ["8M"], "ember": ["8M"], "quickattack": ["8M"], "rollout": ["8M"], "agility": ["8M"], "firefang": ["8M"], "flameburst": ["8M"], "bite": ["8M"], "dragonbreath": ["8M"], "sunnyday": ["8M"], "scorchslam": ["8M"], "crunch": ["8M"], "bulkup": ["8M"], "doubleedge": ["8M"], "flareblitz": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "wildcharge": ["8M"], "playrough": ["8M"], "superpower": ["8M"], "brickbreak": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "solarbeam": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "earthpower": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "toxic": ["8M"], "zenheadbutt": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "rocktomb": ["8M"]}}, "charvaargh": {"learnset": {"tackle": ["8M"], "dragonrush": ["8M"], "harden": ["8M"], "ember": ["8M"], "quickattack": ["8M"], "rollout": ["8M"], "agility": ["8M"], "firefang": ["8M"], "flameburst": ["8M"], "bite": ["8M"], "dragonbreath": ["8M"], "sunnyday": ["8M"], "scorchslam": ["8M"], "crunch": ["8M"], "bulkup": ["8M"], "lavalunge": ["8M"], "flareblitz": ["8M"], "doubleedge": ["8M"], "knockoff": ["8M"], "outrage": ["8M"], "sacredfire": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "wildcharge": ["8M"], "playrough": ["8M"], "superpower": ["8M"], "brickbreak": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "solarbeam": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "earthpower": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "toxic": ["8M"], "zenheadbutt": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "rocktomb": ["8M"]}}, "goomba": {"learnset": {"tackle": ["8M"], "growl": ["8M"], "howl": ["8M"], "quickattack": ["8M"], "endure": ["8M"], "flail": ["8M"], "bite": ["8M"], "headbutt": ["8M"], "takedown": ["8M"], "rest": ["8M"], "crunch": ["8M"], "thief": ["8M"], "highjumpkick": ["8M"], "bodyslam": ["8M"], "headcharge": ["8M"], "gigaimpact": ["8M"], "taunt": ["8M"], "payback": ["8M"], "knockoff": ["8M"], "wildcharge": ["8M"], "playrough": ["8M"], "superpower": ["8M"], "lowsweep": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "firefang": ["8M"], "grassknot": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "tripleaxel": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "gunkshot": ["8M"], "zenheadbutt": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "sandstorm": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"], "megakick": ["8M"], "retaliate": ["8M"], "stompingtantrum": ["8M"]}}, "gigagoom": {"learnset": {"tackle": ["8M"], "thrash": ["8M"], "growl": ["8M"], "quickattack": ["8M"], "howl": ["8M"], "endure": ["8M"], "flail": ["8M"], "bite": ["8M"], "headbutt": ["8M"], "takedown": ["8M"], "rest": ["8M"], "lowkick": ["8M"], "crunch": ["8M"], "thief": ["8M"], "highjumpkick": ["8M"], "bodyslam": ["8M"], "swordsdance": ["8M"], "headcharge": ["8M"], "gigaimpact": ["8M"], "headsmash": ["8M"], "slackoff": ["8M"], "taunt": ["8M"], "payback": ["8M"], "knockoff": ["8M"], "wildcharge": ["8M"], "playrough": ["8M"], "superpower": ["8M"], "lowsweep": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "firefang": ["8M"], "grassknot": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "tripleaxel": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "gunkshot": ["8M"], "zenheadbutt": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "sandstorm": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"]}}, "paragoom": {"learnset": {"aerialace": ["8M"], "skyattack": ["8M"], "tackle": ["8M"], "growl": ["8M"], "quickattack": ["8M"], "howl": ["8M"], "bite": ["8M"], "headbutt": ["8M"], "takedown": ["8M"], "rest": ["8M"], "acrobatics": ["8M"], "crunch": ["8M"], "fly": ["8M"], "thief": ["8M"], "tailwind": ["8M"], "bodyslam": ["8M"], "swordsdance": ["8M"], "headcharge": ["8M"], "gigaimpact": ["8M"], "bravebird": ["8M"], "agility": ["8M"], "taunt": ["8M"], "payback": ["8M"], "knockoff": ["8M"], "wildcharge": ["8M"], "playrough": ["8M"], "superpower": ["8M"], "lowsweep": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "firefang": ["8M"], "grassknot": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "tripleaxel": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "gunkshot": ["8M"], "zenheadbutt": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "sandstorm": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"], "defog": ["8M"], "airslash": ["8M"], "roost": ["8M"]}}, "tinytroopa": {"learnset": {"tackle": ["8M"], "withdraw": ["8M"], "rapidspin": ["8M"], "rollout": ["8M"], "rocksmash": ["8M"], "headbutt": ["8M"], "brickbreak": ["8M"], "hyperfang": ["8M"], "swordsdance": ["8M"], "doubleedge": ["8M"], "batonpass": ["8M"], "amnesia": ["8M"], "superpower": ["8M"], "uturn": ["8M"], "crunch": ["8M"], "dragondance": ["8M"], "dragonclaw": ["8M"], "dragonpulse": ["8M"], "thunderwave": ["8M"], "thundershock": ["8M"], "focusblast": ["8M"], "flamethrower": ["8M"], "firefang": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "ironhead": ["8M"], "waterfall": ["8M"], "raindance": ["8M"], "scald": ["8M"], "waterpulse": ["8M"], "haze": ["8M"], "mist": ["8M"], "lowsweep": ["8M"], "aquatail": ["8M"], "skullbash": ["8M"], "irontail": ["8M"]}}, "koopatroopa": {"learnset": {"tackle": ["8M"], "withdraw": ["8M"], "rapidspin": ["8M"], "rollout": ["8M"], "rocksmash": ["8M"], "headbutt": ["8M"], "brickbreak": ["8M"], "hyperfang": ["8M"], "swordsdance": ["8M"], "doubleedge": ["8M"], "batonpass": ["8M"], "amnesia": ["8M"], "superpower": ["8M"], "uturn": ["8M"], "crunch": ["8M"], "dragondance": ["8M"], "dragonclaw": ["8M"], "dragonpulse": ["8M"], "thunderwave": ["8M"], "thundershock": ["8M"], "focusblast": ["8M"], "flamethrower": ["8M"], "firefang": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "ironhead": ["8M"], "waterfall": ["8M"], "raindance": ["8M"], "scald": ["8M"], "waterpulse": ["8M"], "haze": ["8M"], "mist": ["8M"], "lowsweep": ["8M"]}}, "paratroopa": {"learnset": {"wingattack": ["8M"], "tackle": ["8M"], "withdraw": ["8M"], "rapidspin": ["8M"], "rollout": ["8M"], "rocksmash": ["8M"], "headbutt": ["8M"], "brickbreak": ["8M"], "acrobatics": ["8M"], "hyperfang": ["8M"], "swordsdance": ["8M"], "doubleedge": ["8M"], "drillpeck": ["8M"], "batonpass": ["8M"], "amnesia": ["8M"], "superpower": ["8M"], "hurricane": ["8M"], "shellsmash": ["8M"], "uturn": ["8M"], "crunch": ["8M"], "dragondance": ["8M"], "dragonclaw": ["8M"], "dragonpulse": ["8M"], "thunderwave": ["8M"], "thundershock": ["8M"], "focusblast": ["8M"], "flamethrower": ["8M"], "firefang": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "ironhead": ["8M"], "waterfall": ["8M"], "raindance": ["8M"], "scald": ["8M"], "waterpulse": ["8M"], "haze": ["8M"], "mist": ["8M"], "lowsweep": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "tailwind": ["8M"], "roost": ["8M"]}}, "tubotroopa": {"learnset": {"bravebird": ["8M"], "tackle": ["8M"], "withdraw": ["8M"], "rapidspin": ["8M"], "rollout": ["8M"], "rocksmash": ["8M"], "headbutt": ["8M"], "wingattack": ["8M"], "brickbreak": ["8M"], "acrobatics": ["8M"], "hyperfang": ["8M"], "swordsdance": ["8M"], "doubleedge": ["8M"], "drillpeck": ["8M"], "batonpass": ["8M"], "amnesia": ["8M"], "superpower": ["8M"], "hurricane": ["8M"], "shellsmash": ["8M"], "uturn": ["8M"], "crunch": ["8M"], "dragondance": ["8M"], "dragonclaw": ["8M"], "dragonpulse": ["8M"], "thunderwave": ["8M"], "thundershock": ["8M"], "focusblast": ["8M"], "flamethrower": ["8M"], "firefang": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "ironhead": ["8M"], "waterfall": ["8M"], "raindance": ["8M"], "scald": ["8M"], "waterpulse": ["8M"], "haze": ["8M"], "mist": ["8M"], "lowsweep": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "tailwind": ["8M"], "roost": ["8M"]}}, "thwimp": {"learnset": {"tackle": ["8M"], "defensecurl": ["8M"], "rockfall": ["8M"], "rockpolish": ["8M"], "stealthrock": ["8M"], "irondefense": ["8M"], "smackdown": ["8M"], "takedown": ["8M"], "bodypress": ["8M"], "bulldoze": ["8M"], "bounce": ["8M"], "rockslide": ["8M"], "bodyslam": ["8M"], "acrobatics": ["8M"], "stoneedge": ["8M"], "earthquake": ["8M"], "heavyfall": ["8M"], "headsmash": ["8M"], "payback": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "fly": ["8M"], "sandtomb": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "gigaimpact": ["8M"], "sandstorm": ["8M"], "powergem": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"], "meteormash": ["8M"], "gyroball": ["8M"], "magnitude": ["8M"]}}, "thwomp": {"learnset": {"tackle": ["8M"], "defensecurl": ["8M"], "rockfall": ["8M"], "rockpolish": ["8M"], "stealthrock": ["8M"], "irondefense": ["8M"], "smackdown": ["8M"], "takedown": ["8M"], "bodypress": ["8M"], "bulldoze": ["8M"], "bounce": ["8M"], "rockslide": ["8M"], "bodyslam": ["8M"], "acrobatics": ["8M"], "stoneedge": ["8M"], "earthquake": ["8M"], "heavyfall": ["8M"], "headsmash": ["8M"], "payback": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "fly": ["8M"], "sandtomb": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "gigaimpact": ["8M"], "sandstorm": ["8M"], "powergem": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"]}}, "pouncer": {"learnset": {"heavyslam": ["8M"], "heatcrash": ["8M"], "tackle": ["8M"], "defensecurl": ["8M"], "rockfall": ["8M"], "rockpolish": ["8M"], "stealthrock": ["8M"], "irondefense": ["8M"], "smackdown": ["8M"], "takedown": ["8M"], "bodypress": ["8M"], "bulldoze": ["8M"], "bounce": ["8M"], "rockslide": ["8M"], "bodyslam": ["8M"], "acrobatics": ["8M"], "stoneedge": ["8M"], "earthquake": ["8M"], "heavyfall": ["8M"], "headsmash": ["8M"], "payback": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "fly": ["8M"], "sandtomb": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "gigaimpact": ["8M"], "sandstorm": ["8M"], "powergem": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"]}}, "squiggler": {"learnset": {"tackle": ["8M"], "stringshot": ["8M"], "bugbite": ["8M"], "spiderweb": ["8M"], "headbutt": ["8M"], "sweetscent": ["8M"], "revenge": ["8M"], "uturn": ["8M"], "stunspore": ["8M"], "toxic": ["8M"], "infestation": ["8M"], "xscissor": ["8M"], "megahorn": ["8M"], "pollenpuff": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "playrough": ["8M"], "mysticburst": ["8M"], "superpower": ["8M"], "aurasphere": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "psychic": ["8M"], "calmmind": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "trickroom": ["8M"], "electroweb": ["8M"], "leechlife": ["8M"], "suckerpunch": ["8M"]}}, "wiggler": {"learnset": {"tackle": ["8M"], "stringshot": ["8M"], "bugbite": ["8M"], "spiderweb": ["8M"], "headbutt": ["8M"], "sweetscent": ["8M"], "revenge": ["8M"], "uturn": ["8M"], "stunspore": ["8M"], "toxic": ["8M"], "infestation": ["8M"], "xscissor": ["8M"], "megahorn": ["8M"], "pollenpuff": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "playrough": ["8M"], "mysticburst": ["8M"], "superpower": ["8M"], "aurasphere": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "psychic": ["8M"], "calmmind": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "trickroom": ["8M"]}}, "flutter": {"learnset": {"wingattack": ["8M"], "dazzlinggleam": ["8M"], "tackle": ["8M"], "stringshot": ["8M"], "bugbite": ["8M"], "spiderweb": ["8M"], "headbutt": ["8M"], "sweetscent": ["8M"], "drainingkiss": ["8M"], "revenge": ["8M"], "uturn": ["8M"], "stunspore": ["8M"], "playrough": ["8M"], "bugbuzz": ["8M"], "toxic": ["8M"], "airslash": ["8M"], "moonblast": ["8M"], "quiverdance": ["8M"], "gigadrain": ["8M"], "psychic": ["8M"], "hurricane": ["8M"], "mysticburst": ["8M"], "infestation": ["8M"], "xscissor": ["8M"], "megahorn": ["8M"], "pollenpuff": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "superpower": ["8M"], "aurasphere": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "calmmind": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "trickroom": ["8M"]}}, "fuzzler": {"learnset": {"xscissor": ["8M"], "spikes": ["8M"], "tackle": ["8M"], "stringshot": ["8M"], "bugbite": ["8M"], "spiderweb": ["8M"], "headbutt": ["8M"], "sweetscent": ["8M"], "revenge": ["8M"], "uturn": ["8M"], "stunspore": ["8M"], "playrough": ["8M"], "spikyshield": ["8M"], "toxic": ["8M"], "swordsdance": ["8M"], "firstimpression": ["8M"], "poisonjab": ["8M"], "megahorn": ["8M"], "woodhammer": ["8M"], "zenheadbutt": ["8M"], "gunkshot": ["8M"], "stickyweb": ["8M"], "infestation": ["8M"], "pollenpuff": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "mysticburst": ["8M"], "superpower": ["8M"], "aurasphere": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "psychic": ["8M"], "calmmind": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "trickroom": ["8M"], "earthquake": ["8M"]}}, "lilslammer": {"learnset": {"pound": ["8M"], "rocksmash": ["8M"], "detect": ["8M"], "focusenergy": ["8M"], "lowsweep": ["8M"], "bulkup": ["8M"], "doubleteam": ["8M"], "revenge": ["8M"], "slam": ["8M"], "scaryface": ["8M"], "hammerarm": ["8M"], "stormthrow": ["8M"], "rockslide": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "knockoff": ["8M"], "payback": ["8M"], "focusblast": ["8M"], "superpower": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "brickbreak": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "rocktomb": ["8M"], "firepunch": ["8M"], "icepunch": ["8M"], "lowkick": ["8M"]}}, "hammerbro": {"learnset": {"pound": ["8M"], "rocksmash": ["8M"], "detect": ["8M"], "focusenergy": ["8M"], "lowsweep": ["8M"], "bulkup": ["8M"], "doubleteam": ["8M"], "revenge": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "knockoff": ["8M"], "payback": ["8M"], "focusblast": ["8M"], "superpower": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "brickbreak": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"]}}, "sledgebro": {"learnset": {"pound": ["8M"], "knockoff": ["8M"], "dragonhammer": ["8M"], "rocksmash": ["8M"], "detect": ["8M"], "focusenergy": ["8M"], "lowsweep": ["8M"], "bulkup": ["8M"], "doubleteam": ["8M"], "revenge": ["8M"], "slam": ["8M"], "scaryface": ["8M"], "hammerarm": ["8M"], "stormthrow": ["8M"], "rockslide": ["8M"], "woodhammer": ["8M"], "crabhammer": ["8M"], "stoneedge": ["8M"], "superpower": ["8M"], "earthquake": ["8M"], "closecombat": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "payback": ["8M"], "focusblast": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "brickbreak": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "rocktomb": ["8M"], "stealthrock": ["8M"]}}, "icebro": {"learnset": {"aurorabeam": ["8M"], "focusblast": ["8M"], "iceshard": ["8M"], "pound": ["8M"], "bulkup": ["8M"], "doubleteam": ["8M"], "mirrorcoat": ["8M"], "focusenergy": ["8M"], "lowsweep": ["8M"], "icywind": ["8M"], "iceball": ["8M"], "icepunch": ["8M"], "waterpulse": ["8M"], "hail": ["8M"], "icebeam": ["8M"], "calmmind": ["8M"], "blizzard": ["8M"], "hydropump": ["8M"], "sheercold": ["8M"], "auroraveil": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "knockoff": ["8M"], "payback": ["8M"], "superpower": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "brickbreak": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "mist": ["8M"], "haze": ["8M"], "tripleaxel": ["8M"], "surf": ["8M"]}}, "firebro": {"learnset": {"flameburst": ["8M"], "flamecharge": ["8M"], "pound": ["8M"], "bulkup": ["8M"], "doubleteam": ["8M"], "mirrorcoat": ["8M"], "focusenergy": ["8M"], "lowsweep": ["8M"], "ember": ["8M"], "incinerate": ["8M"], "firespin": ["8M"], "mudbomb": ["8M"], "willowisp": ["8M"], "sunnyday": ["8M"], "flamethrower": ["8M"], "nastyplot": ["8M"], "fireblast": ["8M"], "inferno": ["8M"], "focusblast": ["8M"], "eruption": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "knockoff": ["8M"], "payback": ["8M"], "superpower": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "brickbreak": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "grassknot": ["8M"]}}, "sporer": {"learnset": {"splash": ["8M"], "absorb": ["8M"], "megadrain": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "facade": ["8M"], "return": ["8M"], "infestation": ["8M"], "pollenpuff": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "leafblade": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "aromatherapy": ["8M"], "cottonguard": ["8M"], "doubleedge": ["8M"]}}, "nipplant": {"learnset": {"splash": ["8M"], "megadrain": ["8M"], "bite": ["8M"], "razorleaf": ["8M"], "cottonspore": ["8M"], "gigadrain": ["8M"], "hyperfang": ["8M"], "needlearm": ["8M"], "stunspore": ["8M"], "poisonpowder": ["8M"], "sleeppowder": ["8M"], "crunch": ["8M"], "leafblade": ["8M"], "raindance": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "facade": ["8M"], "return": ["8M"], "gigaimpact": ["8M"], "hyperbeam": ["8M"], "pollenpuff": ["8M"], "lowsweep": ["8M"], "firefang": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "knockoff": ["8M"], "mist": ["8M"], "haze": ["8M"], "substitute": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "surf": ["8M"], "scald": ["8M"]}}, "navalranha": {"learnset": {"leafstorm": ["8M"], "splash": ["8M"], "megadrain": ["8M"], "bite": ["8M"], "razorleaf": ["8M"], "cottonspore": ["8M"], "gigadrain": ["8M"], "hyperfang": ["8M"], "needlearm": ["8M"], "stunspore": ["8M"], "poisonpowder": ["8M"], "sleeppowder": ["8M"], "crunch": ["8M"], "leafblade": ["8M"], "raindance": ["8M"], "synthesis": ["8M"], "secretseeds": ["8M"], "powerwhip": ["8M"], "liquidation": ["8M"], "woodhammer": ["8M"], "leechlife": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "facade": ["8M"], "return": ["8M"], "gigaimpact": ["8M"], "hyperbeam": ["8M"], "pollenpuff": ["8M"], "lowsweep": ["8M"], "firefang": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "knockoff": ["8M"], "mist": ["8M"], "haze": ["8M"], "substitute": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "surf": ["8M"], "scald": ["8M"]}}, "gooble": {"learnset": {"poisongas": ["8M"], "tackle": ["8M"], "acid": ["8M"], "confuseray": ["8M"], "gastroacid": ["8M"], "wrap": ["8M"], "sludge": ["8M"], "toxic": ["8M"], "acidspray": ["8M"], "venoshock": ["8M"], "disable": ["8M"], "darkpulse": ["8M"], "acidarmor": ["8M"], "sludgebomb": ["8M"], "nastyplot": ["8M"], "belch": ["8M"], "fireblast": ["8M"], "pursuit": ["8M"], "crunch": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "gigadrain": ["8M"], "aurorabeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "poisonfang": ["8M"], "firefang": ["8M"], "painsplit": ["8M"], "sludgewave": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "willowisp": ["8M"], "gunkshot": ["8M"], "calmmind": ["8M"], "trickroom": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "scaryface": ["8M"], "snatch": ["8M"], "spite": ["8M"], "suckerpunch": ["8M"], "switcheroo": ["8M"], "faketears": ["8M"], "assurance": ["8M"], "confusion": ["8M"], "ominouswind": ["8M"], "curse": ["8M"], "stockpile": ["8M"]}}, "protoranha": {"learnset": {"venomdrench": ["8M"], "sludgewave": ["8M"], "poisongas": ["8M"], "tackle": ["8M"], "confuseray": ["8M"], "gastroacid": ["8M"], "wrap": ["8M"], "acid": ["8M"], "sludge": ["8M"], "toxic": ["8M"], "acidspray": ["8M"], "venoshock": ["8M"], "disable": ["8M"], "darkpulse": ["8M"], "acidarmor": ["8M"], "sludgebomb": ["8M"], "nastyplot": ["8M"], "shadowball": ["8M"], "knockoff": ["8M"], "belch": ["8M"], "fireblast": ["8M"], "hyperbeam": ["8M"], "gunkshot": ["8M"], "pursuit": ["8M"], "crunch": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "hex": ["8M"], "gigadrain": ["8M"], "aurorabeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "poisonfang": ["8M"], "firefang": ["8M"], "painsplit": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "willowisp": ["8M"], "calmmind": ["8M"], "trickroom": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"]}}, "lakipuff": {"learnset": {"growl": ["8M"], "tackle": ["8M"], "gust": ["8M"], "mist": ["8M"], "tailwind": ["8M"], "sing": ["8M"], "refresh": ["8M"], "round": ["8M"], "aircutter": ["8M"], "ominouswind": ["8M"], "icywind": ["8M"], "cottonguard": ["8M"], "thunder": ["8M"], "thundershock": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "mysticburst": ["8M"], "aurasphere": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "roost": ["8M"], "shadowball": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "steelwing": ["8M"], "haze": ["8M"], "raindance": ["8M"], "sunnyday": ["8M"], "silverwind": ["8M"], "healbell": ["8M"], "cottonspore": ["8M"]}}, "lakitu": {"learnset": {"aircutter": ["8M"], "growl": ["8M"], "tackle": ["8M"], "gust": ["8M"], "mist": ["8M"], "sing": ["8M"], "refresh": ["8M"], "tailwind": ["8M"], "round": ["8M"], "ancientpower": ["8M"], "ominouswind": ["8M"], "icywind": ["8M"], "cottonguard": ["8M"], "airslash": ["8M"], "defog": ["8M"], "rockslide": ["8M"], "thunderbolt": ["8M"], "fly": ["8M"], "raindance": ["8M"], "thunder": ["8M"], "hurricane": ["8M"], "thundershock": ["8M"], "thunderwave": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "mysticburst": ["8M"], "aurasphere": ["8M"], "aerialace": ["8M"], "roost": ["8M"], "shadowball": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "steelwing": ["8M"], "haze": ["8M"], "sunnyday": ["8M"]}}, "lakilust": {"learnset": {"recover": ["8M"], "heatwave": ["8M"], "growl": ["8M"], "tackle": ["8M"], "gust": ["8M"], "mist": ["8M"], "sing": ["8M"], "refresh": ["8M"], "tailwind": ["8M"], "aircutter": ["8M"], "ancientpower": ["8M"], "ominouswind": ["8M"], "icywind": ["8M"], "cottonguard": ["8M"], "airslash": ["8M"], "defog": ["8M"], "rockslide": ["8M"], "thunderbolt": ["8M"], "fly": ["8M"], "raindance": ["8M"], "thunder": ["8M"], "hurricane": ["8M"], "mysticburst": ["8M"], "thundershock": ["8M"], "thunderwave": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "aurasphere": ["8M"], "aerialace": ["8M"], "roost": ["8M"], "shadowball": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "steelwing": ["8M"], "haze": ["8M"], "sunnyday": ["8M"], "hydropump": ["8M"]}}, "crazydayzee": {"learnset": {"disarmingvoice": ["8M"], "babydolleyes": ["8M"], "tackle": ["8M"], "vinewhip": ["8M"], "grasswhistle": ["8M"], "luckychant": ["8M"], "charm": ["8M"], "razorleaf": ["8M"], "sweetkiss": ["8M"], "round": ["8M"], "screech": ["8M"], "synthesis": ["8M"], "drainingkiss": ["8M"], "magicalleaf": ["8M"], "aromatherapy": ["8M"], "gigadrain": ["8M"], "moonblast": ["8M"], "energyball": ["8M"], "boomburst": ["8M"], "perishsong": ["8M"], "solarbeam": ["8M"], "uturn": ["8M"], "substitute": ["8M"], "pollenpuff": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "playrough": ["8M"], "mysticburst": ["8M"], "aurasphere": ["8M"], "sunnyday": ["8M"], "tailwind": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "leafblade": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "earthpower": ["8M"], "mist": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "amnesia": ["8M"], "calmmind": ["8M"], "psychic": ["8M"], "trickroom": ["8M"], "waterpulse": ["8M"], "raindance": ["8M"], "safeguard": ["8M"], "copycat": ["8M"], "magiccoat": ["8M"]}}, "amazydayzee": {"learnset": {"spore": ["8M"], "dazzlinggleam": ["8M"], "disarmingvoice": ["8M"], "growl": ["8M"], "tackle": ["8M"], "vinewhip": ["8M"], "grasswhistle": ["8M"], "luckychant": ["8M"], "charm": ["8M"], "razorleaf": ["8M"], "sweetkiss": ["8M"], "round": ["8M"], "screech": ["8M"], "synthesis": ["8M"], "drainingkiss": ["8M"], "magicalleaf": ["8M"], "aromatherapy": ["8M"], "gigadrain": ["8M"], "moonblast": ["8M"], "energyball": ["8M"], "boomburst": ["8M"], "perishsong": ["8M"], "solarbeam": ["8M"], "torturouslullaby": ["8M"], "pollenpuff": ["8M"], "petaldance": ["8M"], "uturn": ["8M"], "substitute": ["8M"], "fairywind": ["8M"], "playrough": ["8M"], "mysticburst": ["8M"], "aurasphere": ["8M"], "sunnyday": ["8M"], "tailwind": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "leafblade": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "earthpower": ["8M"], "mist": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "amnesia": ["8M"], "calmmind": ["8M"], "psychic": ["8M"], "trickroom": ["8M"], "waterpulse": ["8M"], "raindance": ["8M"]}}, "volcanotus": {"learnset": {"ember": ["8M"], "vinewhip": ["8M"], "wrap": ["8M"], "leechseed": ["8M"], "smokescreen": ["8M"], "razorleaf": ["8M"], "incinerate": ["8M"], "clearsmog": ["8M"], "firespin": ["8M"], "magicalleaf": ["8M"], "flameburst": ["8M"], "weatherball": ["8M"], "sunnyday": ["8M"], "worryseed": ["8M"], "gigadrain": ["8M"], "lavaplume": ["8M"], "nastyplot": ["8M"], "energyball": ["8M"], "morningsun": ["8M"], "solarbeam": ["8M"], "inferno": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "aurasphere": ["8M"], "flamethrower": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "leafblade": ["8M"], "grassknot": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "hyperbeam": ["8M"], "sludgebomb": ["8M"], "gastroacid": ["8M"], "calmmind": ["8M"], "flashcannon": ["8M"], "heatwave": ["8M"], "silverwind": ["8M"], "flareblitz": ["8M"]}}, "lavalotus": {"learnset": {"powerwhip": ["8M"], "flamethrower": ["8M"], "ember": ["8M"], "absorb": ["8M"], "wrap": ["8M"], "leechseed": ["8M"], "smokescreen": ["8M"], "razorleaf": ["8M"], "incinerate": ["8M"], "clearsmog": ["8M"], "firespin": ["8M"], "magicalleaf": ["8M"], "weatherball": ["8M"], "sunnyday": ["8M"], "flameburst": ["8M"], "worryseed": ["8M"], "gigadrain": ["8M"], "lavaplume": ["8M"], "nastyplot": ["8M"], "energyball": ["8M"], "morningsun": ["8M"], "solarbeam": ["8M"], "inferno": ["8M"], "blazingseeds": ["8M"], "searingshot": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "aurasphere": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "leafblade": ["8M"], "grassknot": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "hyperbeam": ["8M"], "sludgebomb": ["8M"], "gastroacid": ["8M"], "calmmind": ["8M"], "flashcannon": ["8M"], "waterpulse": ["8M"]}}, "skipsqueak": {"learnset": {"tackle": ["8M"], "defensecurl": ["8M"], "helpinghand": ["8M"], "playnice": ["8M"], "quickattack": ["8M"], "focusenergy": ["8M"], "echoedvoice": ["8M"], "assist": ["8M"], "mimic": ["8M"], "disarmingvoice": ["8M"], "superfang": ["8M"], "swift": ["8M"], "yawn": ["8M"], "drainingkiss": ["8M"], "hypervoice": ["8M"], "dazzlinggleam": ["8M"], "calmmind": ["8M"], "flashcannon": ["8M"], "nastyplot": ["8M"], "hyperbeam": ["8M"], "moonblast": ["8M"], "sandtomb": ["8M"], "stealthrock": ["8M"], "uturn": ["8M"], "darkpulse": ["8M"], "thunder": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "fairywind": ["8M"], "playrough": ["8M"], "mysticburst": ["8M"], "focusblast": ["8M"], "aurasphere": ["8M"], "poweruppunch": ["8M"], "sunnyday": ["8M"], "solarbeam": ["8M"], "grassknot": ["8M"], "energyball": ["8M"], "earthpower": ["8M"], "mist": ["8M"], "haze": ["8M"], "tripleaxel": ["8M"], "facade": ["8M"], "return": ["8M"], "substitute": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "painsplit": ["8M"], "toxic": ["8M"], "psychic": ["8M"], "trickroom": ["8M"], "surf": ["8M"], "barrier": ["8M"], "block": ["8M"], "mudbomb": ["8M"]}}, "spinysqueak": {"learnset": {"dazzlinggleam": ["8M"], "tackle": ["8M"], "defensecurl": ["8M"], "helpinghand": ["8M"], "playnice": ["8M"], "quickattack": ["8M"], "focusenergy": ["8M"], "echoedvoice": ["8M"], "assist": ["8M"], "mimic": ["8M"], "disarmingvoice": ["8M"], "superfang": ["8M"], "swift": ["8M"], "yawn": ["8M"], "drainingkiss": ["8M"], "hypervoice": ["8M"], "calmmind": ["8M"], "flashcannon": ["8M"], "nastyplot": ["8M"], "bounce": ["8M"], "hyperbeam": ["8M"], "moonblast": ["8M"], "boomburst": ["8M"], "earthpower": ["8M"], "stealthrock": ["8M"], "uturn": ["8M"], "darkpulse": ["8M"], "thunder": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "fairywind": ["8M"], "playrough": ["8M"], "mysticburst": ["8M"], "focusblast": ["8M"], "aurasphere": ["8M"], "poweruppunch": ["8M"], "sunnyday": ["8M"], "solarbeam": ["8M"], "grassknot": ["8M"], "energyball": ["8M"], "mist": ["8M"], "haze": ["8M"], "tripleaxel": ["8M"], "facade": ["8M"], "return": ["8M"], "substitute": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "painsplit": ["8M"], "toxic": ["8M"], "psychic": ["8M"], "trickroom": ["8M"], "surf": ["8M"], "sandtomb": ["8M"]}}, "ninji": {"learnset": {"pound": ["8M"], "leer": ["8M"], "pursuit": ["8M"], "taunt": ["8M"], "assurance": ["8M"], "revenge": ["8M"], "metalclaw": ["8M"], "nightslash": ["8M"], "acrobatics": ["8M"], "embargo": ["8M"], "swagger": ["8M"], "fling": ["8M"], "substitute": ["8M"], "rockblast": ["8M"], "knockoff": ["8M"], "extremespeed": ["8M"], "suckerpunch": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "ironhead": ["8M"], "bulletseed": ["8M"], "darkpulse": ["8M"], "payback": ["8M"], "torment": ["8M"], "playrough": ["8M"], "lowsweep": ["8M"], "poweruppunch": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "aerialace": ["8M"], "shadowsneak": ["8M"], "shadowclaw": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "toxic": ["8M"], "return": ["8M"], "tripleaxel": ["8M"], "megapunch": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rocktomb": ["8M"], "swordsdance": ["8M"], "armthrust": ["8M"], "bonerush": ["8M"]}}, "shuriki": {"learnset": {"darkshuriken": ["8M"], "bulletpunch": ["8M"], "triplekick": ["8M"], "knockoff": ["8M"], "pound": ["8M"], "leer": ["8M"], "pursuit": ["8M"], "taunt": ["8M"], "assurance": ["8M"], "revenge": ["8M"], "metalclaw": ["8M"], "nightslash": ["8M"], "acrobatics": ["8M"], "embargo": ["8M"], "swagger": ["8M"], "fling": ["8M"], "substitute": ["8M"], "rockblast": ["8M"], "extremespeed": ["8M"], "suckerpunch": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "ironhead": ["8M"], "bulletseed": ["8M"], "darkpulse": ["8M"], "payback": ["8M"], "torment": ["8M"], "playrough": ["8M"], "lowsweep": ["8M"], "poweruppunch": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "aerialace": ["8M"], "shadowsneak": ["8M"], "shadowclaw": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "tripleaxel": ["8M"], "megapunch": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rocktomb": ["8M"], "toxic": ["8M"]}}, "ptooie": {"learnset": {"absorb": ["8M"], "defog": ["8M"], "growth": ["8M"], "bind": ["8M"], "razorleaf": ["8M"], "gyroball": ["8M"], "magnetbomb": ["8M"], "stockpile": ["8M"], "swallow": ["8M"], "spitup": ["8M"], "gigadrain": ["8M"], "rockthrow": ["8M"], "whirlwind": ["8M"], "spikeball": ["8M"], "ingrain": ["8M"], "seedbomb": ["8M"], "rockslide": ["8M"], "synthesis": ["8M"], "powerwhip": ["8M"], "metalburst": ["8M"], "earthquake": ["8M"], "infestation": ["8M"], "xscissor": ["8M"], "pollenpuff": ["8M"], "taunt": ["8M"], "lowsweep": ["8M"], "brickbreak": ["8M"], "firefang": ["8M"], "airslash": ["8M"], "tailwind": ["8M"], "shadowball": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "leafblade": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "dig": ["8M"], "mist": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "rest": ["8M"], "amnesia": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "rocktomb": ["8M"], "raindance": ["8M"], "sunnyday": ["8M"], "ironhead": ["8M"], "toxic": ["8M"], "irondefense": ["8M"], "spikes": ["8M"]}}, "buzzybeetle": {"learnset": {"rapidspin": ["8M"], "withdraw": ["8M"], "rollout": ["8M"], "bugbite": ["8M"], "glare": ["8M"], "rockthrow": ["8M"], "rockpolish": ["8M"], "pursuit": ["8M"], "steamroller": ["8M"], "rocktomb": ["8M"], "amnesia": ["8M"], "uturn": ["8M"], "dig": ["8M"], "irondefense": ["8M"], "rockslide": ["8M"], "bodyslam": ["8M"], "stoneedge": ["8M"], "infestation": ["8M"], "pollenpuff": ["8M"], "crunch": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "dragondance": ["8M"], "dragonclaw": ["8M"], "brickbreak": ["8M"], "bulkup": ["8M"], "grassknot": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "gigaimpact": ["8M"], "hyperbeam": ["8M"], "sandstorm": ["8M"], "zenheadbutt": ["8M"], "powergem": ["8M"], "stealthrock": ["8M"], "ironhead": ["8M"], "metalclaw": ["8M"], "toxic": ["8M"], "revenge": ["8M"], "foulplay": ["8M"], "switcheroo": ["8M"]}}, "spiketop": {"learnset": {"spikecannon": ["8M"], "headsmash": ["8M"], "rapidspin": ["8M"], "withdraw": ["8M"], "rollout": ["8M"], "glare": ["8M"], "bugbite": ["8M"], "rockthrow": ["8M"], "rockpolish": ["8M"], "pursuit": ["8M"], "steamroller": ["8M"], "rocktomb": ["8M"], "amnesia": ["8M"], "uturn": ["8M"], "dig": ["8M"], "irondefense": ["8M"], "rockslide": ["8M"], "megahorn": ["8M"], "stoneedge": ["8M"], "spikyshield": ["8M"], "knockoff": ["8M"], "xscissor": ["8M"], "infestation": ["8M"], "pollenpuff": ["8M"], "crunch": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "dragondance": ["8M"], "dragonclaw": ["8M"], "brickbreak": ["8M"], "bulkup": ["8M"], "grassknot": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "gigaimpact": ["8M"], "hyperbeam": ["8M"], "sandstorm": ["8M"], "zenheadbutt": ["8M"], "powergem": ["8M"], "stealthrock": ["8M"], "ironhead": ["8M"], "metalclaw": ["8M"], "toxic": ["8M"]}}, "spiny": {"learnset": {"tackle": ["8M"], "leer": ["8M"], "sandattack": ["8M"], "mudslap": ["8M"], "sandtomb": ["8M"], "spikecannon": ["8M"], "spikes": ["8M"], "spikyshield": ["8M"], "mudbomb": ["8M"], "sandstorm": ["8M"], "bulldoze": ["8M"], "doubleedge": ["8M"], "spikestorm": ["8M"], "ironhead": ["8M"], "rest": ["8M"], "superpower": ["8M"], "earthquake": ["8M"], "slackoff": ["8M"], "stoneedge": ["8M"], "shellsmash": ["8M"], "toxicspikes": ["8M"], "precipiceblades": ["8M"], "xscissor": ["8M"], "uturn": ["8M"], "crunch": ["8M"], "playrough": ["8M"], "lowsweep": ["8M"], "brickbreak": ["8M"], "bulkup": ["8M"], "firefang": ["8M"], "shadowclaw": ["8M"], "dig": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "amnesia": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "stealthrock": ["8M"], "metalclaw": ["8M"], "roar": ["8M"], "curse": ["8M"], "revenge": ["8M"]}}, "shyguy": {"learnset": {"pound": ["8M"], "focusenergy": ["8M"], "sandattack": ["8M"], "astonish": ["8M"], "mudshot": ["8M"], "round": ["8M"], "doubleslap": ["8M"], "barrage": ["8M"], "thief": ["8M"], "partingshot": ["8M"], "retaliate": ["8M"], "triattack": ["8M"], "rockblast": ["8M"], "lastresort": ["8M"], "amnesia": ["8M"], "ironhead": ["8M"], "taunt": ["8M"], "torment": ["8M"], "darkpulse": ["8M"], "lowsweep": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "hyperbeam": ["8M"], "toxic": ["8M"], "rocktomb": ["8M"], "swordsdance": ["8M"], "suckerpunch": ["8M"], "bulletseed": ["8M"]}}, "snifit": {"learnset": {"lockon": ["8M"], "pound": ["8M"], "focusenergy": ["8M"], "sandattack": ["8M"], "astonish": ["8M"], "mudshot": ["8M"], "round": ["8M"], "doubleslap": ["8M"], "barrage": ["8M"], "thief": ["8M"], "partingshot": ["8M"], "retaliate": ["8M"], "triattack": ["8M"], "rockblast": ["8M"], "lastresort": ["8M"], "amnesia": ["8M"], "ironhead": ["8M"], "taunt": ["8M"], "torment": ["8M"], "darkpulse": ["8M"], "lowsweep": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "hyperbeam": ["8M"], "toxic": ["8M"], "rocktomb": ["8M"]}}, "gunnerguy": {"learnset": {"bulletseed": ["8M"], "pound": ["8M"], "focusenergy": ["8M"], "sandattack": ["8M"], "astonish": ["8M"], "mudshot": ["8M"], "round": ["8M"], "doubleslap": ["8M"], "lockon": ["8M"], "barrage": ["8M"], "thief": ["8M"], "partingshot": ["8M"], "retaliate": ["8M"], "triattack": ["8M"], "flashcannon": ["8M"], "rockblast": ["8M"], "lastresort": ["8M"], "nastyplot": ["8M"], "supercannon": ["8M"], "hydropump": ["8M"], "flamethrower": ["8M"], "hyperbeam": ["8M"], "icebeam": ["8M"], "aurorabeam": ["8M"], "amnesia": ["8M"], "ironhead": ["8M"], "taunt": ["8M"], "torment": ["8M"], "darkpulse": ["8M"], "lowsweep": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "rocktomb": ["8M"], "pollenpuff": ["8M"], "dragonpulse": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "fireblast": ["8M"], "sunnyday": ["8M"], "raindance": ["8M"], "scald": ["8M"], "sludgebomb": ["8M"], "powergem": ["8M"], "shadowball": ["8M"], "mysticburst": ["8M"], "focusblast": ["8M"], "aurasphere": ["8M"]}}, "fang": {"learnset": {"absorb": ["8M"], "supersonic": ["8M"], "poisonsting": ["8M"], "bite": ["8M"], "poisongas": ["8M"], "quickattack": ["8M"], "wingattack": ["8M"], "poisonfang": ["8M"], "leechlife": ["8M"], "silverwind": ["8M"], "doubleteam": ["8M"], "crosspoison": ["8M"], "toxic": ["8M"], "fly": ["8M"], "poisonjab": ["8M"], "tailwind": ["8M"], "crunch": ["8M"], "bravebird": ["8M"], "venomleech": ["8M"], "whirlwind": ["8M"], "gunkshot": ["8M"], "xscissor": ["8M"], "uturn": ["8M"], "pursuit": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "firefang": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "roost": ["8M"], "confuseray": ["8M"], "gigadrain": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "disable": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "painsplit": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "sludgebomb": ["8M"], "venoshock": ["8M"], "gastroacid": ["8M"], "sludgewave": ["8M"], "agility": ["8M"], "extremespeed": ["8M"], "venomdrench": ["8M"]}}, "swoop": {"learnset": {"absorb": ["8M"], "supersonic": ["8M"], "poisonsting": ["8M"], "bite": ["8M"], "poisongas": ["8M"], "quickattack": ["8M"], "wingattack": ["8M"], "poisonfang": ["8M"], "leechlife": ["8M"], "silverwind": ["8M"], "doubleteam": ["8M"], "crosspoison": ["8M"], "toxic": ["8M"], "fly": ["8M"], "poisonjab": ["8M"], "tailwind": ["8M"], "crunch": ["8M"], "bravebird": ["8M"], "venomleech": ["8M"], "whirlwind": ["8M"], "gunkshot": ["8M"], "xscissor": ["8M"], "uturn": ["8M"], "pursuit": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "firefang": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "roost": ["8M"], "confuseray": ["8M"], "gigadrain": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "disable": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "painsplit": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "sludgebomb": ["8M"], "venoshock": ["8M"], "gastroacid": ["8M"], "sludgewave": ["8M"]}}, "swampire": {"learnset": {"extremespeed": ["8M"], "absorb": ["8M"], "supersonic": ["8M"], "poisonsting": ["8M"], "bite": ["8M"], "poisongas": ["8M"], "quickattack": ["8M"], "wingattack": ["8M"], "poisonfang": ["8M"], "leechlife": ["8M"], "silverwind": ["8M"], "doubleteam": ["8M"], "crosspoison": ["8M"], "toxic": ["8M"], "fly": ["8M"], "poisonjab": ["8M"], "tailwind": ["8M"], "crunch": ["8M"], "bravebird": ["8M"], "venomleech": ["8M"], "whirlwind": ["8M"], "gunkshot": ["8M"], "xscissor": ["8M"], "uturn": ["8M"], "pursuit": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "firefang": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "roost": ["8M"], "confuseray": ["8M"], "gigadrain": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "disable": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "painsplit": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "sludgebomb": ["8M"], "venoshock": ["8M"], "gastroacid": ["8M"], "sludgewave": ["8M"]}}, "coincoffer": {"learnset": {"payday": ["8M"], "fakeout": ["8M"], "screech": ["8M"], "babydolleyes": ["8M"], "irondefense": ["8M"], "slackoff": ["8M"], "bodyslam": ["8M"], "mysticburst": ["8M"], "stompingtantrum": ["8M"], "stockpile": ["8M"], "swallow": ["8M"], "spitup": ["8M"], "ancientpower": ["8M"], "playrough": ["8M"], "spikes": ["8M"], "perishsong": ["8M"], "lastresort": ["8M"], "ironhead": ["8M"], "encore": ["8M"], "wish": ["8M"], "taunt": ["8M"], "toxic": ["8M"], "wildcharge": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "focusblast": ["8M"], "aurasphere": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "flamethrower": ["8M"], "fireblast": ["8M"], "defog": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "stealthrock": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "rocktomb": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "memento": ["8M"], "curse": ["8M"], "explosion": ["8M"]}}, "polterpup": {"learnset": {"lick": ["8M"], "growl": ["8M"], "disarmingvoice": ["8M"], "confuseray": ["8M"], "willowisp": ["8M"], "shadowsneak": ["8M"], "grudge": ["8M"], "hex": ["8M"], "moonlight": ["8M"], "trickortreat": ["8M"], "suckerpunch": ["8M"], "psychic": ["8M"], "darkpulse": ["8M"], "moonblast": ["8M"], "shadowball": ["8M"], "electroball": ["8M"], "darkvoid": ["8M"], "nightmare": ["8M"], "voltswitch": ["8M"], "thundershock": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "wildcharge": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "playrough": ["8M"], "toxic": ["8M"], "mysticburst": ["8M"], "flamethrower": ["8M"], "fireblast": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "defog": ["8M"], "tailwind": ["8M"], "grassknot": ["8M"], "blizzard": ["8M"], "icebeam": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "mist": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "disable": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "painsplit": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "scald": ["8M"], "surf": ["8M"], "raindance": ["8M"], "waterpulse": ["8M"], "destinybond": ["8M"], "drainingkiss": ["8M"], "overheat": ["8M"]}}, "stingby": {"learnset": {"absorb": ["8M"], "poisonsting": ["8M"], "furycutter": ["8M"], "bulkup": ["8M"], "headbutt": ["8M"], "pursuit": ["8M"], "razorleaf": ["8M"], "attackorder": ["8M"], "defendorder": ["8M"], "swordsdance": ["8M"], "uturn": ["8M"], "hornleech": ["8M"], "healorder": ["8M"], "poisonjab": ["8M"], "megahorn": ["8M"], "woodhammer": ["8M"], "infestation": ["8M"], "xscissor": ["8M"], "pollenpuff": ["8M"], "taunt": ["8M"], "torment": ["8M"], "payback": ["8M"], "knockoff": ["8M"], "aerialace": ["8M"], "leafblade": ["8M"], "leechseed": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "earthquake": ["8M"], "earthpower": ["8M"], "facade": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "gigaimpact": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "quiverdance": ["8M"], "stoneedge": ["8M"]}}, "beehoss": {"learnset": {"attackorder": ["8M"], "defendorder": ["8M"], "powerwhip": ["8M"], "absorb": ["8M"], "poisonsting": ["8M"], "furycutter": ["8M"], "headbutt": ["8M"], "bulkup": ["8M"], "pursuit": ["8M"], "razorleaf": ["8M"], "swordsdance": ["8M"], "uturn": ["8M"], "hornleech": ["8M"], "healorder": ["8M"], "poisonjab": ["8M"], "megahorn": ["8M"], "woodhammer": ["8M"], "beeswarm": ["8M"], "infestation": ["8M"], "xscissor": ["8M"], "pollenpuff": ["8M"], "taunt": ["8M"], "torment": ["8M"], "payback": ["8M"], "knockoff": ["8M"], "superpower": ["8M"], "aerialace": ["8M"], "leafblade": ["8M"], "leechseed": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "earthquake": ["8M"], "earthpower": ["8M"], "facade": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "gigaimpact": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"]}}, "mrblizzard": {"learnset": {"powdersnow": ["8M"], "mist": ["8M"], "iceshard": ["8M"], "astonish": ["8M"], "iceball": ["8M"], "curse": ["8M"], "flatter": ["8M"], "rockthrow": ["8M"], "avalanche": ["8M"], "powertrick": ["8M"], "bulldoze": ["8M"], "icepunch": ["8M"], "auroraveil": ["8M"], "substitute": ["8M"], "rockslide": ["8M"], "iciclecrash": ["8M"], "playrough": ["8M"], "tripleaxel": ["8M"], "recover": ["8M"], "sheercold": ["8M"], "earthquake": ["8M"], "mysticburst": ["8M"], "superpower": ["8M"], "shadowball": ["8M"], "energyball": ["8M"], "blizzard": ["8M"], "haze": ["8M"], "icebeam": ["8M"], "aurorabeam": ["8M"], "hail": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "megapunch": ["8M"], "gigaimpact": ["8M"], "sludgebomb": ["8M"], "gunkshot": ["8M"], "reflect": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "lightscreen": ["8M"], "stealthrock": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"], "waterfall": ["8M"], "circlethrow": ["8M"], "barrage": ["8M"], "thunderpunch": ["8M"]}}, "royalblizz": {"learnset": {"icehammer": ["8M"], "mist": ["8M"], "iceshard": ["8M"], "astonish": ["8M"], "iceball": ["8M"], "curse": ["8M"], "flatter": ["8M"], "rockthrow": ["8M"], "avalanche": ["8M"], "powertrick": ["8M"], "bulldoze": ["8M"], "icepunch": ["8M"], "auroraveil": ["8M"], "substitute": ["8M"], "rockslide": ["8M"], "iciclecrash": ["8M"], "playrough": ["8M"], "tripleaxel": ["8M"], "recover": ["8M"], "sheercold": ["8M"], "earthquake": ["8M"], "mysticburst": ["8M"], "superpower": ["8M"], "shadowball": ["8M"], "energyball": ["8M"], "blizzard": ["8M"], "haze": ["8M"], "icebeam": ["8M"], "aurorabeam": ["8M"], "hail": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "megapunch": ["8M"], "gigaimpact": ["8M"], "sludgebomb": ["8M"], "gunkshot": ["8M"], "reflect": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "lightscreen": ["8M"], "stealthrock": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"], "waterfall": ["8M"]}}, "cheepcheep": {"learnset": {"watergun": ["8M"], "tackle": ["8M"], "leer": ["8M"], "flail": ["8M"], "waterpulse": ["8M"], "amnesia": ["8M"], "aquaring": ["8M"], "raindance": ["8M"], "whirlpool": ["8M"], "flipturn": ["8M"], "scald": ["8M"], "soak": ["8M"], "airslash": ["8M"], "surf": ["8M"], "roost": ["8M"], "bounce": ["8M"], "hydropump": ["8M"], "uturn": ["8M"], "crunch": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "playrough": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "tailwind": ["8M"], "shadowball": ["8M"], "avalanche": ["8M"], "blizzard": ["8M"], "mist": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "icebeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "poisonfang": ["8M"], "steelwing": ["8M"], "waterfall": ["8M"], "thunderfang": ["8M"], "moonblast": ["8M"], "brine": ["8M"]}}, "bossbass": {"learnset": {"watergun": ["8M"], "tackle": ["8M"], "leer": ["8M"], "flail": ["8M"], "waterpulse": ["8M"], "amnesia": ["8M"], "aquaring": ["8M"], "raindance": ["8M"], "whirlpool": ["8M"], "flipturn": ["8M"], "scald": ["8M"], "soak": ["8M"], "airslash": ["8M"], "surf": ["8M"], "roost": ["8M"], "bounce": ["8M"], "hydropump": ["8M"], "uturn": ["8M"], "crunch": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "playrough": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "tailwind": ["8M"], "shadowball": ["8M"], "avalanche": ["8M"], "blizzard": ["8M"], "mist": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "icebeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "poisonfang": ["8M"], "steelwing": ["8M"], "waterfall": ["8M"]}}, "cheepskipper": {"learnset": {"icefang": ["8M"], "watergun": ["8M"], "tackle": ["8M"], "leer": ["8M"], "flail": ["8M"], "waterpulse": ["8M"], "amnesia": ["8M"], "aquaring": ["8M"], "raindance": ["8M"], "whirlpool": ["8M"], "flipturn": ["8M"], "scald": ["8M"], "soak": ["8M"], "airslash": ["8M"], "surf": ["8M"], "roost": ["8M"], "bounce": ["8M"], "hydropump": ["8M"], "waterspout": ["8M"], "uturn": ["8M"], "crunch": ["8M"], "torment": ["8M"], "fairywind": ["8M"], "dazzlinggleam": ["8M"], "playrough": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "tailwind": ["8M"], "shadowball": ["8M"], "avalanche": ["8M"], "blizzard": ["8M"], "mist": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "icebeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "poisonfang": ["8M"], "steelwing": ["8M"], "waterfall": ["8M"]}}, "fishbone": {"learnset": {"tackle": ["8M"], "leer": ["8M"], "bite": ["8M"], "shadowsneak": ["8M"], "watergun": ["8M"], "confuseray": ["8M"], "flipturn": ["8M"], "razorshell": ["8M"], "scaryface": ["8M"], "icefang": ["8M"], "crunch": ["8M"], "surf": ["8M"], "shadowbone": ["8M"], "stoneedge": ["8M"], "swordsdance": ["8M"], "waterfall": ["8M"], "irontail": ["8M"], "liquidation": ["8M"], "shadowforce": ["8M"], "aquatail": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "dragondance": ["8M"], "wildcharge": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "firefang": ["8M"], "aerialace": ["8M"], "fly": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "shadowclaw": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "icebeam": ["8M"], "blizzard": ["8M"], "aurorabeam": ["8M"], "toxic": ["8M"], "facade": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "painsplit": ["8M"], "zenheadbutt": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"], "raindance": ["8M"], "waterpulse": ["8M"], "scald": ["8M"], "hydropump": ["8M"], "dive": ["8M"], "aquajet": ["8M"], "drillrun": ["8M"]}}, "kingfin": {"learnset": {"thunderfang": ["8M"], "tackle": ["8M"], "leer": ["8M"], "bite": ["8M"], "shadowsneak": ["8M"], "watergun": ["8M"], "confuseray": ["8M"], "flipturn": ["8M"], "razorshell": ["8M"], "scaryface": ["8M"], "icefang": ["8M"], "crunch": ["8M"], "surf": ["8M"], "shadowbone": ["8M"], "stoneedge": ["8M"], "swordsdance": ["8M"], "waterfall": ["8M"], "irontail": ["8M"], "liquidation": ["8M"], "shadowforce": ["8M"], "aquatail": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "dragondance": ["8M"], "wildcharge": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "firefang": ["8M"], "aerialace": ["8M"], "fly": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "shadowclaw": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "icebeam": ["8M"], "blizzard": ["8M"], "aurorabeam": ["8M"], "toxic": ["8M"], "facade": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "painsplit": ["8M"], "zenheadbutt": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "ironhead": ["8M"], "raindance": ["8M"], "waterpulse": ["8M"], "scald": ["8M"], "hydropump": ["8M"]}}, "spark": {"learnset": {"thundershock": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "sonicboom": ["8M"], "rollout": ["8M"], "thunderwave": ["8M"], "pursuit": ["8M"], "spark": ["8M"], "zapattack": ["8M"], "taunt": ["8M"], "flamecharge": ["8M"], "ironhead": ["8M"], "wildcharge": ["8M"], "agility": ["8M"], "knockoff": ["8M"], "voltswitch": ["8M"], "zenheadbutt": ["8M"], "thunderbolt": ["8M"], "willowisp": ["8M"], "volttackle": ["8M"], "magnetrise": ["8M"], "swordsdance": ["8M"], "meteormash": ["8M"], "flareblitz": ["8M"], "darkpulse": ["8M"], "payback": ["8M"], "torment": ["8M"], "dragonpulse": ["8M"], "thunder": ["8M"], "superpower": ["8M"], "brickbreak": ["8M"], "fly": ["8M"], "shadowsneak": ["8M"], "solarbeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "painsplit": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "toxic": ["8M"], "fireblast": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "amnesia": ["8M"]}}, "amp": {"learnset": {"foulplay": ["8M"], "overheat": ["8M"], "thundershock": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "sonicboom": ["8M"], "rollout": ["8M"], "thunderwave": ["8M"], "pursuit": ["8M"], "spark": ["8M"], "zapattack": ["8M"], "taunt": ["8M"], "flamecharge": ["8M"], "ironhead": ["8M"], "wildcharge": ["8M"], "agility": ["8M"], "knockoff": ["8M"], "voltswitch": ["8M"], "zenheadbutt": ["8M"], "thunderbolt": ["8M"], "willowisp": ["8M"], "volttackle": ["8M"], "magnetrise": ["8M"], "swordsdance": ["8M"], "meteormash": ["8M"], "flareblitz": ["8M"], "darkpulse": ["8M"], "payback": ["8M"], "torment": ["8M"], "dragonpulse": ["8M"], "thunder": ["8M"], "superpower": ["8M"], "brickbreak": ["8M"], "fly": ["8M"], "shadowsneak": ["8M"], "solarbeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "painsplit": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "toxic": ["8M"], "fireblast": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "amnesia": ["8M"]}}, "boo": {"learnset": {"lick": ["8M"], "screech": ["8M"], "bite": ["8M"], "spite": ["8M"], "shadowsneak": ["8M"], "scaryface": ["8M"], "shadowpunch": ["8M"], "doubleteam": ["8M"], "taunt": ["8M"], "crunch": ["8M"], "grudge": ["8M"], "phantomforce": ["8M"], "zenheadbutt": ["8M"], "perishsong": ["8M"], "shadowforce": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "thundershock": ["8M"], "wildcharge": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "willowisp": ["8M"], "firefang": ["8M"], "fireblast": ["8M"], "aerialace": ["8M"], "fly": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "shadowclaw": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "sandtomb": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "return": ["8M"], "substitute": ["8M"], "disable": ["8M"], "painsplit": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "gigaimpact": ["8M"], "hyperbeam": ["8M"], "sludgebomb": ["8M"], "sludgewave": ["8M"], "poisonfang": ["8M"], "venoshock": ["8M"], "gastroacid": ["8M"], "gunkshot": ["8M"], "psychic": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "trickroom": ["8M"], "amnesia": ["8M"], "calmmind": ["8M"], "ironhead": ["8M"], "poisonjab": ["8M"], "fakeout": ["8M"], "hypnosis": ["8M"]}}, "boodies": {"learnset": {"triattack": ["8M"], "lick": ["8M"], "screech": ["8M"], "bite": ["8M"], "spite": ["8M"], "shadowsneak": ["8M"], "scaryface": ["8M"], "shadowpunch": ["8M"], "doubleteam": ["8M"], "taunt": ["8M"], "crunch": ["8M"], "grudge": ["8M"], "phantomforce": ["8M"], "zenheadbutt": ["8M"], "perishsong": ["8M"], "shadowforce": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "thundershock": ["8M"], "wildcharge": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "willowisp": ["8M"], "firefang": ["8M"], "fireblast": ["8M"], "aerialace": ["8M"], "fly": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "shadowclaw": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "sandtomb": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "return": ["8M"], "substitute": ["8M"], "disable": ["8M"], "painsplit": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "gigaimpact": ["8M"], "hyperbeam": ["8M"], "sludgebomb": ["8M"], "sludgewave": ["8M"], "poisonfang": ["8M"], "venoshock": ["8M"], "gastroacid": ["8M"], "gunkshot": ["8M"], "psychic": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "trickroom": ["8M"], "amnesia": ["8M"], "calmmind": ["8M"], "ironhead": ["8M"]}}, "boolossus": {"learnset": {"knockoff": ["8M"], "flamethrower": ["8M"], "willowisp": ["8M"], "lick": ["8M"], "screech": ["8M"], "bite": ["8M"], "spite": ["8M"], "shadowsneak": ["8M"], "scaryface": ["8M"], "shadowpunch": ["8M"], "doubleteam": ["8M"], "triattack": ["8M"], "taunt": ["8M"], "crunch": ["8M"], "grudge": ["8M"], "phantomforce": ["8M"], "zenheadbutt": ["8M"], "perishsong": ["8M"], "aquatail": ["8M"], "shadowforce": ["8M"], "swordsdance": ["8M"], "gunkshot": ["8M"], "spectralthief": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "payback": ["8M"], "torment": ["8M"], "thundershock": ["8M"], "wildcharge": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "firefang": ["8M"], "fireblast": ["8M"], "aerialace": ["8M"], "fly": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "shadowclaw": ["8M"], "earthquake": ["8M"], "dig": ["8M"], "sandtomb": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "return": ["8M"], "substitute": ["8M"], "disable": ["8M"], "painsplit": ["8M"], "protect": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "gigaimpact": ["8M"], "hyperbeam": ["8M"], "sludgebomb": ["8M"], "sludgewave": ["8M"], "poisonfang": ["8M"], "venoshock": ["8M"], "gastroacid": ["8M"], "psychic": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "trickroom": ["8M"], "amnesia": ["8M"], "calmmind": ["8M"], "ironhead": ["8M"]}}, "sidestepper": {"learnset": {"bubble": ["8M"], "scratch": ["8M"], "harden": ["8M"], "rocksmash": ["8M"], "rockthrow": ["8M"], "lowsweep": ["8M"], "detect": ["8M"], "bubblebeam": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "rockslide": ["8M"], "powergem": ["8M"], "xscissor": ["8M"], "payback": ["8M"], "knockoff": ["8M"], "focusblast": ["8M"], "superpower": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "sandstorm": ["8M"], "rocktomb": ["8M"], "stealthrock": ["8M"], "metalclaw": ["8M"], "flashcannon": ["8M"], "ironhead": ["8M"], "raindance": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "surf": ["8M"], "scald": ["8M"], "hydropump": ["8M"], "woodhammer": ["8M"], "meteormash": ["8M"], "dizzypunch": ["8M"]}}, "clawdaddy": {"learnset": {"surf": ["8M"], "bubble": ["8M"], "scratch": ["8M"], "harden": ["8M"], "rocksmash": ["8M"], "rockthrow": ["8M"], "lowsweep": ["8M"], "detect": ["8M"], "bubblebeam": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "rockslide": ["8M"], "scald": ["8M"], "nastyplot": ["8M"], "powergem": ["8M"], "burningbubbles": ["8M"], "aurasphere": ["8M"], "hydropump": ["8M"], "guillotine": ["8M"], "xscissor": ["8M"], "payback": ["8M"], "knockoff": ["8M"], "focusblast": ["8M"], "superpower": ["8M"], "poweruppunch": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "sandstorm": ["8M"], "rocktomb": ["8M"], "stealthrock": ["8M"], "metalclaw": ["8M"], "flashcannon": ["8M"], "ironhead": ["8M"], "raindance": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"]}}, "clawgrip": {"learnset": {"woodhammer": ["8M"], "lowkick": ["8M"], "bubble": ["8M"], "scratch": ["8M"], "harden": ["8M"], "rocksmash": ["8M"], "rockthrow": ["8M"], "lowsweep": ["8M"], "detect": ["8M"], "razorshell": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "rockslide": ["8M"], "skyuppercut": ["8M"], "swordsdance": ["8M"], "liquidation": ["8M"], "closecombat": ["8M"], "stoneedge": ["8M"], "crabhammer": ["8M"], "drainpunch": ["8M"], "icehammer": ["8M"], "focuspunch": ["8M"], "xscissor": ["8M"], "payback": ["8M"], "knockoff": ["8M"], "focusblast": ["8M"], "superpower": ["8M"], "poweruppunch": ["8M"], "aurasphere": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "sandstorm": ["8M"], "powergem": ["8M"], "rocktomb": ["8M"], "stealthrock": ["8M"], "metalclaw": ["8M"], "flashcannon": ["8M"], "ironhead": ["8M"], "raindance": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "surf": ["8M"], "scald": ["8M"], "hydropump": ["8M"]}}, "fizzlit": {"learnset": {"tackle": ["8M"], "growl": ["8M"], "nuzzle": ["8M"], "bite": ["8M"], "thundershock": ["8M"], "acidspray": ["8M"], "chargebeam": ["8M"], "raindance": ["8M"], "sludge": ["8M"], "acidarmor": ["8M"], "thunderbolt": ["8M"], "toxic": ["8M"], "venoshock": ["8M"], "uproar": ["8M"], "calmmind": ["8M"], "sludgebomb": ["8M"], "electrogoop": ["8M"], "zapcannon": ["8M"], "sludgewave": ["8M"], "belch": ["8M"], "darkpulse": ["8M"], "thunder": ["8M"], "voltswitch": ["8M"], "thunderwave": ["8M"], "wildcharge": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "firefang": ["8M"], "hex": ["8M"], "confuseray": ["8M"], "shadowball": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "poisonfang": ["8M"], "gastroacid": ["8M"], "gunkshot": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "amnesia": ["8M"], "roar": ["8M"], "minimize": ["8M"], "overheat": ["8M"]}}, "fizzlight": {"learnset": {"discharge": ["8M"], "tackle": ["8M"], "growl": ["8M"], "nuzzle": ["8M"], "bite": ["8M"], "thundershock": ["8M"], "acidspray": ["8M"], "chargebeam": ["8M"], "raindance": ["8M"], "sludge": ["8M"], "acidarmor": ["8M"], "thunderbolt": ["8M"], "toxic": ["8M"], "venoshock": ["8M"], "uproar": ["8M"], "calmmind": ["8M"], "sludgebomb": ["8M"], "electrogoop": ["8M"], "zapcannon": ["8M"], "sludgewave": ["8M"], "belch": ["8M"], "darkpulse": ["8M"], "thunder": ["8M"], "voltswitch": ["8M"], "thunderwave": ["8M"], "wildcharge": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "firefang": ["8M"], "hex": ["8M"], "confuseray": ["8M"], "shadowball": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "poisonfang": ["8M"], "gastroacid": ["8M"], "gunkshot": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "amnesia": ["8M"]}}, "fighterfly": {"learnset": {"counter": ["8M"], "bulletpunch": ["8M"], "pound": ["8M"], "leer": ["8M"], "karatechop": ["8M"], "endure": ["8M"], "furycutter": ["8M"], "machpunch": ["8M"], "bulkup": ["8M"], "forcepalm": ["8M"], "agility": ["8M"], "steamroller": ["8M"], "brickbreak": ["8M"], "suckerpunch": ["8M"], "xscissor": ["8M"], "drainpunch": ["8M"], "aerialace": ["8M"], "flyswatter": ["8M"], "firepunch": ["8M"], "icepunch": ["8M"], "thunderpunch": ["8M"], "swordsdance": ["8M"], "firstimpression": ["8M"], "closecombat": ["8M"], "focuspunch": ["8M"], "dynamicpunch": ["8M"], "uturn": ["8M"], "superpower": ["8M"], "lowsweep": ["8M"], "poweruppunch": ["8M"], "fly": ["8M"], "roost": ["8M"], "tailwind": ["8M"], "defog": ["8M"], "dig": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "steelwing": ["8M"]}}, "cheepchomp": {"learnset": {"tackle": ["8M"], "leer": ["8M"], "watergun": ["8M"], "scaryface": ["8M"], "bite": ["8M"], "aquajet": ["8M"], "whirlpool": ["8M"], "icefang": ["8M"], "suckerpunch": ["8M"], "dive": ["8M"], "swagger": ["8M"], "nightslash": ["8M"], "waterfall": ["8M"], "crunch": ["8M"], "hydropump": ["8M"], "bounce": ["8M"], "knockoff": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "payback": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "tailwind": ["8M"], "roost": ["8M"], "icebeam": ["8M"], "aurorabeam": ["8M"], "mist": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "poisonfang": ["8M"], "steelwing": ["8M"], "raindance": ["8M"], "waterpulse": ["8M"], "surf": ["8M"], "scald": ["8M"]}}, "porcupuffer": {"learnset": {"spikes": ["8M"], "tackle": ["8M"], "leer": ["8M"], "watergun": ["8M"], "scaryface": ["8M"], "bite": ["8M"], "aquajet": ["8M"], "whirlpool": ["8M"], "icefang": ["8M"], "suckerpunch": ["8M"], "dive": ["8M"], "swagger": ["8M"], "nightslash": ["8M"], "waterfall": ["8M"], "crunch": ["8M"], "hydropump": ["8M"], "bounce": ["8M"], "knockoff": ["8M"], "fishiousrend": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "payback": ["8M"], "superpower": ["8M"], "bulkup": ["8M"], "brickbreak": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "tailwind": ["8M"], "roost": ["8M"], "icebeam": ["8M"], "aurorabeam": ["8M"], "mist": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "poisonfang": ["8M"], "steelwing": ["8M"], "raindance": ["8M"], "waterpulse": ["8M"], "surf": ["8M"], "scald": ["8M"]}}, "jellybeam": {"learnset": {"moonblast": ["8M"], "tackle": ["8M"], "flash": ["8M"], "bubble": ["8M"], "thunderwave": ["8M"], "wrap": ["8M"], "shockwave": ["8M"], "bubblebeam": ["8M"], "raindance": ["8M"], "confuseray": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "discharge": ["8M"], "scald": ["8M"], "dazzlinggleam": ["8M"], "thunderbolt": ["8M"], "surf": ["8M"], "calmmind": ["8M"], "thunder": ["8M"], "hydropump": ["8M"], "zapcannon": ["8M"], "thundershock": ["8M"], "voltswitch": ["8M"], "fairywind": ["8M"], "incinerate": ["8M"], "flamethrower": ["8M"], "defog": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "blizzard": ["8M"], "icebeam": ["8M"], "mist": ["8M"], "haze": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "psychic": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "flashcannon": ["8M"]}}, "bulletbill": {"learnset": {"quickattack": ["8M"], "smokescreen": ["8M"], "flamecharge": ["8M"], "metalsound": ["8M"], "infernoturno": ["8M"], "agility": ["8M"], "flamewheel": ["8M"], "suckerpunch": ["8M"], "ironhead": ["8M"], "uturn": ["8M"], "wildcharge": ["8M"], "superpower": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "firefang": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "tailwind": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "flashcannon": ["8M"], "waterfall": ["8M"], "autotomize": ["8M"], "irondefense": ["8M"], "metalburst": ["8M"]}}, "banzaibill": {"learnset": {"quickattack": ["8M"], "smokescreen": ["8M"], "flamecharge": ["8M"], "metalsound": ["8M"], "infernoturno": ["8M"], "agility": ["8M"], "flamewheel": ["8M"], "suckerpunch": ["8M"], "ironhead": ["8M"], "scorchslam": ["8M"], "selfdestruct": ["8M"], "sunnyday": ["8M"], "shiftgear": ["8M"], "meteormash": ["8M"], "flareblitz": ["8M"], "wildcharge": ["8M"], "dragonrush": ["8M"], "uturn": ["8M"], "superpower": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "firefang": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "tailwind": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "flashcannon": ["8M"], "waterfall": ["8M"]}}, "kingbill": {"learnset": {"bulletpunch": ["8M"], "quickattack": ["8M"], "smokescreen": ["8M"], "flamecharge": ["8M"], "metalsound": ["8M"], "infernoturno": ["8M"], "agility": ["8M"], "flamewheel": ["8M"], "suckerpunch": ["8M"], "ironhead": ["8M"], "scorchslam": ["8M"], "selfdestruct": ["8M"], "sunnyday": ["8M"], "shiftgear": ["8M"], "meteormash": ["8M"], "flareblitz": ["8M"], "wildcharge": ["8M"], "dragonrush": ["8M"], "uturn": ["8M"], "superpower": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "firefang": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "tailwind": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "flashcannon": ["8M"], "waterfall": ["8M"]}}, "fuzzy": {"learnset": {"infestation": ["8M"], "growl": ["8M"], "powder": ["8M"], "curse": ["8M"], "strugglebug": ["8M"], "swagger": ["8M"], "snarl": ["8M"], "silverwind": ["8M"], "painsplit": ["8M"], "slackoff": ["8M"], "lifedrain": ["8M"], "bugbuzz": ["8M"], "scaryface": ["8M"], "darkpulse": ["8M"], "shadowball": ["8M"], "uturn": ["8M"], "spikes": ["8M"], "pollenpuff": ["8M"], "taunt": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "hex": ["8M"], "confuseray": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "earthpower": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "sludgebomb": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "amnesia": ["8M"], "drainingkiss": ["8M"], "signalbeam": ["8M"], "gyroball": ["8M"]}}, "fuzzilla": {"learnset": {"gigadrain": ["8M"], "infestation": ["8M"], "growl": ["8M"], "powder": ["8M"], "curse": ["8M"], "strugglebug": ["8M"], "swagger": ["8M"], "snarl": ["8M"], "silverwind": ["8M"], "painsplit": ["8M"], "slackoff": ["8M"], "lifedrain": ["8M"], "bugbuzz": ["8M"], "scaryface": ["8M"], "darkpulse": ["8M"], "shadowball": ["8M"], "uturn": ["8M"], "spikes": ["8M"], "pollenpuff": ["8M"], "taunt": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "hex": ["8M"], "confuseray": ["8M"], "energyball": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "earthpower": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "sludgebomb": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "amnesia": ["8M"]}}, "montymole": {"learnset": {"scratch": ["8M"], "honeclaws": ["8M"], "mudslap": ["8M"], "rockthrow": ["8M"], "mudshot": ["8M"], "sandstorm": ["8M"], "metalclaw": ["8M"], "dig": ["8M"], "earthpower": ["8M"], "uproar": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "toxic": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "rocktomb": ["8M"], "rockslide": ["8M"], "stealthrock": ["8M"], "rockblast": ["8M"], "hammerarm": ["8M"], "scorchingsands": ["8M"]}}, "rockywrench": {"learnset": {"scratch": ["8M"], "honeclaws": ["8M"], "mudslap": ["8M"], "rockthrow": ["8M"], "mudshot": ["8M"], "metalclaw": ["8M"], "dig": ["8M"], "sandstorm": ["8M"], "wrencherang": ["8M"], "protect": ["8M"], "irondefense": ["8M"], "mudbomb": ["8M"], "flashcannon": ["8M"], "uproar": ["8M"], "powergem": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "earthquake": ["8M"], "earthpower": ["8M"], "sandtomb": ["8M"], "lowsweep": ["8M"], "brickbreak": ["8M"], "rocktomb": ["8M"], "rockslide": ["8M"], "stealthrock": ["8M"]}}, "montytank": {"learnset": {"thunderbolt": ["8M"], "scratch": ["8M"], "honeclaws": ["8M"], "mudslap": ["8M"], "rockthrow": ["8M"], "mudshot": ["8M"], "metalclaw": ["8M"], "dig": ["8M"], "sandstorm": ["8M"], "bonemerang": ["8M"], "protect": ["8M"], "irondefense": ["8M"], "mudbomb": ["8M"], "flashcannon": ["8M"], "discharge": ["8M"], "earthpower": ["8M"], "hyperbeam": ["8M"], "powergem": ["8M"], "hydropump": ["8M"], "fireblast": ["8M"], "solarbeam": ["8M"], "steelbeam": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "earthquake": ["8M"], "rocktomb": ["8M"], "rockslide": ["8M"], "stealthrock": ["8M"], "sandtomb": ["8M"], "lowsweep": ["8M"], "brickbreak": ["8M"], "thunder": ["8M"], "thundershock": ["8M"], "thunderwave": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "icebeam": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"]}}, "toady": {"learnset": {"confusion": ["8M"], "teleport": ["8M"], "kinesis": ["8M"], "thief": ["8M"], "swift": ["8M"], "psywave": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "calmmind": ["8M"], "storedpower": ["8M"], "psychic": ["8M"], "icebeam": ["8M"], "psyshock": ["8M"], "recover": ["8M"], "shadowball": ["8M"], "futuresight": ["8M"], "psystrike": ["8M"], "hail": ["8M"], "darkpulse": ["8M"], "thunder": ["8M"], "thundershock": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "dazzlinggleam": ["8M"], "fairywind": ["8M"], "focusblast": ["8M"], "fireblast": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "willowisp": ["8M"], "hex": ["8M"], "confuseray": ["8M"], "energyball": ["8M"], "solarbeam": ["8M"], "gigadrain": ["8M"], "grassknot": ["8M"], "blizzard": ["8M"], "aurorabeam": ["8M"], "facade": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "flashcannon": ["8M"], "waterpulse": ["8M"], "scald": ["8M"], "surf": ["8M"], "raindance": ["8M"], "sandstorm": ["8M"], "mysticalfire": ["8M"], "encore": ["8M"], "trick": ["8M"]}}, "magikoopa": {"learnset": {"confusion": ["8M"], "teleport": ["8M"], "kinesis": ["8M"], "thief": ["8M"], "swift": ["8M"], "psywave": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "calmmind": ["8M"], "storedpower": ["8M"], "psychic": ["8M"], "icebeam": ["8M"], "psyshock": ["8M"], "recover": ["8M"], "shadowball": ["8M"], "futuresight": ["8M"], "psystrike": ["8M"], "hail": ["8M"], "darkpulse": ["8M"], "thunder": ["8M"], "thundershock": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "dazzlinggleam": ["8M"], "fairywind": ["8M"], "focusblast": ["8M"], "fireblast": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "willowisp": ["8M"], "hex": ["8M"], "confuseray": ["8M"], "energyball": ["8M"], "solarbeam": ["8M"], "gigadrain": ["8M"], "grassknot": ["8M"], "blizzard": ["8M"], "aurorabeam": ["8M"], "facade": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "flashcannon": ["8M"], "waterpulse": ["8M"], "scald": ["8M"], "surf": ["8M"], "raindance": ["8M"], "sandstorm": ["8M"]}}, "psykamek": {"learnset": {"nastyplot": ["8M"], "confusion": ["8M"], "teleport": ["8M"], "kinesis": ["8M"], "thief": ["8M"], "swift": ["8M"], "psywave": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "calmmind": ["8M"], "storedpower": ["8M"], "psychic": ["8M"], "icebeam": ["8M"], "psyshock": ["8M"], "recover": ["8M"], "shadowball": ["8M"], "futuresight": ["8M"], "psystrike": ["8M"], "hail": ["8M"], "darkpulse": ["8M"], "thunder": ["8M"], "thundershock": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "dazzlinggleam": ["8M"], "fairywind": ["8M"], "focusblast": ["8M"], "fireblast": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "willowisp": ["8M"], "hex": ["8M"], "confuseray": ["8M"], "energyball": ["8M"], "solarbeam": ["8M"], "gigadrain": ["8M"], "grassknot": ["8M"], "blizzard": ["8M"], "aurorabeam": ["8M"], "facade": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "flashcannon": ["8M"], "waterpulse": ["8M"], "scald": ["8M"], "surf": ["8M"], "raindance": ["8M"], "sandstorm": ["8M"]}}, "bully": {"learnset": {"tackle": ["8M"], "workup": ["8M"], "rocksmash": ["8M"], "metalsound": ["8M"], "vacuumwave": ["8M"], "mirrorshot": ["8M"], "flameburst": ["8M"], "flashcannon": ["8M"], "detect": ["8M"], "flamethrower": ["8M"], "aurasphere": ["8M"], "nastyplot": ["8M"], "focusblast": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "shadowball": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "rocktomb": ["8M"], "thunderwave": ["8M"], "poweruppunch": ["8M"], "irondefense": ["8M"], "calmmind": ["8M"], "hyperbeam": ["8M"], "thunderbolt": ["8M"], "round": ["8M"], "takedown": ["8M"], "gigaimpact": ["8M"], "dragonrush": ["8M"]}}, "nobully": {"learnset": {"doomdesire": ["8M"], "tackle": ["8M"], "workup": ["8M"], "rocksmash": ["8M"], "metalsound": ["8M"], "vacuumwave": ["8M"], "mirrorshot": ["8M"], "flameburst": ["8M"], "flashcannon": ["8M"], "detect": ["8M"], "flamethrower": ["8M"], "aurasphere": ["8M"], "nastyplot": ["8M"], "focusblast": ["8M"], "fireblast": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "shadowball": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "thunderbolt": ["8M"], "rocktomb": ["8M"], "thunderwave": ["8M"], "poweruppunch": ["8M"]}}, "chilly": {"learnset": {"tackle": ["8M"], "defensecurl": ["8M"], "rocksmash": ["8M"], "whirlwind": ["8M"], "hail": ["8M"], "forcepalm": ["8M"], "stomp": ["8M"], "airslash": ["8M"], "iciclecrash": ["8M"], "brickbreak": ["8M"], "bodyslam": ["8M"], "superpower": ["8M"], "doubleedge": ["8M"], "swordsdance": ["8M"], "sheercold": ["8M"], "gigaimpact": ["8M"], "hurricane": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "poweruppunch": ["8M"], "iceball": ["8M"], "aircutter": ["8M"], "iciclespear": ["8M"], "aurasphere": ["8M"], "blizzard": ["8M"], "iceshard": ["8M"], "detect": ["8M"], "skullbash": ["8M"], "takedown": ["8M"]}}, "chiefchill": {"learnset": {"heavyslam": ["8M"], "tackle": ["8M"], "defensecurl": ["8M"], "rocksmash": ["8M"], "whirlwind": ["8M"], "hail": ["8M"], "forcepalm": ["8M"], "stomp": ["8M"], "airslash": ["8M"], "iciclecrash": ["8M"], "brickbreak": ["8M"], "bodyslam": ["8M"], "superpower": ["8M"], "doubleedge": ["8M"], "swordsdance": ["8M"], "sheercold": ["8M"], "gigaimpact": ["8M"], "hurricane": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "trickroom": ["8M"], "poweruppunch": ["8M"]}}, "needlenose": {"learnset": {"tackle": ["8M"], "growl": ["8M"], "mudslap": ["8M"], "growth": ["8M"], "sandtomb": ["8M"], "spikes": ["8M"], "needlearm": ["8M"], "mudbomb": ["8M"], "takedown": ["8M"], "spikyshield": ["8M"], "gigadrain": ["8M"], "earthpower": ["8M"], "rockslide": ["8M"], "synthesis": ["8M"], "earthquake": ["8M"], "swordsdance": ["8M"], "powerwhip": ["8M"], "facade": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "energyball": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "dragondance": ["8M"], "curse": ["8M"], "bite": ["8M"], "crunch": ["8M"], "magnitude": ["8M"], "razorleaf": ["8M"], "toxicspikes": ["8M"], "bulldoze": ["8M"]}}, "pokey": {"learnset": {"tackle": ["8M"], "growl": ["8M"], "mudslap": ["8M"], "growth": ["8M"], "sandtomb": ["8M"], "spikes": ["8M"], "needlearm": ["8M"], "mudbomb": ["8M"], "takedown": ["8M"], "spikyshield": ["8M"], "gigadrain": ["8M"], "earthpower": ["8M"], "rockslide": ["8M"], "synthesis": ["8M"], "earthquake": ["8M"], "swordsdance": ["8M"], "powerwhip": ["8M"], "facade": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "energyball": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "dragondance": ["8M"], "curse": ["8M"], "bite": ["8M"], "crunch": ["8M"], "magnitude": ["8M"], "razorleaf": ["8M"], "toxicspikes": ["8M"]}}, "mummipokey": {"learnset": {"stealthrock": ["8M"], "tackle": ["8M"], "growl": ["8M"], "mudslap": ["8M"], "growth": ["8M"], "sandtomb": ["8M"], "spikes": ["8M"], "needlearm": ["8M"], "mudbomb": ["8M"], "takedown": ["8M"], "spikyshield": ["8M"], "gigadrain": ["8M"], "earthpower": ["8M"], "rockslide": ["8M"], "synthesis": ["8M"], "earthquake": ["8M"], "swordsdance": ["8M"], "powerwhip": ["8M"], "facade": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "poisonfang": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "energyball": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "firefang": ["8M"]}}, "spike": {"learnset": {"scratch": ["8M"], "leer": ["8M"], "focusenergy": ["8M"], "rockthrow": ["8M"], "magnitude": ["8M"], "sandstorm": ["8M"], "bellydrum": ["8M"], "rockslide": ["8M"], "spikeball": ["8M"], "stockpile": ["8M"], "spitup": ["8M"], "swallow": ["8M"], "bodypress": ["8M"], "circlethrow": ["8M"], "stoneedge": ["8M"], "heavyslam": ["8M"], "rockwrecker": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandtomb": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "stealthrock": ["8M"], "poweruppunch": ["8M"], "rollout": ["8M"], "powergem": ["8M"], "bulldoze": ["8M"], "ironhead": ["8M"], "bodyslam": ["8M"], "doubleedge": ["8M"], "flareblitz": ["8M"], "slackoff": ["8M"]}}, "clubba": {"learnset": {"knockoff": ["8M"], "scratch": ["8M"], "leer": ["8M"], "focusenergy": ["8M"], "rockthrow": ["8M"], "magnitude": ["8M"], "sandstorm": ["8M"], "bellydrum": ["8M"], "rockslide": ["8M"], "spikeball": ["8M"], "stockpile": ["8M"], "spitup": ["8M"], "swallow": ["8M"], "bodypress": ["8M"], "circlethrow": ["8M"], "stoneedge": ["8M"], "heavyslam": ["8M"], "rockwrecker": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandtomb": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "stealthrock": ["8M"], "poweruppunch": ["8M"]}}, "conkdor": {"learnset": {"tackle": ["8M"], "growl": ["8M"], "peck": ["8M"], "workup": ["8M"], "rocksmash": ["8M"], "fakeout": ["8M"], "sandtomb": ["8M"], "pluck": ["8M"], "defog": ["8M"], "stompingtantrum": ["8M"], "bodyslam": ["8M"], "acrobatics": ["8M"], "knockoff": ["8M"], "drillrun": ["8M"], "stealthrock": ["8M"], "drillpeck": ["8M"], "hammerarm": ["8M"], "ironhead": ["8M"], "roost": ["8M"], "bravebird": ["8M"], "powerwhip": ["8M"], "earthquake": ["8M"], "closecombat": ["8M"], "facade": ["8M"], "swift": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "aerialace": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "airslash": ["8M"], "taunt": ["8M"], "rocktomb": ["8M"], "steelwing": ["8M"], "superpower": ["8M"], "revenge": ["8M"], "stoneedge": ["8M"], "rockslide": ["8M"], "dragonrush": ["8M"], "slam": ["8M"], "strength": ["8M"], "detect": ["8M"]}}, "komboo": {"learnset": {"agility": ["8M"], "watergun": ["8M"], "growth": ["8M"], "ingrain": ["8M"], "vinewhip": ["8M"], "teeterdance": ["8M"], "synthesis": ["8M"], "grassknot": ["8M"], "curse": ["8M"], "brine": ["8M"], "doubleteam": ["8M"], "energyball": ["8M"], "surf": ["8M"], "leafstorm": ["8M"], "hydropump": ["8M"], "calmmind": ["8M"], "raindance": ["8M"], "swift": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "infestation": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "gigadrain": ["8M"], "haze": ["8M"], "waterpulse": ["8M"], "leechseed": ["8M"]}}, "klepto": {"learnset": {"steelwing": ["8M"], "sandattack": ["8M"], "peck": ["8M"], "thief": ["8M"], "featherdance": ["8M"], "sandtomb": ["8M"], "aerialace": ["8M"], "tailwind": ["8M"], "nightslash": ["8M"], "roost": ["8M"], "drillrun": ["8M"], "drillpeck": ["8M"], "acupressure": ["8M"], "uturn": ["8M"], "foulplay": ["8M"], "bravebird": ["8M"], "sandstorm": ["8M"], "knockoff": ["8M"], "psychocut": ["8M"], "skyattack": ["8M"], "earthquake": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "pursuit": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "sludgebomb": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "airslash": ["8M"], "taunt": ["8M"], "haze": ["8M"], "trickroom": ["8M"]}}, "drybones": {"learnset": {"sandattack": ["8M"], "astonish": ["8M"], "spite": ["8M"], "curse": ["8M"], "boneclub": ["8M"], "hex": ["8M"], "scaryface": ["8M"], "willowisp": ["8M"], "imprison": ["8M"], "shadowbone": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "dragonpulse": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "sandstorm": ["8M"], "shadowball": ["8M"], "sandtomb": ["8M"], "sludgebomb": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "shadowclaw": ["8M"], "shadowpunch": ["8M"], "phantomforce": ["8M"], "mudbomb": ["8M"], "earthpower": ["8M"], "bulldoze": ["8M"], "darkpulse": ["8M"]}}, "elitebones": {"learnset": {"dragondance": ["8M"], "knockoff": ["8M"], "sandattack": ["8M"], "astonish": ["8M"], "spite": ["8M"], "curse": ["8M"], "boneclub": ["8M"], "hex": ["8M"], "scaryface": ["8M"], "willowisp": ["8M"], "imprison": ["8M"], "shadowbone": ["8M"], "bonerush": ["8M"], "endeavor": ["8M"], "bonemerang": ["8M"], "rockslide": ["8M"], "destinybond": ["8M"], "earthquake": ["8M"], "stoneedge": ["8M"], "fissure": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "dragonpulse": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "sandstorm": ["8M"], "shadowball": ["8M"], "sandtomb": ["8M"], "sludgebomb": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "shadowclaw": ["8M"], "rocktomb": ["8M"]}}, "parabones": {"learnset": {"aircutter": ["8M"], "ominouswind": ["8M"], "tailwind": ["8M"], "sandattack": ["8M"], "astonish": ["8M"], "spite": ["8M"], "curse": ["8M"], "boneclub": ["8M"], "hex": ["8M"], "wingattack": ["8M"], "scaryface": ["8M"], "willowisp": ["8M"], "imprison": ["8M"], "shadowbone": ["8M"], "shadowball": ["8M"], "airslash": ["8M"], "endeavor": ["8M"], "earthpower": ["8M"], "destinybond": ["8M"], "hurricane": ["8M"], "nastyplot": ["8M"], "oblivionwing": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "dragonpulse": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "sandstorm": ["8M"], "sandtomb": ["8M"], "sludgebomb": ["8M"], "aerialace": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "taunt": ["8M"], "shadowclaw": ["8M"], "roost": ["8M"], "steelwing": ["8M"]}}, "bobomb": {"learnset": {"tackle": ["8M"], "ember": ["8M"], "smokescreen": ["8M"], "smog": ["8M"], "payback": ["8M"], "incinerate": ["8M"], "selfdestruct": ["8M"], "mudbomb": ["8M"], "bodyslam": ["8M"], "flameburst": ["8M"], "metalsound": ["8M"], "lavaplume": ["8M"], "flashcannon": ["8M"], "flamethrower": ["8M"], "calmmind": ["8M"], "fireblast": ["8M"], "explosion": ["8M"], "facade": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "inferno": ["8M"], "darkpulse": ["8M"], "powergem": ["8M"], "focusblast": ["8M"], "mysticalfire": ["8M"]}}, "bobarm": {"learnset": {"firepunch": ["8M"], "tackle": ["8M"], "ember": ["8M"], "smokescreen": ["8M"], "smog": ["8M"], "payback": ["8M"], "incinerate": ["8M"], "selfdestruct": ["8M"], "mudbomb": ["8M"], "bodyslam": ["8M"], "flameburst": ["8M"], "metalsound": ["8M"], "lavaplume": ["8M"], "flashcannon": ["8M"], "flamethrower": ["8M"], "calmmind": ["8M"], "fireblast": ["8M"], "explosion": ["8M"], "facade": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "poweruppunch": ["8M"]}}, "kingomb": {"learnset": {"flareblitz": ["8M"], "firepunch": ["8M"], "tackle": ["8M"], "ember": ["8M"], "smokescreen": ["8M"], "smog": ["8M"], "payback": ["8M"], "incinerate": ["8M"], "selfdestruct": ["8M"], "mudbomb": ["8M"], "bodyslam": ["8M"], "flameburst": ["8M"], "metalsound": ["8M"], "lavaplume": ["8M"], "flashcannon": ["8M"], "flamethrower": ["8M"], "calmmind": ["8M"], "fireblast": ["8M"], "explosion": ["8M"], "trick": ["8M"], "focusblast": ["8M"], "overheat": ["8M"], "closecombat": ["8M"], "blastburn": ["8M"], "powergem": ["8M"], "nastyplot": ["8M"], "facade": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "poweruppunch": ["8M"]}}, "broozer": {"learnset": {"cometpunch": ["8M"], "bulkup": ["8M"], "scaryface": ["8M"], "shadowpunch": ["8M"], "machpunch": ["8M"], "pursuit": ["8M"], "megapunch": ["8M"], "detect": ["8M"], "skyuppercut": ["8M"], "phantompunch": ["8M"], "firepunch": ["8M"], "icepunch": ["8M"], "thunderpunch": ["8M"], "dynamicpunch": ["8M"], "focuspunch": ["8M"], "counter": ["8M"], "reversal": ["8M"], "closecombat": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "shadowball": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "poweruppunch": ["8M"], "drainpunch": ["8M"], "dizzypunch": ["8M"], "suckerpunch": ["8M"], "superpower": ["8M"], "swagger": ["8M"], "spite": ["8M"], "crunch": ["8M"], "bulletpunch": ["8M"]}}, "whimp": {"learnset": {"mudslap": ["8M"], "tackle": ["8M"], "leer": ["8M"], "rockfall": ["8M"], "screech": ["8M"], "slam": ["8M"], "magnitude": ["8M"], "rockslide": ["8M"], "bulldoze": ["8M"], "doubleedge": ["8M"], "stoneedge": ["8M"], "earthquake": ["8M"], "heavyfall": ["8M"], "fissure": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "sandtomb": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "rocktomb": ["8M"], "poweruppunch": ["8M"], "firepunch": ["8M"], "curse": ["8M"], "dragonrush": ["8M"], "rockpolish": ["8M"], "metalburst": ["8M"], "skullbash": ["8M"], "rockblast": ["8M"]}}, "whomp": {"learnset": {"heavyslam": ["8M"], "heatcrash": ["8M"], "mudslap": ["8M"], "tackle": ["8M"], "leer": ["8M"], "rockfall": ["8M"], "screech": ["8M"], "slam": ["8M"], "magnitude": ["8M"], "rockslide": ["8M"], "bulldoze": ["8M"], "doubleedge": ["8M"], "stoneedge": ["8M"], "earthquake": ["8M"], "heavyfall": ["8M"], "fissure": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "sandtomb": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "rocktomb": ["8M"], "poweruppunch": ["8M"]}}, "torpedoted": {"learnset": {"waterfall": ["8M"], "quickattack": ["8M"], "smokescreen": ["8M"], "selfdestruct": ["8M"], "whirlpool": ["8M"], "metalsound": ["8M"], "magnetbomb": ["8M"], "waterpulse": ["8M"], "agility": ["8M"], "aquajet": ["8M"], "scald": ["8M"], "flashcannon": ["8M"], "torpedorush": ["8M"], "fakeout": ["8M"], "surf": ["8M"], "raindance": ["8M"], "hydropump": ["8M"], "steelbeam": ["8M"], "uturn": ["8M"], "wildcharge": ["8M"], "superpower": ["8M"], "fireblast": ["8M"], "willowisp": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "firefang": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "airslash": ["8M"], "tailwind": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "gigaimpact": ["8M"], "zenheadbutt": ["8M"], "ironhead": ["8M"]}}, "electroopa": {"learnset": {"tackle": ["8M"], "withdraw": ["8M"], "thundershock": ["8M"], "charge": ["8M"], "thunderwave": ["8M"], "roar": ["8M"], "voltswitch": ["8M"], "shockwave": ["8M"], "confuseray": ["8M"], "powergem": ["8M"], "thunderbolt": ["8M"], "protect": ["8M"], "dragonpulse": ["8M"], "thunder": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "shadowball": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "rocktomb": ["8M"], "discharge": ["8M"], "electroball": ["8M"], "uturn": ["8M"], "raindance": ["8M"], "reflect": ["8M"]}}, "voltroopa": {"learnset": {"discharge": ["8M"], "tackle": ["8M"], "withdraw": ["8M"], "thundershock": ["8M"], "charge": ["8M"], "thunderwave": ["8M"], "roar": ["8M"], "voltswitch": ["8M"], "shockwave": ["8M"], "confuseray": ["8M"], "powergem": ["8M"], "thunderbolt": ["8M"], "protect": ["8M"], "dragonpulse": ["8M"], "thunder": ["8M"], "megahorn": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "shadowball": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"]}}, "unira": {"learnset": {"rapidspin": ["8M"], "watergun": ["8M"], "attract": ["8M"], "confusion": ["8M"], "sing": ["8M"], "barrier": ["8M"], "bubblebeam": ["8M"], "psybeam": ["8M"], "trickroom": ["8M"], "surf": ["8M"], "psyshock": ["8M"], "recover": ["8M"], "futuresight": ["8M"], "hydropump": ["8M"], "psychic": ["8M"], "calmmind": ["8M"], "storedpower": ["8M"], "raindance": ["8M"], "swift": ["8M"], "fairywind": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "shadowball": ["8M"], "sludgebomb": ["8M"], "rest": ["8M"], "confuseray": ["8M"], "sleeptalk": ["8M"], "airslash": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "thunderbolt": ["8M"], "waterpulse": ["8M"], "thunderwave": ["8M"], "icebeam": ["8M"], "aquaring": ["8M"], "extrasensory": ["8M"], "scald": ["8M"]}}, "urchin": {"learnset": {"dazzlinggleam": ["8M"], "rapidspin": ["8M"], "watergun": ["8M"], "attract": ["8M"], "confusion": ["8M"], "sing": ["8M"], "barrier": ["8M"], "bubblebeam": ["8M"], "psybeam": ["8M"], "trickroom": ["8M"], "surf": ["8M"], "psyshock": ["8M"], "recover": ["8M"], "futuresight": ["8M"], "hydropump": ["8M"], "psychic": ["8M"], "calmmind": ["8M"], "storedpower": ["8M"], "raindance": ["8M"], "swift": ["8M"], "fairywind": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "shadowball": ["8M"], "sludgebomb": ["8M"], "rest": ["8M"], "confuseray": ["8M"], "sleeptalk": ["8M"], "airslash": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "thunderbolt": ["8M"], "waterpulse": ["8M"], "thunderwave": ["8M"]}}, "charginchuck": {"learnset": {"growl": ["8M"], "tackle": ["8M"], "workup": ["8M"], "rocksmash": ["8M"], "armthrust": ["8M"], "quickattack": ["8M"], "knockoff": ["8M"], "endure": ["8M"], "bodyslam": ["8M"], "shoulderbash": ["8M"], "dynamicpunch": ["8M"], "batonpass": ["8M"], "payback": ["8M"], "playrough": ["8M"], "focuspunch": ["8M"], "bulkup": ["8M"], "doubleedge": ["8M"], "closecombat": ["8M"], "gigaimpact": ["8M"], "meteormash": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "uturn": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "rocktomb": ["8M"], "poweruppunch": ["8M"], "rockthrow": ["8M"], "vitalthrow": ["8M"], "megapunch": ["8M"], "firepunch": ["8M"], "thunderpunch": ["8M"], "machpunch": ["8M"], "crosschop": ["8M"], "detect": ["8M"], "revenge": ["8M"], "bodypress": ["8M"], "aurasphere": ["8M"], "vacuumwave": ["8M"], "focusblast": ["8M"]}}, "virus": {"learnset": {"screech": ["8M"], "doubleslap": ["8M"], "poisonsting": ["8M"], "poisonpowder": ["8M"], "sleeppowder": ["8M"], "stunspore": ["8M"], "poisonfang": ["8M"], "minimize": ["8M"], "toxic": ["8M"], "refresh": ["8M"], "suckerpunch": ["8M"], "poisonjab": ["8M"], "recover": ["8M"], "sludgewave": ["8M"], "acidarmor": ["8M"], "gunkshot": ["8M"], "hex": ["8M"], "facade": ["8M"], "swift": ["8M"], "uturn": ["8M"], "willowisp": ["8M"], "return": ["8M"], "thundershock": ["8M"], "metalclaw": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "gigadrain": ["8M"], "thunderwave": ["8M"], "trickroom": ["8M"], "amnesia": ["8M"], "sludgebomb": ["8M"], "calmmind": ["8M"], "tickle": ["8M"], "flamethrower": ["8M"], "icebeam": ["8M"], "knockoff": ["8M"]}}, "trirus": {"learnset": {"growth": ["8M"], "screech": ["8M"], "doubleslap": ["8M"], "poisonsting": ["8M"], "poisonpowder": ["8M"], "sleeppowder": ["8M"], "stunspore": ["8M"], "poisonfang": ["8M"], "minimize": ["8M"], "toxic": ["8M"], "refresh": ["8M"], "suckerpunch": ["8M"], "poisonjab": ["8M"], "recover": ["8M"], "triattack": ["8M"], "sludgewave": ["8M"], "acidarmor": ["8M"], "gunkshot": ["8M"], "hex": ["8M"], "facade": ["8M"], "swift": ["8M"], "uturn": ["8M"], "willowisp": ["8M"], "return": ["8M"], "thundershock": ["8M"], "metalclaw": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "gigadrain": ["8M"], "thunderwave": ["8M"], "trickroom": ["8M"]}}, "rex": {"learnset": {"tailwhip": ["8M"], "endure": ["8M"], "twister": ["8M"], "echoedvoice": ["8M"], "safeguard": ["8M"], "glare": ["8M"], "swift": ["8M"], "dragonbreath": ["8M"], "protect": ["8M"], "dragonrage": ["8M"], "dragontail": ["8M"], "flamethrower": ["8M"], "dragonpulse": ["8M"], "hypervoice": ["8M"], "stompingtantrum": ["8M"], "hyperbeam": ["8M"], "megahorn": ["8M"], "dracometeor": ["8M"], "healbell": ["8M"], "facade": ["8M"], "raindance": ["8M"], "return": ["8M"], "toxic": ["8M"], "thundershock": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "airslash": ["8M"], "roost": ["8M"], "poweruppunch": ["8M"], "steelwing": ["8M"], "hurricane": ["8M"], "tailslap": ["8M"], "flameburst": ["8M"], "overheat": ["8M"], "outrage": ["8M"], "thunderbolt": ["8M"], "roar": ["8M"], "earthpower": ["8M"], "bodyslam": ["8M"]}}, "chibichomp": {"learnset": {"tackle": ["8M"], "growl": ["8M"], "rollout": ["8M"], "howl": ["8M"], "ironbash": ["8M"], "rage": ["8M"], "firefang": ["8M"], "autotomize": ["8M"], "roar": ["8M"], "takedown": ["8M"], "flashcannon": ["8M"], "crunch": ["8M"], "irondefense": ["8M"], "meteormash": ["8M"], "swordsdance": ["8M"], "headsmash": ["8M"], "superfang": ["8M"], "earthquake": ["8M"], "heavyslam": ["8M"], "facade": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "poisonfang": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "stealthrock": ["8M"], "bite": ["8M"], "rockslide": ["8M"], "bulldoze": ["8M"], "defensecurl": ["8M"], "hypervoice": ["8M"], "steamroller": ["8M"], "bodypress": ["8M"]}}, "chainchomp": {"learnset": {"thunderfang": ["8M"], "tackle": ["8M"], "growl": ["8M"], "rollout": ["8M"], "howl": ["8M"], "ironbash": ["8M"], "rage": ["8M"], "firefang": ["8M"], "autotomize": ["8M"], "roar": ["8M"], "takedown": ["8M"], "flashcannon": ["8M"], "crunch": ["8M"], "irondefense": ["8M"], "meteormash": ["8M"], "swordsdance": ["8M"], "headsmash": ["8M"], "superfang": ["8M"], "earthquake": ["8M"], "heavyslam": ["8M"], "facade": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "poisonfang": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "stealthrock": ["8M"]}}, "dragoneel": {"learnset": {"watergun": ["8M"], "growl": ["8M"], "twister": ["8M"], "aquaring": ["8M"], "whirlpool": ["8M"], "coil": ["8M"], "bite": ["8M"], "waterpulse": ["8M"], "dragonbreath": ["8M"], "crunch": ["8M"], "raindance": ["8M"], "surf": ["8M"], "nastyplot": ["8M"], "dragonpulse": ["8M"], "aquatail": ["8M"], "dracotornado": ["8M"], "hydropump": ["8M"], "hurricane": ["8M"], "dracometeor": ["8M"], "facade": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "thundershock": ["8M"], "mist": ["8M"], "shadowball": ["8M"], "sandtomb": ["8M"], "poisonfang": ["8M"], "aerialace": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "airslash": ["8M"], "incinerate": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "roost": ["8M"], "firefang": ["8M"], "steelwing": ["8M"], "dragonrage": ["8M"], "dragondance": ["8M"], "swordsdance": ["8M"], "calmmind": ["8M"], "scald": ["8M"], "waterfall": ["8M"], "icefang": ["8M"], "thunderfang": ["8M"], "psychicfangs": ["8M"]}}, "mechakoopa": {"learnset": {"thundershock": ["8M"], "growl": ["8M"], "magnetrise": ["8M"], "confusion": ["8M"], "shockwave": ["8M"], "metalsound": ["8M"], "voltswitch": ["8M"], "thunderwave": ["8M"], "lightscreen": ["8M"], "discharge": ["8M"], "substitute": ["8M"], "flashcannon": ["8M"], "thunder": ["8M"], "zapcannon": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "raindance": ["8M"], "dragonpulse": ["8M"], "swift": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "sandstorm": ["8M"], "shadowball": ["8M"], "poisonfang": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "confuseray": ["8M"], "sleeptalk": ["8M"], "airslash": ["8M"], "energyball": ["8M"], "incinerate": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "thunderbolt": ["8M"], "waterpulse": ["8M"], "trickroom": ["8M"], "firefang": ["8M"]}}, "jelectro": {"learnset": {"tackle": ["8M"], "flash": ["8M"], "bubble": ["8M"], "thunderwave": ["8M"], "wrap": ["8M"], "shockwave": ["8M"], "bubblebeam": ["8M"], "raindance": ["8M"], "confuseray": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "discharge": ["8M"], "scald": ["8M"], "dazzlinggleam": ["8M"], "thunderbolt": ["8M"], "surf": ["8M"], "calmmind": ["8M"], "thunder": ["8M"], "hydropump": ["8M"], "zapcannon": ["8M"], "thundershock": ["8M"], "voltswitch": ["8M"], "fairywind": ["8M"], "incinerate": ["8M"], "flamethrower": ["8M"], "defog": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "blizzard": ["8M"], "icebeam": ["8M"], "mist": ["8M"], "haze": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "psychic": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "flashcannon": ["8M"], "hurricane": ["8M"], "whirlpool": ["8M"], "chargebeam": ["8M"]}}, "flurry": {"learnset": {"powdersnow": ["8M"], "confide": ["8M"], "drainingkiss": ["8M"], "charm": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "airslash": ["8M"], "dazzlinggleam": ["8M"], "icebeam": ["8M"], "hail": ["8M"], "auroraveil": ["8M"], "moonblast": ["8M"], "freezedry": ["8M"], "blizzard": ["8M"], "mysticburst": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "sandtomb": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "psybeam": ["8M"], "frostbreath": ["8M"], "sweetkiss": ["8M"], "amnesia": ["8M"], "psychic": ["8M"], "icywind": ["8M"], "hurricane": ["8M"]}}, "topmini": {"learnset": {"tackle": ["8M"], "harden": ["8M"], "thundershock": ["8M"], "thunderwave": ["8M"], "rapidspin": ["8M"], "charge": ["8M"], "metalsound": ["8M"], "chargebeam": ["8M"], "autotomize": ["8M"], "mirrorshot": ["8M"], "shiftgear": ["8M"], "discharge": ["8M"], "magnetrise": ["8M"], "flashcannon": ["8M"], "hypervoice": ["8M"], "thunderbolt": ["8M"], "nastyplot": ["8M"], "voltswitch": ["8M"], "thunder": ["8M"], "steelbeam": ["8M"], "boomburst": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"]}}, "topman": {"learnset": {"tackle": ["8M"], "harden": ["8M"], "thundershock": ["8M"], "thunderwave": ["8M"], "rapidspin": ["8M"], "charge": ["8M"], "metalsound": ["8M"], "chargebeam": ["8M"], "autotomize": ["8M"], "mirrorshot": ["8M"], "shiftgear": ["8M"], "discharge": ["8M"], "magnetrise": ["8M"], "flashcannon": ["8M"], "hypervoice": ["8M"], "thunderbolt": ["8M"], "nastyplot": ["8M"], "voltswitch": ["8M"], "thunder": ["8M"], "steelbeam": ["8M"], "boomburst": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"]}}, "topmaniac": {"learnset": {"zapcannon": ["8M"], "spikes": ["8M"], "tackle": ["8M"], "harden": ["8M"], "thundershock": ["8M"], "thunderwave": ["8M"], "rapidspin": ["8M"], "charge": ["8M"], "metalsound": ["8M"], "chargebeam": ["8M"], "autotomize": ["8M"], "mirrorshot": ["8M"], "shiftgear": ["8M"], "discharge": ["8M"], "magnetrise": ["8M"], "flashcannon": ["8M"], "hypervoice": ["8M"], "thunderbolt": ["8M"], "nastyplot": ["8M"], "voltswitch": ["8M"], "thunder": ["8M"], "steelbeam": ["8M"], "boomburst": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"]}}, "lovubble": {"learnset": {"tackle": ["8M"], "harden": ["8M"], "gust": ["8M"], "babydolleyes": ["8M"], "fairywind": ["8M"], "sweetscent": ["8M"], "roost": ["8M"], "aerialace": ["8M"], "tailwind": ["8M"], "featherdance": ["8M"], "acupressure": ["8M"], "airslash": ["8M"], "dazzlinggleam": ["8M"], "safeguard": ["8M"], "calmmind": ["8M"], "hurricane": ["8M"], "wish": ["8M"], "moonblast": ["8M"], "dreameater": ["8M"], "hyperbeam": ["8M"], "facade": ["8M"], "raindance": ["8M"], "swift": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "rest": ["8M"], "confuseray": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "haze": ["8M"], "trickroom": ["8M"], "steelwing": ["8M"], "barrier": ["8M"], "agility": ["8M"], "hypervoice": ["8M"], "batonpass": ["8M"]}}, "smeech": {"learnset": {"drainingkiss": ["8M"], "amnesia": ["8M"], "tackle": ["8M"], "harden": ["8M"], "gust": ["8M"], "babydolleyes": ["8M"], "fairywind": ["8M"], "sweetscent": ["8M"], "roost": ["8M"], "aerialace": ["8M"], "tailwind": ["8M"], "featherdance": ["8M"], "acupressure": ["8M"], "sweetkiss": ["8M"], "airslash": ["8M"], "dazzlinggleam": ["8M"], "safeguard": ["8M"], "calmmind": ["8M"], "hurricane": ["8M"], "lovelykiss": ["8M"], "wish": ["8M"], "moonblast": ["8M"], "dreameater": ["8M"], "hyperbeam": ["8M"], "strengthsap": ["8M"], "facade": ["8M"], "raindance": ["8M"], "swift": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "rest": ["8M"], "confuseray": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "haze": ["8M"], "trickroom": ["8M"], "steelwing": ["8M"], "gigadrain": ["8M"]}}, "foo": {"learnset": {"icywind": ["8M"], "growl": ["8M"], "tackle": ["8M"], "gust": ["8M"], "mist": ["8M"], "fairywind": ["8M"], "sing": ["8M"], "refresh": ["8M"], "round": ["8M"], "aircutter": ["8M"], "freeziewind": ["8M"], "aurorabeam": ["8M"], "roost": ["8M"], "whirlwind": ["8M"], "airslash": ["8M"], "icebeam": ["8M"], "tailwind": ["8M"], "hurricane": ["8M"], "calmmind": ["8M"], "blizzard": ["8M"], "hail": ["8M"], "sunnyday": ["8M"], "raindance": ["8M"], "surf": ["8M"], "waterpulse": ["8M"], "thunder": ["8M"], "thundershock": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "dazzlinggleam": ["8M"], "mysticburst": ["8M"], "aurasphere": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "shadowball": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "steelwing": ["8M"], "haze": ["8M"]}}, "tyfoo": {"learnset": {"freezedry": ["8M"], "growl": ["8M"], "tackle": ["8M"], "gust": ["8M"], "mist": ["8M"], "fairywind": ["8M"], "sing": ["8M"], "refresh": ["8M"], "round": ["8M"], "icywind": ["8M"], "aircutter": ["8M"], "freeziewind": ["8M"], "roost": ["8M"], "whirlwind": ["8M"], "airslash": ["8M"], "icebeam": ["8M"], "tailwind": ["8M"], "hurricane": ["8M"], "calmmind": ["8M"], "aeroblast": ["8M"], "blizzard": ["8M"], "hail": ["8M"], "sunnyday": ["8M"], "aurorabeam": ["8M"], "raindance": ["8M"], "surf": ["8M"], "waterpulse": ["8M"], "thunder": ["8M"], "thundershock": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "dazzlinggleam": ["8M"], "mysticburst": ["8M"], "aurasphere": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "defog": ["8M"], "shadowball": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "steelwing": ["8M"], "haze": ["8M"]}}, "cooligan": {"learnset": {"iceshard": ["8M"], "iciclespear": ["8M"], "tackle": ["8M"], "leer": ["8M"], "aquajet": ["8M"], "mist": ["8M"], "raindance": ["8M"], "iceball": ["8M"], "headbutt": ["8M"], "flipturn": ["8M"], "hail": ["8M"], "agility": ["8M"], "avalanche": ["8M"], "waterfall": ["8M"], "bellydrum": ["8M"], "iciclecrash": ["8M"], "drillpeck": ["8M"], "bodyslam": ["8M"], "blizzard": ["8M"], "drillrun": ["8M"], "skullbash": ["8M"], "sheercold": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "waterpulse": ["8M"]}}, "megamole": {"learnset": {"dig": ["8M"], "sandstorm": ["8M"], "knockoff": ["8M"], "scratch": ["8M"], "honeclaws": ["8M"], "mudslap": ["8M"], "rockthrow": ["8M"], "mudshot": ["8M"], "metalclaw": ["8M"], "slackoff": ["8M"], "rockslide": ["8M"], "earthquake": ["8M"], "doubleedge": ["8M"], "bulkup": ["8M"], "dragonclaw": ["8M"], "fissure": ["8M"], "closecombat": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "toxic": ["8M"], "earthpower": ["8M"], "sandtomb": ["8M"], "playrough": ["8M"], "superpower": ["8M"], "lowsweep": ["8M"], "brickbreak": ["8M"], "poweruppunch": ["8M"], "avalanche": ["8M"], "zenheadbutt": ["8M"], "ironhead": ["8M"], "rocktomb": ["8M"], "stealthrock": ["8M"]}}, "firesnake": {"learnset": {"ember": ["8M"], "tailwhip": ["8M"], "confusion": ["8M"], "amnesia": ["8M"], "flamecharge": ["8M"], "firespin": ["8M"], "flamewheel": ["8M"], "psybeam": ["8M"], "morningsun": ["8M"], "mysticalfire": ["8M"], "scorchslam": ["8M"], "willowisp": ["8M"], "agility": ["8M"], "zenheadbutt": ["8M"], "flareblitz": ["8M"], "stoneedge": ["8M"], "playrough": ["8M"], "darkpulse": ["8M"], "sacredfire": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "fireblast": ["8M"], "psychic": ["8M"], "futuresight": ["8M"], "calmmind": ["8M"], "storedpower": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "lavaplume": ["8M"]}}, "angrysun": {"learnset": {"flamethrower": ["8M"], "ember": ["8M"], "confusion": ["8M"], "amnesia": ["8M"], "flamecharge": ["8M"], "firespin": ["8M"], "flamewheel": ["8M"], "psybeam": ["8M"], "morningsun": ["8M"], "mysticalfire": ["8M"], "scorchslam": ["8M"], "willowisp": ["8M"], "agility": ["8M"], "zenheadbutt": ["8M"], "flareblitz": ["8M"], "stoneedge": ["8M"], "playrough": ["8M"], "darkpulse": ["8M"], "sacredfire": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "airslash": ["8M"], "incinerate": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"]}}, "phanto": {"learnset": {"scaryface": ["8M"], "fakeout": ["8M"], "snarl": ["8M"], "disarmingvoice": ["8M"], "torment": ["8M"], "nightshade": ["8M"], "darkpulse": ["8M"], "confuseray": ["8M"], "shadowball": ["8M"], "meanlook": ["8M"], "nastyplot": ["8M"], "moonblast": ["8M"], "psychic": ["8M"], "powergem": ["8M"], "topsyturvy": ["8M"], "wickedlaugh": ["8M"], "facade": ["8M"], "pursuit": ["8M"], "uturn": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "thundershock": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "energyball": ["8M"], "taunt": ["8M"], "aurorabeam": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "trickroom": ["8M"]}}, "sumobro": {"learnset": {"thunderthrust": ["8M"], "superpower": ["8M"], "growl": ["8M"], "tackle": ["8M"], "bulkup": ["8M"], "thundershock": ["8M"], "armthrust": ["8M"], "fakeout": ["8M"], "shockwave": ["8M"], "detect": ["8M"], "slam": ["8M"], "thunderbolt": ["8M"], "aurasphere": ["8M"], "calmmind": ["8M"], "thunder": ["8M"], "focusblast": ["8M"], "closecombat": ["8M"], "mysticburst": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "dragonpulse": ["8M"], "pursuit": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "sandstorm": ["8M"], "voltswitch": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "rocktomb": ["8M"], "thunderwave": ["8M"], "poweruppunch": ["8M"]}}, "bitefrost": {"learnset": {"growl": ["8M"], "bite": ["8M"], "howl": ["8M"], "powdersnow": ["8M"], "mudshot": ["8M"], "screech": ["8M"], "iceshard": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "rockslide": ["8M"], "bulldoze": ["8M"], "hail": ["8M"], "icefang": ["8M"], "crunch": ["8M"], "iciclecrash": ["8M"], "stoneedge": ["8M"], "dragonrush": ["8M"], "dragondance": ["8M"], "earthquake": ["8M"], "ironhead": ["8M"], "superpower": ["8M"], "psychicfangs": ["8M"], "heavyslam": ["8M"], "gigaimpact": ["8M"], "dragonpulse": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "sandtomb": ["8M"], "sludgebomb": ["8M"], "poisonfang": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "rocktomb": ["8M"], "firefang": ["8M"], "thunderfang": ["8M"], "leechlife": ["8M"], "superfang": ["8M"], "hyperfang": ["8M"], "swordsdance": ["8M"], "agility": ["8M"], "iciclespear": ["8M"], "blizzard": ["8M"]}}, "scuttler": {"learnset": {"stringshot": ["8M"], "vicegrip": ["8M"], "poisonsting": ["8M"], "pinmissile": ["8M"], "toxic": ["8M"], "scaryface": ["8M"], "poisonfang": ["8M"], "signalbeam": ["8M"], "spiderweb": ["8M"], "agility": ["8M"], "venoshock": ["8M"], "stickyweb": ["8M"], "bugbuzz": ["8M"], "sludgebomb": ["8M"], "gigadrain": ["8M"], "crunch": ["8M"], "sludgewave": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "return": ["8M"], "infestation": ["8M"], "rest": ["8M"], "confuseray": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "energyball": ["8M"], "taunt": ["8M"], "firefang": ["8M"], "leechlife": ["8M"], "strugglebug": ["8M"], "superfang": ["8M"], "amnesia": ["8M"], "substitute": ["8M"], "toxicspikes": ["8M"], "poisonjab": ["8M"], "knockoff": ["8M"]}}, "scuttlebug": {"learnset": {"acidspray": ["8M"], "stringshot": ["8M"], "vicegrip": ["8M"], "poisonsting": ["8M"], "pinmissile": ["8M"], "toxic": ["8M"], "scaryface": ["8M"], "signalbeam": ["8M"], "spiderweb": ["8M"], "agility": ["8M"], "venoshock": ["8M"], "stickyweb": ["8M"], "bugbuzz": ["8M"], "sludgebomb": ["8M"], "gigadrain": ["8M"], "darkpulse": ["8M"], "sludgewave": ["8M"], "leechlife": ["8M"], "nastyplot": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "return": ["8M"], "infestation": ["8M"], "poisonfang": ["8M"], "rest": ["8M"], "confuseray": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "energyball": ["8M"], "taunt": ["8M"], "firefang": ["8M"]}}, "venomush": {"learnset": {"poisongas": ["8M"], "tackle": ["8M"], "bite": ["8M"], "acidspray": ["8M"], "scaryface": ["8M"], "focusenergy": ["8M"], "feintattack": ["8M"], "venoshock": ["8M"], "torment": ["8M"], "screech": ["8M"], "toxic": ["8M"], "sludgebomb": ["8M"], "venomdrench": ["8M"], "crunch": ["8M"], "poisonjab": ["8M"], "suckerpunch": ["8M"], "bulkup": ["8M"], "gunkshot": ["8M"], "knockoff": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "pursuit": ["8M"], "return": ["8M"], "shadowball": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "darkpulse": ["8M"], "poisonfang": ["8M"], "crosspoison": ["8M"], "nastyplot": ["8M"], "embargo": ["8M"], "fling": ["8M"], "beatup": ["8M"], "icefang": ["8M"]}}, "zombimush": {"learnset": {"sludgewave": ["8M"], "poisongas": ["8M"], "bite": ["8M"], "tackle": ["8M"], "acidspray": ["8M"], "scaryface": ["8M"], "focusenergy": ["8M"], "feintattack": ["8M"], "venoshock": ["8M"], "torment": ["8M"], "screech": ["8M"], "toxic": ["8M"], "sludgebomb": ["8M"], "venomdrench": ["8M"], "crunch": ["8M"], "poisonjab": ["8M"], "suckerpunch": ["8M"], "bulkup": ["8M"], "partingshot": ["8M"], "knockoff": ["8M"], "toxicspikes": ["8M"], "foulplay": ["8M"], "gunkshot": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "pursuit": ["8M"], "return": ["8M"], "shadowball": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"]}}, "komu": {"learnset": {"watergun": ["8M"], "growth": ["8M"], "ingrain": ["8M"], "vinewhip": ["8M"], "teeterdance": ["8M"], "synthesis": ["8M"], "grassknot": ["8M"], "curse": ["8M"], "brine": ["8M"], "doubleteam": ["8M"], "energyball": ["8M"], "surf": ["8M"], "leafstorm": ["8M"], "hydropump": ["8M"], "calmmind": ["8M"], "raindance": ["8M"], "swift": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "infestation": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "gigadrain": ["8M"], "haze": ["8M"], "waterpulse": ["8M"], "leechseed": ["8M"], "aurasphere": ["8M"], "muddywater": ["8M"], "solarbeam": ["8M"], "aromatherapy": ["8M"], "nastyplot": ["8M"]}}, "sumolad": {"learnset": {"growl": ["8M"], "tackle": ["8M"], "bulkup": ["8M"], "thundershock": ["8M"], "armthrust": ["8M"], "fakeout": ["8M"], "shockwave": ["8M"], "detect": ["8M"], "slam": ["8M"], "thunderthrust": ["8M"], "thunderbolt": ["8M"], "aurasphere": ["8M"], "calmmind": ["8M"], "thunder": ["8M"], "focusblast": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "dragonpulse": ["8M"], "pursuit": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "sandstorm": ["8M"], "voltswitch": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "rocktomb": ["8M"], "thunderwave": ["8M"], "poweruppunch": ["8M"], "rockthrow": ["8M"], "vitalthrow": ["8M"], "megapunch": ["8M"], "thunderpunch": ["8M"], "crosschop": ["8M"], "revenge": ["8M"], "reversal": ["8M"]}}, "jango": {"learnset": {"sandattack": ["8M"], "peck": ["8M"], "thief": ["8M"], "featherdance": ["8M"], "sandtomb": ["8M"], "aerialace": ["8M"], "tailwind": ["8M"], "nightslash": ["8M"], "roost": ["8M"], "drillrun": ["8M"], "drillpeck": ["8M"], "acupressure": ["8M"], "foulplay": ["8M"], "bravebird": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "pursuit": ["8M"], "uturn": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "sandstorm": ["8M"], "sludgebomb": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "airslash": ["8M"], "taunt": ["8M"], "haze": ["8M"], "trickroom": ["8M"], "steelwing": ["8M"], "agility": ["8M"], "skyattack": ["8M"], "fly": ["8M"], "knockoff": ["8M"], "bodyslam": ["8M"]}}, "bumpty": {"learnset": {"tackle": ["8M"], "leer": ["8M"], "aquajet": ["8M"], "mist": ["8M"], "raindance": ["8M"], "iceball": ["8M"], "headbutt": ["8M"], "flipturn": ["8M"], "hail": ["8M"], "agility": ["8M"], "iceshard": ["8M"], "avalanche": ["8M"], "waterfall": ["8M"], "bellydrum": ["8M"], "iciclecrash": ["8M"], "drillpeck": ["8M"], "bodyslam": ["8M"], "blizzard": ["8M"], "drillrun": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "waterpulse": ["8M"], "bodypress": ["8M"], "protect": ["8M"], "liquidation": ["8M"], "doubleedge": ["8M"]}}, "dinotorch": {"learnset": {"tackle": ["8M"], "leer": ["8M"], "twister": ["8M"], "ember": ["8M"], "dragonrage": ["8M"], "dragonbreath": ["8M"], "flameburst": ["8M"], "earthpower": ["8M"], "dragonpulse": ["8M"], "flamethrower": ["8M"], "focusblast": ["8M"], "fireblast": ["8M"], "hypervoice": ["8M"], "dracometeor": ["8M"], "facade": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "aurasphere": ["8M"], "shadowball": ["8M"], "overheat": ["8M"], "dragondance": ["8M"], "foulplay": ["8M"], "darkpulse": ["8M"], "crunch": ["8M"], "firefang": ["8M"]}}, "dinorhino": {"learnset": {"tackle": ["8M"], "leer": ["8M"], "twister": ["8M"], "ember": ["8M"], "dragonrage": ["8M"], "dragonbreath": ["8M"], "flameburst": ["8M"], "earthpower": ["8M"], "dragonpulse": ["8M"], "flamethrower": ["8M"], "focusblast": ["8M"], "fireblast": ["8M"], "hypervoice": ["8M"], "dracometeor": ["8M"], "facade": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"]}}, "reznor": {"learnset": {"dragonboost": ["8M"], "lavaplume": ["8M"], "tackle": ["8M"], "leer": ["8M"], "twister": ["8M"], "ember": ["8M"], "dragonrage": ["8M"], "dragonbreath": ["8M"], "flameburst": ["8M"], "earthpower": ["8M"], "dragonpulse": ["8M"], "flamethrower": ["8M"], "focusblast": ["8M"], "fireblast": ["8M"], "megahorn": ["8M"], "hypervoice": ["8M"], "darkpulse": ["8M"], "dracometeor": ["8M"], "magmastorm": ["8M"], "facade": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"]}}, "shrooblet": {"learnset": {"tackle": ["8M"], "growl": ["8M"], "rapidspin": ["8M"], "startwirl": ["8M"], "gravity": ["8M"], "poisonfang": ["8M"], "headbutt": ["8M"], "cosmicpower": ["8M"], "psychocut": ["8M"], "shadowclaw": ["8M"], "roleplay": ["8M"], "zenheadbutt": ["8M"], "facade": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "thunderwave": ["8M"]}}, "shroob": {"learnset": {"tackle": ["8M"], "growl": ["8M"], "rapidspin": ["8M"], "startwirl": ["8M"], "gravity": ["8M"], "poisonfang": ["8M"], "headbutt": ["8M"], "cosmicpower": ["8M"], "psychocut": ["8M"], "shadowclaw": ["8M"], "roleplay": ["8M"], "zenheadbutt": ["8M"], "facade": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "thunderwave": ["8M"]}}, "shrooboid": {"learnset": {"dragonclaw": ["8M"], "tackle": ["8M"], "growl": ["8M"], "rapidspin": ["8M"], "startwirl": ["8M"], "gravity": ["8M"], "poisonfang": ["8M"], "headbutt": ["8M"], "cosmicpower": ["8M"], "psychocut": ["8M"], "shadowclaw": ["8M"], "roleplay": ["8M"], "zenheadbutt": ["8M"], "knockoff": ["8M"], "honeclaws": ["8M"], "flareblitz": ["8M"], "wildcharge": ["8M"], "gravitysmash": ["8M"], "closecombat": ["8M"], "moonlight": ["8M"], "drainpunch": ["8M"], "facade": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "thunderwave": ["8M"], "firefang": ["8M"], "poweruppunch": ["8M"]}}, "sfo": {"learnset": {"dragonpulse": ["8M"], "tackle": ["8M"], "growl": ["8M"], "rapidspin": ["8M"], "startwirl": ["8M"], "gravity": ["8M"], "poisonfang": ["8M"], "headbutt": ["8M"], "cosmicpower": ["8M"], "psyshock": ["8M"], "shadowball": ["8M"], "roleplay": ["8M"], "psychic": ["8M"], "darkpulse": ["8M"], "nastyplot": ["8M"], "flashcannon": ["8M"], "thunderbolt": ["8M"], "gravitycannon": ["8M"], "focusblast": ["8M"], "moonlight": ["8M"], "fireblast": ["8M"], "steelbeam": ["8M"], "hex": ["8M"], "facade": ["8M"], "swift": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "thundershock": ["8M"], "mist": ["8M"], "sludgebomb": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "airslash": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "thunderwave": ["8M"], "trickroom": ["8M"]}}, "sbobomb": {"learnset": {"powdersnow": ["8M"], "rapidspin": ["8M"], "ember": ["8M"], "recover": ["8M"], "haze": ["8M"], "hail": ["8M"], "taunt": ["8M"], "iceshard": ["8M"], "aurorabeam": ["8M"], "irondefense": ["8M"], "selfdestruct": ["8M"], "amnesia": ["8M"], "icywind": ["8M"], "flameburst": ["8M"], "icebeam": ["8M"], "magiccoat": ["8M"], "freezedry": ["8M"], "flamethrower": ["8M"], "flashcannon": ["8M"], "calmmind": ["8M"], "fireblast": ["8M"], "blizzard": ["8M"], "agility": ["8M"], "freezeblast": ["8M"], "moonblast": ["8M"], "iceburn": ["8M"], "overheat": ["8M"], "explosion": ["8M"], "auroraveil": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"]}}, "sblooper": {"learnset": {"tackle": ["8M"], "ingrain": ["8M"], "vinewhip": ["8M"], "confusion": ["8M"], "teleport": ["8M"], "cosmicpower": ["8M"], "razorleaf": ["8M"], "trick": ["8M"], "psychoshift": ["8M"], "psychocut": ["8M"], "smackdown": ["8M"], "seedbomb": ["8M"], "swordsdance": ["8M"], "psychowhip": ["8M"], "earthpower": ["8M"], "powerwhip": ["8M"], "synthesis": ["8M"], "woodhammer": ["8M"], "knockoff": ["8M"], "psychic": ["8M"], "gigadrain": ["8M"], "solarblade": ["8M"], "earthquake": ["8M"], "facade": ["8M"], "uturn": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "sandstorm": ["8M"], "shadowball": ["8M"], "infestation": ["8M"], "sandtomb": ["8M"], "sludgebomb": ["8M"], "rest": ["8M"], "confuseray": ["8M"], "sleeptalk": ["8M"], "energyball": ["8M"], "shadowclaw": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "trickroom": ["8M"]}}, "spodoboo": {"learnset": {"tackle": ["8M"], "harden": ["8M"], "bubble": ["8M"], "icywind": ["8M"], "iceball": ["8M"], "agility": ["8M"], "bubblebeam": ["8M"], "divinebubble": ["8M"], "hail": ["8M"], "iciclecrash": ["8M"], "surf": ["8M"], "nastyplot": ["8M"], "icebeam": ["8M"], "airslash": ["8M"], "blizzard": ["8M"], "auroraveil": ["8M"], "shadowball": ["8M"], "hydropump": ["8M"], "freezedry": ["8M"], "recover": ["8M"], "mysticburst": ["8M"], "hurricane": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"]}}, "skoopatroopa": {"learnset": {"tackle": ["8M"], "honeclaws": ["8M"], "rapidspin": ["8M"], "payback": ["8M"], "rocksmash": ["8M"], "crushclaw": ["8M"], "metalclaw": ["8M"], "feintattack": ["8M"], "extremespeed": ["8M"], "xscissor": ["8M"], "shadowclaw": ["8M"], "meteormash": ["8M"], "corruptclaws": ["8M"], "dragonclaw": ["8M"], "swordsdance": ["8M"], "irondefense": ["8M"], "knockoff": ["8M"], "acrobatics": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "dragonpulse": ["8M"], "pursuit": ["8M"], "return": ["8M"], "toxic": ["8M"], "aerialace": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "taunt": ["8M"], "poweruppunch": ["8M"]}}, "sboo": {"learnset": {"lick": ["8M"], "haze": ["8M"], "watergun": ["8M"], "fairywind": ["8M"], "mist": ["8M"], "bubblebeam": ["8M"], "aquaring": ["8M"], "healbell": ["8M"], "mistywind": ["8M"], "flipturn": ["8M"], "moonlight": ["8M"], "surf": ["8M"], "moonblast": ["8M"], "raindance": ["8M"], "psyshock": ["8M"], "perishsong": ["8M"], "wish": ["8M"], "batonpass": ["8M"], "cosmicpower": ["8M"], "yawn": ["8M"], "hex": ["8M"], "facade": ["8M"], "swift": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "shadowball": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "airslash": ["8M"], "energyball": ["8M"], "taunt": ["8M"], "aurorabeam": ["8M"], "thunderwave": ["8M"], "trickroom": ["8M"]}}, "flappy": {"learnset": {"pound": ["8M"], "leer": ["8M"], "karatechop": ["8M"], "endure": ["8M"], "furycutter": ["8M"], "machpunch": ["8M"], "bulkup": ["8M"], "forcepalm": ["8M"], "agility": ["8M"], "steamroller": ["8M"], "brickbreak": ["8M"], "suckerpunch": ["8M"], "xscissor": ["8M"], "drainpunch": ["8M"], "aerialace": ["8M"], "flyswatter": ["8M"], "firepunch": ["8M"], "icepunch": ["8M"], "thunderpunch": ["8M"], "swordsdance": ["8M"], "firstimpression": ["8M"], "closecombat": ["8M"], "focuspunch": ["8M"], "dynamicpunch": ["8M"], "uturn": ["8M"], "superpower": ["8M"], "lowsweep": ["8M"], "poweruppunch": ["8M"], "fly": ["8M"], "roost": ["8M"], "tailwind": ["8M"], "defog": ["8M"], "dig": ["8M"], "facade": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "toxic": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "steelwing": ["8M"], "leechlife": ["8M"], "poisonjab": ["8M"], "stickyweb": ["8M"]}}, "dusty": {"learnset": {"rapidspin": ["8M"], "sandattack": ["8M"], "twister": ["8M"], "sandtomb": ["8M"], "aircutter": ["8M"], "sandstorm": ["8M"], "tailwind": ["8M"], "dustdevil": ["8M"], "razorwind": ["8M"], "silverwind": ["8M"], "airslash": ["8M"], "agility": ["8M"], "earthpower": ["8M"], "hurricane": ["8M"], "powergem": ["8M"], "stealthrock": ["8M"], "nastyplot": ["8M"], "facade": ["8M"], "fairywind": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "aerialace": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "taunt": ["8M"], "rocktomb": ["8M"], "mudbomb": ["8M"], "mudshot": ["8M"], "scaryface": ["8M"], "swift": ["8M"], "hypervoice": ["8M"], "hyperbeam": ["8M"], "firespin": ["8M"], "painsplit": ["8M"], "smokescreen": ["8M"], "substitute": ["8M"], "ominouswind": ["8M"]}}, "tweester": {"learnset": {"hypervoice": ["8M"], "rapidspin": ["8M"], "sandattack": ["8M"], "twister": ["8M"], "sandtomb": ["8M"], "aircutter": ["8M"], "sandstorm": ["8M"], "tailwind": ["8M"], "dustdevil": ["8M"], "razorwind": ["8M"], "silverwind": ["8M"], "airslash": ["8M"], "agility": ["8M"], "earthpower": ["8M"], "hurricane": ["8M"], "powergem": ["8M"], "stealthrock": ["8M"], "nastyplot": ["8M"], "facade": ["8M"], "fairywind": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "aerialace": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "taunt": ["8M"], "rocktomb": ["8M"]}}, "sbuzzybeetle": {"learnset": {"strugglebug": ["8M"], "twister": ["8M"], "dragonbreath": ["8M"], "swift": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "signalbeam": ["8M"], "wish": ["8M"], "aurasphere": ["8M"], "airslash": ["8M"], "quiverdance": ["8M"], "dragonpulse": ["8M"], "bugbuzz": ["8M"], "powergem": ["8M"], "dragontail": ["8M"], "moonlight": ["8M"], "dracometeor": ["8M"], "nastyplot": ["8M"], "healingwish": ["8M"], "facade": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "shadowball": ["8M"], "infestation": ["8M"], "aerialace": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "roost": ["8M"], "trickroom": ["8M"], "steelwing": ["8M"], "silverwind": ["8M"], "ancientpower": ["8M"], "dazzlinggleam": ["8M"], "hurricane": ["8M"], "hyperbeam": ["8M"], "stickyweb": ["8M"], "focusblast": ["8M"], "thunderwave": ["8M"]}}, "pokio": {"learnset": {"peck": ["8M"], "growl": ["8M"], "defog": ["8M"], "doublekick": ["8M"], "sharpen": ["8M"], "pluck": ["8M"], "featherdance": ["8M"], "steelwing": ["8M"], "roost": ["8M"], "knockoff": ["8M"], "piercingpoke": ["8M"], "drillpeck": ["8M"], "agility": ["8M"], "tailwind": ["8M"], "meteormash": ["8M"], "facade": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "mist": ["8M"], "aerialace": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "haze": ["8M"], "stealthrock": ["8M"], "ominouswind": ["8M"], "bravebird": ["8M"], "playrough": ["8M"], "foulplay": ["8M"], "spikes": ["8M"], "smackdown": ["8M"], "irondefense": ["8M"]}}, "luma": {"learnset": {"confusion": ["8M"], "fairywind": ["8M"], "safeguard": ["8M"], "wish": ["8M"], "mistywind": ["8M"], "teleport": ["8M"], "hypnosis": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "psybeam": ["8M"], "confuseray": ["8M"], "psychic": ["8M"], "calmmind": ["8M"], "moonblast": ["8M"], "cosmicpower": ["8M"], "futuresight": ["8M"], "shadowball": ["8M"], "earthpower": ["8M"], "recover": ["8M"], "gravity": ["8M"], "energyball": ["8M"], "psychoboost": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "raindance": ["8M"], "dragonpulse": ["8M"], "swift": ["8M"], "pursuit": ["8M"], "uturn": ["8M"], "willowisp": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "thundershock": ["8M"], "mist": ["8M"], "metalclaw": ["8M"], "sandstorm": ["8M"], "infestation": ["8M"], "sandtomb": ["8M"], "sludgebomb": ["8M"], "voltswitch": ["8M"], "poisonfang": ["8M"], "aerialace": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "airslash": ["8M"], "gigadrain": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "thunderbolt": ["8M"], "shadowclaw": ["8M"], "grassknot": ["8M"], "rocktomb": ["8M"], "waterpulse": ["8M"], "stealthrock": ["8M"], "thunderwave": ["8M"], "leechseed": ["8M"], "roost": ["8M"], "trickroom": ["8M"], "firefang": ["8M"], "poweruppunch": ["8M"], "steelwing": ["8M"], "flamethrower": ["8M"], "hyperbeam": ["8M"], "mirrorcoat": ["8M"], "signalbeam": ["8M"], "flashcannon": ["8M"], "icywind": ["8M"], "trick": ["8M"], "healingwish": ["8M"], "knockoff": ["8M"], "healbell": ["8M"]}}, "lumalee": {"learnset": {"psyshock": ["8M"], "confusion": ["8M"], "fairywind": ["8M"], "safeguard": ["8M"], "wish": ["8M"], "mistywind": ["8M"], "teleport": ["8M"], "hypnosis": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "psybeam": ["8M"], "confuseray": ["8M"], "psychic": ["8M"], "calmmind": ["8M"], "moonblast": ["8M"], "cosmicpower": ["8M"], "futuresight": ["8M"], "shadowball": ["8M"], "earthpower": ["8M"], "recover": ["8M"], "gravity": ["8M"], "energyball": ["8M"], "psychoboost": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "shadowsneak": ["8M"], "raindance": ["8M"], "dragonpulse": ["8M"], "swift": ["8M"], "pursuit": ["8M"], "uturn": ["8M"], "willowisp": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "thundershock": ["8M"], "mist": ["8M"], "metalclaw": ["8M"], "sandstorm": ["8M"], "infestation": ["8M"], "sandtomb": ["8M"], "sludgebomb": ["8M"], "voltswitch": ["8M"], "poisonfang": ["8M"], "aerialace": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "airslash": ["8M"], "gigadrain": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "thunderbolt": ["8M"], "shadowclaw": ["8M"], "grassknot": ["8M"], "rocktomb": ["8M"], "waterpulse": ["8M"], "stealthrock": ["8M"], "thunderwave": ["8M"], "leechseed": ["8M"], "roost": ["8M"], "trickroom": ["8M"], "firefang": ["8M"], "poweruppunch": ["8M"], "steelwing": ["8M"]}}, "eggranha": {"learnset": {"tackle": ["8M"], "harden": ["8M"], "seedbomb": ["8M"], "tailwhip": ["8M"], "vinewhip": ["8M"], "leechseed": ["8M"], "protect": ["8M"], "tailslap": ["8M"], "dualchop": ["8M"], "synthesis": ["8M"], "bodyslam": ["8M"], "dragontail": ["8M"], "flamecharge": ["8M"], "dragonhammer": ["8M"], "facade": ["8M"], "dragonpulse": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "energyball": ["8M"], "grassknot": ["8M"], "gunkshot": ["8M"], "gigadrain": ["8M"], "hammerarm": ["8M"], "brickbreak": ["8M"], "superpower": ["8M"], "foulplay": ["8M"], "knockoff": ["8M"], "irondefense": ["8M"], "bodypress": ["8M"]}}, "dinoranha": {"learnset": {"energyball": ["8M"], "tackle": ["8M"], "harden": ["8M"], "tailwhip": ["8M"], "vinewhip": ["8M"], "bite": ["8M"], "leechseed": ["8M"], "protect": ["8M"], "tailslap": ["8M"], "dualchop": ["8M"], "psychicfangs": ["8M"], "synthesis": ["8M"], "bodyslam": ["8M"], "seedbomb": ["8M"], "firefang": ["8M"], "dragontail": ["8M"], "crunch": ["8M"], "flamecharge": ["8M"], "dragonhammer": ["8M"], "woodhammer": ["8M"], "outrage": ["8M"], "solarblade": ["8M"], "facade": ["8M"], "dragonpulse": ["8M"], "earthquake": ["8M"], "return": ["8M"], "toxic": ["8M"], "poisonfang": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "shadowclaw": ["8M"], "grassknot": ["8M"]}}, "pupdozer": {"learnset": {"tackle": ["8M"], "harden": ["8M"], "mudshot": ["8M"], "spikes": ["8M"], "magnitude": ["8M"], "flamecharge": ["8M"], "headbutt": ["8M"], "charm": ["8M"], "bulldoze": ["8M"], "drainingkiss": ["8M"], "rockpolish": ["8M"], "flareblitz": ["8M"], "bodyslam": ["8M"], "playrough": ["8M"], "earthquake": ["8M"], "irondefense": ["8M"], "headsmash": ["8M"], "doubleedge": ["8M"], "facade": ["8M"], "dragonpulse": ["8M"], "swift": ["8M"], "uturn": ["8M"], "fairywind": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "sandstorm": ["8M"], "sandtomb": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "shadowclaw": ["8M"], "grassknot": ["8M"], "rocktomb": ["8M"], "stealthrock": ["8M"], "poweruppunch": ["8M"], "rollout": ["8M"], "rockblast": ["8M"], "moonblast": ["8M"], "foulplay": ["8M"], "heavyslam": ["8M"], "gyroball": ["8M"], "lavaplume": ["8M"], "willowisp": ["8M"]}}, "glamdozer": {"learnset": {"heatcrash": ["8M"], "stealthrock": ["8M"], "tackle": ["8M"], "harden": ["8M"], "mudshot": ["8M"], "spikes": ["8M"], "magnitude": ["8M"], "flamecharge": ["8M"], "headbutt": ["8M"], "charm": ["8M"], "bulldoze": ["8M"], "drainingkiss": ["8M"], "rockpolish": ["8M"], "flareblitz": ["8M"], "bodyslam": ["8M"], "playrough": ["8M"], "earthquake": ["8M"], "irondefense": ["8M"], "headsmash": ["8M"], "doubleedge": ["8M"], "megahorn": ["8M"], "bodypress": ["8M"], "facade": ["8M"], "dragonpulse": ["8M"], "swift": ["8M"], "uturn": ["8M"], "return": ["8M"], "toxic": ["8M"], "metalclaw": ["8M"], "sandstorm": ["8M"], "sandtomb": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "incinerate": ["8M"], "taunt": ["8M"], "shadowclaw": ["8M"], "grassknot": ["8M"], "rocktomb": ["8M"], "trickroom": ["8M"], "poweruppunch": ["8M"]}}, "sgoomba": {"learnset": {"confusion": ["8M"], "confide": ["8M"], "echoedvoice": ["8M"], "barrage": ["8M"], "luckychant": ["8M"], "metronome": ["8M"], "psybeam": ["8M"], "painsplit": ["8M"], "swift": ["8M"], "recover": ["8M"], "grandslam": ["8M"], "aurasphere": ["8M"], "psychup": ["8M"], "trick": ["8M"], "energyball": ["8M"], "calmmind": ["8M"], "sludgebomb": ["8M"], "futuresight": ["8M"], "shadowball": ["8M"], "triattack": ["8M"], "focusblast": ["8M"], "electroball": ["8M"], "weatherball": ["8M"], "mistball": ["8M"], "hyperbeam": ["8M"], "facade": ["8M"], "trickroom": ["8M"]}}, "wingo": {"learnset": {"confusion": ["8M"], "tailwind": ["8M"], "defog": ["8M"], "peck": ["8M"], "whirlwind": ["8M"], "hypnosis": ["8M"], "wingattack": ["8M"], "roost": ["8M"], "psybeam": ["8M"], "aircutter": ["8M"], "psyshock": ["8M"], "cosmicpower": ["8M"], "skillswap": ["8M"], "airslash": ["8M"], "psychic": ["8M"], "shadowball": ["8M"], "magiccircle": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "futuresight": ["8M"], "oblivionwing": ["8M"], "telebeam": ["8M"], "hurricane": ["8M"], "facade": ["8M"], "calmmind": ["8M"]}}, "mrtropical": {"learnset": {"watergun": ["8M"], "mudslap": ["8M"], "harden": ["8M"], "mudshot": ["8M"], "soak": ["8M"], "waterpulse": ["8M"], "leechseed": ["8M"], "bodyslam": ["8M"], "muddywater": ["8M"], "mudbomb": ["8M"], "amnesia": ["8M"], "scald": ["8M"], "focusblast": ["8M"], "earthpower": ["8M"], "hypervoice": ["8M"], "raindance": ["8M"], "hydropump": ["8M"], "heavyslam": ["8M"], "scorchingsands": ["8M"], "waterspout": ["8M"], "shoreup": ["8M"]}}, "starkid": {"learnset": {"fairywind": ["8M"], "babydolleyes": ["8M"], "copycat": ["8M"], "rapidspin": ["8M"], "quickattack": ["8M"], "agility": ["8M"], "mistywind": ["8M"], "cosmicpower": ["8M"], "drainingkiss": ["8M"], "encore": ["8M"], "uproar": ["8M"], "trick": ["8M"], "psyshock": ["8M"], "moonlight": ["8M"], "magicalleaf": ["8M"], "thunderwave": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "hydropump": ["8M"], "uturn": ["8M"], "raindance": ["8M"], "sunnyday": ["8M"], "faketears": ["8M"], "trickroom": ["8M"], "hypervoice": ["8M"]}}, "starspirit": {"learnset": {"zenheadbutt": ["8M"], "fairywind": ["8M"], "babydolleyes": ["8M"], "copycat": ["8M"], "rapidspin": ["8M"], "quickattack": ["8M"], "agility": ["8M"], "mistywind": ["8M"], "cosmicpower": ["8M"], "drainingkiss": ["8M"], "encore": ["8M"], "uproar": ["8M"], "trick": ["8M"], "psyshock": ["8M"], "moonlight": ["8M"], "playrough": ["8M"], "bodyslam": ["8M"], "swordsdance": ["8M"], "celestialrocket": ["8M"], "meteormash": ["8M"], "extremespeed": ["8M"], "doubleedge": ["8M"]}}, "starsprite": {"learnset": {"psychic": ["8M"], "fairywind": ["8M"], "babydolleyes": ["8M"], "copycat": ["8M"], "rapidspin": ["8M"], "quickattack": ["8M"], "agility": ["8M"], "mistywind": ["8M"], "cosmicpower": ["8M"], "drainingkiss": ["8M"], "encore": ["8M"], "uproar": ["8M"], "trick": ["8M"], "psyshock": ["8M"], "moonlight": ["8M"], "moonblast": ["8M"], "triattack": ["8M"], "calmmind": ["8M"], "celestialbeam": ["8M"], "mysticalfire": ["8M"], "focusblast": ["8M"], "hyperbeam": ["8M"]}}, "tanoomba": {"learnset": {"tailwhip": ["8M"], "tackle": ["8M"], "transform": ["8M"], "headbutt": ["8M"], "tailslap": ["8M"], "knockoff": ["8M"], "glare": ["8M"], "substitute": ["8M"], "protect": ["8M"], "teleport": ["8M"], "irontail": ["8M"], "aquatail": ["8M"], "poisontail": ["8M"], "dragontail": ["8M"], "tailglow": ["8M"], "agility": ["8M"]}}, "splantranha": {"learnset": {"tackle": ["8M"], "bite": ["8M"], "leer": ["8M"], "howl": ["8M"], "firefang": ["8M"], "thunderfang": ["8M"], "wingattack": ["8M"], "tailwind": ["8M"], "poisonfang": ["8M"], "mysticalfire": ["8M"], "infernoturno": ["8M"], "airslash": ["8M"], "roost": ["8M"], "crunch": ["8M"], "defog": ["8M"], "flamethrower": ["8M"], "coil": ["8M"], "sludgebomb": ["8M"], "bravebird": ["8M"], "fireblast": ["8M"], "sunsquall": ["8M"], "hurricane": ["8M"], "solarbeam": ["8M"], "overheat": ["8M"], "flareblitz": ["8M"], "leafblade": ["8M"], "skyattack": ["8M"], "woodhammer": ["8M"]}}, "scheepcheep": {"learnset": {"leer": ["8M"], "quickattack": ["8M"], "thundershock": ["8M"], "lockon": ["8M"], "charge": ["8M"], "gust": ["8M"], "thunderwave": ["8M"], "chargebeam": ["8M"], "magnetbomb": ["8M"], "roost": ["8M"], "metalsound": ["8M"], "aircutter": ["8M"], "voltswitch": ["8M"], "flashcannon": ["8M"], "swift": ["8M"], "shiftgear": ["8M"], "airslash": ["8M"], "agility": ["8M"], "discharge": ["8M"], "irondefense": ["8M"], "heatwave": ["8M"], "thunder": ["8M"], "hypervoice": ["8M"], "hurricane": ["8M"], "zapcannon": ["8M"], "fireblast": ["8M"], "icebeam": ["8M"], "razorwind": ["8M"], "hyperbeam": ["8M"], "boomburst": ["8M"], "thunderbolt": ["8M"], "defog": ["8M"]}}, "lilbrr": {"learnset": {"powdersnow": ["8M"], "tackle": ["8M"], "rapidspin": ["8M"], "iceshard": ["8M"], "irondefense": ["8M"], "psybeam": ["8M"], "aurorabeam": ["8M"], "mirrorshot": ["8M"], "haze": ["8M"], "frostpulse": ["8M"], "flashcannon": ["8M"], "hail": ["8M"], "recover": ["8M"], "icebeam": ["8M"], "darkpulse": ["8M"], "flamethrower": ["8M"], "steelbeam": ["8M"], "sheercold": ["8M"], "fireblast": ["8M"], "freezedry": ["8M"], "aurasphere": ["8M"], "healpulse": ["8M"], "psychic": ["8M"], "icywind": ["8M"], "hydropump": ["8M"]}}, "baronbrrr": {"learnset": {"powdersnow": ["8M"], "tackle": ["8M"], "rapidspin": ["8M"], "iceshard": ["8M"], "irondefense": ["8M"], "psybeam": ["8M"], "aurorabeam": ["8M"], "mirrorshot": ["8M"], "haze": ["8M"], "frostpulse": ["8M"], "flashcannon": ["8M"], "hail": ["8M"], "recover": ["8M"], "icebeam": ["8M"], "darkpulse": ["8M"], "flamethrower": ["8M"], "steelbeam": ["8M"], "sheercold": ["8M"], "fireblast": ["8M"]}}, "plessie": {"learnset": {"watergun": ["8M"], "tackle": ["8M"], "quickattack": ["8M"], "twister": ["8M"], "waterpulse": ["8M"], "mistywind": ["8M"], "sweetkiss": ["8M"], "dragonbreath": ["8M"], "raindance": ["8M"], "flipturn": ["8M"], "dragonpulse": ["8M"], "surf": ["8M"], "dazzlinggleam": ["8M"], "dragondance": ["8M"], "dragonrush": ["8M"], "playrough": ["8M"], "aquatail": ["8M"], "irontail": ["8M"], "outrage": ["8M"], "moonblast": ["8M"], "dracometeor": ["8M"], "gigaimpact": ["8M"], "scald": ["8M"], "hydropump": ["8M"], "aurasphere": ["8M"], "calmmind": ["8M"], "aquajet": ["8M"], "razorshell": ["8M"], "triattack": ["8M"]}}, "sbulletbill": {"learnset": {"poisongas": ["8M"], "tackle": ["8M"], "smokescreen": ["8M"], "acid": ["8M"], "toxic": ["8M"], "ironbash": ["8M"], "taunt": ["8M"], "uturn": ["8M"], "flashcannon": ["8M"], "poisonjab": ["8M"], "extremespeed": ["8M"], "acrobatics": ["8M"], "swordsdance": ["8M"], "ironhead": ["8M"], "gunkshot": ["8M"], "closecombat": ["8M"], "toxicspikes": ["8M"], "flareblitz": ["8M"], "machpunch": ["8M"], "bodyslam": ["8M"], "dragonrush": ["8M"]}}, "peepa": {"learnset": {"recover": ["8M"], "grudge": ["8M"], "astonish": ["8M"], "tickle": ["8M"], "confuseray": ["8M"], "nightshade": ["8M"], "payback": ["8M"], "willowisp": ["8M"], "hex": ["8M"], "curse": ["8M"], "destinybond": ["8M"], "shadowball": ["8M"], "hypnosis": ["8M"], "painsplit": ["8M"], "darkpulse": ["8M"], "yawn": ["8M"], "calmmind": ["8M"], "spiritbomb": ["8M"], "trick": ["8M"], "nastyplot": ["8M"], "strengthsap": ["8M"], "psychic": ["8M"], "partingshot": ["8M"], "acidarmor": ["8M"], "memento": ["8M"]}}, "parabeetle": {"learnset": {"wingattack": ["8M"], "accelerock": ["8M"], "rapidspin": ["8M"], "tackle": ["8M"], "withdraw": ["8M"], "rollout": ["8M"], "bugbite": ["8M"], "glare": ["8M"], "rockthrow": ["8M"], "rockpolish": ["8M"], "pursuit": ["8M"], "steamroller": ["8M"], "rocktomb": ["8M"], "amnesia": ["8M"], "uturn": ["8M"], "dig": ["8M"], "irondefense": ["8M"], "rockslide": ["8M"], "drillpeck": ["8M"], "bodyslam": ["8M"], "stoneedge": ["8M"], "roost": ["8M"], "defog": ["8M"], "bravebird": ["8M"], "tailwind": ["8M"], "skyattack": ["8M"], "skullbash": ["8M"], "haze": ["8M"], "mist": ["8M"], "raindance": ["8M"], "sunnyday": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "airslash": ["8M"], "infestation": ["8M"], "pollenpuff": ["8M"], "crunch": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "dragondance": ["8M"], "dragonclaw": ["8M"], "brickbreak": ["8M"], "bulkup": ["8M"], "grassknot": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "earthpower": ["8M"], "avalanche": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "rest": ["8M"], "gigaimpact": ["8M"], "hyperbeam": ["8M"], "sandstorm": ["8M"], "zenheadbutt": ["8M"], "powergem": ["8M"], "stealthrock": ["8M"], "ironhead": ["8M"], "metalclaw": ["8M"], "toxic": ["8M"]}}, "queenomb": {"learnset": {"inferno": ["8M"], "armthrust": ["8M"], "tackle": ["8M"], "ember": ["8M"], "smokescreen": ["8M"], "smog": ["8M"], "payback": ["8M"], "incinerate": ["8M"], "selfdestruct": ["8M"], "mudbomb": ["8M"], "bodyslam": ["8M"], "flameburst": ["8M"], "metalsound": ["8M"], "lavaplume": ["8M"], "flashcannon": ["8M"], "flamethrower": ["8M"], "calmmind": ["8M"], "fireblast": ["8M"], "explosion": ["8M"], "taunt": ["8M"], "defog": ["8M"], "overheat": ["8M"], "aurasphere": ["8M"], "solarbeam": ["8M"], "powergem": ["8M"], "morningsun": ["8M"], "facade": ["8M"], "willowisp": ["8M"], "return": ["8M"], "toxic": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "poweruppunch": ["8M"]}}, "mommaranha": {"learnset": {"vinewhip": ["8M"], "growl": ["8M"], "bite": ["8M"], "megadrain": ["8M"], "poisonpowder": ["8M"], "sunnyday": ["8M"], "ingrain": ["8M"], "acid": ["8M"], "growth": ["8M"], "leaftornado": ["8M"], "stunspore": ["8M"], "gigadrain": ["8M"], "leechseed": ["8M"], "crunch": ["8M"], "willowisp": ["8M"], "energyball": ["8M"], "thunderwave": ["8M"], "sludgebomb": ["8M"], "leafblade": ["8M"], "sleeppowder": ["8M"], "leechlife": ["8M"], "thunderbolt": ["8M"], "leafstorm": ["8M"], "flamethrower": ["8M"], "synthesis": ["8M"], "powerwhip": ["8M"], "solarbeam": ["8M"], "focusblast": ["8M"], "moonblast": ["8M"], "firefang": ["8M"], "thunderfang": ["8M"], "icefang": ["8M"], "flameburst": ["8M"], "discharge": ["8M"], "chargebeam": ["8M"], "stompingtantrum": ["8M"], "psychicfangs": ["8M"], "poisonfang": ["8M"], "ancientpower": ["8M"], "aurasphere": ["8M"]}}, "sushi": {"learnset": {"watergun": ["8M"], "tackle": ["8M"], "quickattack": ["8M"], "raindance": ["8M"], "aquajet": ["8M"], "bubblebeam": ["8M"], "bite": ["8M"], "takedown": ["8M"], "scald": ["8M"], "aquaring": ["8M"], "waterfall": ["8M"], "agility": ["8M"], "crunch": ["8M"], "doubleedge": ["8M"], "superpower": ["8M"], "seasurge": ["8M"], "swordsdance": ["8M"], "thunderfang": ["8M"], "liquidation": ["8M"], "irontail": ["8M"], "psychicfangs": ["8M"], "firefang": ["8M"], "whirlpool": ["8M"], "hydropump": ["8M"], "darkpulse": ["8M"], "shadowball": ["8M"], "flipturn": ["8M"]}}, "sluma": {"learnset": {"rapidspin": ["8M"], "twister": ["8M"], "confusion": ["8M"], "healbell": ["8M"], "psybeam": ["8M"], "stealthrock": ["8M"], "dragonbreath": ["8M"], "meteormash": ["8M"], "earthpower": ["8M"], "roleplay": ["8M"], "psyshock": ["8M"], "dragonrush": ["8M"], "gravity": ["8M"], "calmmind": ["8M"], "dragonpulse": ["8M"], "recover": ["8M"], "psychic": ["8M"], "thunderbolt": ["8M"], "swordsdance": ["8M"], "flareblitz": ["8M"], "zenheadbutt": ["8M"], "flashcannon": ["8M"], "flamethrower": ["8M"], "moonblast": ["8M"], "dracometeor": ["8M"], "galacticnova": ["8M"]}}, "sptooie": {"learnset": {"defog": ["8M"], "tackle": ["8M"], "vinewhip": ["8M"], "rocksmash": ["8M"], "bite": ["8M"], "bulletseed": ["8M"], "aerialace": ["8M"], "growth": ["8M"], "karatechop": ["8M"], "ironbash": ["8M"], "synthesis": ["8M"], "needlearm": ["8M"], "revenge": ["8M"], "firepunch": ["8M"], "brickbreak": ["8M"], "bulkup": ["8M"], "leafblade": ["8M"], "icepunch": ["8M"], "spikeball": ["8M"], "thunderpunch": ["8M"], "skyuppercut": ["8M"], "knockoff": ["8M"], "bulletpunch": ["8M"], "drainpunch": ["8M"], "throatchop": ["8M"], "swordsdance": ["8M"], "doubleironbash": ["8M"], "solarblade": ["8M"], "closecombat": ["8M"], "woodhammer": ["8M"], "aromatherapy": ["8M"], "powerwhip": ["8M"]}}, "bonybeetle": {"learnset": {"tackle": ["8M"], "astonish": ["8M"], "growl": ["8M"], "rollout": ["8M"], "bite": ["8M"], "shadowsneak": ["8M"], "rocktomb": ["8M"], "hex": ["8M"], "stealthrock": ["8M"], "sandstorm": ["8M"], "irondefense": ["8M"], "ancientpower": ["8M"], "shadowball": ["8M"], "grudge": ["8M"], "powergem": ["8M"], "rockpolish": ["8M"], "destinybond": ["8M"], "earthpower": ["8M"], "cursedcobble": ["8M"], "darkpulse": ["8M"], "shellsmash": ["8M"], "meteorbeam": ["8M"], "recover": ["8M"], "spikyshield": ["8M"], "gyroball": ["8M"], "spite": ["8M"], "curse": ["8M"], "confuseray": ["8M"], "willowisp": ["8M"], "sludgebomb": ["8M"], "bodypress": ["8M"], "aurasphere": ["8M"], "focusblast": ["8M"], "hypervoice": ["8M"], "ominouswind": ["8M"], "partingshot": ["8M"], "spikes": ["8M"]}}, "sandmaargh": {"learnset": {"sandtomb": ["8M"], "tackle": ["8M"], "sandattack": ["8M"], "bite": ["8M"], "twister": ["8M"], "screech": ["8M"], "sandstorm": ["8M"], "dig": ["8M"], "shadowsneak": ["8M"], "dragonbreath": ["8M"], "rockslide": ["8M"], "bulldoze": ["8M"], "crunch": ["8M"], "rest": ["8M"], "earthpower": ["8M"], "dragonpulse": ["8M"], "doubleedge": ["8M"], "firefang": ["8M"], "earthquake": ["8M"], "dragondance": ["8M"], "dragonrush": ["8M"], "scorchingsands": ["8M"], "thousandarrows": ["8M"], "stoneedge": ["8M"], "outrage": ["8M"], "fissure": ["8M"], "icefang": ["8M"], "fireblast": ["8M"], "dracometeor": ["8M"], "agility": ["8M"]}}, "smagikoopa": {"learnset": {"confusion": ["8M"], "teleport": ["8M"], "astonish": ["8M"], "magiccoat": ["8M"], "barrier": ["8M"], "psybeam": ["8M"], "agility": ["8M"], "willowisp": ["8M"], "thief": ["8M"], "ominouswind": ["8M"], "trick": ["8M"], "darkpulse": ["8M"], "recover": ["8M"], "hex": ["8M"], "psyshock": ["8M"], "dazzlinggleam": ["8M"], "shadowball": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "psychic": ["8M"], "nastyplot": ["8M"], "dragonpulse": ["8M"], "mysticalfire": ["8M"], "calmmind": ["8M"], "moongeistbeam": ["8M"], "topsyturvy": ["8M"], "sludgewave": ["8M"], "psychocut": ["8M"], "shadowclaw": ["8M"], "knockoff": ["8M"], "foulplay": ["8M"], "honeclaws": ["8M"], "gigadrain": ["8M"]}}, "schainchomp": {"learnset": {"bite": ["8M"], "growl": ["8M"], "lick": ["8M"], "howl": ["8M"], "rollout": ["8M"], "curse": ["8M"], "takedown": ["8M"], "icefang": ["8M"], "irondefense": ["8M"], "rockslide": ["8M"], "crunch": ["8M"], "shadowball": ["8M"], "willowisp": ["8M"], "nastyplot": ["8M"], "powergem": ["8M"], "cursedchomp": ["8M"], "earthpower": ["8M"], "destinybond": ["8M"], "boulderbite": ["8M"], "doubleedge": ["8M"], "recover": ["8M"], "firefang": ["8M"], "thunderfang": ["8M"], "phantomforce": ["8M"], "flareblitz": ["8M"], "headsmash": ["8M"], "darkpulse": ["8M"], "taunt": ["8M"], "dragondance": ["8M"], "thundershock": ["8M"], "playrough": ["8M"], "aurasphere": ["8M"], "focusblast": ["8M"], "superpower": ["8M"], "flamethrower": ["8M"], "sunnyday": ["8M"], "hex": ["8M"], "shadowsneak": ["8M"], "confuseray": ["8M"], "energyball": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "aurorabeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "painsplit": ["8M"], "hyperbeam": ["8M"], "psychic": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "sandstorm": ["8M"], "rocktomb": ["8M"], "stealthrock": ["8M"], "flashcannon": ["8M"], "poisonfang": ["8M"]}}, "scaredyrat": {"learnset": {"tackle": ["8M"], "growl": ["8M"], "lick": ["8M"], "pursuit": ["8M"], "screech": ["8M"], "quickattack": ["8M"], "bite": ["8M"], "beatup": ["8M"], "taunt": ["8M"], "honeclaws": ["8M"], "superfang": ["8M"], "crunch": ["8M"], "scaryface": ["8M"], "takedown": ["8M"], "partingshot": ["8M"], "playrough": ["8M"], "glare": ["8M"], "shadowclaw": ["8M"], "knockoff": ["8M"], "stompingtantrum": ["8M"], "roar": ["8M"], "suckerpunch": ["8M"], "gigaimpact": ["8M"], "xscissor": ["8M"], "payback": ["8M"], "torment": ["8M"], "wildcharge": ["8M"], "superpower": ["8M"], "lowsweep": ["8M"], "bulkup": ["8M"], "firefang": ["8M"], "dig": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "poisonfang": ["8M"], "rest": ["8M"], "metalclaw": ["8M"]}}, "runt": {"learnset": {"tailwhip": ["8M"], "endure": ["8M"], "twister": ["8M"], "echoedvoice": ["8M"], "safeguard": ["8M"], "glare": ["8M"], "swift": ["8M"], "dragonbreath": ["8M"], "protect": ["8M"], "dragonrage": ["8M"], "dragontail": ["8M"], "flamethrower": ["8M"], "dragonpulse": ["8M"], "hypervoice": ["8M"], "stompingtantrum": ["8M"], "hyperbeam": ["8M"], "megahorn": ["8M"], "dracometeor": ["8M"], "healbell": ["8M"], "facade": ["8M"], "raindance": ["8M"], "return": ["8M"], "toxic": ["8M"], "thundershock": ["8M"], "icebeam": ["8M"], "rest": ["8M"], "lowsweep": ["8M"], "sleeptalk": ["8M"], "defog": ["8M"], "airslash": ["8M"], "roost": ["8M"], "poweruppunch": ["8M"], "steelwing": ["8M"], "hurricane": ["8M"], "tailslap": ["8M"], "flameburst": ["8M"], "overheat": ["8M"], "outrage": ["8M"], "thunderbolt": ["8M"], "roar": ["8M"], "earthpower": ["8M"], "bodyslam": ["8M"]}}, "cobrat": {"learnset": {"coil": ["8M"], "tackle": ["8M"], "ember": ["8M"], "bite": ["8M"], "acidspray": ["8M"], "taunt": ["8M"], "incinerate": ["8M"], "glare": ["8M"], "toxicspikes": ["8M"], "sludge": ["8M"], "crunch": ["8M"], "flamethrower": ["8M"], "scorchingsands": ["8M"], "toxic": ["8M"], "sludgebomb": ["8M"], "nastyplot": ["8M"], "darkpulse": ["8M"], "fireblast": ["8M"], "agility": ["8M"], "moltonvenom": ["8M"], "willowisp": ["8M"], "overheat": ["8M"], "hyperbeam": ["8M"], "burnup": ["8M"], "uturn": ["8M"], "torment": ["8M"], "dragonpulse": ["8M"], "flashcannon": ["8M"], "sunnyday": ["8M"], "firefang": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "solarbeam": ["8M"], "earthpower": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "sandstorm": ["8M"], "venomdrench": ["8M"], "leechlife": ["8M"], "healbell": ["8M"], "venoshock": ["8M"], "mysticalfire": ["8M"]}}, "tryclyde": {"learnset": {"triattack": ["8M"], "recover": ["8M"], "coil": ["8M"], "tackle": ["8M"], "ember": ["8M"], "bite": ["8M"], "acidspray": ["8M"], "taunt": ["8M"], "incinerate": ["8M"], "glare": ["8M"], "toxicspikes": ["8M"], "sludge": ["8M"], "crunch": ["8M"], "flamethrower": ["8M"], "scorchingsands": ["8M"], "toxic": ["8M"], "sludgebomb": ["8M"], "nastyplot": ["8M"], "darkpulse": ["8M"], "fireblast": ["8M"], "agility": ["8M"], "moltonvenom": ["8M"], "willowisp": ["8M"], "overheat": ["8M"], "hyperbeam": ["8M"], "burnup": ["8M"], "uturn": ["8M"], "torment": ["8M"], "dragonpulse": ["8M"], "flashcannon": ["8M"], "sunnyday": ["8M"], "firefang": ["8M"], "hex": ["8M"], "shadowball": ["8M"], "confuseray": ["8M"], "solarbeam": ["8M"], "earthpower": ["8M"], "facade": ["8M"], "swift": ["8M"], "substitute": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "sandstorm": ["8M"]}}, "sluggy": {"learnset": {"nightshade": ["8M"], "smog": ["8M"], "haze": ["8M"], "mist": ["8M"], "confuseray": ["8M"], "hypnosis": ["8M"], "hex": ["8M"], "clearsmog": ["8M"], "waterpulse": ["8M"], "acidarmor": ["8M"], "disable": ["8M"], "shadowball": ["8M"], "trickroom": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "sludgebomb": ["8M"], "toxic": ["8M"], "surf": ["8M"], "recover": ["8M"], "willowisp": ["8M"], "sludgewave": ["8M"], "destinybond": ["8M"], "foulplay": ["8M"], "gigadrain": ["8M"], "nastyplot": ["8M"], "belch": ["8M"], "moonblast": ["8M"], "darkpulse": ["8M"], "torment": ["8M"], "dazzlinggleam": ["8M"], "fairywind": ["8M"], "shadowsneak": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "grassknot": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "painsplit": ["8M"], "hyperbeam": ["8M"], "amnesia": ["8M"], "scald": ["8M"], "perishsong": ["8M"], "grudge": ["8M"], "curse": ["8M"], "trick": ["8M"]}}, "sluggard": {"learnset": {"heartswap": ["8M"], "nightshade": ["8M"], "smog": ["8M"], "haze": ["8M"], "mist": ["8M"], "confuseray": ["8M"], "hypnosis": ["8M"], "hex": ["8M"], "clearsmog": ["8M"], "waterpulse": ["8M"], "acidarmor": ["8M"], "disable": ["8M"], "shadowball": ["8M"], "trickroom": ["8M"], "lightscreen": ["8M"], "reflect": ["8M"], "sludgebomb": ["8M"], "toxic": ["8M"], "surf": ["8M"], "recover": ["8M"], "willowisp": ["8M"], "sludgewave": ["8M"], "destinybond": ["8M"], "foulplay": ["8M"], "gigadrain": ["8M"], "nastyplot": ["8M"], "belch": ["8M"], "moonblast": ["8M"], "darkpulse": ["8M"], "torment": ["8M"], "dazzlinggleam": ["8M"], "fairywind": ["8M"], "shadowsneak": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "grassknot": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "painsplit": ["8M"], "hyperbeam": ["8M"], "amnesia": ["8M"], "scald": ["8M"]}}, "brolder": {"learnset": {"rollout": ["8M"], "sandstorm": ["8M"], "leer": ["8M"], "ember": ["8M"], "stealthrock": ["8M"], "protect": ["8M"], "rocktomb": ["8M"], "endure": ["8M"], "ancientpower": ["8M"], "flameburst": ["8M"], "mudbomb": ["8M"], "firespin": ["8M"], "irondefense": ["8M"], "powergem": ["8M"], "lavaplume": ["8M"], "cosmicpower": ["8M"], "bodypress": ["8M"], "earthpower": ["8M"], "flashcannon": ["8M"], "fireblast": ["8M"], "meteorbeam": ["8M"], "burnup": ["8M"], "eruption": ["8M"], "toxic": ["8M"], "knockoff": ["8M"], "focusblast": ["8M"], "aurasphere": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "shadowball": ["8M"], "solarbeam": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "megapunch": ["8M"], "hyperbeam": ["8M"], "rockslide": ["8M"], "ironhead": ["8M"], "flamecharge": ["8M"], "overheat": ["8M"], "stoneedge": ["8M"], "rockpolish": ["8M"], "smackdown": ["8M"]}}, "magmolder": {"learnset": {"magmaaura": ["8M"], "searingshot": ["8M"], "rapidspin": ["8M"], "rollout": ["8M"], "sandstorm": ["8M"], "leer": ["8M"], "ember": ["8M"], "stealthrock": ["8M"], "protect": ["8M"], "rocktomb": ["8M"], "endure": ["8M"], "ancientpower": ["8M"], "flameburst": ["8M"], "mudbomb": ["8M"], "firespin": ["8M"], "irondefense": ["8M"], "powergem": ["8M"], "lavaplume": ["8M"], "cosmicpower": ["8M"], "bodypress": ["8M"], "earthpower": ["8M"], "flashcannon": ["8M"], "fireblast": ["8M"], "meteorbeam": ["8M"], "burnup": ["8M"], "eruption": ["8M"], "magmastorm": ["8M"], "toxic": ["8M"], "knockoff": ["8M"], "focusblast": ["8M"], "aurasphere": ["8M"], "flamethrower": ["8M"], "incinerate": ["8M"], "sunnyday": ["8M"], "shadowball": ["8M"], "solarbeam": ["8M"], "earthquake": ["8M"], "sandtomb": ["8M"], "facade": ["8M"], "swift": ["8M"], "rockclimb": ["8M"], "substitute": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "megapunch": ["8M"], "hyperbeam": ["8M"], "rockslide": ["8M"], "ironhead": ["8M"], "flamecharge": ["8M"], "overheat": ["8M"], "stoneedge": ["8M"], "rockpolish": ["8M"], "smackdown": ["8M"]}}, "mri": {"learnset": {"rapidspin": ["8M"], "leer": ["8M"], "powertrip": ["8M"], "ominouswind": ["8M"], "scaryface": ["8M"], "meanlook": ["8M"], "faketears": ["8M"], "psybeam": ["8M"], "painsplit": ["8M"], "darkpulse": ["8M"], "trickortreat": ["8M"], "shadowball": ["8M"], "foulplay": ["8M"], "recover": ["8M"], "thunder": ["8M"], "lasereye": ["8M"], "calmmind": ["8M"], "psychic": ["8M"], "moongeistbeam": ["8M"], "pursuit": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "thunderbolt": ["8M"], "thunderwave": ["8M"], "voltswitch": ["8M"], "wildcharge": ["8M"], "thundershock": ["8M"], "dazzlinggleam": ["8M"], "willowisp": ["8M"], "hex": ["8M"], "shadowsneak": ["8M"], "confuseray": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "grassknot": ["8M"], "mist": ["8M"], "haze": ["8M"], "aurorabeam": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "disable": ["8M"], "hypervoice": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "flashcannon": ["8M"], "waterpulse": ["8M"], "surf": ["8M"], "raindance": ["8M"]}}, "uproot": {"learnset": {"vinewhip": ["8M"], "growl": ["8M"], "astonish": ["8M"], "taunt": ["8M"], "payback": ["8M"], "growth": ["8M"], "razorleaf": ["8M"], "bulkup": ["8M"], "ingrain": ["8M"], "seedbomb": ["8M"], "smackdown": ["8M"], "nightslash": ["8M"], "synthesis": ["8M"], "irondefense": ["8M"], "bodypress": ["8M"], "leafblade": ["8M"], "bounce": ["8M"], "knockoff": ["8M"], "swordsdance": ["8M"], "crosschop": ["8M"], "gunkshot": ["8M"], "powerwhip": ["8M"], "toxic": ["8M"], "infestation": ["8M"], "xscissor": ["8M"], "uturn": ["8M"], "pollenpuff": ["8M"], "pursuit": ["8M"], "darkpulse": ["8M"], "torment": ["8M"], "superpower": ["8M"], "lowsweep": ["8M"], "brickbreak": ["8M"], "sunnyday": ["8M"], "aerialace": ["8M"], "shadowclaw": ["8M"], "solarbeam": ["8M"], "energyball": ["8M"], "gigadrain": ["8M"], "grassknot": ["8M"], "leechseed": ["8M"], "dig": ["8M"], "facade": ["8M"], "return": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "gigaimpact": ["8M"], "stealthrock": ["8M"], "rockslide": ["8M"], "rocktomb": ["8M"], "crosspoison": ["8M"], "solarblade": ["8M"], "slash": ["8M"], "furycutter": ["8M"], "psychocut": ["8M"]}}, "madpole": {"learnset": {"bubble": ["8M"], "mudslap": ["8M"], "tailwhip": ["8M"], "acid": ["8M"], "confuseray": ["8M"], "mudshot": ["8M"], "bubblebeam": ["8M"], "raindance": ["8M"], "whirlpool": ["8M"], "flipturn": ["8M"], "aquaring": ["8M"], "mudbomb": ["8M"], "scald": ["8M"], "amnesia": ["8M"], "yawn": ["8M"], "earthpower": ["8M"], "muddywater": ["8M"], "lifedew": ["8M"], "powergem": ["8M"], "hydropump": ["8M"], "magiccoat": ["8M"], "dragonpulse": ["8M"], "dragondance": ["8M"], "defog": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "blizzard": ["8M"], "mist": ["8M"], "icebeam": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "protect": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "sludgebomb": ["8M"], "gastroacid": ["8M"], "calmmind": ["8M"], "trickroom": ["8M"], "sandstorm": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "surf": ["8M"], "brine": ["8M"], "scorchingsands": ["8M"], "soak": ["8M"]}}, "splounder": {"learnset": {"bubble": ["8M"], "watergun": ["8M"], "mudslap": ["8M"], "tailwhip": ["8M"], "acid": ["8M"], "confuseray": ["8M"], "mudshot": ["8M"], "bubblebeam": ["8M"], "raindance": ["8M"], "whirlpool": ["8M"], "flipturn": ["8M"], "aquaring": ["8M"], "mudbomb": ["8M"], "scald": ["8M"], "amnesia": ["8M"], "yawn": ["8M"], "earthpower": ["8M"], "muddywater": ["8M"], "lifedew": ["8M"], "powergem": ["8M"], "hydropump": ["8M"], "magiccoat": ["8M"], "gigadrain": ["8M"], "dragonpulse": ["8M"], "dragondance": ["8M"], "defog": ["8M"], "sandtomb": ["8M"], "dig": ["8M"], "avalanche": ["8M"], "blizzard": ["8M"], "mist": ["8M"], "icebeam": ["8M"], "hail": ["8M"], "aurorabeam": ["8M"], "haze": ["8M"], "facade": ["8M"], "swift": ["8M"], "return": ["8M"], "hypervoice": ["8M"], "protect": ["8M"], "rest": ["8M"], "sleeptalk": ["8M"], "toxic": ["8M"], "hyperbeam": ["8M"], "sludgebomb": ["8M"], "gastroacid": ["8M"], "calmmind": ["8M"], "trickroom": ["8M"], "sandstorm": ["8M"], "waterfall": ["8M"], "waterpulse": ["8M"], "surf": ["8M"], "brine": ["8M"], "scorchingsands": ["8M"], "soak": ["8M"]}}, "pidgit": {"learnset": {"gust": ["8M"], "sandattack": ["8M"], "tackle": ["8M"], "defog": ["8M"], "echoedvoice": ["8M"], "psybeam": ["8M"], "reflect": ["8M"], "lightscreen": ["8M"], "tailwind": ["8M"], "snarl": ["8M"], "swift": ["8M"], "aircutter": ["8M"], "featherdance": ["8M"], "teeterdance": ["8M"], "darkpulse": ["8M"], "psyshock": ["8M"], "substitute": ["8M"], "nastyplot": ["8M"], "shadowball": ["8M"], "hypervoice": ["8M"], "uproar": ["8M"], "hurricane": ["8M"], "switcheroo": ["8M"], "quiverdance": ["8M"], "foulplay": ["8M"], "oblivionwing": ["8M"], "boomburst": ["8M"], "raindance": ["8M"], "uturn": ["8M"], "pursuit": ["8M"], "taunt": ["8M"], "payback": ["8M"], "torment": ["8M"], "knockoff": ["8M"], "thundershock": ["8M"], "aurasphere": ["8M"], "fly": ["8M"], "aerialace": ["8M"], "airslash": ["8M"], "roost": ["8M"], "hex": ["8M"], "confuseray": ["8M"], "mist": ["8M"], "haze": ["8M"], "facade": ["8M"], "return": ["8M"], "disable": ["8M"], "sleeptalk": ["8M"], "rest": ["8M"], "protect": ["8M"], "hyperbeam": ["8M"], "toxic": ["8M"], "psychic": ["8M"], "calmmind": ["8M"], "amnesia": ["8M"], "trickroom": ["8M"], "steelwing": ["8M"], "petaldance": ["8M"], "partingshot": ["8M"], "fling": ["8M"]}}}
+}
