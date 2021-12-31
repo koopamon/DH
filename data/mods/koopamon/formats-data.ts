@@ -1,7 +1,7 @@
 export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	//Slate 1
 	plantranha: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 		randomBattleMoves: ["recover", "scald", "toxic", "flamethrower", "defog", "scorchingsands"],
 		randomBattleLevel: 100,
@@ -9,7 +9,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleLevel: 100,
 	},
 	creeplant: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 		randomBattleMoves: ["recover", "scald", "toxic", "flamethrower", "defog", "scorchingsands"],
 		randomBattleLevel: 100,
@@ -17,7 +17,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleLevel: 100,
 	},
 	peteyranha: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 		randomBattleMoves: ["recover", "scald", "toxic", "flamethrower", "defog", "scorchingsands"],
 		randomBattleLevel: 100,
@@ -25,823 +25,823 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleLevel: 100,
 	},
 	blooper: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	gesso: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	glooper: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	podoboo: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	magmaw: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	charvaargh: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	goomba: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	gigagoom: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	paragoom: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	tinytroopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	koopatroopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	paratroopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	tubotroopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	skipsqueak: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	spinysqueak: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	electroopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	voltroopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	lilslammer: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	hammerbro: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sledgebro: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	icebro: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	firebro: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	squiggler: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	wiggler: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	flutter: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	fuzzler: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	shyguy: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	snifit: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	gunnerguy: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	crazydayzee: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	amazydayzee: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	lakipuff: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	lakitu: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	lakilust: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	foo: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	tyfoo: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	buzzybeetle: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	spiketop: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	spiny: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	ninji: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	shuriki: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	fuzzy: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	fuzzilla: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	cheepcheep: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	bossbass: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	cheepskipper: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	fishbone: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	kingfin: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sporer: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	nipplant: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	navalranha: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	ptooie: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	gooble: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	protoranha: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	bulletbill: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	banzaibill: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	torpedoted: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	kingbill: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	jango: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	klepto: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sumolad: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sumobro: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	volcanotus: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	lavalotus: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	thwimp: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	thwomp: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	pouncer: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	whimp: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	whomp: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	topmini: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	topman: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	topmaniac: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	boo: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	boodies: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	boolossus: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	polterpup: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	broozer: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	fang: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	swoop: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	swampire: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	needlenose: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	pokey: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	mummipokey: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	bobomb: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	bobarm: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	kingomb: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	queenomb: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	cheepchomp: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	porcupuffer: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	dragoneel: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	charginchuck: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	chibichomp: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	chainchomp: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	bumpty: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	cooligan: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	mrblizzard: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	royalblizz: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	lilbrr: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	baronbrrr: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sandmaargh: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	bully: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	nobully: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	chilly: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	chiefchill: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	montymole: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	rockywrench: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	tankmole: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	megamole: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	unira: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	urchin: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	komu: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	komboo: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	spike: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	clubba: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	toady: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	magikoopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	psykamek: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	mechakoopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	drybones: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	elitebones: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	parabones: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	conkdor: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	coincoffer: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	fizzlit: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	fizzlight: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	spark: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	amp: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	stingby: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	beehoss: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sidestepper: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	clawdaddy: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	clawgrip: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	flappy: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	fighterfly: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	flurry: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	firesnake: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	angrysun: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	phanto: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	jelectro: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	jellybeam: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	shrooblet: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	shroob: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	shrooboid: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sfo: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	scuttler: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	scuttlebug: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	lovubble: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	smeech: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	antasman: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	antasmimic: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	pupdozer: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	glamdozer: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	tanoomba: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	dusty: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	tweester: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	pokio: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	eggranha: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	dinoranha: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	luma: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	lumalee: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	starkid: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	starspirit: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	starsprite: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	venomush: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	zombimush: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	virus: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	trirus: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	runt: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	rex: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	bitefrost: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	peepa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sushi: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	mommaranha: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	scaredyrat: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	bonybeetle: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	mri: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	cobrat: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	tryclyde: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sluggy: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sluggard: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	brolder: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	magmolder: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	uproot: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	splounder: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	pidgit: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	dinotorch: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	dinorhino: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	reznor: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	boomboom: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	wingo: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	splantranha: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sblooper: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	spodoboo: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	skoopatroopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sgoomba: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sbobomb: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sbulletbill: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	smagikoopa: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sboo: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	scheepcheep: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sbuzzybeetle: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	schainchomp: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sptooie: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	mrtropical: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 	sluma: {
-		tier: "koopamon",
+		tier: "KOOPAMON",
 		doublesTier: "DUU",
 	},
 
