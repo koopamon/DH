@@ -143,7 +143,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 	},
 	starbubble: {
-		name: "Water Bubble",
+		name: "Star Bubble",
 		id: "starbubble",
 		shortDesc: "Water and Ice power is 1.5x, it can't be burned; Fire power against it is halved.",
 		onSourceModifyAtkPriority: 5,
@@ -180,14 +180,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onUpdate(pokemon) {
 			if (pokemon.status === 'brn') {
-				this.add('-activate', pokemon, 'ability: Water Bubble');
+				this.add('-activate', pokemon, 'ability: Star Bubble');
 				pokemon.cureStatus();
 			}
 		},
 		onSetStatus(status, target, source, effect) {
 			if (status.id !== 'brn') return;
 			if ((effect as Move)?.status) {
-				this.add('-immune', target, '[from] ability: Water Bubble');
+				this.add('-immune', target, '[from] ability: Star Bubble');
 			}
 			return false;
 		},

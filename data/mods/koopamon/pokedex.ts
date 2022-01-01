@@ -268,7 +268,7 @@ thwomp: {
 	},
 pouncer: {
 		num: 19,
-		name: "Thwomp",
+		name: "Pouncer",
 		types: ["Rock"],
 		genderRatio: {M: 0.75, F: 0.25},
 		baseStats: {hp: 110, atk: 140, def: 165, spa: 30, spd: 60, spe: 45},
@@ -1010,9 +1010,9 @@ clawdaddy: {
 		evoItem: "Water Stone",
 		eggGroups: ["Monster"],
 	},
-clawdaddy: {
+clawgrip: {
 		num: 73,
-		name: "Clawdaddy",
+		name: "Clawgrip",
 		types: ["Rock", "Fighting"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 95, atk: 140, def: 110, spa: 80, spd: 45, spe: 30},
@@ -2480,6 +2480,18 @@ starplantranha: {
 		heightm: 1.9,
 		weightkg: 39.2,
 		color: "Red",
+		eggGroups: ["Monster"],
+	},
+starcheepcheep: {
+		num: 180,
+		name: "Star Cheep Cheep",
+		types: ["Electric", "Flying"],
+		genderRatio: {M: 0.50, F: 0.50},
+		baseStats: {hp: 110, atk: 40, def: 50, spa: 105, spd: 95, spe: 135},
+		abilities: {0: "Galvanize", H: "Star Shock"},
+		heightm: 0.9,
+		weightkg: 113.4,
+		color: "Yellow",
 		eggGroups: ["Monster"],
 	},
 };

@@ -428,7 +428,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	nobully: {
+	nobull: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
@@ -448,7 +448,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	tankmole: {
+	montytank: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
@@ -520,7 +520,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	fizzlight: {
+	liquilite: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
