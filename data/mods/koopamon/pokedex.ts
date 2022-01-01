@@ -2444,7 +2444,7 @@ starspirit: {
 		evoLevel: 46,
 		eggGroups: ["Monster"],
 	},
-starspirit: {
+starsprite: {
 		num: 177,
 		name: "Star Sprite",
 		types: ["Fairy"],
@@ -2470,7 +2470,7 @@ tanoomba: {
 		color: "Yellow",
 		eggGroups: ["Monster"],
 	},
-splantranha: {
+tanoomba: {
 		num: 179,
 		name: "Tanoomba",
 		types: ["Fire", "Flying"],
