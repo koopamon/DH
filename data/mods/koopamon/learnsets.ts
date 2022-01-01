@@ -23023,7 +23023,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sbobomb": {
+  "starbobomb": {
     "learnset": {
       "powdersnow": [
         "8M"
@@ -23207,7 +23207,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sblooper": {
+  "starblooper": {
     "learnset": {
       "tackle": [
         "8M"
@@ -23334,7 +23334,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "spodoboo": {
+  "starpodoboo": {
     "learnset": {
       "tackle": [
         "8M"
@@ -23434,7 +23434,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "skoopatroopa": {
+  "starkoopatroopa": {
     "learnset": {
       "tackle": [
         "8M"
@@ -23528,7 +23528,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sboo": {
+  "starboo": {
     "learnset": {
       "lick": [
         "8M"
@@ -24000,7 +24000,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sbuzzybeetle": {
+  "starbuzzybeetle": {
     "learnset": {
       "strugglebug": [
         "8M"
@@ -25166,7 +25166,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sgoomba": {
+  "stargoomba": {
     "learnset": {
       "confusion": [
         "8M"
@@ -25773,7 +25773,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "splantranha": {
+  "starplantranha": {
     "learnset": {
       "tackle": [
         "8M"
@@ -26192,7 +26192,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sbulletbill": {
+  "starbulletbill": {
     "learnset": {
       "poisongas": [
         "8M"

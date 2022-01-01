@@ -2187,7 +2187,7 @@ sbobomb: {
 		color: "White",
 		eggGroups: ["Monster"],
 	},
-sblooper: {
+starblooper: {
 		num: 157,
 		name: "Star Blooper",
 		types: ["Grass", "Psychic"],
