@@ -34,6 +34,8 @@ Ratings and how they work:
 export const Abilities: {[k: string]: ModdedAbilityData} = {
 	fearmonger: {
 		id: "fearmonger",
+		name: "Fearmonger",
+		shortDesc: "Lower's the opponent's Speed upon switch-in.",
 		onStart(pokemon) {
 			let activated = false;
 			for (const target of pokemon.side.foe.active) {
@@ -49,31 +51,34 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 				}
 			}
 		},
-		name: "Fearmonger",
 		rating: 3.5,
 	},
 	sunsprint: {
 		id: "sunsprint",
+		name: "Sun Sprint",
+		shortDesc: "Speed is doubled during Harsh Sunlight.",
 		onModifySpe(spe, pokemon) {
 			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
 				return this.chainModify(2);
 			}
 		},
-		name: "Sun Sprint",
 		rating: 3,
 	},
 	fortitude: {
 		id: "fortitude",
+		name: "Fortitude",
+		shortDesc: "Special Attack increases by one stage after earning a KO.",
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
 				this.boost({spa: length}, source);
 			}
 		},
-		name: "Fortitude",
 		rating: 3,
 	},
 	snowforce: {
 		id: "snowforce",
+		name: "Snow Force",
+		shortDesc: "During hail Ice moves deal 1.5x more damage and Accuracy increased by 30%.",
 		onBasePowerPriority: 21,
 		onBasePower(basePower, attacker, defender, move) {
 			if (this.field.isWeather('hail')) {
@@ -93,11 +98,12 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onImmunity(type, pokemon) {
 			if (type === 'hail') return false;
 		},
-		name: "Snow Force",
 		rating: 2,
 	},
 	aquaamplify: {
+		name: "Aqua Amplify",
 		id: "aquaamplify",
+		shortDesc: "Special Attack is doubled during rain.",
 		onModifySpA(spa, pokemon) {
 			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
 				return this.chainModify(2);
@@ -108,17 +114,20 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	},
 	starboost: {
 		id: "starboost",
+		name: "Star Boost",
+		shortDesc: "Increases both Special Attack and Attack upon earning a KO.",
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
 				this.boost({atk: length}, source);
 				this.boost({spa: length}, source);
 			}
 		},
-		name: "Star Boost",
 		rating: 3,
 	},
 	starpetals: {
 		id: "starpetals",
+		name: "Star Petals",
+		shortDesc: "Deals 50% more damage when the user is at full HP",
 		onModifySpA(spa, pokemon) {
 			if (target.hp >= target.maxhp) {
 				this.debug('Multiscale weaken');
@@ -131,11 +140,12 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 				return this.chainModify(1.5);
 			}
 		},
-		name: "Star Petals",
 		rating: 3.5,
 	},
 	starbubble: {
+		name: "Water Bubble",
 		id: "starbubble",
+		shortDesc: "Water and Ice power is 1.5x, it can't be burned; Fire power against it is halved.",
 		onSourceModifyAtkPriority: 5,
 		onSourceModifyAtk(atk, attacker, defender, move) {
 			if (move.type === 'Fire') {
@@ -181,18 +191,17 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 			return false;
 		},
-		name: "Water Bubble",
 		rating: 4.5,
-		num: 199,
 	},
 	starflame: {
 		id: "starflame",
+		name: "Star Flame",
+		shortDesc: "Attacks have an extra 20% chance to burn.",
 		onDamagingHit(damage, source, target, move) {
 			if (this.randomChance(2, 10)) {
 				source.trySetStatus('brn', target);
 			}
 		},
-		name: "Star Flame",
 		rating: 2,
 	},
 };

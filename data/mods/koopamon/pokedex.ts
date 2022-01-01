@@ -2229,7 +2229,7 @@ starboo: {
 		types: ["Water", "Fairy"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 100, atk: 50, def: 85, spa: 110, spd: 85, spe: 95},
-		abilities: {0: "Beast Boost", H: "Misty Terrain"},
+		abilities: {0: "Star Boost", H: "Misty Terrain"},
 		heightm: 1.1,
 		weightkg: 1.0,
 		color: "Blue",
