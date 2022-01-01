@@ -76,14 +76,16 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 				if (move.type === 'Ice') {
 					return this.chainModify(1.5);
 				}
-				onSourceModifyAccuracyPriority: 9,
-				onSourceModifyAccuracy(accuracy) {
+			}
+		},
+		onSourceModifyAccuracyPriority: 9,
+		onSourceModifyAccuracy(accuracy) {
+			if (this.field.isWeather('hail')) {
 				if (typeof accuracy !== 'number') return;
 				this.debug('snowforce - enhancing accuracy');
 				return accuracy * 1.3;
-				}
 			}
-		},
+		}
 		onImmunity(type, pokemon) {
 			if (type === 'hail') return false;
 		},
