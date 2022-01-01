@@ -85,7 +85,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 				this.debug('snowforce - enhancing accuracy');
 				return accuracy * 1.3;
 			}
-		}
+		},
 		onImmunity(type, pokemon) {
 			if (type === 'hail') return false;
 		},
