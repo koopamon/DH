@@ -59,7 +59,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		},
 		name: "Sun Sprint",
 		rating: 3,
-	}
+	},
 	fortitude: {
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
