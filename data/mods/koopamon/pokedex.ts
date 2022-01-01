@@ -1387,10 +1387,10 @@ clubba: {
 conkdor: {
 		num: 100,
 		name: "Conkdor",
-		types: ["Normal", "Flying"],
+		types: ["Ground", "Flying"],
 		genderRatio: {M: 0.25, F: 0.75},
-		baseStats: {hp: 130, atk: 95, def: 85, spa: 40, spd: 80, spe: 75},
-		abilities: {0: "Sand Veil", H: "Scrappy"},
+		baseStats: {hp: 120, atk: 95, def: 85, spa: 40, spd: 80, spe: 75},
+		abilities: {0: "Early Bird", 1, "Quick Feet", H: "Thick Fat"},
 		heightm: 7.75,
 		weightkg: 93.8,
 		color: "White",

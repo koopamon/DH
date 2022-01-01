@@ -11218,7 +11218,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "fizzlight": {
+  "liquilite": {
     "learnset": {
       "discharge": [
         "8M"
@@ -13617,7 +13617,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "nobully": {
+  "nobull": {
     "learnset": {
       "doomdesire": [
         "8M"
