@@ -134,7 +134,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return this.chainModify(1.5);
 			}
 		},
-		onModifyAtk(spa, pokemon) {
+		onModifyAtk(atk, pokemon) {
 			if (pokemon.hp >= pokemon.maxhp) {
 				this.debug('Multiscale weaken');
 				return this.chainModify(1.5);
