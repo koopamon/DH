@@ -129,13 +129,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Star Petals",
 		shortDesc: "Deals 50% more damage when the user is at full HP",
 		onModifySpA(spa, pokemon) {
-			if (target.hp >= target.maxhp) {
+			if (pokemon.hp >= pokemon.maxhp) {
 				this.debug('Multiscale weaken');
 				return this.chainModify(1.5);
 			}
 		},
 		onModifyAtk(spa, pokemon) {
-			if (target.hp >= target.maxhp) {
+			if (pokemon.hp >= pokemon.maxhp) {
 				this.debug('Multiscale weaken');
 				return this.chainModify(1.5);
 			}
@@ -197,10 +197,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		id: "starflame",
 		name: "Star Flame",
 		shortDesc: "Attacks have an extra 20% chance to burn.",
-		onDamagingHit(damage, source, target, move) {
-			if (this.randomChance(2, 10)) {
-				source.trySetStatus('brn', target);
+		onModifyMove(move) {
+			if (!move.secondaries) {
+				move.secondaries = [];
 			}
+			move.secondaries.push({
+				chance: 20,
+				status: 'brn',
+				ability: this.dex.getAbility('starflame'),
+			});
 		},
 		rating: 2,
 	},
