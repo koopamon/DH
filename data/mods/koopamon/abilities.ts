@@ -31,7 +31,7 @@ Ratings and how they work:
 	ex. Imposter, Shadow Tag
 
 */
-export const Abilities: {[k: string]: ModdedAbilityData} = {
+export const Abilities: {[abilityid: string]: AbilityData} = {
 	fearmonger: {
 		id: "fearmonger",
 		name: "Fearmonger",
