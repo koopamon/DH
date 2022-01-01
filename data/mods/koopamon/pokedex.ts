@@ -664,7 +664,7 @@ spiketop: {
 		heightm: 1.2,
 		weightkg: 42.5,
 		color: "Green",
-		prevo: "Ninji",
+		prevo: "Buzzybeetle",
 		evoLevel: 30,
 		eggGroups: ["Monster"],
 	},
