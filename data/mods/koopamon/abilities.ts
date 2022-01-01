@@ -33,6 +33,7 @@ Ratings and how they work:
 */
 export const Abilities: {[k: string]: ModdedAbilityData} = {
 	fearmonger: {
+		id: "fearmonger",
 		onStart(pokemon) {
 			let activated = false;
 			for (const target of pokemon.side.foe.active) {
@@ -52,6 +53,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 3.5,
 	},
 	sunsprint: {
+		id: "sunsprint",
 		onModifySpe(spe, pokemon) {
 			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
 				return this.chainModify(2);
@@ -61,6 +63,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 3,
 	},
 	fortitude: {
+		id: "fortitude",
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
 				this.boost({spa: length}, source);
@@ -70,6 +73,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 3,
 	},
 	snowforce: {
+		id: "snowforce",
 		onBasePowerPriority: 21,
 		onBasePower(basePower, attacker, defender, move) {
 			if (this.field.isWeather('hail')) {
@@ -93,6 +97,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 2,
 	},
 	aquaamplify: {
+		id: "aquaamplify",
 		onModifySpA(spa, pokemon) {
 			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
 				return this.chainModify(2);
@@ -102,6 +107,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 4,
 	},
 	starboost: {
+		id: "starboost",
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
 				this.boost({atk: length}, source);
@@ -112,6 +118,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 3,
 	},
 	starpetals: {
+		id: "starpetals",
 		onModifySpA(spa, pokemon) {
 			if (target.hp >= target.maxhp) {
 				this.debug('Multiscale weaken');
@@ -128,6 +135,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 3.5,
 	},
 	starbubble: {
+		id: "starbubble",
 		onSourceModifyAtkPriority: 5,
 		onSourceModifyAtk(atk, attacker, defender, move) {
 			if (move.type === 'Fire') {
@@ -178,6 +186,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		num: 199,
 	},
 	starflame: {
+		id: "starflame",
 		onDamagingHit(damage, source, target, move) {
 			if (this.randomChance(2, 10)) {
 				source.trySetStatus('brn', target);

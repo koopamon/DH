@@ -784,55 +784,55 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	splantranha: {
+	starplantranha: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	sblooper: {
+	starblooper: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	spodoboo: {
+	starpodoboo: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	skoopatroopa: {
+	starkoopatroopa: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	sgoomba: {
+	stargoomba: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	sbobomb: {
+	starbobomb: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	sbulletbill: {
+	starbulletbill: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	smagikoopa: {
+	starmagikoopa: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	sboo: {
+	starboo: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	scheepcheep: {
+	starcheepcheep: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	sbuzzybeetle: {
+	starbuzzybeetle: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	schainchomp: {
+	starchainchomp: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	sptooie: {
+	starptooie: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
@@ -840,7 +840,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},
-	sluma: {
+	starluma: {
 		tier: "KOOPAMON",
 		doublesTier: "KOOPAMON",
 	},

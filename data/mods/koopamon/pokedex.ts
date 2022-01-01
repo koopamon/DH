@@ -2199,7 +2199,7 @@ sblooper: {
 		color: "Brown",
 		eggGroups: ["Monster"],
 	},
-spodoboo: {
+starpodoboo: {
 		num: 158,
 		name: "Star Podoboo",
 		types: ["Water", "Ice"],
@@ -2211,7 +2211,7 @@ spodoboo: {
 		color: "Blue",
 		eggGroups: ["Monster"],
 	},
-skoopatroopa: {
+starkoopatroopa: {
 		num: 159,
 		name: "Star Koopatroopa",
 		types: ["Steel", "Dark"],
@@ -2223,7 +2223,7 @@ skoopatroopa: {
 		color: "Gray",
 		eggGroups: ["Monster"],
 	},
-sboo: {
+starboo: {
 		num: 160,
 		name: "Star Boo",
 		types: ["Water", "Fairy"],
@@ -2381,7 +2381,7 @@ glamdozer: {
 		evoLevel: 28,
 		eggGroups: ["Monster"],
 	},
-sgoomba: {
+stargoomba: {
 		num: 172,
 		name: "Star Goomba",
 		types: ["Psychic", "Normal"],
@@ -2470,9 +2470,9 @@ tanoomba: {
 		color: "Yellow",
 		eggGroups: ["Monster"],
 	},
-tanoomba: {
+starplantranha: {
 		num: 179,
-		name: "Tanoomba",
+		name: "Star Plantranha",
 		types: ["Fire", "Flying"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 85, atk: 105, def: 80, spa: 115, spd: 90, spe: 95},
