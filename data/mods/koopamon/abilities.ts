@@ -260,10 +260,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Blow Away",
 		shortDesc: "Removes harmful hazards upon entry.",
 		onStart(source) {
-			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
-			for (const condition of sideConditions) {
-				if (pokemon.side.removeSideCondition(condition)) {
-					this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] ability Blow Away', '[of] ' + pokemon);
+			let activated = false;
+			for (const sideCondition of ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge']) {
+				if (pokemon.side.getSideCondition(sideCondition)) {
+					if (!activated) {
+						this.add('-activate', pokemon, 'ability: Blow Away');
+						activated = true;
+					}
+					pokemon.side.removeSideCondition(sideCondition);
 				}
 			}
 		},
