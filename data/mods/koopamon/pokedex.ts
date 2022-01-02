@@ -444,47 +444,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Paratroopa"
     ],
-    otherFormes: [
-      "Koopatroopa-Gold"
-    ],
-    formeOrder: [
-      "Koopatroopa",
-      "Koopatroopa-Gold"
-    ],
-  },
-  koopatroopagold: {
-    num: 14,
-    name: "Koopatroopa-Gold",
-    types: [
-      "Normal"
-    ],
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    baseStats: {
-      hp: 80,
-      atk: 120,
-      def: 100,
-      spa: 70,
-      spd: 80,
-      spe: 100
-    },
-    abilities: {
-      0: "Gold Armor",
-      H: "Weak Armor"
-    },
-    heightm: 1.1,
-    weightkg: 54.5,
-    color: "Green",
-    eggGroups: [
-      "Field",
-      "Humanlike"
-    ],
-    evos: [
-      "Paratroopa"
-    ],
-	changesFrom: "Koopatroopa"
   },
   paratroopa: {
     num: 15,
@@ -3973,101 +3932,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Amorphous"
     ],
-    otherFormes: [
-      "Mechakoopa-Water",
-      "Mechakoopa-Fire",
-      "Mechakoopa-Ice"
-    ],
-    formeOrder: [
-      "Mechakoopa",
-      "Mechakoopa-Water",
-      "Mechakoopa-Fire",
-      "Mechakoopa-Ice"
-    ],
-  },
-  mechakoopawater: {
-    num: 124,
-    name: "Mechakoopa-Water",
-    types: [
-      "Electric",
-      "Water"
-    ],
-    gender: "N",
-    baseStats: {
-      hp: 65,
-      atk: 45,
-      def: 90,
-      spa: 110,
-      spd: 110,
-      spe: 90
-    },
-    abilities: {
-      0: "Lightning Rod",
-      H: "Trace"
-    },
-    heightm: 0.8,
-    weightkg: 57.3,
-    color: "Yellow",
-    eggGroups: [
-      "Amorphous"
-    ],
-	changesFrom: "Mechakoopa"
-  },
-  mechakoopafire: {
-    num: 124,
-    name: "Mechakoopa-Fire",
-    types: [
-      "Electric",
-      "Fire"
-    ],
-    gender: "N",
-    baseStats: {
-      hp: 65,
-      atk: 45,
-      def: 80,
-      spa: 120,
-      spd: 90,
-      spe: 110
-    },
-    abilities: {
-      0: "Flash Fire",
-      H: "Trace"
-    },
-    heightm: 0.8,
-    weightkg: 57.3,
-    color: "Yellow",
-    eggGroups: [
-      "Amorphous"
-    ],
-	changesFrom: "Mechakoopa"
-  },
-  mechakoopaice: {
-    num: 124,
-    name: "Mechakoopa-Ice",
-    types: [
-      "Electric",
-      "Ice"
-    ],
-    gender: "N",
-    baseStats: {
-      hp: 65,
-      atk: 45,
-      def: 80,
-      spa: 140,
-      spd: 80,
-      spe: 100
-    },
-    abilities: {
-      0: "Snow Force",
-      H: "Trace"
-    },
-    heightm: 0.8,
-    weightkg: 57.3,
-    color: "Yellow",
-    eggGroups: [
-      "Amorphous"
-    ],
-	changesFrom: "Mechakoopa"
   },
   jelectro: {
     num: 125,
@@ -5047,7 +4911,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   sbobomb: {
     num: 156,
-    name: "Bob-omb",
+    name: "Star Bob-omb",
     types: [
       "Ice",
       "Fire"
@@ -5078,7 +4942,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   sblooper: {
     num: 157,
-    name: "Blooper",
+    name: "Star Blooper",
     types: [
       "Grass",
       "Psychic"
@@ -5108,7 +4972,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   spodoboo: {
     num: 158,
-    name: "Podoboo",
+    name: "Star Podoboo",
     types: [
       "Water",
       "Ice"
@@ -5138,7 +5002,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   skoopatroopa: {
     num: 159,
-    name: "Koopatroopa",
+    name: "Star Koopatroopa",
     types: [
       "Steel",
       "Dark"
@@ -5169,7 +5033,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   sboo: {
     num: 160,
-    name: "Boo",
+    name: "Star Boo",
     types: [
       "Water",
       "Fairy"
@@ -5553,7 +5417,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   sgoomba: {
     num: 172,
-    name: "Goomba",
+    name: "Star Goomba",
     types: [
       "Psychic",
       "Normal"
@@ -5757,7 +5621,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   splantranha: {
     num: 179,
-    name: "Plantranha",
+    name: "Star Plantranha",
     types: [
       "Fire",
       "Flying"
@@ -5787,7 +5651,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   scheepcheep: {
     num: 180,
-    name: "Cheep Cheep",
+    name: "Star Cheep Cheep",
     types: [
       "Electric",
       "Flying"
@@ -5907,7 +5771,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   sbulletbill: {
     num: 184,
-    name: "Bullet Bill",
+    name: "Star Bullet Bill",
     types: [
       "Poison",
       "Steel"
@@ -6080,7 +5944,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   sluma: {
     num: 190,
-    name: "Luma",
+    name: "Star Luma",
     types: [
       "Dragon",
       "Psychic"
@@ -6110,7 +5974,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   sptooie: {
     num: 191,
-    name: "Ptooie",
+    name: "Star Ptooie",
     types: [
       "Grass",
       "Fighting"
@@ -6202,7 +6066,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   smagikoopa: {
     num: 194,
-    name: "Magikoopa",
+    name: "Star Magikoopa",
     types: [
       "Psychic",
       "Ghost"
@@ -6232,7 +6096,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   schainchomp: {
     num: 195,
-    name: "Chain Chomp",
+    name: "Star Chain Chomp",
     types: [
       "Rock",
       "Ghost"
@@ -6543,42 +6407,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     heightm: 2.8,
     weightkg: 80.2,
-    color: "White",
-    eggGroups: [
-      "Amorphous"
-    ],
-    evos: [],
-    otherFormes: [
-      "Mr. I-Small"
-    ],
-    formeOrder: [
-      "Mr. I",
-      "Mr. I-Small"
-    ],
-  },
-  mrismall: {
-    num: 204,
-    name: "Mr. I-Small",
-    types: [
-      "Dark",
-      "Ghost"
-    ],
-    gender: "M",
-    baseStats: {
-      hp: 70,
-      atk: 40,
-      def: 65,
-      spa: 115,
-      spd: 90,
-      spe: 110
-    },
-    abilities: {
-      0: "Keen Eye",
-      1: "Tinted Lens",
-      H: "No Guard"
-    },
-    heightm: 0.8,
-    weightkg: 22.4,
     color: "White",
     eggGroups: [
       "Amorphous"
