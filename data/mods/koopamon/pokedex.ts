@@ -6550,7 +6550,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Mr. ISmall"
     ]
   },
-  mr. ismall: {
+  mrismall: {
     num: 204,
     name: "Mr. I",
     types: [
