@@ -484,6 +484,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Paratroopa"
     ],
+	changesFrom: "Koopatroopa"
   },
   paratroopa: {
     num: 15,
@@ -4010,6 +4011,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Amorphous"
     ],
+	changesFrom: "Mechakoopa"
   },
   mechakoopafire: {
     num: 124,
@@ -4037,6 +4039,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Amorphous"
     ],
+	changesFrom: "Mechakoopa"
   },
   mechakoopaice: {
     num: 124,
@@ -4064,6 +4067,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Amorphous"
     ],
+	changesFrom: "Mechakoopa"
   },
   jelectro: {
     num: 125,
@@ -6615,6 +6619,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Uproot",
       "Uproot-Busted"
     ],
+	requiredAbility: "Disguise",
+	battleOnly: "Uproot",
   },
   uprootbusted: {
     num: 205,
