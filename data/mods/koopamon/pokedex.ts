@@ -4,7 +4,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Plantranha",
     "types": [
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -26,7 +26,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Green",
     "eggGroups": [
       "Grass"
-    ],,
+    ],
     "evos": [
       "Creeplant"
     ],
@@ -36,7 +36,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Creeplant",
     "types": [
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -58,7 +58,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Green",
     "eggGroups": [
       "Grass"
-    ],,
+    ],
     "evos": [
       "Peteyranha"
     ],
@@ -69,7 +69,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -98,7 +98,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Blooper",
     "types": [
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -120,7 +120,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Water3"
-    ],,
+    ],
     "evos": [
       "Gesso"
     ],
@@ -131,7 +131,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -153,7 +153,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Water3"
-    ],,
+    ],
     "evos": [
       "Glooper"
     ],
@@ -164,7 +164,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -193,7 +193,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Podoboo",
     "types": [
       "Fire"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -215,7 +215,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Magmaw"
     ],
@@ -225,7 +225,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Magmaw",
     "types": [
       "Fire"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -248,7 +248,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "eggGroups": [
       "Amorphous",
       "Dragon"
-    ],,
+    ],
     "evos": [
       "Charvaargh"
     ],
@@ -259,7 +259,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -289,7 +289,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Goomba",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -312,7 +312,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Brown",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Gigagoom",
       "Paragoom"
@@ -323,7 +323,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Gigagoom",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -354,7 +354,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Normal",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -384,7 +384,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Tinytroopa",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -407,7 +407,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "eggGroups": [
       "Field",
       "Humanlike"
-    ],,
+    ],
     "evos": [
       "Koopatroopa"
     ],
@@ -417,7 +417,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Koopatroopa",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -440,13 +440,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "eggGroups": [
       "Field",
       "Humanlike"
-    ],,
+    ],
     "evos": [
       "Paratroopa"
-    ],,
+    ],
     "otherFormes": [
       "Koopatroopa-Gold"
-    ],,
+    ],
     "formeOrder": [
       "Koopatroopa",
       "Koopatroopa-Gold"
@@ -457,7 +457,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Koopatroopa-Gold",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -480,7 +480,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "eggGroups": [
       "Field",
       "Humanlike"
-    ],,
+    ],
     "evos": [
       "Paratroopa"
     ],
@@ -491,7 +491,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Normal",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -514,7 +514,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "eggGroups": [
       "Field",
       "Humanlike"
-    ],,
+    ],
     "evos": [
       "Tubotroopa"
     ],
@@ -525,7 +525,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Normal",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -555,7 +555,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Thwimp",
     "types": [
       "Rock"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -577,7 +577,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Gray",
     "eggGroups": [
       "Mineral"
-    ],,
+    ],
     "evos": [
       "Thwomp"
     ],
@@ -587,7 +587,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Thwomp",
     "types": [
       "Rock"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -609,7 +609,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Gray",
     "eggGroups": [
       "Mineral"
-    ],,
+    ],
     "evos": [
       "Pouncer"
     ],
@@ -619,7 +619,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Pouncer",
     "types": [
       "Rock"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -648,7 +648,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Squiggler",
     "types": [
       "Bug"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -671,7 +671,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Bug"
-    ],,
+    ],
     "evos": [
       "Wiggler"
     ],
@@ -681,7 +681,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Wiggler",
     "types": [
       "Bug"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -704,7 +704,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Bug"
-    ],,
+    ],
     "evos": [
       "Flutter",
       "Fuzzler"
@@ -716,7 +716,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Bug",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -746,7 +746,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Fuzzler",
     "types": [
       "Bug"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -776,7 +776,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Lil'Slammer",
     "types": [
       "Fighting"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -799,7 +799,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Humanlike"
-    ],,
+    ],
     "evos": [
       "Hammer Bro"
     ],
@@ -809,7 +809,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Hammer Bro",
     "types": [
       "Fighting"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -832,7 +832,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Green",
     "eggGroups": [
       "Humanlike"
-    ],,
+    ],
     "evos": [
       "Ice Bro",
       "Fire Bro",
@@ -844,7 +844,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Sledge Bro",
     "types": [
       "Fighting"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -874,7 +874,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Ice Bro",
     "types": [
       "Ice"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -904,7 +904,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Fire Bro",
     "types": [
       "Fire"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -934,7 +934,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Sporer",
     "types": [
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -957,7 +957,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Grass"
-    ],,
+    ],
     "evos": [
       "Nipplant"
     ],
@@ -967,7 +967,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Nipplant",
     "types": [
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -990,7 +990,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Grass"
-    ],,
+    ],
     "evos": [
       "Navalranha"
     ],
@@ -1000,7 +1000,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Navalranha",
     "types": [
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -1030,7 +1030,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Gooble",
     "types": [
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1053,7 +1053,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Pink",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Protoranha"
     ],
@@ -1063,7 +1063,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Protoranha",
     "types": [
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1093,7 +1093,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Lakipuff",
     "types": [
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1116,7 +1116,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Lakitu",
       "Foo"
@@ -1127,7 +1127,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Lakitu",
     "types": [
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1150,7 +1150,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Lakilust",
       "Lakilust"
@@ -1161,7 +1161,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Lakilust",
     "types": [
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1192,7 +1192,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -1215,7 +1215,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Pink",
     "eggGroups": [
       "Grass"
-    ],,
+    ],
     "evos": [
       "Amazydayzee"
     ],
@@ -1226,7 +1226,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -1257,7 +1257,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Fire"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 65,
@@ -1277,7 +1277,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Green",
     "eggGroups": [
       "Grass"
-    ],,
+    ],
     "evos": [
       "Lavalotus"
     ],
@@ -1288,7 +1288,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Fire"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 105,
@@ -1316,7 +1316,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Normal",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1339,7 +1339,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Spinysqueak"
     ],
@@ -1350,7 +1350,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Normal",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1380,7 +1380,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Ninji",
     "types": [
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1403,7 +1403,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Shuriki"
     ],
@@ -1413,7 +1413,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Shuriki",
     "types": [
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1444,7 +1444,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -1474,7 +1474,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Bug"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -1498,7 +1498,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "eggGroups": [
       "Monster",
       "Field"
-    ],,
+    ],
     "evos": [
       "Spike Top",
       "Parabeetle"
@@ -1510,7 +1510,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Bug"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -1541,7 +1541,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Spiny",
     "types": [
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1571,7 +1571,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Shy Guy",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -1594,7 +1594,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Snifit"
     ],
@@ -1604,7 +1604,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Snifit",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -1627,7 +1627,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Gunner Guy"
     ],
@@ -1637,7 +1637,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Gunner Guy",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -1668,7 +1668,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Poison",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1691,7 +1691,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Flying"
-    ],,
+    ],
     "evos": [
       "Swoop"
     ],
@@ -1702,7 +1702,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Poison",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1725,7 +1725,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Flying"
-    ],,
+    ],
     "evos": [
       "Swampire"
     ],
@@ -1736,7 +1736,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Poison",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1766,7 +1766,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Coin Coffer",
     "types": [
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1797,7 +1797,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ghost",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1826,7 +1826,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Stingby",
     "types": [
       "Bug"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1849,7 +1849,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Bug"
-    ],,
+    ],
     "evos": [
       "Beehoss"
     ],
@@ -1859,7 +1859,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Beehoss",
     "types": [
       "Bug"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1889,7 +1889,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Mr.Blizzard",
     "types": [
       "Ice"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -1911,7 +1911,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Royalblizz",
       "Royalblizz"
@@ -1922,7 +1922,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Royalblizz",
     "types": [
       "Ice"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -1951,7 +1951,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Cheep Cheep",
     "types": [
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -1974,7 +1974,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Water2"
-    ],,
+    ],
     "evos": [
       "Boss Bass"
     ],
@@ -1984,7 +1984,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Boss Bass",
     "types": [
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2007,7 +2007,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Water2"
-    ],,
+    ],
     "evos": [
       "Cheepskipper"
     ],
@@ -2017,7 +2017,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Cheepskipper",
     "types": [
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2048,7 +2048,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -2071,7 +2071,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Kingfin"
     ],
@@ -2082,7 +2082,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -2112,7 +2112,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Spark",
     "types": [
       "Electric"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 40,
@@ -2132,7 +2132,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Amp"
     ],
@@ -2142,7 +2142,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Amp",
     "types": [
       "Electric"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 70,
@@ -2169,7 +2169,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Boo",
     "types": [
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2191,7 +2191,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Boodies"
     ],
@@ -2201,7 +2201,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Boodies",
     "types": [
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2223,7 +2223,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Boolossus"
     ],
@@ -2233,7 +2233,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Boolossus",
     "types": [
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2263,7 +2263,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2286,7 +2286,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Water3"
-    ],,
+    ],
     "evos": [
       "Clawdaddy",
       "Clawgrip",
@@ -2299,7 +2299,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2330,7 +2330,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Fighting"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2361,7 +2361,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Electric",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2384,7 +2384,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Purple",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Liquilite"
     ],
@@ -2395,7 +2395,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Electric",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2426,7 +2426,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Bug",
       "Fighting"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -2457,7 +2457,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -2480,7 +2480,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Purple",
     "eggGroups": [
       "Water2"
-    ],,
+    ],
     "evos": [
       "Porcupuffer"
     ],
@@ -2491,7 +2491,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -2522,7 +2522,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Electric"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -2553,7 +2553,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -2576,7 +2576,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Banzai Bill",
       "Torpedo Ted"
@@ -2588,7 +2588,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -2611,7 +2611,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "King Bill"
     ],
@@ -2622,7 +2622,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -2653,7 +2653,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Bug",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -2676,7 +2676,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Fuzzilla"
     ],
@@ -2687,7 +2687,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Bug",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -2717,7 +2717,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Monty Mole",
     "types": [
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -2740,7 +2740,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Brown",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Mega Mole",
       "RockyWrench"
@@ -2752,7 +2752,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -2775,7 +2775,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Brown",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Monty Tank"
     ],
@@ -2786,7 +2786,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -2816,7 +2816,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Toady",
     "types": [
       "Psychic"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -2839,7 +2839,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Magikoopa"
     ],
@@ -2849,7 +2849,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Magikoopa",
     "types": [
       "Psychic"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -2872,7 +2872,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Psykamek"
     ],
@@ -2882,7 +2882,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Psykamek",
     "types": [
       "Psychic"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -2913,7 +2913,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fighting",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -2936,7 +2936,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Gray",
     "eggGroups": [
       "Monster"
-    ],,
+    ],
     "evos": [
       "Nobull"
     ],
@@ -2947,7 +2947,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fighting",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -2978,7 +2978,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fighting",
       "Ice"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -3001,7 +3001,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Monster"
-    ],,
+    ],
     "evos": [
       "Chief Chill"
     ],
@@ -3012,7 +3012,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fighting",
       "Ice"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -3043,7 +3043,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3066,7 +3066,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Pokey"
     ],
@@ -3077,7 +3077,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3100,7 +3100,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Mummipokey"
     ],
@@ -3111,7 +3111,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3142,7 +3142,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3165,7 +3165,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Green",
     "eggGroups": [
       "Field"
-    ],,
+    ],
     "evos": [
       "Clubba"
     ],
@@ -3176,7 +3176,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3207,7 +3207,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -3238,7 +3238,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3269,7 +3269,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Dark",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -3300,7 +3300,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ghost",
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3322,7 +3322,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Gray",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Elite Bones",
       "Para Bones"
@@ -3334,7 +3334,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ghost",
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3364,7 +3364,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ghost",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3393,7 +3393,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Bob-omb",
     "types": [
       "Fire"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3416,7 +3416,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Bob-arm"
     ],
@@ -3426,7 +3426,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Bob-arm",
     "types": [
       "Fire"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3449,7 +3449,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "King-omb",
       "Queen-omb"
@@ -3460,7 +3460,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "King-omb",
     "types": [
       "Fire"
-    ],,
+    ],
     "gender": "M",
     "baseStats": {
       "hp": 70,
@@ -3488,7 +3488,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fighting",
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -3519,7 +3519,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3542,7 +3542,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Gray",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Whomp"
     ],
@@ -3553,7 +3553,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3584,7 +3584,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.875,
       "F": 0.125
@@ -3614,7 +3614,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Electroopa",
     "types": [
       "Electric"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3637,7 +3637,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Voltroopa"
     ],
@@ -3647,7 +3647,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Voltroopa",
     "types": [
       "Electric"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3678,7 +3678,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Psychic"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3701,7 +3701,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Purple",
     "eggGroups": [
       "Water3"
-    ],,
+    ],
     "evos": [
       "Urchin"
     ],
@@ -3712,7 +3712,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Psychic"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3742,7 +3742,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "CharginChuck",
     "types": [
       "Fighting"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -3772,7 +3772,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Virus",
     "types": [
       "Poison"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 80,
@@ -3792,7 +3792,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Trirus"
     ],
@@ -3802,7 +3802,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Trirus",
     "types": [
       "Poison"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 120,
@@ -3829,7 +3829,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Rex",
     "types": [
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3858,7 +3858,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Chibi Chomp",
     "types": [
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3881,7 +3881,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Gray",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Chain Chomp"
     ],
@@ -3891,7 +3891,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Chain Chomp",
     "types": [
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3922,7 +3922,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -3952,7 +3952,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Mechakoopa",
     "types": [
       "Electric"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 65,
@@ -3971,12 +3971,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "otherFormes": [
       "Mechakoopa-Water",
       "Mechakoopa-Fire",
       "Mechakoopa-Ice"
-    ],,
+    ],
     "formeOrder": [
       "Mechakoopa",
       "Mechakoopa-Water",
@@ -3990,7 +3990,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Electric",
       "Water"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 65,
@@ -4017,7 +4017,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Electric",
       "Fire"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 65,
@@ -4044,7 +4044,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Electric",
       "Ice"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 65,
@@ -4071,7 +4071,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Electric"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4094,7 +4094,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Water3"
-    ],,
+    ],
     "evos": [
       "Jellybeam"
     ],
@@ -4105,7 +4105,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ice",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -4136,7 +4136,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Electric",
       "Steel"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 30,
@@ -4156,7 +4156,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Topman"
     ],
@@ -4167,7 +4167,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Electric",
       "Steel"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 50,
@@ -4187,7 +4187,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Topmaniac"
     ],
@@ -4198,7 +4198,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Electric",
       "Steel"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 65,
@@ -4226,7 +4226,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fairy",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -4249,7 +4249,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Pink",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Smeech"
     ],
@@ -4260,7 +4260,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fairy",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -4291,7 +4291,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ice",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4314,7 +4314,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Ty-Foo"
     ],
@@ -4325,7 +4325,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ice",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4356,7 +4356,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ice",
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4386,7 +4386,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Mega Mole",
     "types": [
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -4416,7 +4416,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Fire Snake",
     "types": [
       "Fire"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4439,7 +4439,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Angry Sun"
     ],
@@ -4450,7 +4450,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Psychic"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4481,7 +4481,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Dark",
       "Fairy"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 66,
@@ -4509,7 +4509,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fighting",
       "Electric"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -4540,7 +4540,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ice",
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4571,7 +4571,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Bug",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4594,7 +4594,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Pink",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Scuttlebug"
     ],
@@ -4605,7 +4605,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Bug",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4636,7 +4636,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Poison",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4659,7 +4659,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Purple",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Zombimush"
     ],
@@ -4670,7 +4670,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Poison",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4701,7 +4701,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Grass"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4724,7 +4724,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Green",
     "eggGroups": [
       "Water1"
-    ],,
+    ],
     "evos": [
       "Komboo"
     ],
@@ -4735,7 +4735,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fighting",
       "Electric"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -4758,7 +4758,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Brown",
     "eggGroups": [
       "Humanlike"
-    ],,
+    ],
     "evos": [
       "Sumo Bro"
     ],
@@ -4769,7 +4769,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Dark",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -4792,7 +4792,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Flying"
-    ],,
+    ],
     "evos": [
       "Klepto"
     ],
@@ -4802,7 +4802,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Bumpty",
     "types": [
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4825,7 +4825,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Cooligan"
     ],
@@ -4836,7 +4836,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4858,7 +4858,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Dino Rhino"
     ],
@@ -4869,7 +4869,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4891,7 +4891,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Reznor"
     ],
@@ -4902,7 +4902,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -4931,7 +4931,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Shrooblet",
     "types": [
       "Psychic"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 45,
@@ -4951,7 +4951,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Purple",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Shroob"
     ],
@@ -4961,7 +4961,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Shroob",
     "types": [
       "Psychic"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 70,
@@ -4981,7 +4981,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Purple",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Shrooboid",
       "S.F.O."
@@ -4992,7 +4992,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Shrooboid",
     "types": [
       "Psychic"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 115,
@@ -5020,7 +5020,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Psychic",
       "Steel"
-    ],,
+    ],
     "gender": "N",
     "baseStats": {
       "hp": 70,
@@ -5047,7 +5047,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ice",
       "Fire"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -5078,7 +5078,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Psychic"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5108,7 +5108,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Ice"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -5138,7 +5138,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Steel",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5169,7 +5169,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5198,7 +5198,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Flappy",
     "types": [
       "Bug"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -5221,7 +5221,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Bug"
-    ],,
+    ],
     "evos": [
       "Fighter Fly"
     ],
@@ -5232,7 +5232,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5255,7 +5255,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Brown",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Tweester"
     ],
@@ -5266,7 +5266,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5297,7 +5297,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Bug",
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5327,7 +5327,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Steel",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5358,7 +5358,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Psychic",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5381,7 +5381,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Lumalee"
     ],
@@ -5392,7 +5392,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Psychic",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5423,7 +5423,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5446,7 +5446,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Green",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Dinoranha"
     ],
@@ -5457,7 +5457,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5488,7 +5488,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -5511,7 +5511,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Glamdozer"
     ],
@@ -5522,7 +5522,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -5553,7 +5553,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Psychic",
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -5583,7 +5583,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Psychic",
       "Flying"
-    ],,
+    ],
     "gender": "M",
     "baseStats": {
       "hp": 105,
@@ -5610,7 +5610,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5639,7 +5639,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Star Kid",
     "types": [
       "Fairy"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5662,7 +5662,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Yellow",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Star Spirit",
       "Star Sprite"
@@ -5673,7 +5673,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Star Spirit",
     "types": [
       "Fairy"
-    ],,
+    ],
     "gender": "M",
     "baseStats": {
       "hp": 65,
@@ -5700,7 +5700,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Star Sprite",
     "types": [
       "Fairy"
-    ],,
+    ],
     "gender": "F",
     "baseStats": {
       "hp": 95,
@@ -5727,7 +5727,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Tanoomba",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5757,7 +5757,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5787,7 +5787,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Electric",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5816,7 +5816,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "L'il Brr",
     "types": [
       "Ice"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5846,7 +5846,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ice",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5876,7 +5876,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fairy",
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5907,7 +5907,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Poison",
       "Steel"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5936,7 +5936,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Peepa",
     "types": [
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -5967,7 +5967,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.75,
       "F": 0.25
@@ -5998,7 +5998,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Queen-omb",
     "types": [
       "Fire"
-    ],,
+    ],
     "gender": "F",
     "baseStats": {
       "hp": 70,
@@ -6025,7 +6025,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Mommaranha",
     "types": [
       "Grass"
-    ],,
+    ],
     "gender": "F",
     "baseStats": {
       "hp": 85,
@@ -6052,7 +6052,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Sushi",
     "types": [
       "Water"
-    ],,
+    ],
     "gender": "F",
     "baseStats": {
       "hp": 75,
@@ -6080,7 +6080,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Dragon",
       "Psychic"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6110,7 +6110,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Fighting"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6141,7 +6141,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6172,7 +6172,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ground",
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6202,7 +6202,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Psychic",
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6232,7 +6232,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6262,7 +6262,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Scaredy Rat",
     "types": [
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6292,7 +6292,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Runt",
     "types": [
       "Dragon"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6314,7 +6314,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Rex"
     ],
@@ -6325,7 +6325,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6348,7 +6348,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Red",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Tryclyde"
     ],
@@ -6359,7 +6359,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6390,7 +6390,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ghost",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6413,7 +6413,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Sluggard"
     ],
@@ -6424,7 +6424,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Ghost",
       "Poison"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6454,7 +6454,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "Brolder",
     "types": [
       "Rock"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6477,7 +6477,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Gray",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Magmolder"
     ],
@@ -6488,7 +6488,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Rock",
       "Fire"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6511,7 +6511,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Gray",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [
       "Magmolder"
     ],
@@ -6522,7 +6522,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Dark",
       "Ghost"
-    ],,
+    ],
     "gender": "M",
     "baseStats": {
       "hp": 80,
@@ -6542,11 +6542,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
-    "evos": [],,
+    ],
+    "evos": [],
     "otherFormes": [
       "Mr. I-Small"
-    ],,
+    ],
     "formeOrder": [
       "Mr. I",
       "Mr. I-Small"
@@ -6558,7 +6558,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Dark",
       "Ghost"
-    ],,
+    ],
     "gender": "M",
     "baseStats": {
       "hp": 70,
@@ -6578,7 +6578,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [],
   },
   "uproot": {
@@ -6587,7 +6587,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Dark"
-    ],,
+    ],
     "gender": "M",
     "baseStats": {
       "hp": 80,
@@ -6606,11 +6606,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Green",
     "eggGroups": [
       "Amorphous"
-    ],,
-    "evos": [],,
+    ],
+    "evos": [],
     "otherFormes": [
       "Uproot-Potless"
-    ],,
+    ],
     "formeOrder": [
       "Uproot",
       "Uproot-Potless"
@@ -6622,7 +6622,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Grass",
       "Dark"
-    ],,
+    ],
     "gender": "M",
     "baseStats": {
       "hp": 80,
@@ -6641,7 +6641,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Green",
     "eggGroups": [
       "Amorphous"
-    ],,
+    ],
     "evos": [],
   },
   "madpole": {
@@ -6650,7 +6650,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6673,7 +6673,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Water2"
-    ],,
+    ],
     "evos": [
       "Splounder"
     ],
@@ -6684,7 +6684,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Water",
       "Ground"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6707,7 +6707,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Blue",
     "eggGroups": [
       "Water2"
-    ],,
+    ],
     "evos": [],
   },
   "pidgit": {
@@ -6716,7 +6716,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Dark",
       "Flying"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.25,
       "F": 0.75
@@ -6747,7 +6747,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fighting",
       "Dark"
-    ],,
+    ],
     "gender": "M",
     "baseStats": {
       "hp": 90,
@@ -6774,7 +6774,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Psychic",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6796,7 +6796,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "Black",
     "eggGroups": [
       "Flying"
-    ],,
+    ],
     "evos": [
       "Antasmimic"
     ],
@@ -6807,7 +6807,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Psychic",
       "Dark"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6836,7 +6836,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "StrollinStu",
     "types": [
       "Normal"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6858,7 +6858,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "color": "White",
     "eggGroups": [
       "Flying"
-    ],,
+    ],
     "evos": [
       "SearinStu",
       "ShockinStu",
@@ -6870,7 +6870,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "SearinStu",
     "types": [
       "Fire"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6899,7 +6899,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "ShockinStu",
     "types": [
       "Electric"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6928,7 +6928,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "name": "SoakinStu",
     "types": [
       "Water"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
@@ -6958,7 +6958,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     "types": [
       "Fire",
       "Ghost"
-    ],,
+    ],
     "genderRatio": {
       "M": 0.5,
       "F": 0.5
