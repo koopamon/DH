@@ -2041,9 +2041,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "superpower": [
         "8M"
       ],
-      "uturn": [
-        "8M"
-      ],
       "crunch": [
         "8M"
       ],
@@ -2175,9 +2172,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "superpower": [
-        "8M"
-      ],
-      "uturn": [
         "8M"
       ],
       "crunch": [
@@ -2317,9 +2311,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "shellsmash": [
-        "8M"
-      ],
-      "uturn": [
         "8M"
       ],
       "crunch": [
@@ -2480,9 +2471,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "shellsmash": [
-        "8M"
-      ],
-      "uturn": [
         "8M"
       ],
       "crunch": [
@@ -6985,12 +6973,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "precipiceblades": [
-        "8M"
-      ],
-      "xscissor": [
-        "8M"
-      ],
-      "uturn": [
         "8M"
       ],
       "crunch": [
@@ -24959,9 +24941,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swift": [
         "8M"
       ],
-      "uturn": [
-        "8M"
-      ],
       "fairywind": [
         "8M"
       ],
@@ -25111,9 +25090,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "swift": [
-        "8M"
-      ],
-      "uturn": [
         "8M"
       ],
       "return": [
@@ -25453,7 +25429,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hydropump": [
         "8M"
       ],
-      "uturn": [
+      "teleport": [
         "8M"
       ],
       "raindance": [
@@ -25654,7 +25630,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "protect": [
         "8M"
       ],
-      "teleport": [
+      "uturn": [
         "8M"
       ],
       "irontail": [
@@ -25675,7 +25651,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "agility": [
         "8M"
       ],
-      "uturn": [
+      "teleport": [
         "8M"
       ],
       "taunt": [
@@ -27951,9 +27927,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "burnup": [
         "8M"
       ],
-      "uturn": [
-        "8M"
-      ],
       "torment": [
         "8M"
       ],
@@ -28115,9 +28088,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "burnup": [
-        "8M"
-      ],
-      "uturn": [
         "8M"
       ],
       "torment": [

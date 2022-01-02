@@ -6350,4 +6350,38 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Magmolder"
     ],
   },
+  magmolder: {
+    num: 203,
+    name: "Magmolder",
+    types: [
+      "Rock",
+      "Fire"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 85,
+      atk: 45,
+      def: 155,
+      spa: 125,
+      spd: 105,
+      spe: 35
+    },
+    abilities: {
+      0: "Solid Rock",
+      1: "Bulletproof",
+      H: "Magma Energy"
+    },
+    heightm: 3.7,
+    weightkg: 617.9,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Magmolder"
+    ],
+  },
 };
