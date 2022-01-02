@@ -26891,7 +26891,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sluma": {
+  "starluma": {
     "learnset": {
       "rapidspin": [
         "8M"
@@ -26973,7 +26973,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sptooie": {
+  "starptooie": {
     "learnset": {
       "defog": [
         "8M"
@@ -27282,7 +27282,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "smagikoopa": {
+  "starmagikoopa": {
     "learnset": {
       "confusion": [
         "8M"
@@ -27385,7 +27385,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "schainchomp": {
+  "starchainchomp": {
     "learnset": {
       "bite": [
         "8M"

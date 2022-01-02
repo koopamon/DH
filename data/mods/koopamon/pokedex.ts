@@ -5972,7 +5972,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  sptooie: {
+  starptooie: {
     num: 191,
     name: "Star Ptooie",
     types: [
@@ -6250,6 +6250,104 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Amorphous"
+    ],
+  },
+  sluggy: {
+    num: 200,
+    name: "Sluggy",
+    types: [
+      "Ghost",
+      "Poison"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 100,
+      atk: 10,
+      def: 30,
+      spa: 75,
+      spd: 80,
+      spe: 10
+    },
+    abilities: {
+      0: "Gooey",
+      1: "Liquid Ooze",
+      H: "Natural Cure"
+    },
+    heightm: 0.3,
+    weightkg: 0.1,
+    color: "White",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Sluggard"
+    ],
+  },
+  sluggard: {
+    num: 201,
+    name: "Sluggard",
+    types: [
+      "Ghost",
+      "Poison"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 150,
+      atk: 35,
+      def: 65,
+      spa: 100,
+      spd: 120,
+      spe: 30
+    },
+    abilities: {
+      0: "Gooey",
+      1: "Liquid Ooze",
+      H: "Natural Cure"
+    },
+    heightm: 3.2,
+    weightkg: 1.9,
+    color: "Red",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  brolder: {
+    num: 202,
+    name: "Brolder",
+    types: [
+      "Rock"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 40,
+      atk: 30,
+      def: 95,
+      spa: 70,
+      spd: 70,
+      spe: 20
+    },
+    abilities: {
+      0: "Solid Rock",
+      1: "Bulletproof",
+      H: "Magma Armor"
+    },
+    heightm: 1.8,
+    weightkg: 193.2,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Magmolder"
     ],
   },
 };
