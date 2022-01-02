@@ -84,7 +84,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (target.hasType('Grass')) return null;
 				target.addVolatile('leechseed', source);
 			},
-		}
+		},
 		target: "normal",
 		type: "Fire",
 	},
