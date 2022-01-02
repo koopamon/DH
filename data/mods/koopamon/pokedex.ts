@@ -6380,8 +6380,5 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Amorphous"
     ],
-    evos: [
-      "Magmolder"
-    ],
   },
 };
