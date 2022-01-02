@@ -5043,7 +5043,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   sbobomb: {
     num: 156,
-    name: "Bob-omb",
+    name: "Star Bob-omb",
     types: [
       "Ice",
       "Fire"
@@ -5072,9 +5072,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  sblooper: {
+  starblooper: {
     num: 157,
-    name: "Blooper",
+    name: "Star Blooper",
     types: [
       "Grass",
       "Psychic"
@@ -5102,9 +5102,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  spodoboo: {
+  starpodoboo: {
     num: 158,
-    name: "Podoboo",
+    name: "Star Podoboo",
     types: [
       "Water",
       "Ice"
@@ -5132,9 +5132,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  skoopatroopa: {
+  starkoopatroopa: {
     num: 159,
-    name: "Koopatroopa",
+    name: "Star Koopatroopa",
     types: [
       "Steel",
       "Dark"
@@ -5163,9 +5163,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Humanlike"
     ]
   },
-  sboo: {
+  starboo: {
     num: 160,
-    name: "Boo",
+    name: "Star Boo",
     types: [
       "Water",
       "Fairy"
@@ -5291,9 +5291,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  sbuzzybeetle: {
+  starbuzzybeetle: {
     num: 164,
-    name: "Buzzybeetle",
+    name: "Star Buzzybeetle",
     types: [
       "Bug",
       "Dragon"
@@ -5547,9 +5547,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  sgoomba: {
+  stargoomba: {
     num: 172,
-    name: "Goomba",
+    name: "Star Goomba",
     types: [
       "Psychic",
       "Normal"
@@ -5751,9 +5751,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  splantranha: {
+  starplantranha: {
     num: 179,
-    name: "Plantranha",
+    name: "Star Plantranha",
     types: [
       "Fire",
       "Flying"
@@ -5781,9 +5781,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  scheepcheep: {
+  starcheepcheep: {
     num: 180,
-    name: "Cheep Cheep",
+    name: "Star Cheep Cheep",
     types: [
       "Electric",
       "Flying"
@@ -5901,9 +5901,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  sbulletbill: {
+  starbulletbill: {
     num: 184,
-    name: "Bullet Bill",
+    name: "Star Bullet Bill",
     types: [
       "Poison",
       "Steel"
@@ -6074,9 +6074,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  sluma: {
+  starluma: {
     num: 190,
-    name: "Luma",
+    name: "Star Luma",
     types: [
       "Dragon",
       "Psychic"
@@ -6104,9 +6104,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  sptooie: {
+  starptooie: {
     num: 191,
-    name: "Ptooie",
+    name: "Star Ptooie",
     types: [
       "Grass",
       "Fighting"
@@ -6196,9 +6196,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  smagikoopa: {
+  starmagikoopa: {
     num: 194,
-    name: "Magikoopa",
+    name: "Star Magikoopa",
     types: [
       "Psychic",
       "Ghost"
@@ -6226,9 +6226,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  schainchomp: {
+  starchainchomp: {
     num: 195,
-    name: "Chain Chomp",
+    name: "Star Chain Chomp",
     types: [
       "Rock",
       "Ghost"
@@ -6607,14 +6607,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [],
     otherFormes: [
-      "UprootPotless"
+      "Uproot-Busted"
     ],
     formeOrder: [
       "Uproot",
-      "UprootPotless"
+      "Uproot-Busted"
     ]
   },
-  uprootpotless: {
+  uprootbusted: {
     num: 205,
     name: "Uproot",
     types: [
@@ -6829,155 +6829,4 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Flying"
     ]
   },
-  strollinstu: {
-    num: 212,
-    name: "StrollinStu",
-    types: [
-      "Normal"
-    ],
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    baseStats: {
-      hp: 60,
-      atk: 55,
-      def: 55,
-      spa: 55,
-      spd: 55,
-      spe: 55
-    },
-    abilities: {
-      0: "Run Away",
-      H: "Adaptability"
-    },
-    heightm: 0.6,
-    weightkg: 36.6,
-    color: "White",
-    eggGroups: [
-      "Flying"
-    ],
-    evos: [
-      "SearinStu",
-      "ShockinStu",
-      "SoakinStu"
-    ]
-  },
-  searinstu: {
-    num: 213,
-    name: "SearinStu",
-    types: [
-      "Fire"
-    ],
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    baseStats: {
-      hp: 80,
-      atk: 55,
-      def: 55,
-      spa: 125,
-      spd: 75,
-      spe: 85
-    },
-    abilities: {
-      0: "Flash Fire",
-      H: "Eternal Flame"
-    },
-    heightm: 0.8,
-    weightkg: 42.5,
-    color: "Red",
-    eggGroups: [
-      "Flying"
-    ]
-  },
-  shockinstu: {
-    num: 214,
-    name: "ShockinStu",
-    types: [
-      "Electric"
-    ],
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    baseStats: {
-      hp: 80,
-      atk: 75,
-      def: 60,
-      spa: 75,
-      spd: 60,
-      spe: 125
-    },
-    abilities: {
-      0: "Volt Absorb",
-      H: "Voltaic Energy"
-    },
-    heightm: 0.8,
-    weightkg: 42.5,
-    color: "Yellow",
-    eggGroups: [
-      "Flying"
-    ]
-  },
-  soakinstu: {
-    num: 215,
-    name: "SoakinStu",
-    types: [
-      "Water"
-    ],
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    baseStats: {
-      hp: 80,
-      atk: 85,
-      def: 125,
-      spa: 55,
-      spd: 55,
-      spe: 75
-    },
-    abilities: {
-      0: "Water Absorb",
-      H: "Water Bubble"
-    },
-    heightm: 0.8,
-    weightkg: 42.5,
-    color: "Blue",
-    eggGroups: [
-      "Flying"
-    ]
-  },
-  fishinboo: {
-    num: 216,
-    name: "Fishin Boo",
-    types: [
-      "Fire",
-      "Ghost"
-    ],
-    genderRatio: {
-      M: 0.5,
-      F: 0.5
-    },
-    baseStats: {
-      hp: 50,
-      atk: 65,
-      def: 75,
-      spa: 120,
-      spd: 90,
-      spe: 85
-    },
-    abilities: {
-      0: "Levitate",
-      H: "Haunted Hook"
-    },
-    heightm: 1.3,
-    weightkg: 27.6,
-    color: "Blue",
-    eggGroups: [
-      "Flying"
-    ]
-  }
 }

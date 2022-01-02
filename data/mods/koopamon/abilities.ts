@@ -264,17 +264,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			for (const sideCondition of ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge']) {
 				if (pokemon.side.getSideCondition(sideCondition)) {
 					if (!activated) {
-						this.add('-activate', pokemon, 'ability: Blow Away');
+						this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] move: Blow Away', '[of] ' + pokemon);
 						activated = true;
 					}
 					pokemon.side.removeSideCondition(sideCondition);
-				}
-				if (pokemon.side.foe.getSideCondition(sideCondition)) {
-					if (!activated) {
-						this.add('-activate', pokemon, 'ability: Blow Away');
-						activated = true;
-					}
-					pokemon.side.foe.removeSideCondition(sideCondition);
 				}
 			}
 		},
