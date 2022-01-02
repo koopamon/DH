@@ -6815,5 +6815,5 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Flying"
     ],
-  }
+  },
 }
