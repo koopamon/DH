@@ -4027,7 +4027,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "focusblast": [
         "8M"
       ],
-      "eruption": [
+      "overheat": [
         "8M"
       ],
       "sleeptalk": [
@@ -7975,7 +7975,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "playrough": [
         "8M"
       ],
-      "spikes": [
+      "teeterdance": [
         "8M"
       ],
       "perishsong": [
@@ -11600,9 +11600,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "tailwind": [
         "8M"
       ],
-      "roost": [
-        "8M"
-      ],
       "icebeam": [
         "8M"
       ],
@@ -11755,9 +11752,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "tailwind": [
-        "8M"
-      ],
-      "roost": [
         "8M"
       ],
       "icebeam": [
@@ -12997,7 +12991,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "futuresight": [
         "8M"
       ],
-      "psystrike": [
+      "mimic": [
         "8M"
       ],
       "hail": [
@@ -14435,6 +14429,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   "mummipokey": {
     "learnset": {
       "sleeppowder": [
+        "8M"
+      ],
+	  "woodhammer": [
         "8M"
       ],
       "stunspore": [
