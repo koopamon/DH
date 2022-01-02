@@ -62,7 +62,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	beeswarm: {
 		accuracy: 85,
 		basePower: 100,
-		category: "Special",
+		category: "Physical",
 		name: "Bee Swarm",
 		shortDesc: "Traps and damages the target for 4-5 turns.",
 		pp: 5,
@@ -127,7 +127,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	leafcyclone: {
 		accuracy: 100,
 		basePower: 90,
-		category: "Physical",
+		category: "Special",
 		name: "Leaf Cyclone",
 		shortDesc: "Free user from hazards/bind/Leech Seed; +1 Spe.",
 		pp: 15,
