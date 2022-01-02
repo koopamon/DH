@@ -452,7 +452,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Koopatroopa-Gold"
     ],
   },
-  koopatroopa-gold: {
+  koopatroopagold: {
     num: 14,
     name: "Koopatroopa-Gold",
     types: [
@@ -3984,7 +3984,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Mechakoopa-Ice"
     ],
   },
-  mechakoopa-water: {
+  mechakoopawater: {
     num: 124,
     name: "Mechakoopa-Water",
     types: [
@@ -4011,7 +4011,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  mechakoopa-fire: {
+  mechakoopafire: {
     num: 124,
     name: "Mechakoopa-Fire",
     types: [
@@ -4038,7 +4038,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  mechakoopa-ice: {
+  mechakoopaice: {
     num: 124,
     name: "Mechakoopa-Ice",
     types: [
@@ -6552,7 +6552,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Mr. I-Small"
     ],
   },
-  mr. i-small: {
+  mrismall: {
     num: 204,
     name: "Mr. I-Small",
     types: [
@@ -6609,16 +6609,16 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [],
     otherFormes: [
-      "Uproot-Potless"
+      "Uproot-Busted"
     ],
     formeOrder: [
       "Uproot",
-      "Uproot-Potless"
+      "Uproot-Busted"
     ],
   },
-  uproot-potless: {
+  uprootbusted: {
     num: 205,
-    name: "Uproot-Potless",
+    name: "Uproot-Busted",
     types: [
       "Grass",
       "Dark"
