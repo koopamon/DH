@@ -79,10 +79,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
-			chance: 30
+			chance: 30,
 			onHit(target, source) {
 				if (target.hasType('Grass')) return null;
-			
 				target.addVolatile('leechseed', source);
 			},
 		}
