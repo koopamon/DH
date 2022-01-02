@@ -6453,6 +6453,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   uprootbusted: {
     num: 205,
     name: "Uproot-Busted",
+	baseSpecies: "Uproot",
+	forme: "Busted",
     types: [
       "Grass",
       "Dark"
