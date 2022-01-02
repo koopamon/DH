@@ -5492,7 +5492,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       spe: 45
     },
     abilities: {
-      0: "AQUAAMPLIFY",
+      0: "Aqua Amplify",
       H: "Drizzle"
     },
     heightm: 1.8,
@@ -5760,7 +5760,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     abilities: {
       0: "Swift Swim",
       1: "Water Absorb",
-      H: "OCEANSFAVOR"
+      H: "Oceans Favor"
     },
     heightm: 3.1,
     weightkg: 216.8,
@@ -6116,7 +6116,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     abilities: {
       0: "Frisk",
       1: "Rock Head",
-      H: "STARSTEAL"
+      H: "Star Steal"
     },
     heightm: 2.4,
     weightkg: 238.4,
@@ -6372,7 +6372,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     abilities: {
       0: "Solid Rock",
       1: "Bulletproof",
-      H: "MAGMAENERGY"
+      H: "Magma Energy"
     },
     heightm: 3.7,
     weightkg: 617.9,
@@ -6500,7 +6500,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     abilities: {
       0: "Storm Drain",
       1: "Unaware",
-      H: "BLUBBERBODY"
+      H: "Blubber Body"
     },
     heightm: 0.6,
     weightkg: 7.7,
@@ -6534,7 +6534,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     abilities: {
       0: "Storm Drain",
       1: "Unaware",
-      H: "BLUBBERBODY"
+      H: "Blubber Body"
     },
     heightm: 3.1,
     weightkg: 44.1,
@@ -6656,7 +6656,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     abilities: {
       0: "Bad Dreams",
-      H: "SHADOWSTEAL"
+      H: "Shadow Steal"
     },
     heightm: 3.2,
     weightkg: 103.4,
@@ -6719,7 +6719,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     abilities: {
       0: "Flash Fire",
-      H: "ETERNALFLAME"
+      H: "Eternal Flame"
     },
     heightm: 0.8,
     weightkg: 42.5,
@@ -6748,7 +6748,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     abilities: {
       0: "Volt Absorb",
-      H: "VOLTAICENERGY"
+      H: "Voltaic Energy"
     },
     heightm: 0.8,
     weightkg: 42.5,
@@ -6807,7 +6807,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     abilities: {
       0: "Levitate",
-      H: "HAUNTEDHOOK"
+      H: "Haunted Hook"
     },
     heightm: 1.3,
     weightkg: 27.6,
