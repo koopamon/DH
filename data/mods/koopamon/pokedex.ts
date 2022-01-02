@@ -1319,7 +1319,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       hp: 65,
       atk: 75,
       def: 55,
-      spa: 102,
+      spa: 92,
       spd: 75,
       spe: 98
     },
@@ -2349,7 +2349,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Liquilite"
     ],
   },
-  fizzlight: {
+  liquilite: {
     num: 75,
     name: "Liquilite",
     types: [
@@ -2457,12 +2457,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       F: 0.75
     },
     baseStats: {
-      hp: 90,
-      atk: 115,
-      def: 100,
-      spa: 75,
-      spd: 65,
-      spe: 80
+      hp: 70,
+      atk: 120,
+      def: 110,
+      spa: 90,
+      spd: 50,
+      spe: 40
     },
     abilities: {
       0: "Swift Swim",
@@ -2901,7 +2901,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Nobull"
     ],
   },
-  nobully: {
+  nobull: {
     num: 92,
     name: "Nobull",
     types: [
@@ -4909,7 +4909,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  sbobomb: {
+  starbobomb: {
     num: 156,
     name: "Star Bob-omb",
     types: [
@@ -4940,7 +4940,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  sblooper: {
+  starblooper: {
     num: 157,
     name: "Star Blooper",
     types: [
@@ -4970,7 +4970,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  spodoboo: {
+  starpodoboo: {
     num: 158,
     name: "Star Podoboo",
     types: [
@@ -5000,7 +5000,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  skoopatroopa: {
+  starkoopatroopa: {
     num: 159,
     name: "Star Koopatroopa",
     types: [
@@ -5031,7 +5031,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Humanlike"
     ],
   },
-  sboo: {
+  starboo: {
     num: 160,
     name: "Star Boo",
     types: [
@@ -5159,7 +5159,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  sbuzzybeetle: {
+  starbuzzybeetle: {
     num: 164,
     name: "Buzzybeetle",
     types: [
@@ -5415,7 +5415,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  sgoomba: {
+  stargoomba: {
     num: 172,
     name: "Star Goomba",
     types: [
@@ -5619,7 +5619,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  splantranha: {
+  starplantranha: {
     num: 179,
     name: "Star Plantranha",
     types: [
@@ -5649,7 +5649,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
   },
-  scheepcheep: {
+  starcheepcheep: {
     num: 180,
     name: "Star Cheep Cheep",
     types: [
@@ -5677,6 +5677,992 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Amorphous"
+    ],
+  },
+    lilbrr: {
+    num: 181,
+    name: "L'il Brr",
+    types: [
+      "Ice"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 50,
+      atk: 15,
+      def: 25,
+      spa: 60,
+      spd: 70,
+      spe: 60
+    },
+    abilities: {
+      0: "Levitate",
+      H: "Mega Launcher"
+    },
+    heightm: 0.6,
+    weightkg: 54.2,
+    color: "Blue",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  baronbrrr: {
+    num: 182,
+    name: "Baron Brrr",
+    types: [
+      "Ice",
+      "Steel"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 80,
+      atk: 40,
+      def: 60,
+      spa: 130,
+      spd: 120,
+      spe: 95
+    },
+    abilities: {
+      0: "Levitate",
+      H: "Mega Launcher"
+    },
+    heightm: 1.8,
+    weightkg: 119.6,
+    color: "Blue",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  plessie: {
+    num: 183,
+    name: "Plessie",
+    types: [
+      "Fairy",
+      "Dragon"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 100,
+      atk: 88,
+      def: 62,
+      spa: 118,
+      spd: 80,
+      spe: 102
+    },
+    abilities: {
+      0: "Swift Swim",
+      1: "Water Absorb",
+      H: "Oceans Favor"
+    },
+    heightm: 3.1,
+    weightkg: 216.8,
+    color: "Yellow",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  starbulletbill: {
+    num: 184,
+    name: "Star Bullet Bill",
+    types: [
+      "Poison",
+      "Steel"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 95,
+      atk: 140,
+      def: 85,
+      spa: 60,
+      spd: 55,
+      spe: 95
+    },
+    abilities: {
+      0: "Levitate",
+      H: "Technician"
+    },
+    heightm: 0.8,
+    weightkg: 48.7,
+    color: "Black",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  peepa: {
+    num: 185,
+    name: "Peepa",
+    types: [
+      "Ghost"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 50,
+      atk: 55,
+      def: 70,
+      spa: 110,
+      spd: 105,
+      spe: 100
+    },
+    abilities: {
+      0: "Frisk",
+      1: "Infiltrator",
+      H: "Prankster"
+    },
+    heightm: 1.2,
+    weightkg: 1.1,
+    color: "White",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  parabeetle: {
+    num: 186,
+    name: "Parabeetle",
+    types: [
+      "Rock",
+      "Flying"
+    ],
+    genderRatio: {
+      M: 0.75,
+      F: 0.25
+    },
+    baseStats: {
+      hp: 80,
+      atk: 95,
+      def: 90,
+      spa: 30,
+      spd: 100,
+      spe: 110
+    },
+    abilities: {
+      0: "Solid Rock",
+      1: "Shell Armor",
+      H: "Bulletproof"
+    },
+    heightm: 1.1,
+    weightkg: 88.2,
+    color: "Red",
+    eggGroups: [
+      "Monster",
+      "Field"
+    ],
+  },
+  queenomb: {
+    num: 187,
+    name: "Queen-omb",
+    types: [
+      "Fire"
+    ],
+    gender: "F",
+    baseStats: {
+      hp: 70,
+      atk: 65,
+      def: 90,
+      spa: 130,
+      spd: 80,
+      spe: 95
+    },
+    abilities: {
+      0: "Flash Fire",
+      1: "White Smoke",
+      H: "Queenly Majesty"
+    },
+    heightm: 3.3,
+    weightkg: 118.2,
+    color: "Blue",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  mommaranha: {
+    num: 188,
+    name: "Mommaranha",
+    types: [
+      "Grass"
+    ],
+    gender: "F",
+    baseStats: {
+      hp: 85,
+      atk: 75,
+      def: 65,
+      spa: 105,
+      spd: 125,
+      spe: 70
+    },
+    abilities: {
+      0: "Natural Cure",
+      1: "Chlorophyll",
+      H: "Poison Heal"
+    },
+    heightm: 2.6,
+    weightkg: 266.8,
+    color: "Green",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  sushi: {
+    num: 189,
+    name: "Sushi",
+    types: [
+      "Water"
+    ],
+    gender: "F",
+    baseStats: {
+      hp: 75,
+      atk: 130,
+      def: 55,
+      spa: 70,
+      spd: 65,
+      spe: 115
+    },
+    abilities: {
+      0: "Defiant",
+      1: "Rock Head",
+      H: "Sheer Force"
+    },
+    heightm: 2.6,
+    weightkg: 266.8,
+    color: "Green",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  starluma: {
+    num: 190,
+    name: "Star Luma",
+    types: [
+      "Dragon",
+      "Psychic"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 90,
+      atk: 110,
+      def: 90,
+      spa: 110,
+      spd: 90,
+      spe: 110
+    },
+    abilities: {
+      0: "Pressure",
+      H: "Neuroforce"
+    },
+    heightm: 1.2,
+    weightkg: 72.6,
+    color: "Green",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  sptooie: {
+    num: 191,
+    name: "Star Ptooie",
+    types: [
+      "Grass",
+      "Fighting"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 95,
+      atk: 125,
+      def: 75,
+      spa: 25,
+      spd: 85,
+      spe: 115
+    },
+    abilities: {
+      0: "Steelworker",
+      1: "Iron Fist",
+      H: "Chlorophyll"
+    },
+    heightm: 2.6,
+    weightkg: 198.2,
+    color: "Green",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  bonybeetle: {
+    num: 192,
+    name: "Bonybeetle",
+    types: [
+      "Rock",
+      "Ghost"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 75,
+      atk: 50,
+      def: 120,
+      spa: 110,
+      spd: 85,
+      spe: 40
+    },
+    abilities: {
+      0: "Sturdy",
+      1: "Insomnia",
+      H: "Sand Stream"
+    },
+    heightm: 0.9,
+    weightkg: 55.6,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  sandmaargh: {
+    num: 193,
+    name: "Sandmaargh",
+    types: [
+      "Ground",
+      "Dragon"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 80,
+      atk: 125,
+      def: 95,
+      spa: 95,
+      spd: 95,
+      spe: 70
+    },
+    abilities: {
+      0: "Sand Stream",
+      H: "Dragon's Maw"
+    },
+    heightm: 6.8,
+    weightkg: 882.7,
+    color: "Yellow",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  starmagikoopa: {
+    num: 194,
+    name: "Star Magikoopa",
+    types: [
+      "Psychic",
+      "Ghost"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 55,
+      atk: 80,
+      def: 45,
+      spa: 125,
+      spd: 65,
+      spe: 95
+    },
+    abilities: {
+      0: "Filter",
+      H: "Star Guard"
+    },
+    heightm: 1.3,
+    weightkg: 62.2,
+    color: "Yellow",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  starchainchomp: {
+    num: 195,
+    name: "Star Chain Chomp",
+    types: [
+      "Rock",
+      "Ghost"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 60,
+      atk: 90,
+      def: 140,
+      spa: 110,
+      spd: 85,
+      spe: 65
+    },
+    abilities: {
+      0: "Frisk",
+      1: "Rock Head",
+      H: "Star Steal"
+    },
+    heightm: 2.4,
+    weightkg: 238.4,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  scaredyrat: {
+    num: 196,
+    name: "Scaredy Rat",
+    types: [
+      "Dark"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 81,
+      atk: 99,
+      def: 68,
+      spa: 43,
+      spd: 57,
+      spe: 122
+    },
+    abilities: {
+      0: "Intimidate",
+      1: "Quick Feet",
+      H: "Wimp Out"
+    },
+    heightm: 2.4,
+    weightkg: 238.4,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  runt: {
+    num: 197,
+    name: "Runt",
+    types: [
+      "Dragon"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 60,
+      atk: 40,
+      def: 60,
+      spa: 80,
+      spd: 70,
+      spe: 50
+    },
+    abilities: {
+      0: "Marvel Scale",
+      H: "Multiscale"
+    },
+    heightm: 0.6,
+    weightkg: 20.4,
+    color: "Blue",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Rex"
+    ],
+  },
+  cobrat: {
+    num: 198,
+    name: "Cobrat",
+    types: [
+      "Fire",
+      "Poison"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 45,
+      atk: 30,
+      def: 40,
+      spa: 85,
+      spd: 65,
+      spe: 75
+    },
+    abilities: {
+      0: "Shed Skin",
+      1: "Corrosion",
+      H: "Regenerator"
+    },
+    heightm: 0.8,
+    weightkg: 19.2,
+    color: "Red",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Tryclyde"
+    ],
+  },
+  tryclyde: {
+    num: 199,
+    name: "Tryclyde",
+    types: [
+      "Fire",
+      "Poison"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 65,
+      atk: 55,
+      def: 65,
+      spa: 130,
+      spd: 85,
+      spe: 110
+    },
+    abilities: {
+      0: "Shed Skin",
+      1: "Corrosion",
+      H: "Regenerator"
+    },
+    heightm: 0.8,
+    weightkg: 19.2,
+    color: "Red",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  sluggy: {
+    num: 200,
+    name: "Sluggy",
+    types: [
+      "Ghost",
+      "Poison"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 100,
+      atk: 10,
+      def: 30,
+      spa: 75,
+      spd: 80,
+      spe: 10
+    },
+    abilities: {
+      0: "Gooey",
+      1: "Liquid Ooze",
+      H: "Natural Cure"
+    },
+    heightm: 0.3,
+    weightkg: 0.1,
+    color: "White",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Sluggard"
+    ],
+  },
+  sluggard: {
+    num: 201,
+    name: "Sluggard",
+    types: [
+      "Ghost",
+      "Poison"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 150,
+      atk: 35,
+      def: 65,
+      spa: 100,
+      spd: 120,
+      spe: 30
+    },
+    abilities: {
+      0: "Gooey",
+      1: "Liquid Ooze",
+      H: "Natural Cure"
+    },
+    heightm: 3.2,
+    weightkg: 1.9,
+    color: "Red",
+    eggGroups: [
+      "Amorphous"
+    ],
+  },
+  brolder: {
+    num: 202,
+    name: "Brolder",
+    types: [
+      "Rock"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 40,
+      atk: 30,
+      def: 95,
+      spa: 70,
+      spd: 70,
+      spe: 20
+    },
+    abilities: {
+      0: "Solid Rock",
+      1: "Bulletproof",
+      H: "Magma Armor"
+    },
+    heightm: 1.8,
+    weightkg: 193.2,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Magmolder"
+    ],
+  },
+  magmolder: {
+    num: 203,
+    name: "Magmolder",
+    types: [
+      "Rock",
+      "Fire"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 85,
+      atk: 45,
+      def: 155,
+      spa: 125,
+      spd: 105,
+      spe: 35
+    },
+    abilities: {
+      0: "Solid Rock",
+      1: "Bulletproof",
+      H: "Magma Energy"
+    },
+    heightm: 3.7,
+    weightkg: 617.9,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Magmolder"
+    ],
+  },
+  mri: {
+    num: 204,
+    name: "Mr. I",
+    types: [
+      "Dark",
+      "Ghost"
+    ],
+    gender: "M",
+    baseStats: {
+      hp: 80,
+      atk: 40,
+      def: 95,
+      spa: 100,
+      spd: 125,
+      spe: 50
+    },
+    abilities: {
+      0: "Keen Eye",
+      1: "Tinted Lens",
+      H: "Magic Guard"
+    },
+    heightm: 2.8,
+    weightkg: 80.2,
+    color: "White",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [],
+  },
+  uproot: {
+    num: 205,
+    name: "Uproot",
+    types: [
+      "Grass",
+      "Dark"
+    ],
+    gender: "M",
+    baseStats: {
+      hp: 80,
+      atk: 95,
+      def: 110,
+      spa: 40,
+      spd: 65,
+      spe: 85
+    },
+    abilities: {
+      0: "Disguise",
+      H: "Long Reach"
+    },
+    heightm: 1.4,
+    weightkg: 22.3,
+    color: "Green",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [],
+    otherFormes: [
+      "Uproot-Busted"
+    ],
+    formeOrder: [
+      "Uproot",
+      "Uproot-Busted"
+    ],
+	requiredAbility: "Disguise",
+	battleOnly: "Uproot",
+  },
+  uprootbusted: {
+    num: 205,
+    name: "Uproot-Busted",
+    types: [
+      "Grass",
+      "Dark"
+    ],
+    gender: "M",
+    baseStats: {
+      hp: 80,
+      atk: 95,
+      def: 110,
+      spa: 40,
+      spd: 65,
+      spe: 85
+    },
+    abilities: {
+      0: "Disguise",
+      H: "Long Reach"
+    },
+    heightm: 1.4,
+    weightkg: 8.4,
+    color: "Green",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [],
+  },
+  madpole: {
+    num: 206,
+    name: "Madpole",
+    types: [
+      "Water",
+      "Ground"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 55,
+      atk: 30,
+      def: 30,
+      spa: 55,
+      spd: 55,
+      spe: 15
+    },
+    abilities: {
+      0: "Storm Drain",
+      1: "Unaware",
+      H: "Blubber Body"
+    },
+    heightm: 0.6,
+    weightkg: 7.7,
+    color: "Blue",
+    eggGroups: [
+      "Water2"
+    ],
+    evos: [
+      "Splounder"
+    ],
+  },
+  splounder: {
+    num: 207,
+    name: "Splounder",
+    types: [
+      "Water",
+      "Ground"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 90,
+      atk: 50,
+      def: 50,
+      spa: 90,
+      spd: 90,
+      spe: 45
+    },
+    abilities: {
+      0: "Storm Drain",
+      1: "Unaware",
+      H: "Blubber Body"
+    },
+    heightm: 3.1,
+    weightkg: 44.1,
+    color: "Blue",
+    eggGroups: [
+      "Water2"
+    ],
+    evos: [],
+  },
+  pidgit: {
+    num: 208,
+    name: "Pidgit",
+    types: [
+      "Dark",
+      "Flying"
+    ],
+    genderRatio: {
+      M: 0.25,
+      F: 0.75
+    },
+    baseStats: {
+      hp: 65,
+      atk: 40,
+      def: 65,
+      spa: 100,
+      spd: 95,
+      spe: 95
+    },
+    abilities: {
+      0: "Berserk",
+      1: "Aerilate",
+      H: "Magic Guard"
+    },
+    heightm: 0.8,
+    weightkg: 22.6,
+    color: "Black",
+    eggGroups: [
+      "Flying"
+    ],
+  },
+  boomboom: {
+    num: 209,
+    name: "Boom Boom",
+    types: [
+      "Fighting",
+      "Dark"
+    ],
+    gender: "M",
+    baseStats: {
+      hp: 90,
+      atk: 135,
+      def: 115,
+      spa: 85,
+      spd: 75,
+      spe: 70
+    },
+    abilities: {
+      0: "Iron Fist",
+      H: "Defiant"
+    },
+    heightm: 1.9,
+    weightkg: 79.6,
+    color: "Black",
+    eggGroups: [
+      "Flying"
+    ],
+  },
+  antasman: {
+    num: 210,
+    name: "Antasman",
+    types: [
+      "Psychic",
+      "Dark"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 60,
+      atk: 50,
+      def: 60,
+      spa: 105,
+      spd: 80,
+      spe: 80
+    },
+    abilities: {
+      0: "Bad Dreams",
+      H: "Magic Guard"
+    },
+    heightm: 1.8,
+    weightkg: 47.7,
+    color: "Black",
+    eggGroups: [
+      "Flying"
+    ],
+    evos: [
+      "Antasmimic"
+    ],
+  },
+  antasmimic: {
+    num: 211,
+    name: "Antasmimic",
+    types: [
+      "Psychic",
+      "Dark"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 75,
+      atk: 95,
+      def: 70,
+      spa: 135,
+      spd: 90,
+      spe: 95
+    },
+    abilities: {
+      0: "Bad Dreams",
+      H: "Shadow Steal"
+    },
+    heightm: 3.2,
+    weightkg: 103.4,
+    color: "Black",
+    eggGroups: [
+      "Flying"
     ],
   },
 };
