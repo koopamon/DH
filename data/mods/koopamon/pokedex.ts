@@ -12,19 +12,38 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	
 	*/
 	//Set 1
-	plantranha: {
-		num: 1,
-		name: "Plantranha",
-		types: ["Grass"],
-		genderRatio: {M: 0.75, F: 0.25},
-		baseStats: {hp: 55, atk: 65, def: 50, spa: 60, spd: 50, spe: 40},
-		abilities: {0: "Overgrow", H: "Sap Sipper"},
-		heightm: 1.0,
-		weightkg: 52.7,
-		color: "Green",
-		evos: ["Creeplant"],
-		eggGroups: ["Monster"],
-	},
+plantranha: {
+    "num": 1,
+    "name": "Plantranha",
+    "types": [
+      "Grass"
+    ],
+    "genderRatio": {
+      "M": 0.75,
+      "F": 0.25
+    },
+    "baseStats": {
+      "hp": 55,
+      "atk": 60,
+      "def": 50,
+      "spa": 65,
+      "spd": 50,
+      "spe": 40
+    },
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Sap Sipper"
+    },
+    "heightm": 1.0,
+    "weightkg": 52.7,
+    "color": "Green",
+    "eggGroups": [
+      "Grass"
+    ],
+    "evos": [
+      "Creeplant"
+    ],
+  },
 creeplant: {
 		num: 2,
 		name: "Creeplant",
