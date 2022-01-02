@@ -29,7 +29,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Creeplant"
-    ],
+    ]
   },
   creeplant: {
     num: 2,
@@ -61,7 +61,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Peteyranha"
-    ],
+    ]
   },
   peteyranha: {
     num: 3,
@@ -91,7 +91,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Grass"
-    ],
+    ]
   },
   blooper: {
     num: 4,
@@ -123,7 +123,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Gesso"
-    ],
+    ]
   },
   gesso: {
     num: 5,
@@ -156,7 +156,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Glooper"
-    ],
+    ]
   },
   glooper: {
     num: 6,
@@ -186,7 +186,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Water3"
-    ],
+    ]
   },
   podoboo: {
     num: 7,
@@ -218,7 +218,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Magmaw"
-    ],
+    ]
   },
   magmaw: {
     num: 8,
@@ -251,7 +251,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Charvaargh"
-    ],
+    ]
   },
   charvaargh: {
     num: 9,
@@ -266,7 +266,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 95,
-      atk: 100,
+      atk: 105,
       def: 100,
       spa: 80,
       spd: 75,
@@ -282,7 +282,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Amorphous",
       "Dragon"
-    ],
+    ]
   },
   goomba: {
     num: 10,
@@ -316,7 +316,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Gigagoom",
       "Paragoom"
-    ],
+    ]
   },
   gigagoom: {
     num: 11,
@@ -346,7 +346,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Brown",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   paragoom: {
     num: 12,
@@ -377,7 +377,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Brown",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   tinytroopa: {
     num: 13,
@@ -410,7 +410,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Koopatroopa"
-    ],
+    ]
   },
   koopatroopa: {
     num: 14,
@@ -444,6 +444,46 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Paratroopa"
     ],
+    otherFormes: [
+      "KoopatroopaGold"
+    ],
+    formeOrder: [
+      "Koopatroopa",
+      "KoopatroopaGold"
+    ]
+  },
+  koopatroopagold: {
+    num: 14,
+    name: "Koopatroopa",
+    types: [
+      "Normal"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 80,
+      atk: 120,
+      def: 100,
+      spa: 70,
+      spd: 80,
+      spe: 100
+    },
+    abilities: {
+      0: "Gold Armor",
+      H: "Weak Armor"
+    },
+    heightm: 1.1,
+    weightkg: 54.5,
+    color: "Green",
+    eggGroups: [
+      "Field",
+      "Humanlike"
+    ],
+    evos: [
+      "Paratroopa"
+    ]
   },
   paratroopa: {
     num: 15,
@@ -477,7 +517,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Tubotroopa"
-    ],
+    ]
   },
   tubotroopa: {
     num: 16,
@@ -508,7 +548,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Field",
       "Humanlike"
-    ],
+    ]
   },
   thwimp: {
     num: 17,
@@ -540,7 +580,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Thwomp"
-    ],
+    ]
   },
   thwomp: {
     num: 18,
@@ -572,7 +612,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Pouncer"
-    ],
+    ]
   },
   pouncer: {
     num: 19,
@@ -601,7 +641,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Gray",
     eggGroups: [
       "Mineral"
-    ],
+    ]
   },
   squiggler: {
     num: 20,
@@ -634,7 +674,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Wiggler"
-    ],
+    ]
   },
   wiggler: {
     num: 21,
@@ -668,7 +708,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Flutter",
       "Fuzzler"
-    ],
+    ]
   },
   flutter: {
     num: 22,
@@ -699,7 +739,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Bug"
-    ],
+    ]
   },
   fuzzler: {
     num: 23,
@@ -729,7 +769,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Bug"
-    ],
+    ]
   },
   lilslammer: {
     num: 24,
@@ -762,7 +802,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Hammer Bro"
-    ],
+    ]
   },
   hammerbro: {
     num: 25,
@@ -797,7 +837,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Ice Bro",
       "Fire Bro",
       "Sledge Bro"
-    ],
+    ]
   },
   sledgebro: {
     num: 26,
@@ -827,7 +867,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Humanlike"
-    ],
+    ]
   },
   icebro: {
     num: 27,
@@ -857,7 +897,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Humanlike"
-    ],
+    ]
   },
   firebro: {
     num: 28,
@@ -887,7 +927,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Humanlike"
-    ],
+    ]
   },
   sporer: {
     num: 29,
@@ -920,7 +960,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Nipplant"
-    ],
+    ]
   },
   nipplant: {
     num: 30,
@@ -953,7 +993,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Navalranha"
-    ],
+    ]
   },
   navalranha: {
     num: 31,
@@ -983,7 +1023,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Grass"
-    ],
+    ]
   },
   gooble: {
     num: 32,
@@ -1016,7 +1056,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Protoranha"
-    ],
+    ]
   },
   protoranha: {
     num: 33,
@@ -1046,7 +1086,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Pink",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   lakipuff: {
     num: 34,
@@ -1080,7 +1120,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Lakitu",
       "Foo"
-    ],
+    ]
   },
   lakitu: {
     num: 35,
@@ -1114,7 +1154,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Lakilust",
       "Lakilust"
-    ],
+    ]
   },
   lakilust: {
     num: 36,
@@ -1144,7 +1184,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   crazydayzee: {
     num: 37,
@@ -1178,7 +1218,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Amazydayzee"
-    ],
+    ]
   },
   amazydayzee: {
     num: 38,
@@ -1196,7 +1236,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       atk: 40,
       def: 65,
       spa: 105,
-      spd: 105,
+      spd: 110,
       spe: 105
     },
     abilities: {
@@ -1209,7 +1249,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Pink",
     eggGroups: [
       "Grass"
-    ],
+    ]
   },
   volcanotus: {
     num: 39,
@@ -1240,7 +1280,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Lavalotus"
-    ],
+    ]
   },
   lavalotus: {
     num: 40,
@@ -1268,7 +1308,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Grass"
-    ],
+    ]
   },
   skipsqueak: {
     num: 41,
@@ -1302,7 +1342,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Spinysqueak"
-    ],
+    ]
   },
   spinysqueak: {
     num: 42,
@@ -1333,7 +1373,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Purple",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   ninji: {
     num: 43,
@@ -1366,7 +1406,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Shuriki"
-    ],
+    ]
   },
   shuriki: {
     num: 44,
@@ -1396,7 +1436,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Black",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   ptooie: {
     num: 45,
@@ -1426,7 +1466,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Grass"
-    ],
+    ]
   },
   buzzybeetle: {
     num: 46,
@@ -1462,7 +1502,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Spike Top",
       "Parabeetle"
-    ],
+    ]
   },
   spiketop: {
     num: 47,
@@ -1494,7 +1534,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Monster",
       "Field"
-    ],
+    ]
   },
   spiny: {
     num: 48,
@@ -1524,7 +1564,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Monster",
       "Field"
-    ],
+    ]
   },
   shyguy: {
     num: 49,
@@ -1557,7 +1597,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Snifit"
-    ],
+    ]
   },
   snifit: {
     num: 50,
@@ -1590,7 +1630,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Gunner Guy"
-    ],
+    ]
   },
   gunnerguy: {
     num: 51,
@@ -1620,7 +1660,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   fang: {
     num: 52,
@@ -1654,7 +1694,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Swoop"
-    ],
+    ]
   },
   swoop: {
     num: 53,
@@ -1688,7 +1728,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Swampire"
-    ],
+    ]
   },
   swampire: {
     num: 54,
@@ -1719,7 +1759,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Flying"
-    ],
+    ]
   },
   coincoffer: {
     num: 55,
@@ -1749,7 +1789,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   polterpup: {
     num: 56,
@@ -1779,7 +1819,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   stingby: {
     num: 57,
@@ -1812,7 +1852,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Beehoss"
-    ],
+    ]
   },
   beehoss: {
     num: 58,
@@ -1842,7 +1882,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Brown",
     eggGroups: [
       "Bug"
-    ],
+    ]
   },
   mrblizzard: {
     num: 59,
@@ -1875,7 +1915,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Royalblizz",
       "Royalblizz"
-    ],
+    ]
   },
   royalblizz: {
     num: 60,
@@ -1904,7 +1944,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   cheepcheep: {
     num: 61,
@@ -1937,7 +1977,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Boss Bass"
-    ],
+    ]
   },
   bossbass: {
     num: 62,
@@ -1970,7 +2010,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Cheepskipper"
-    ],
+    ]
   },
   cheepskipper: {
     num: 63,
@@ -2000,7 +2040,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Purple",
     eggGroups: [
       "Water2"
-    ],
+    ]
   },
   fishbone: {
     num: 64,
@@ -2034,7 +2074,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Kingfin"
-    ],
+    ]
   },
   kingfin: {
     num: 65,
@@ -2065,7 +2105,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   spark: {
     num: 66,
@@ -2095,7 +2135,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Amp"
-    ],
+    ]
   },
   amp: {
     num: 67,
@@ -2122,7 +2162,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Black",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   boo: {
     num: 68,
@@ -2154,7 +2194,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Boodies"
-    ],
+    ]
   },
   boodies: {
     num: 69,
@@ -2186,7 +2226,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Boolossus"
-    ],
+    ]
   },
   boolossus: {
     num: 70,
@@ -2215,7 +2255,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   sidestepper: {
     num: 71,
@@ -2251,7 +2291,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Clawdaddy",
       "Clawgrip",
       "Clawgrip"
-    ],
+    ]
   },
   clawdaddy: {
     num: 72,
@@ -2282,7 +2322,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Water3"
-    ],
+    ]
   },
   clawgrip: {
     num: 73,
@@ -2313,7 +2353,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Water3"
-    ],
+    ]
   },
   fizzlit: {
     num: 74,
@@ -2347,9 +2387,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Liquilite"
-    ],
+    ]
   },
-  liquilite: {
+  fizzlight: {
     num: 75,
     name: "Liquilite",
     types: [
@@ -2378,7 +2418,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Purple",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   fighterfly: {
     num: 76,
@@ -2409,7 +2449,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Bug"
-    ],
+    ]
   },
   cheepchomp: {
     num: 77,
@@ -2443,7 +2483,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Porcupuffer"
-    ],
+    ]
   },
   porcupuffer: {
     num: 78,
@@ -2474,7 +2514,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Water2"
-    ],
+    ]
   },
   jellybeam: {
     num: 79,
@@ -2505,7 +2545,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Water3"
-    ],
+    ]
   },
   bulletbill: {
     num: 80,
@@ -2540,7 +2580,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Banzai Bill",
       "Torpedo Ted"
-    ],
+    ]
   },
   banzaibill: {
     num: 81,
@@ -2574,7 +2614,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "King Bill"
-    ],
+    ]
   },
   kingbill: {
     num: 82,
@@ -2605,7 +2645,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Black",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   fuzzy: {
     num: 83,
@@ -2639,7 +2679,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Fuzzilla"
-    ],
+    ]
   },
   fuzzilla: {
     num: 84,
@@ -2658,7 +2698,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       def: 65,
       spa: 115,
       spd: 50,
-      spe: 95
+      spe: 90
     },
     abilities: {
       0: "Swarm",
@@ -2670,7 +2710,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Black",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   montymole: {
     num: 85,
@@ -2704,7 +2744,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Mega Mole",
       "RockyWrench"
-    ],
+    ]
   },
   rockywrench: {
     num: 86,
@@ -2738,7 +2778,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Monty Tank"
-    ],
+    ]
   },
   montytank: {
     num: 87,
@@ -2769,7 +2809,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Brown",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   toady: {
     num: 88,
@@ -2802,7 +2842,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Magikoopa"
-    ],
+    ]
   },
   magikoopa: {
     num: 89,
@@ -2835,7 +2875,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Psykamek"
-    ],
+    ]
   },
   psykamek: {
     num: 90,
@@ -2865,7 +2905,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   bully: {
     num: 91,
@@ -2899,9 +2939,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Nobull"
-    ],
+    ]
   },
-  nobull: {
+  nobully: {
     num: 92,
     name: "Nobull",
     types: [
@@ -2930,7 +2970,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Gray",
     eggGroups: [
       "Monster"
-    ],
+    ]
   },
   chilly: {
     num: 93,
@@ -2964,7 +3004,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Chief Chill"
-    ],
+    ]
   },
   chiefchill: {
     num: 94,
@@ -2995,7 +3035,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Monster"
-    ],
+    ]
   },
   needlenose: {
     num: 95,
@@ -3029,7 +3069,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Pokey"
-    ],
+    ]
   },
   pokey: {
     num: 96,
@@ -3063,7 +3103,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Mummipokey"
-    ],
+    ]
   },
   mummipokey: {
     num: 97,
@@ -3094,7 +3134,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   spike: {
     num: 98,
@@ -3116,7 +3156,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       spe: 70
     },
     abilities: {
-      0: "Sand Rush",
+      0: "Sand Force",
       1: "Keen Eye",
       H: "Thick Fat"
     },
@@ -3128,7 +3168,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Clubba"
-    ],
+    ]
   },
   clubba: {
     num: 99,
@@ -3150,7 +3190,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       spe: 100
     },
     abilities: {
-      0: "Sand Rush",
+      0: "Sand Force",
       1: "Keen Eye",
       H: "Thick Fat"
     },
@@ -3159,7 +3199,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   conkdor: {
     num: 100,
@@ -3190,7 +3230,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   komboo: {
     num: 101,
@@ -3221,7 +3261,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Water1"
-    ],
+    ]
   },
   klepto: {
     num: 102,
@@ -3252,7 +3292,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Black",
     eggGroups: [
       "Flying"
-    ],
+    ]
   },
   drybones: {
     num: 103,
@@ -3286,7 +3326,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Elite Bones",
       "Para Bones"
-    ],
+    ]
   },
   elitebones: {
     num: 104,
@@ -3316,7 +3356,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Gray",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   parabones: {
     num: 105,
@@ -3346,7 +3386,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Gray",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   bobomb: {
     num: 106,
@@ -3379,7 +3419,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Bob-arm"
-    ],
+    ]
   },
   bobarm: {
     num: 107,
@@ -3413,7 +3453,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "King-omb",
       "Queen-omb"
-    ],
+    ]
   },
   kingomb: {
     num: 108,
@@ -3440,7 +3480,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Black",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   broozer: {
     num: 109,
@@ -3471,7 +3511,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   whimp: {
     num: 110,
@@ -3505,7 +3545,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Whomp"
-    ],
+    ]
   },
   whomp: {
     num: 111,
@@ -3536,7 +3576,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Gray",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   torpedoted: {
     num: 112,
@@ -3567,7 +3607,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Black",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   electroopa: {
     num: 113,
@@ -3600,7 +3640,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Voltroopa"
-    ],
+    ]
   },
   voltroopa: {
     num: 114,
@@ -3630,7 +3670,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   unira: {
     num: 115,
@@ -3664,7 +3704,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Urchin"
-    ],
+    ]
   },
   urchin: {
     num: 116,
@@ -3695,7 +3735,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Purple",
     eggGroups: [
       "Water3"
-    ],
+    ]
   },
   charginchuck: {
     num: 117,
@@ -3725,7 +3765,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Humanlike"
-    ],
+    ]
   },
   virus: {
     num: 118,
@@ -3755,7 +3795,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Trirus"
-    ],
+    ]
   },
   trirus: {
     num: 119,
@@ -3782,7 +3822,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   rex: {
     num: 120,
@@ -3811,7 +3851,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   chibichomp: {
     num: 121,
@@ -3844,7 +3884,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Chain Chomp"
-    ],
+    ]
   },
   chainchomp: {
     num: 122,
@@ -3874,7 +3914,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Gray",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   dragoneel: {
     num: 123,
@@ -3905,7 +3945,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   mechakoopa: {
     num: 124,
@@ -3932,6 +3972,98 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Amorphous"
     ],
+    otherFormes: [
+      "MechakoopaWater",
+      "MechakoopaFire",
+      "MechakoopaIce"
+    ],
+    formeOrder: [
+      "Mechakoopa",
+      "MechakoopaWater",
+      "MechakoopaFire",
+      "MechakoopaIce"
+    ]
+  },
+  mechakoopawater: {
+    num: 124,
+    name: "Mechakoopa",
+    types: [
+      "Electric",
+      "Water"
+    ],
+    gender: "N",
+    baseStats: {
+      hp: 65,
+      atk: 45,
+      def: 90,
+      spa: 110,
+      spd: 110,
+      spe: 90
+    },
+    abilities: {
+      0: "Lightning Rod",
+      H: "Trace"
+    },
+    heightm: 0.8,
+    weightkg: 57.3,
+    color: "Yellow",
+    eggGroups: [
+      "Amorphous"
+    ]
+  },
+  mechakoopafire: {
+    num: 124,
+    name: "Mechakoopa",
+    types: [
+      "Electric",
+      "Fire"
+    ],
+    gender: "N",
+    baseStats: {
+      hp: 65,
+      atk: 45,
+      def: 80,
+      spa: 120,
+      spd: 90,
+      spe: 110
+    },
+    abilities: {
+      0: "Flash Fire",
+      H: "Trace"
+    },
+    heightm: 0.8,
+    weightkg: 57.3,
+    color: "Yellow",
+    eggGroups: [
+      "Amorphous"
+    ]
+  },
+  mechakoopaice: {
+    num: 124,
+    name: "Mechakoopa",
+    types: [
+      "Electric",
+      "Ice"
+    ],
+    gender: "N",
+    baseStats: {
+      hp: 65,
+      atk: 45,
+      def: 80,
+      spa: 140,
+      spd: 80,
+      spe: 100
+    },
+    abilities: {
+      0: "Snow Force",
+      H: "Trace"
+    },
+    heightm: 0.8,
+    weightkg: 57.3,
+    color: "Yellow",
+    eggGroups: [
+      "Amorphous"
+    ]
   },
   jelectro: {
     num: 125,
@@ -3965,7 +4097,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Jellybeam"
-    ],
+    ]
   },
   flurry: {
     num: 126,
@@ -3996,7 +4128,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   topmini: {
     num: 127,
@@ -4027,7 +4159,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Topman"
-    ],
+    ]
   },
   topman: {
     num: 128,
@@ -4058,7 +4190,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Topmaniac"
-    ],
+    ]
   },
   topmaniac: {
     num: 129,
@@ -4086,7 +4218,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Black",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   lovubble: {
     num: 130,
@@ -4120,7 +4252,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Smeech"
-    ],
+    ]
   },
   smeech: {
     num: 131,
@@ -4151,7 +4283,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Pink",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   foo: {
     num: 132,
@@ -4185,7 +4317,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Ty-Foo"
-    ],
+    ]
   },
   tyfoo: {
     num: 133,
@@ -4216,7 +4348,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   cooligan: {
     num: 134,
@@ -4247,7 +4379,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   megamole: {
     num: 135,
@@ -4277,7 +4409,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Brown",
     eggGroups: [
       "Field"
-    ],
+    ]
   },
   firesnake: {
     num: 136,
@@ -4310,7 +4442,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Angry Sun"
-    ],
+    ]
   },
   angrysun: {
     num: 137,
@@ -4341,7 +4473,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   phanto: {
     num: 138,
@@ -4369,7 +4501,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   sumobro: {
     num: 139,
@@ -4400,7 +4532,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Brown",
     eggGroups: [
       "Humanlike"
-    ],
+    ]
   },
   bitefrost: {
     num: 140,
@@ -4431,7 +4563,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   scuttler: {
     num: 141,
@@ -4465,7 +4597,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Scuttlebug"
-    ],
+    ]
   },
   scuttlebug: {
     num: 142,
@@ -4496,7 +4628,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   venomush: {
     num: 143,
@@ -4530,7 +4662,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Zombimush"
-    ],
+    ]
   },
   zombimush: {
     num: 144,
@@ -4561,7 +4693,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Purple",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   komu: {
     num: 145,
@@ -4595,7 +4727,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Komboo"
-    ],
+    ]
   },
   sumolad: {
     num: 146,
@@ -4629,7 +4761,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Sumo Bro"
-    ],
+    ]
   },
   jango: {
     num: 147,
@@ -4663,7 +4795,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Klepto"
-    ],
+    ]
   },
   bumpty: {
     num: 148,
@@ -4696,7 +4828,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Cooligan"
-    ],
+    ]
   },
   dinotorch: {
     num: 149,
@@ -4729,7 +4861,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Dino Rhino"
-    ],
+    ]
   },
   dinorhino: {
     num: 150,
@@ -4762,7 +4894,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Reznor"
-    ],
+    ]
   },
   reznor: {
     num: 151,
@@ -4792,7 +4924,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   shrooblet: {
     num: 152,
@@ -4822,7 +4954,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Shroob"
-    ],
+    ]
   },
   shroob: {
     num: 153,
@@ -4853,7 +4985,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Shrooboid",
       "S.F.O."
-    ],
+    ]
   },
   shrooboid: {
     num: 154,
@@ -4880,7 +5012,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   sfo: {
     num: 155,
@@ -4907,11 +5039,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Purple",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starbobomb: {
+  sbobomb: {
     num: 156,
-    name: "Star Bob-omb",
+    name: "Bob-omb",
     types: [
       "Ice",
       "Fire"
@@ -4938,11 +5070,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starblooper: {
+  sblooper: {
     num: 157,
-    name: "Star Blooper",
+    name: "Blooper",
     types: [
       "Grass",
       "Psychic"
@@ -4968,11 +5100,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Brown",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starpodoboo: {
+  spodoboo: {
     num: 158,
-    name: "Star Podoboo",
+    name: "Podoboo",
     types: [
       "Water",
       "Ice"
@@ -4998,11 +5130,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starkoopatroopa: {
+  skoopatroopa: {
     num: 159,
-    name: "Star Koopatroopa",
+    name: "Koopatroopa",
     types: [
       "Steel",
       "Dark"
@@ -5029,11 +5161,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Field",
       "Humanlike"
-    ],
+    ]
   },
-  starboo: {
+  sboo: {
     num: 160,
-    name: "Star Boo",
+    name: "Boo",
     types: [
       "Water",
       "Fairy"
@@ -5059,7 +5191,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   flappy: {
     num: 161,
@@ -5092,7 +5224,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Fighter Fly"
-    ],
+    ]
   },
   dusty: {
     num: 162,
@@ -5114,7 +5246,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       spe: 75
     },
     abilities: {
-      0: "Sand Veil",
+      0: "Sand Rush",
       1: "Sand Force",
       H: "Aerilate"
     },
@@ -5126,7 +5258,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Tweester"
-    ],
+    ]
   },
   tweester: {
     num: 163,
@@ -5148,7 +5280,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       spe: 105
     },
     abilities: {
-      0: "Sand Veil",
+      0: "Sand Rush",
       1: "Sand Force",
       H: "Aerilate"
     },
@@ -5157,9 +5289,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Brown",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starbuzzybeetle: {
+  sbuzzybeetle: {
     num: 164,
     name: "Buzzybeetle",
     types: [
@@ -5187,7 +5319,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   pokio: {
     num: 165,
@@ -5218,7 +5350,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   luma: {
     num: 166,
@@ -5252,7 +5384,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Lumalee"
-    ],
+    ]
   },
   lumalee: {
     num: 167,
@@ -5283,7 +5415,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   eggranha: {
     num: 168,
@@ -5317,7 +5449,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Dinoranha"
-    ],
+    ]
   },
   dinoranha: {
     num: 169,
@@ -5348,7 +5480,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   pupdozer: {
     num: 170,
@@ -5382,7 +5514,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Glamdozer"
-    ],
+    ]
   },
   glamdozer: {
     num: 171,
@@ -5413,11 +5545,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Pink",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  stargoomba: {
+  sgoomba: {
     num: 172,
-    name: "Star Goomba",
+    name: "Goomba",
     types: [
       "Psychic",
       "Normal"
@@ -5443,7 +5575,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Pink",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   wingo: {
     num: 173,
@@ -5470,7 +5602,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   mrtropical: {
     num: 174,
@@ -5487,7 +5619,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       hp: 95,
       atk: 65,
       def: 85,
-      spa: 105,
+      spa: 90,
       spd: 115,
       spe: 45
     },
@@ -5500,7 +5632,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   starkid: {
     num: 175,
@@ -5534,7 +5666,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     evos: [
       "Star Spirit",
       "Star Sprite"
-    ],
+    ]
   },
   starspirit: {
     num: 176,
@@ -5561,7 +5693,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   starsprite: {
     num: 177,
@@ -5583,12 +5715,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       1: "Shooting Star",
       H: "Regenerator"
     },
-    heightm: 1.4,
-    weightkg: 192.2,
+    heightm: 1.1,
+    weightkg: 121.6,
     color: "Yellow",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   tanoomba: {
     num: 178,
@@ -5617,11 +5749,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Brown",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starplantranha: {
+  splantranha: {
     num: 179,
-    name: "Star Plantranha",
+    name: "Plantranha",
     types: [
       "Fire",
       "Flying"
@@ -5647,11 +5779,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starcheepcheep: {
+  scheepcheep: {
     num: 180,
-    name: "Star Cheep Cheep",
+    name: "Cheep Cheep",
     types: [
       "Electric",
       "Flying"
@@ -5677,9 +5809,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-    lilbrr: {
+  lilbrr: {
     num: 181,
     name: "L'il Brr",
     types: [
@@ -5706,7 +5838,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   baronbrrr: {
     num: 182,
@@ -5736,7 +5868,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   plessie: {
     num: 183,
@@ -5760,18 +5892,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     abilities: {
       0: "Swift Swim",
       1: "Water Absorb",
-      H: "Oceans Favor"
+      H: "Ocean's Favor"
     },
     heightm: 3.1,
     weightkg: 216.8,
     color: "Yellow",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starbulletbill: {
+  sbulletbill: {
     num: 184,
-    name: "Star Bullet Bill",
+    name: "Bullet Bill",
     types: [
       "Poison",
       "Steel"
@@ -5797,7 +5929,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Black",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   peepa: {
     num: 185,
@@ -5827,7 +5959,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "White",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   parabeetle: {
     num: 186,
@@ -5859,7 +5991,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Monster",
       "Field"
-    ],
+    ]
   },
   queenomb: {
     num: 187,
@@ -5886,7 +6018,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Blue",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   mommaranha: {
     num: 188,
@@ -5913,7 +6045,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   sushi: {
     num: 189,
@@ -5940,11 +6072,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starluma: {
+  sluma: {
     num: 190,
-    name: "Star Luma",
+    name: "Luma",
     types: [
       "Dragon",
       "Psychic"
@@ -5970,11 +6102,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starptooie: {
+  sptooie: {
     num: 191,
-    name: "Star Ptooie",
+    name: "Ptooie",
     types: [
       "Grass",
       "Fighting"
@@ -6001,7 +6133,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Green",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   bonybeetle: {
     num: 192,
@@ -6032,7 +6164,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Gray",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   sandmaargh: {
     num: 193,
@@ -6062,11 +6194,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starmagikoopa: {
+  smagikoopa: {
     num: 194,
-    name: "Star Magikoopa",
+    name: "Magikoopa",
     types: [
       "Psychic",
       "Ghost"
@@ -6092,11 +6224,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Yellow",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
-  starchainchomp: {
+  schainchomp: {
     num: 195,
-    name: "Star Chain Chomp",
+    name: "Chain Chomp",
     types: [
       "Rock",
       "Ghost"
@@ -6123,7 +6255,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Gray",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   scaredyrat: {
     num: 196,
@@ -6153,7 +6285,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Gray",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   runt: {
     num: 197,
@@ -6185,7 +6317,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Rex"
-    ],
+    ]
   },
   cobrat: {
     num: 198,
@@ -6219,7 +6351,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Tryclyde"
-    ],
+    ]
   },
   tryclyde: {
     num: 199,
@@ -6250,7 +6382,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   sluggy: {
     num: 200,
@@ -6284,7 +6416,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Sluggard"
-    ],
+    ]
   },
   sluggard: {
     num: 201,
@@ -6315,7 +6447,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     color: "Red",
     eggGroups: [
       "Amorphous"
-    ],
+    ]
   },
   brolder: {
     num: 202,
@@ -6348,7 +6480,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [
       "Magmolder"
-    ],
+    ]
   },
   magmolder: {
     num: 203,
@@ -6380,5 +6512,472 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Amorphous"
     ],
+    evos: []
   },
-};
+  mri: {
+    num: 204,
+    name: "Mr. I",
+    types: [
+      "Dark",
+      "Ghost"
+    ],
+    gender: "M",
+    baseStats: {
+      hp: 80,
+      atk: 40,
+      def: 95,
+      spa: 100,
+      spd: 125,
+      spe: 50
+    },
+    abilities: {
+      0: "Keen Eye",
+      1: "Tinted Lens",
+      H: "Magic Guard"
+    },
+    heightm: 2.8,
+    weightkg: 80.2,
+    color: "White",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [],
+    otherFormes: [
+      "Mr. ISmall"
+    ],
+    formeOrder: [
+      "Mr. I",
+      "Mr. ISmall"
+    ]
+  },
+  mr. ismall: {
+    num: 204,
+    name: "Mr. I",
+    types: [
+      "Dark",
+      "Ghost"
+    ],
+    gender: "M",
+    baseStats: {
+      hp: 70,
+      atk: 40,
+      def: 65,
+      spa: 115,
+      spd: 90,
+      spe: 110
+    },
+    abilities: {
+      0: "Keen Eye",
+      1: "Tinted Lens",
+      H: "No Guard"
+    },
+    heightm: 0.8,
+    weightkg: 22.4,
+    color: "White",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: []
+  },
+  uproot: {
+    num: 205,
+    name: "Uproot",
+    types: [
+      "Grass",
+      "Dark"
+    ],
+    gender: "M",
+    baseStats: {
+      hp: 80,
+      atk: 95,
+      def: 110,
+      spa: 40,
+      spd: 65,
+      spe: 85
+    },
+    abilities: {
+      0: "Disguise",
+      H: "Long Reach"
+    },
+    heightm: 1.4,
+    weightkg: 22.3,
+    color: "Green",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [],
+    otherFormes: [
+      "UprootPotless"
+    ],
+    formeOrder: [
+      "Uproot",
+      "UprootPotless"
+    ]
+  },
+  uprootpotless: {
+    num: 205,
+    name: "Uproot",
+    types: [
+      "Grass",
+      "Dark"
+    ],
+    gender: "M",
+    baseStats: {
+      hp: 80,
+      atk: 95,
+      def: 110,
+      spa: 40,
+      spd: 65,
+      spe: 85
+    },
+    abilities: {
+      0: "Disguise",
+      H: "Long Reach"
+    },
+    heightm: 1.4,
+    weightkg: 8.4,
+    color: "Green",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: []
+  },
+  madpole: {
+    num: 206,
+    name: "Madpole",
+    types: [
+      "Water",
+      "Ground"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 55,
+      atk: 30,
+      def: 30,
+      spa: 55,
+      spd: 55,
+      spe: 15
+    },
+    abilities: {
+      0: "Storm Drain",
+      1: "Unaware",
+      H: "Blubber Body"
+    },
+    heightm: 0.6,
+    weightkg: 7.7,
+    color: "Blue",
+    eggGroups: [
+      "Water2"
+    ],
+    evos: [
+      "Splounder"
+    ]
+  },
+  splounder: {
+    num: 207,
+    name: "Splounder",
+    types: [
+      "Water",
+      "Ground"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 90,
+      atk: 50,
+      def: 50,
+      spa: 90,
+      spd: 90,
+      spe: 45
+    },
+    abilities: {
+      0: "Storm Drain",
+      1: "Unaware",
+      H: "Blubber Body"
+    },
+    heightm: 3.1,
+    weightkg: 44.1,
+    color: "Blue",
+    eggGroups: [
+      "Water2"
+    ],
+    evos: []
+  },
+  pidgit: {
+    num: 208,
+    name: "Pidgit",
+    types: [
+      "Dark",
+      "Flying"
+    ],
+    genderRatio: {
+      M: 0.25,
+      F: 0.75
+    },
+    baseStats: {
+      hp: 65,
+      atk: 40,
+      def: 65,
+      spa: 100,
+      spd: 95,
+      spe: 95
+    },
+    abilities: {
+      0: "Berserk",
+      1: "Aerilate",
+      H: "Magic Guard"
+    },
+    heightm: 0.8,
+    weightkg: 22.6,
+    color: "Black",
+    eggGroups: [
+      "Flying"
+    ]
+  },
+  boomboom: {
+    num: 209,
+    name: "Boom Boom",
+    types: [
+      "Fighting",
+      "Dark"
+    ],
+    gender: "M",
+    baseStats: {
+      hp: 90,
+      atk: 135,
+      def: 115,
+      spa: 85,
+      spd: 75,
+      spe: 70
+    },
+    abilities: {
+      0: "Iron Fist",
+      H: "Defiant"
+    },
+    heightm: 1.9,
+    weightkg: 79.6,
+    color: "Black",
+    eggGroups: [
+      "Flying"
+    ]
+  },
+  antasman: {
+    num: 210,
+    name: "Antasman",
+    types: [
+      "Psychic",
+      "Dark"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 60,
+      atk: 50,
+      def: 60,
+      spa: 105,
+      spd: 80,
+      spe: 80
+    },
+    abilities: {
+      0: "Bad Dreams",
+      H: "Magic Guard"
+    },
+    heightm: 1.8,
+    weightkg: 47.7,
+    color: "Black",
+    eggGroups: [
+      "Flying"
+    ],
+    evos: [
+      "Antasmimic"
+    ]
+  },
+  antasmimic: {
+    num: 211,
+    name: "Antasmimic",
+    types: [
+      "Psychic",
+      "Dark"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 75,
+      atk: 95,
+      def: 70,
+      spa: 135,
+      spd: 90,
+      spe: 95
+    },
+    abilities: {
+      0: "Bad Dreams",
+      H: "Shadow Steal"
+    },
+    heightm: 3.2,
+    weightkg: 103.4,
+    color: "Black",
+    eggGroups: [
+      "Flying"
+    ]
+  },
+  strollinstu: {
+    num: 212,
+    name: "StrollinStu",
+    types: [
+      "Normal"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 60,
+      atk: 55,
+      def: 55,
+      spa: 55,
+      spd: 55,
+      spe: 55
+    },
+    abilities: {
+      0: "Run Away",
+      H: "Adaptability"
+    },
+    heightm: 0.6,
+    weightkg: 36.6,
+    color: "White",
+    eggGroups: [
+      "Flying"
+    ],
+    evos: [
+      "SearinStu",
+      "ShockinStu",
+      "SoakinStu"
+    ]
+  },
+  searinstu: {
+    num: 213,
+    name: "SearinStu",
+    types: [
+      "Fire"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 80,
+      atk: 55,
+      def: 55,
+      spa: 125,
+      spd: 75,
+      spe: 85
+    },
+    abilities: {
+      0: "Flash Fire",
+      H: "Eternal Flame"
+    },
+    heightm: 0.8,
+    weightkg: 42.5,
+    color: "Red",
+    eggGroups: [
+      "Flying"
+    ]
+  },
+  shockinstu: {
+    num: 214,
+    name: "ShockinStu",
+    types: [
+      "Electric"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 80,
+      atk: 75,
+      def: 60,
+      spa: 75,
+      spd: 60,
+      spe: 125
+    },
+    abilities: {
+      0: "Volt Absorb",
+      H: "Voltaic Energy"
+    },
+    heightm: 0.8,
+    weightkg: 42.5,
+    color: "Yellow",
+    eggGroups: [
+      "Flying"
+    ]
+  },
+  soakinstu: {
+    num: 215,
+    name: "SoakinStu",
+    types: [
+      "Water"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 80,
+      atk: 85,
+      def: 125,
+      spa: 55,
+      spd: 55,
+      spe: 75
+    },
+    abilities: {
+      0: "Water Absorb",
+      H: "Water Bubble"
+    },
+    heightm: 0.8,
+    weightkg: 42.5,
+    color: "Blue",
+    eggGroups: [
+      "Flying"
+    ]
+  },
+  fishinboo: {
+    num: 216,
+    name: "Fishin Boo",
+    types: [
+      "Fire",
+      "Ghost"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 50,
+      atk: 65,
+      def: 75,
+      spa: 120,
+      spd: 90,
+      spe: 85
+    },
+    abilities: {
+      0: "Levitate",
+      H: "Haunted Hook"
+    },
+    heightm: 1.3,
+    weightkg: 27.6,
+    color: "Blue",
+    eggGroups: [
+      "Flying"
+    ]
+  }
+}

@@ -269,6 +269,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 					}
 					pokemon.side.removeSideCondition(sideCondition);
 				}
+				if (pokemon.side.foe.getSideCondition(sideCondition)) {
+					if (!activated) {
+						this.add('-activate', pokemon, 'ability: Blow Away');
+						activated = true;
+					}
+					pokemon.side.foe.removeSideCondition(sideCondition);
+				}
 			}
 		},
 		rating: 3.5,
