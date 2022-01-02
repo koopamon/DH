@@ -259,7 +259,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		id: "blowaway",
 		name: "Blow Away",
 		shortDesc: "Removes harmful hazards upon entry.",
-		onStart(source) {
+		onStart(pokemon) {
 			let activated = false;
 			for (const sideCondition of ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge']) {
 				if (pokemon.side.getSideCondition(sideCondition)) {
