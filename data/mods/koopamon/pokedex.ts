@@ -454,7 +454,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   koopatroopagold: {
     num: 14,
-    name: "Koopatroopa",
+    name: "Koopatroopa Gold",
     types: [
       "Normal"
     ],

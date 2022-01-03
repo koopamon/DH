@@ -37,7 +37,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDamage(damage, target, source, effect) {
 			if (
 				effect && effect.effectType === 'Move' &&
-				['uproot'].includes(target.species.id) && !target.transformed
+				['mimikyu', 'mimikyutotem', 'uproot'].includes(target.species.id) && !target.transformed
 			) {
 				this.add('-activate', target, 'ability: Disguise');
 				this.effectData.busted = true;
@@ -46,7 +46,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onCriticalHit(target, source, move) {
 			if (!target) return;
-			if (!['uproot'].includes(target.species.id) || target.transformed) {
+			if (!['mimikyu', 'mimikyutotem'].includes(target.species.id) || target.transformed) {
 				return;
 			}
 			const hitSub = target.volatiles['substitute'] && !move.flags['authentic'] && !(move.infiltrates && this.gen >= 6);
@@ -57,7 +57,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onEffectiveness(typeMod, target, type, move) {
 			if (!target) return;
-			if (!['uproot'].includes(target.species.id) || target.transformed) {
+			if (!['mimikyu', 'uproot'].includes(target.species.id) || target.transformed) {
 				return;
 			}
 			const hitSub = target.volatiles['substitute'] && !move.flags['authentic'] && !(move.infiltrates && this.gen >= 6);
@@ -67,8 +67,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			return 0;
 		},
 		onUpdate(pokemon) {
-			if (['uproot'].includes(pokemon.species.id) && this.effectData.busted) {
-				const speciesid = pokemon.species.id === 'Uproot-Busted';
+			if (['mimikyu', 'uproot'].includes(pokemon.species.id) && this.effectData.busted) {
+				const speciesid = pokemon.species.id === 'Uproot' ? 'Uproot-Busted' : 'Mimikyu-Busted';
 				pokemon.formeChange(speciesid, this.effect, true);
 				this.damage(pokemon.baseMaxhp / 8, pokemon, pokemon, this.dex.getSpecies(speciesid));
 			}
@@ -77,7 +77,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Disguise",
 		rating: 3.5,
 		num: 209,
-	},
 	fearmonger: {
 		id: "fearmonger",
 		name: "Fearmonger",
@@ -94,6 +93,27 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 					this.add('-immune', target);
 				} else {
 					this.boost({spe: -1}, target, pokemon, null, true);
+				}
+			}
+		},
+		rating: 3.5,
+	},
+	terrorize: {
+		id: "terrorize",
+		name: "Terrorize",
+		shortDesc: "Lower's the opponent's Special Attack upon switch-in.",
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.side.foe.active) {
+				if (!target || !this.isAdjacent(target, pokemon)) continue;
+				if (!activated) {
+					this.add('-ability', pokemon, 'Terrorize', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({spa: -1}, target, pokemon, null, true);
 				}
 			}
 		},
@@ -272,5 +292,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		rating: 3.5,
+	},
+	shadowsteal: {
+		id: "shadowsteal",
+		name: "Shadow Steal",
+		shortDesc: "This Pokemon's Special Attack is raised by 1 stage if hit by a Dark move; Dark immunity."
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Dark') {
+				if (!this.boost({spa: 1})) {
+					this.add('-immune', target, '[from] ability: Shadow Steal');
+				}
+				return null;
+			}
+		},
+		rating: 3,
+		num: 78,
 	},
 };
