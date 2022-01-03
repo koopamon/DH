@@ -77,6 +77,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Disguise",
 		rating: 3.5,
 		num: 209,
+	},
 	fearmonger: {
 		id: "fearmonger",
 		name: "Fearmonger",
