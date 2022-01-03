@@ -2389,7 +2389,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Liquilite"
     ]
   },
-  fizzlight: {
+  liquilite: {
     num: 75,
     name: "Liquilite",
     types: [
@@ -2941,7 +2941,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Nobull"
     ]
   },
-  nobully: {
+  nobull: {
     num: 92,
     name: "Nobull",
     types: [
