@@ -296,7 +296,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	shadowsteal: {
 		id: "shadowsteal",
 		name: "Shadow Steal",
-		shortDesc: "This Pokemon's Special Attack is raised by 1 stage if hit by a Dark move; Dark immunity."
+		shortDesc: "This Pokemon's Special Attack is raised by 1 stage if hit by a Dark move; Dark immunity.",
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Dark') {
 				if (!this.boost({spa: 1})) {
