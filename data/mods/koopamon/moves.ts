@@ -36,12 +36,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		onModifyMove(target, source) {
+		onTryHit(target, source) {
 			if (source?.hasAbility('bombexpert')) {
-				onHit(target, source) {
 				this.damage(Math.round(source.maxhp * 0.75), source, source, this.dex.getEffect('Mind Blown'), true);
-				}
-			} else {
+			} else if (!source?.hasAbility('bombexpert')) {
 				selfdestruct: "always",
 				return;
 			}
@@ -60,12 +58,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		onModifyMove(target, source) {
+		onTryHit(target, source) {
 			if (source?.hasAbility('bombexpert')) {
-				onHit(target, source) {
 				this.damage(Math.round(source.maxhp * 0.75), source, source, this.dex.getEffect('Mind Blown'), true);
-				}
-			} else {
+			} else if (!source?.hasAbility('bombexpert')) {
 				selfdestruct: "always",
 				return;
 			}
