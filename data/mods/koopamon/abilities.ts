@@ -319,4 +319,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		rating: 4,
 	},
+	bombexpert: {
+		id: "bombexpert",
+		name: "Bomb Expert",
+		shortDesc: "Explosive attacks will remove 3/4th's the Pokemon's total HP.",
+		rating: 4,
+	},
+};
 };
