@@ -4458,7 +4458,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		selfdestruct: "always",
 		secondary: null,
 		target: "allAdjacent",
-		type: "Normal",
+		type: "Fire",
 		contestType: "Beautiful",
 	},
 	extrasensory: {
@@ -14879,7 +14879,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		selfdestruct: "always",
 		secondary: null,
 		target: "allAdjacent",
-		type: "Normal",
+		type: "Fire",
 		contestType: "Beautiful",
 	},
 	shadowball: {
