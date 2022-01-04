@@ -325,4 +325,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		shortDesc: "Explosive attacks will remove 3/4th's the Pokemon's total HP.",
 		rating: 4,
 	},
+	poisonleech: {
+		id: "poisonleech",
+		name: "Poison Leech",
+		shortDesc: "Heals the user based on Poison/Toxic damage the foe endures."
+		onResidual(target, source, effect) {
+			if (effect.id === 'psn') {
+				this.heal(target.baseMaxhp / 8);
+				return false;
+			} else if (effect.id === 'tox') {
+				if (target.effectData.stage < 15) {
+				target.effectData.stage++;
+				}
+				this.heal(target.clampIntRange(target.baseMaxhp / 16, 1) * target.effectData.stage);
+				return false;
+			}
+		},
+		rating: 4,
+		num: 90,
+	},
 };
