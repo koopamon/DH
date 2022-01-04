@@ -56,7 +56,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "allAdjacent",
 		type: "Fire",
 		contestType: "Beautiful",
-	},",
 	},
 	spikes: {
 		num: 191,
