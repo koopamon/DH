@@ -3468,7 +3468,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       def: 85,
       spa: 120,
       spd: 70,
-      spe: 80
+      spe: 60
     },
     abilities: {
       0: "Flash Fire",
@@ -6006,7 +6006,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       def: 90,
       spa: 130,
       spd: 80,
-      spe: 95
+      spe: 85
     },
     abilities: {
       0: "Flash Fire",
