@@ -40,7 +40,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (source?.hasAbility('bombexpert')) {
 				this.damage(Math.round(source.maxhp * 0.75), source, source, this.dex.getEffect('Mind Blown'), true);
 			} else if (!source?.hasAbility('bombexpert')) {
-				source.selfdestruct;
+				this.damage(Math.round(source.maxhp), source, source, this.dex.getEffect('Mind Blown'), true);
 			}
 		},
 		secondary: null,
@@ -61,7 +61,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (source?.hasAbility('bombexpert')) {
 				this.damage(Math.round(source.maxhp * 0.75), source, source, this.dex.getEffect('Mind Blown'), true);
 			} else if (!source?.hasAbility('bombexpert')) {
-				source.selfdestruct;
+				this.damage(Math.round(source.maxhp), source, source, this.dex.getEffect('Mind Blown'), true);
 			}
 		},
 		secondary: null,
