@@ -5041,7 +5041,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  sbobomb: {
+  starbobomb: {
     num: 156,
     name: "Star Bob-omb",
     types: [
@@ -6616,7 +6616,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   uprootbusted: {
     num: 205,
-    name: "Uproot",
+    name: "Uproot-Busted",
     types: [
       "Grass",
       "Dark"

@@ -309,4 +309,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 78,
 	},
+	blubberbody: {
+		id: "blubberbody",
+		name: "Blubber Body",
+		shortDesc: "This Pokemon's Special Defense stat is doubled.",
+		onModifySpDPriority: 6,
+		onModifySpD(spd) {
+			return this.chainModify(2);
+		},
+		rating: 4,
+	},
 };

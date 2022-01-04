@@ -27,6 +27,54 @@ sound: Has no effect on Pokemon with the Soundproof Ability.
 */
 
 export const Moves: {[moveid: string]: MoveData} = {
+	selfdestruct: {
+		num: 120,
+		accuracy: 100,
+		basePower: 200,
+		category: "Physical",
+		name: "Self-Destruct",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		if (source?.hasAbility('bombexpert')) {
+			mindBlownRecoil: true,
+			onAfterMove(pokemon, target, move) {
+				if (move.mindBlownRecoil && !move.multihit) {
+					this.damage(Math.round(pokemon.maxhp * 0.75), pokemon, pokemon, this.dex.getEffect('Mind Blown'), true);
+				}
+			},
+		} else {
+			selfdestruct: "always",
+		}
+		secondary: null,
+		target: "allAdjacent",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
+	explosion: {
+		num: 153,
+		accuracy: 100,
+		basePower: 250,
+		category: "Physical",
+		name: "Explosion",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		if (source?.hasAbility('bombexpert')) {
+			mindBlownRecoil: true,
+			onAfterMove(pokemon, target, move) {
+				if (move.mindBlownRecoil && !move.multihit) {
+					this.damage(Math.round(pokemon.maxhp * 0.75), pokemon, pokemon, this.dex.getEffect('Mind Blown'), true);
+				}
+			},
+		} else {
+			selfdestruct: "always",
+		}
+		secondary: null,
+		target: "allAdjacent",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
 	spikes: {
 		num: 191,
 		accuracy: true,
