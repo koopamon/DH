@@ -36,13 +36,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		onHit(target, source) {
-			if (source?.hasAbility('bombexpert')) {
-				this.damage(Math.round(source.maxhp * 0.75), source, source, this.dex.getEffect('Mind Blown'), true);
-			} else {
-				selfdestruct: "always";
-			}
-		},
+		selfdestruct: "always",
 		secondary: null,
 		target: "allAdjacent",
 		type: "Fire",
@@ -57,17 +51,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		onHit(target, source) {
-			if (source?.hasAbility('bombexpert')) {
-				this.damage(Math.round(source.maxhp * 0.75), source, source, this.dex.getEffect('Mind Blown'), true);
-			} else {
-				selfdestruct: "always";
-			}
-		},
+		selfdestruct: "always",
 		secondary: null,
 		target: "allAdjacent",
 		type: "Fire",
 		contestType: "Beautiful",
+	},",
 	},
 	spikes: {
 		num: 191,
