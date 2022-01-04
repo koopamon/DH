@@ -328,7 +328,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	poisonleech: {
 		id: "poisonleech",
 		name: "Poison Leech",
-		shortDesc: "Heals the user based on Poison/Toxic damage the foe endures."
+		shortDesc: "Heals the user based on Poison/Toxic damage the foe endures.",
 		onResidual(target, source, effect) {
 			if (effect.id === 'psn') {
 				this.heal(target.baseMaxhp / 8);
@@ -342,6 +342,5 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		rating: 4,
-		num: 90,
 	},
 };
