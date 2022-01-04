@@ -36,16 +36,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		if (source?.hasAbility('bombexpert')) {
-			mindBlownRecoil: true,
-			onAfterMove(pokemon, target, move) {
+		onAfterMove(pokemon, target, move) {
+			if (pokemon?.hasAbility('bombexpert')) {
+				mindBlownRecoil: true,
 				if (move.mindBlownRecoil && !move.multihit) {
 					this.damage(Math.round(pokemon.maxhp * 0.75), pokemon, pokemon, this.dex.getEffect('Mind Blown'), true);
 				}
-			},
-		} else {
-			selfdestruct: "always",
-		}
+			} else {
+				selfdestruct: "always",
+			}
+		},
 		secondary: null,
 		target: "allAdjacent",
 		type: "Fire",
@@ -60,16 +60,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		if (source?.hasAbility('bombexpert')) {
-			mindBlownRecoil: true,
-			onAfterMove(pokemon, target, move) {
+		onAfterMove(pokemon, target, move) {
+			if (pokemon?.hasAbility('bombexpert')) {
+				mindBlownRecoil: true,
 				if (move.mindBlownRecoil && !move.multihit) {
 					this.damage(Math.round(pokemon.maxhp * 0.75), pokemon, pokemon, this.dex.getEffect('Mind Blown'), true);
 				}
-			},
-		} else {
-			selfdestruct: "always",
-		}
+			} else {
+				selfdestruct: "always",
+			}
+		},
 		secondary: null,
 		target: "allAdjacent",
 		type: "Fire",
