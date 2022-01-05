@@ -330,10 +330,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Poison Leech",
 		shortDesc: "Heals the user based on Poison/Toxic damage the foe endures.",
 		onStart(target) {
-			this.effectData.stage = 0;
-		},
-		onBeforeSwitchOut(pokemon) {
-			this.effectData.stage === 0;
+			target.effectData.stage = 0;
 		},
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
@@ -345,10 +342,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
                     this.heal(target.baseMaxhp / 8);
                 }
                 else if (target.status === "tox") {
-                    if (this.effectData.stage < 15) {
-						this.effectData.stage++;
-					}
-					this.heal((target.baseMaxhp / 16) * this.effectData.stage)
+					this.heal((target.baseMaxhp / 16) * target.effectData.stage)
                 }
             }
         },
