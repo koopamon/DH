@@ -341,13 +341,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
             for (const target of pokemon.side.foe.active) {
                 if (!target || !target.hp) continue;
-                if (target.newlySwitched) {
-					this.effectData.stage === 0;
-				}
 				if (target.status === 'psn') {
                     this.heal(target.baseMaxhp / 8);
                 }
                 else if (target.status === "tox") {
+					if (target.newlySwitched) {
+						this.effectData.stage === 0;
+					}
                     this.heal((target.baseMaxhp / 16) * this.effectData.stage)
                 }
             }
