@@ -331,7 +331,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		shortDesc: "Heals the user based on Poison/Toxic damage the foe endures.",
 		onStart(target, source, sourceEffect) {
 			this.effectData.stage = 0;
-		}
+		},
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
 		onResidual(pokemon) {
