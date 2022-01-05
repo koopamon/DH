@@ -336,15 +336,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
             if (!pokemon.hp) return;
             for (const target of pokemon.side.foe.active) {
                 if (!target || !target.hp) continue;
-				if (!target.ability === 'poisonheal') {
 					if (target.status === 'psn') {
 						this.heal(target.baseMaxhp / 8);
 					}
 					else if (target.status === "tox") {
 						this.heal((target.baseMaxhp / 16) * target.statusData)
 					}
-				}
-				
             }
         },
 		rating: 4,
