@@ -330,7 +330,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Poison Leech",
 		shortDesc: "Heals the user based on Poison/Toxic damage the foe endures.",
 		onStart(target) {
-			target.effectData.stage = 0;
+			if (target.status === "tox") {
+				target.effectData.stage = 0;
+			} 
 		},
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
