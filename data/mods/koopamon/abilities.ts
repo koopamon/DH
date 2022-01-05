@@ -339,16 +339,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onResidualSubOrder: 1,
 		onResidual(pokemon) {
             if (!pokemon.hp) return;
-			if (this.effectData.stage < 15) {
-				this.effectData.stage++;
-			}
             for (const target of pokemon.side.foe.active) {
                 if (!target || !target.hp) continue;
 				if (target.status === 'psn') {
                     this.heal(target.baseMaxhp / 8);
                 }
                 else if (target.status === "tox") {
-                    this.heal((target.baseMaxhp / 16) * this.effectData.stage)
+                    if (this.effectData.stage < 15) {
+						this.effectData.stage++;
+					}
+					this.heal((target.baseMaxhp / 16) * this.effectData.stage)
                 }
             }
         },
