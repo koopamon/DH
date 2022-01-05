@@ -340,7 +340,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 						this.heal(target.baseMaxhp / 8);
 					}
 					else if (target.status === "tox") {
-						this.heal((target.baseMaxhp / 16) * target.statusData)
+						this.heal((target.baseMaxhp / 16) * target.statusData.stage)
 					}
             }
         },
