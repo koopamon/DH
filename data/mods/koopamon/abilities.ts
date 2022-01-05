@@ -329,7 +329,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		id: "poisonleech",
 		name: "Poison Leech",
 		shortDesc: "Heals the user based on Poison/Toxic damage the foe endures.",
-		onSwitchIn(target) {
+		onStart(target) {
+			this.effectData.stage = 0;
+		},
+		onBeforeSwitchOut(pokemon) {
 			this.effectData.stage === 0;
 		},
 		onResidualOrder: 26,
