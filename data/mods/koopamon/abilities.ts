@@ -332,6 +332,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onStart(target, source, sourceEffect) {
 			this.effectData.stage = 0;
 		},
+		onSwitchIn(target) {
+			this.effectData.stage = 0;
+		},
+		onSwitchIn(target) {
+			this.effectData.stage === 0;
+		},
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
 		onResidual(pokemon) {
