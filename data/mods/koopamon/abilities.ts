@@ -332,9 +332,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onStart(target, source, sourceEffect) {
 			this.effectData.stage = 0;
 		},
-		onBeforeSwitchOut(pokemon) {
-			this.effectData.stage = 0;
-		},
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
 		onResidual(pokemon) {
@@ -344,7 +341,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
             for (const target of pokemon.side.foe.active) {
                 if (!target || !target.hp) continue;
-                if (target.status === 'psn') {
+                if (target.newlySwitched) {
+					this.effectData.stage === 0;
+				},
+				if (target.status === 'psn') {
                     this.heal(target.baseMaxhp / 8);
                 }
                 else if (target.status === "tox") {
