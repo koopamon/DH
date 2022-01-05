@@ -343,7 +343,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
                 if (!target || !target.hp) continue;
                 if (target.newlySwitched) {
 					this.effectData.stage === 0;
-				},
+				}
 				if (target.status === 'psn') {
                     this.heal(target.baseMaxhp / 8);
                 }
