@@ -2257,6 +2257,130 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
+  "koopatroopagold": {
+    "learnset": {
+      "tackle": [
+        "8M"
+      ],
+      "withdraw": [
+        "8M"
+      ],
+      "rapidspin": [
+        "8M"
+      ],
+      "rollout": [
+        "8M"
+      ],
+      "rocksmash": [
+        "8M"
+      ],
+      "headbutt": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "hyperfang": [
+        "8M"
+      ],
+      "swordsdance": [
+        "8M"
+      ],
+      "doubleedge": [
+        "8M"
+      ],
+      "batonpass": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "crunch": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "dragonpulse": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "thundershock": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ]
+    }
+  },
   "paratroopa": {
     "learnset": {
       "wingattack": [
@@ -4015,7 +4139,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "focusblast": [
         "8M"
       ],
-      "overheat": [
+      "eruption": [
         "8M"
       ],
       "sleeptalk": [
@@ -5958,6 +6082,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "spinysqueak": {
     "learnset": {
+      "spikes": [
+        "8M"
+      ],
       "dazzlinggleam": [
         "8M"
       ],
@@ -7327,6 +7454,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "flamethrower": [
+        "8M"
+      ],
+      "spikecannon": [
         "8M"
       ],
       "hyperbeam": [
@@ -10776,6 +10906,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "guillotine": [
         "8M"
       ],
+      "rockpolish": [
+        "8M"
+      ],
       "xscissor": [
         "8M"
       ],
@@ -11200,7 +11333,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "liquilite": {
+  "fizzlight": {
     "learnset": {
       "discharge": [
         "8M"
@@ -12062,9 +12195,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flashcannon": [
         "8M"
       ],
-      "waterfall": [
-        "8M"
-      ],
       "autotomize": [
         "8M"
       ],
@@ -12203,9 +12333,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "flashcannon": [
         "8M"
-      ],
-      "waterfall": [
-        "8M"
       ]
     }
   },
@@ -12338,9 +12465,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "flashcannon": [
-        "8M"
-      ],
-      "waterfall": [
         "8M"
       ]
     }
@@ -13151,7 +13275,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "futuresight": [
         "8M"
       ],
-      "psystrike": [
+      "mimic": [
         "8M"
       ],
       "hail": [
@@ -13323,7 +13447,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "futuresight": [
         "8M"
       ],
-      "psystrike": [
+      "mimic": [
         "8M"
       ],
       "hail": [
@@ -13593,7 +13717,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "nobull": {
+  "nobully": {
     "learnset": {
       "doomdesire": [
         "8M"
@@ -14387,33 +14511,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "raindance": [
         "8M"
-      ],
-      "curse": [
-        "8M"
-      ],
-      "bite": [
-        "8M"
-      ],
-      "crunch": [
-        "8M"
-      ],
-      "magnitude": [
-        "8M"
-      ],
-      "razorleaf": [
-        "8M"
-      ],
-      "toxicspikes": [
-        "8M"
       ]
     }
   },
   "mummipokey": {
     "learnset": {
       "sleeppowder": [
-        "8M"
-      ],
-	  "woodhammer": [
         "8M"
       ],
       "stunspore": [
@@ -14495,6 +14598,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "cottonguard": [
+        "8M"
+      ],
+      "woodhammer": [
         "8M"
       ],
       "xscissor": [
@@ -17421,7 +17527,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "firepunch": [
         "8M"
       ],
-      "icepunch": [
+      "dynamicpunch": [
         "8M"
       ],
       "machpunch": [
@@ -23091,22 +23197,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "auroraveil": [
         "8M"
       ],
-      "thunder": [
-        "8M"
-      ],
-      "shockwave": [
-        "8M"
-      ],
-      "voltswitch": [
-        "8M"
-      ],
-      "thunderbolt": [
-        "8M"
-      ],
       "thunderwave": [
-        "8M"
-      ],
-      "wildcharge": [
         "8M"
       ],
       "dazzlinggleam": [
@@ -25429,7 +25520,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hydropump": [
         "8M"
       ],
-      "teleport": [
+      "uturn": [
         "8M"
       ],
       "raindance": [
@@ -25630,7 +25721,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "protect": [
         "8M"
       ],
-      "uturn": [
+      "teleport": [
         "8M"
       ],
       "irontail": [
@@ -25651,7 +25742,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "agility": [
         "8M"
       ],
-      "teleport": [
+      "uturn": [
         "8M"
       ],
       "taunt": [
@@ -25834,7 +25925,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "scheepcheep": {
+  "starcheepcheep": {
     "learnset": {
       "leer": [
         "8M"
@@ -28525,7 +28616,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "burnup": [
         "8M"
       ],
-      "eruption": [
+      "overheat": [
         "8M"
       ],
       "toxic": [
@@ -28598,9 +28689,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "flamecharge": [
-        "8M"
-      ],
-      "overheat": [
         "8M"
       ],
       "stoneedge": [
