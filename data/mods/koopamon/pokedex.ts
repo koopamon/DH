@@ -5996,9 +5996,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  sbulletbill: {
+  starbulletbill: {
     num: 184,
-    name: "Bullet Bill",
+    name: "Star Bullet Bill",
     types: [
       "Poison",
       "Steel"
