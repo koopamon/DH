@@ -575,7 +575,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		target: "normal",
-		type: "Rock",
+		type: "Bug",
 	},
 	flamelure: {
 		accuracy: true,
