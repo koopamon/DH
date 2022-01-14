@@ -419,7 +419,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fairy",
 	},
 	darkshuriken: {
-		num: 594,
 		accuracy: 100,
 		basePower: 15,
 		category: "Physical",
@@ -434,7 +433,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dark",
 	},
 	burningbubbles: {
-		num: 503,
 		accuracy: 100,
 		basePower: 100,
 		category: "Special",
@@ -449,6 +447,554 @@ export const Moves: {[moveid: string]: MoveData} = {
 			status: 'brn',
 		},
 		target: "normal",
+		type: "Water",
+	},
+	zapattack: {
+		accuracy: 90,
+		basePower: 35,
+		basePowerCallback(pokemon, target, move) {
+			let bp = move.basePower;
+			if (pokemon.volatiles['rollout'] && pokemon.volatiles['rollout'].hitCount) {
+				bp *= Math.pow(2, pokemon.volatiles['rollout'].hitCount);
+			}
+			if (pokemon.status !== 'slp') pokemon.addVolatile('rollout');
+			if (pokemon.volatiles['defensecurl']) {
+				bp *= 2;
+			}
+			this.debug("Rollout bp: " + bp);
+			return bp;
+		},
+		category: "Physical",
+		name: "Zap Attack",
+		shortDesc: "Power doubles with each hit. Repeats for 5 turns.",
+		pp: 25,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		condition: {
+			duration: 2,
+			onLockMove: 'rollout',
+			onStart() {
+				this.effectData.hitCount = 1;
+			},
+			onRestart() {
+				this.effectData.hitCount++;
+				if (this.effectData.hitCount < 5) {
+					this.effectData.duration = 2;
+				}
+			},
+			onResidual(target) {
+				if (target.lastMove && target.lastMove.id === 'struggle') {
+					// don't lock
+					delete target.volatiles['rollout'];
+				}
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+	},
+	frostpulse: {
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Frost Pulse",
+		shortDesc: "10% chance to freeze the target.",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, pulse: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			status: 'frz',
+		},
+		target: "normal",
+		type: "Ice",
+	},
+	phantompunch: {
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		name: "Phantom Punch",
+		shortDesc: "Lowers the target's speed.",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				spe: -1,
+			},
+		},
+		target: "normal",
+		type: "Ghost",
+	},
+	cursedcobble: {
+		accuracy: 90,
+		basePower: 90,
+		category: "Special",
+		name: "Cursed Cobble",
+		shortDesc: "30% chance to lower the target's Special Attack.",
+		pp: 15,
+		priority: 0,
+		flags: {bullet: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			boosts: {
+				spa: -1,
+			},
+		},
+		target: "normal",
+		type: "Rock",
+	},
+	dracotornado: {
+		accuracy: 80,
+		basePower: 90,
+		category: "Special",
+		name: "Draco Tornado",
+		shortDesc: "Traps and damages the target for 4-5 turns.",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "Dragon",
+	},
+	flyswatter: {
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Fly Swatter",
+		shortDesc: "30% chance to lower the target's Special Attack.",
+		pp: 15,
+		priority: 0,
+		flags: {punch: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -1,
+			},
+		},
+		target: "normal",
+		type: "Rock",
+	},
+	flamelure: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Flame Lure",
+		shortDesc: "Protects from moves. Contact: burn.",
+		pp: 10,
+		priority: 4,
+		flags: {},
+		stallingMove: true,
+		volatileStatus: 'flamelure',
+		onTryHit(target, source, move) {
+			return !!this.queue.willAct() && this.runEvent('StallMove', target);
+		},
+		onHit(pokemon) {
+			pokemon.addVolatile('stall');
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				this.add('-singleturn', target, 'move: Protect');
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (!move.flags['protect']) {
+					if (move.isZ || (move.isMax && !move.breaksProtect)) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				if (move.flags['contact']) {
+					source.trySetStatus('brn', target);
+				}
+				return this.NOT_FAIL;
+			},
+			onHit(target, source, move) {
+				if (move.isZOrMaxPowered && move.flags['contact']) {
+					source.trySetStatus('brn', target);
+				}
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Fire",
+	},
+	lifedrain: {
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Life Drain",
+		shortDesc: "User recovers 50% of the damage dealt.",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, heal: 1},
+		drain: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+	},
+	mysticburst: {
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Mystic Burst",
+		shortDesc: "Destroys screens, unless the target is immune.",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onTryHit(pokemon) {
+			// will shatter screens through sub, before you hit
+			if (pokemon.runImmunity('Fighting')) {
+				pokemon.side.removeSideCondition('reflect');
+				pokemon.side.removeSideCondition('lightscreen');
+				pokemon.side.removeSideCondition('auroraveil');
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fairy",
+	},
+	rockfall: {
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Rock Fall",
+		shortDesc: "30% chance to paralyze the target.",
+		pp: 25,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Rock",
+	},
+	heavyfall: {
+		accuracy: 70,
+		basePower: 120,
+		category: "Physical",
+		name: "Heavy Fall",
+		shortDesc: "30% chance to paralyze the target.",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Rock",
+	},
+	spikeball: {
+		num: 442,
+		accuracy: 85,
+		basePower: 100,
+		category: "Physical",
+		name: "Spike Ball",
+		shortDesc: "30% chance to flinch the target.",
+		pp: 10,
+		priority: 0,
+		flags: {bullet: 1, contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Steel",
+	},
+	mistywind: {
+		accuracy: 100,
+		basePower: 60,
+		category: "Special",
+		name: "Misty Wind",
+		shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			self: {
+				boosts: {
+					atk: 1,
+					def: 1,
+					spa: 1,
+					spd: 1,
+					spe: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Fairy",
+		contestType: "Tough",
+	},
+	supercannon: {
+		accuracy: 100,
+		basePower: 35,
+		category: "Special",
+		name: "Super Cannon",
+		shortDesc: "Fires 1-3 shots. Each shot has a 50% chance to lower the target's defense.",
+		pp: 20,
+		priority: 0,
+		flags: {bullet: 1, protect: 1, mirror: 1},
+		multihit: [1, 3],
+		secondary: {
+			chance: 50,
+			boosts: {
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Normal",
+	},
+	electrogoop: {
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Electro Goop",
+		shortDesc: "Lowers the target's speed.",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				spe: -1,
+			},
+		},
+		target: "normal",
+		type: "Electric",
+	},
+	lasereye: {
+		accuracy: 95,
+		basePower: 100,
+		category: "Special",
+		name: "Laser Eye",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Dark",
+	},
+	spiritbomb: {
+		accuracy: 85,
+		basePower: 110,
+		category: "Special",
+		name: "Spirit Bomb",
+		shortDesc: "10% chance to lower Special Defense.",
+		pp: 10,
+		priority: 0,
+		flags: {bullet: 1, contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			boosts: {
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Ghost",
+	},
+	wickedlaugh: {
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Wicked Laugh",
+		shortDesc: "No additional effect.",
+		pp: 10,
+		priority: 0,
+		flags: {sound: 1, contact: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+	},
+	piercingpoke: {
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Piercing Poke",
+		shortDesc: "Destroys screens, unless the target is immune.",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onTryHit(pokemon) {
+			// will shatter screens through sub, before you hit
+			if (pokemon.runImmunity('Fighting')) {
+				pokemon.side.removeSideCondition('reflect');
+				pokemon.side.removeSideCondition('lightscreen');
+				pokemon.side.removeSideCondition('auroraveil');
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+	},
+	dragonboost: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Dragon Boost",
+		shortDesc: "Raises the user's Special Attack and Speed by 1.",
+		pp: 20,
+		priority: 0,
+		flags: {snatch: 1, dance: 1},
+		boosts: {
+			spa: 1,
+			spe: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Dragon",
+	},
+	gravitycannon: {
+		accuracy: 90,
+		basePower: 100,
+		category: "Special",
+		name: "Gravity Cannon",
+		shortDesc: "50% chance to lower the target's Special Attack.",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			boosts: {
+				spa: -1,
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+	},
+	gravitysmash: {
+		accuracy: 85,
+		basePower: 110,
+		category: "Physical",
+		name: "Gravity Cannon",
+		shortDesc: "30% chance to confuse the target.",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			volatileStatus: 'confusion',
+		},
+		target: "normal",
+		type: "Psychic",
+	},
+	spikestorm: {
+		accuracy: 90,
+		basePower: 60,
+		category: "Physical",
+		name: "Gravity Cannon",
+		shortDesc: "Sets up a layer of spikes.",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		self: {
+			onHit(source) {
+				source.side.foe.addSideCondition('spikes');
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Ground",
+	},
+	psychowhip: {
+		accuracy: 95,
+		basePower: 100,
+		category: "Physical",
+		name: "Psycho Whip",
+		shortDesc: "No additional effect.",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+	},
+	freezeblast: {
+		num: 120,
+		accuracy: 100,
+		basePower: 200,
+		category: "Physical",
+		name: "Freeze Blast",
+		shortDesc: "Hits adjacent Pokemon. The user faints.", 
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onTryHit(target, source) {
+			if (source?.hasAbility('bombexpert')) {
+				this.damage(Math.round(source.maxhp * 0.75), source, source, this.dex.getEffect('Mind Blown'), true);
+			} else if (!source?.hasAbility('bombexpert')) {
+				this.damage(Math.round(source.maxhp), source, source, this.dex.getEffect('Mind Blown'), true);
+			}
+		},
+		secondary: null,
+		target: "allAdjacent",
+		type: "Ice",
+		contestType: "Beautiful",
+	},
+	boulderbite: {
+		accuracy: 90,
+		basePower: 90,
+		category: "Physical",
+		name: "Boulder Bite",
+		shortDesc: "30% chance to flinch the target.",
+		pp: 10,
+		priority: 0,
+		flags: {bite: 1, contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Rock",
+	},
+	cursedchomp: {
+		accuracy: 95,
+		basePower: 75,
+		category: "Physical",
+		name: "Cursed Chomp",
+		shortDesc: "20% chance to lower the target's speed.",
+		pp: 15,
+		priority: 0,
+		flags: {bite: 1, contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			boosts: {
+				spe: -1,
+			},
+		},
+		target: "normal",
+		type: "Ghost",
+	},
+	seasurge: {
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Sea Surge",
+		shortDesc: "Has 33% recoil.",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, distance: 1},
+		recoil: [33, 100],
+		secondary: null,
+		target: "any",
 		type: "Water",
 	},
 }

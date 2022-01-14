@@ -4139,7 +4139,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "focusblast": [
         "8M"
       ],
-      "eruption": [
+      "overheat": [
         "8M"
       ],
       "sleeptalk": [
