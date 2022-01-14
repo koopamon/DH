@@ -2,21 +2,23 @@ export const Items: {[k: string]: ModdedItemData} = {
 	"magicalcapsule": {
 		id: "magicalcapsule",
 		name: "Magical Capsule",
-		desc: "If the holder's species can evolve, its Attack and Sp. Atk are 1.5x.",
+		spritenum: 130,
 		fling: {
 			basePower: 40,
 		},
 		onModifyAtkPriority: 2,
-		onModifyAtk(atk, pokemon) {
+		onModifyAtk: function(atk, pokemon) {
 			if (pokemon.baseSpecies.nfe) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpAPriority: 2,
-		onModifySpA(spa, pokemon) {
+		onModifySpA: function(spa, pokemon) {
 			if (pokemon.baseSpecies.nfe) {
 				return this.chainModify(1.5);
 			}
 		},
+		gen: 5,
+		desc: "If holder's species can evolve, its Atk and Sp. Atk are 1.5x.",
 	},
 }
