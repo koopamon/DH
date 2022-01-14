@@ -1,5 +1,5 @@
 export const Items: {[k: string]: ModdedItemData} = {
-	magicalcapsule: {
+	"magicalcapsule": {
 		id: "magicalcapsule",
 		name: "Magical Capsule",
 		desc: "If the holder's species can evolve, its Attack and Sp. Atk are 1.5x.",
