@@ -6,14 +6,14 @@ export const Items: {[itemid: string]: ItemData} = {
 		fling: {
 			basePower: 40,
 		},
-		onModifyDefPriority: 2,
-		onModifyDef(atk, pokemon) {
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
 			if (pokemon.baseSpecies.nfe) {
 				return this.chainModify(1.5);
 			}
 		},
-		onModifySpDPriority: 2,
-		onModifySpD(spa, pokemon) {
+		onModifySpAPriority: 2,
+		onModifySpA(spa, pokemon) {
 			if (pokemon.baseSpecies.nfe) {
 				return this.chainModify(1.5);
 			}
