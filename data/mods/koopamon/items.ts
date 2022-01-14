@@ -21,4 +21,4 @@ export const Items: {[k: string]: ModdedItemData} = {
 		gen: 5,
 		desc: "If holder's species can evolve, its Atk and Sp. Atk are 1.5x.",
 	},
-}
+};
