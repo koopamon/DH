@@ -1,4 +1,4 @@
-export const Items: {[itemid: string]: ItemData} = {
+export const Items: {[k: string]: ModdedItemData} = {
 	magicalcapsule: {
 		id: "magicalcapsule",
 		name: "Magical Capsule",
