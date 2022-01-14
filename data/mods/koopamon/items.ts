@@ -1,8 +1,8 @@
 export const Items: {[itemid: string]: ItemData} = {
 	magicalcapsule: {
+		id: "magicalcapsule",
 		name: "Magical Capsule",
-		shortDesc: "If the holder's species can evolve, its Attack and Sp. Atk are 1.5x.",
-		spritenum: 130,
+		desc: "If the holder's species can evolve, its Attack and Sp. Atk are 1.5x.",
 		fling: {
 			basePower: 40,
 		},
