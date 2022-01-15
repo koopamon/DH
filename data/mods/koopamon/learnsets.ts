@@ -4196,15 +4196,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rocktomb": [
         "8M"
       ],
-      "solarbeam": [
-        "8M"
-      ],
-      "energyball": [
-        "8M"
-      ],
-      "grassknot": [
-        "8M"
-      ]
     }
   },
   "sporer": {

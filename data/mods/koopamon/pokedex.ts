@@ -930,10 +930,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 70,
-      atk: 60,
+      atk: 70,
       def: 60,
-      spa: 125,
-      spd: 75,
+      spa: 110,
+      spd: 80,
       spe: 110
     },
     abilities: {
@@ -6213,12 +6213,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       F: 0.5
     },
     baseStats: {
-      hp: 93,
-      atk: 127,
+      hp: 98,
+      atk: 112,
       def: 77,
-      spa: 43,
+      spa: 63,
       spd: 92,
-      spe: 88
+      spe: 68
     },
     abilities: {
       0: "Steelworker",
