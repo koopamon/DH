@@ -4004,14 +4004,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       hp: 110,
       atk: 85,
       def: 70,
-      spa: 130,
+      spa: 120,
       spd: 110,
       spe: 80
     },
     abilities: {
       0: "Strong Jaw",
       1: "Intimidate",
-      H: "Swift Swim"
+      H: "Marvel Scale"
     },
     heightm: 12.8,
     weightkg: 441.8,
@@ -6832,7 +6832,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     abilities: {
       0: "Berserk",
       1: "Aerilate",
-      H: "Magic Guard"
+      H: "Prankster"
     },
     heightm: 0.8,
     weightkg: 22.6,

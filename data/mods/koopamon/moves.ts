@@ -495,7 +495,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	frostpulse: {
 		accuracy: 100,
-		basePower: 80,
+		basePower: 75,
 		category: "Special",
 		name: "Frost Pulse",
 		shortDesc: "10% chance to freeze the target.",

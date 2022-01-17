@@ -299,7 +299,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatData} = {
     tier: "KOOPAMON",
     doublesTier: "KOOPAMON"
   },
-  fizzlight: {
+  liquilite: {
     tier: "KOOPAMON",
     doublesTier: "KOOPAMON"
   },
@@ -367,7 +367,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatData} = {
     tier: "KOOPAMON",
     doublesTier: "KOOPAMON"
   },
-  nobully: {
+  nobull: {
     tier: "KOOPAMON",
     doublesTier: "KOOPAMON"
   },
