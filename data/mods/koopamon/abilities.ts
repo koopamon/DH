@@ -286,6 +286,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (pokemon.side.getSideCondition(sideCondition)) {
 					if (activated) {
 						this.add('-activate', pokemon, 'ability: Blow Away');
+						this.add('-sideend', pokemon.side, this.dex.conditions.get(sideCondition).name, '[from] ability: Blow Away', '[of] ' + pokemon);
 						activated = true;
 					}
 					pokemon.side.removeSideCondition(sideCondition);
