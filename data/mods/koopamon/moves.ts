@@ -997,7 +997,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "any",
 		type: "Water",
 	},
-	frigidbreeze: {,
+	frigidbreeze: {
 		accuracy: 85,
 		basePower: 0,
 		category: "Status",
