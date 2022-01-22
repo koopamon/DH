@@ -282,17 +282,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		shortDesc: "Removes harmful hazards upon entry.",
 		onStart(pokemon) {
 			let activated = false;
+			let success = false;
 			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge']
 			for (const remove of removeAll) {
 				if (pokemon.side.getSideCondition(remove)) {
 					if (activated) {
 						this.add('-activate', pokemon, 'ability: Blow Away');
-						this.add('-sideend', pokemon.side, this.dex.conditions.get(remove).name, '[from] ability: Blow Away', '[of] ' + pokemon);
+						
 						activated = true;
 					}
 					pokemon.side.removeSideCondition(remove);
 				}
 			}
+			for (const sideCondition of removeAll) {
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.getEffect(sideCondition).name, '[from] ability: Blow Away', '[of] ' + source);
+					success = true;
+				}
+			}
+			this.field.clearTerrain();
+			return success;
 		},
 		rating: 3.5,
 	},
