@@ -132,6 +132,38 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {def: 1}},
 		contestType: "Cool",
 	},
+	icespikes: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Ice Spikes",
+		shortDesc: "Hurts foes on switch-in. Factors Ice weakness.",
+		pp: 20,
+		priority: 0,
+		flags: {reflectable: 1},
+		sideCondition: 'icespikes',
+		condition: {
+			// this is a side condition
+			onStart(side) {
+				this.add('-sidestart', side, 'move: Ice Spikes');
+			},
+			onSwitchIn(pokemon) {
+				if (pokemon.hasItem('heavydutyboots')) return;
+				if (pokemon.hasAbility('blowaway')) return;
+				if (pokemon.hasType('Flying')) return;
+				if (pokemon.hasType('Fire'), pokemon.hasType('Ice'), pokemon.hasType('Rock')) {
+					this.add('-sideend', pokemon.side, 'move: Ice Spikes', '[of] ' + pokemon);
+					pokemon.side.removeSideCondition('icespikes');
+				const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('icespikes')), -6, 6);
+				this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
+			},
+		},
+		secondary: null,
+		target: "foeSide",
+		type: "Rock",
+		zMove: {boost: {def: 1}},
+		contestType: "Cool",
+	},
 	stickyweb: {
 		num: 564,
 		accuracy: true,
@@ -206,6 +238,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Secret Seeds",
+		shortDesc: "2 layers of Secret Seeds will cause the foe to be seeded.",
 		pp: 20,
 		priority: 0,
 		flags: {reflectable: 1, nonsky: 1},
