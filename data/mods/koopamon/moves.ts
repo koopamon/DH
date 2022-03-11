@@ -201,6 +201,46 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {def: 1}},
 		contestType: "Clever",
 	},
+	secretseeds: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Secret Seeds",
+		pp: 20,
+		priority: 0,
+		flags: {reflectable: 1, nonsky: 1},
+		sideCondition: 'secretseeds',
+		condition: {
+			// this is a side condition
+			onStart(side) {
+				this.add('-sidestart', side, 'move: Secret Seeds');
+				this.effectData.layers = 1;
+			},
+			onRestart(side) {
+				if (this.effectData.layers >= 2) return false;
+				this.add('-sidestart', side, 'move: Secret Seeds');
+				this.effectData.layers++;
+			},
+			onSwitchIn(pokemon) {
+				if (!pokemon.isGrounded()) return;
+				if (pokemon.hasType('Grass')) {
+					this.add('-sideend', pokemon.side, 'move: Secret Seeds', '[of] ' + pokemon);
+					pokemon.side.removeSideCondition('secretseeds');
+				} else if (pokemon.hasType('Grass') || pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('blowaway')) {
+					return;
+				} else if (this.effectData.layers >= 2) {
+					pokemon.addVolatile('leechseed', pokemon.side.foe.active[0]);
+				} else {
+					
+				}
+			},
+		},
+		secondary: null,
+		target: "foeSide",
+		type: "Poison",
+		zMove: {boost: {def: 1}},
+		contestType: "Clever",
+	},
 	gmaxsteelsurge: {
 		num: 1000,
 		accuracy: true,
