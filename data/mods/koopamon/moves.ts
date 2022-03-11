@@ -148,12 +148,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-sidestart', side, 'move: Ice Spikes');
 			},
 			onSwitchIn(pokemon) {
-				if (pokemon.hasItem('heavydutyboots')) return;
-				if (pokemon.hasAbility('blowaway')) return;
-				if (pokemon.hasType('Flying')) return;
-				if (pokemon.hasType('Fire'), pokemon.hasType('Ice'), pokemon.hasType('Rock')) {
+				if (!pokemon.isGrounded()) return;
+				if (pokemon.hasType('Fire') || pokemon.hasType('Ice'), || pokemon.hasType('Rock')) {
 					this.add('-sideend', pokemon.side, 'move: Ice Spikes', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('icespikes');
+				} else if pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('blowaway')) {
+				return;
 				const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('icespikes')), -6, 6);
 				this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
 			},
