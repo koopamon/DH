@@ -284,15 +284,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			let activated = false;
 			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'secretseeds']
 			for (const remove of removeAll) {
-				if (pokemon.side.getSideCondition(remove)) {
-					if (activated) {
-						this.add('-activate', pokemon, 'ability: Blow Away');
-						this.add('-sideend', pokemon.side, this.dex.getEffect(remove).name, '[from] ability: Blow Away', '[of] ' + pokemon);
-						activated = true;
-					}
-					pokemon.side.removeSideCondition(remove);
-				}
+				 if (pokemon.side.removeSideCondition(sideCondition)) {
+                    if (activated) {
+                        this.add('-activate', pokemon, 'ability: Blow Away');
+                        activated = true;
+                    }
+                    this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] ability: Blow Away', '[of] ' + pokemon);
+                }
 			}
+			
 			
 		},
 		rating: 3.5,
