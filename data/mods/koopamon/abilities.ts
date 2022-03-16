@@ -298,14 +298,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			for (const sideCondition of ['stealthrock', 'spikes', 'toxicspikes', 'stickyweb', 'gmaxsteelsurge', 'secretseeds']) {
 				if (pokemon.side.getSideCondition(sideCondition)) {
 					if (!activated) {
-						this.add('-activate', pokemon, 'ability: Screen Cleaner');
+						this.add('-activate', pokemon, 'ability: Blow Away');
 						activated = true;
 					}
 					pokemon.side.removeSideCondition(sideCondition);
 				}
 			}
 		},
-		name: "Screen Cleaner",
 		rating: 3.5,
 	},
 	shadowsteal: {
