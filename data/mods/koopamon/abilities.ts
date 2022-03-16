@@ -293,20 +293,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		id: "blowaway",
 		name: "Blow Away",
 		shortDesc: "Removes harmful hazards upon entry.",
-		onStart(pokemon) {
-			let activated = false;
-			for (const sideCondition of ['stealthrock', 'spikes', 'toxicspikes', 'stickyweb', 'gmaxsteelsurge', 'secretseeds']) {
-				if (pokemon.side.getSideCondition(sideCondition)) {
-					if (!activated) {
-						this.add('-activate', pokemon, 'ability: Blow Away');
-						activated = true;
-					}
-					pokemon.side.removeSideCondition(sideCondition);
-				}
-			}
-		},
+        onSwitchInPriority: 6,
+        onSwitchIn(pokemon, target, source) {
+         const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'secretseeds'];
+         for (const condition of sideConditions) {
+            if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+               this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] ability: Blow Away', '[of] ' + pokemon);
+            }
+          }
+        },
 		rating: 3.5,
-	},
+    },
 	shadowsteal: {
 		id: "shadowsteal",
 		name: "Shadow Steal",
