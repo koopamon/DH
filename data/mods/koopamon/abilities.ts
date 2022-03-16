@@ -78,6 +78,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 209,
 	},
+	icebody: {
+		onWeather(target, source, effect) {
+			if (effect.id === 'hail') {
+				this.heal(target.baseMaxhp / 12);
+			}
+		},
+		onImmunity(type, pokemon) {
+			if (type === 'hail') return false;
+		},
+		name: "Ice Body",
+		rating: 1,
+		num: 115,
+	},
 	fearmonger: {
 		id: "fearmonger",
 		name: "Fearmonger",
@@ -282,19 +295,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		shortDesc: "Removes harmful hazards upon entry.",
 		onStart(pokemon) {
 			let activated = false;
-			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'secretseeds']
-			for (const remove of removeAll) {
-				 if (pokemon.side.removeSideCondition(sideCondition)) {
-                    if (activated) {
-                        this.add('-activate', pokemon, 'ability: Blow Away');
-                        activated = true;
-                    }
-                    this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] ability: Blow Away', '[of] ' + pokemon);
-                }
+			for (const sideCondition of ['stealthrock', 'spikes', 'toxicspikes', 'stickyweb', 'gmaxsteelsurge', 'secretseeds']) {
+				if (pokemon.side.getSideCondition(sideCondition)) {
+					if (!activated) {
+						this.add('-activate', pokemon, 'ability: Screen Cleaner');
+						activated = true;
+					}
+					pokemon.side.removeSideCondition(sideCondition);
+				}
 			}
-			
-			
 		},
+		name: "Screen Cleaner",
 		rating: 3.5,
 	},
 	shadowsteal: {
