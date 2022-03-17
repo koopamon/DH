@@ -1400,7 +1400,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.field.setWeather('sunnyday');
 				this.effectData.duration: 3,
 				this.effectData.durationCallback(source, effect) {
-					if (source?.hasItem('smoothrock')) {
+					if (source?.hasItem('heatrock')) {
 						return 5;
 					}
 					return 3;
@@ -1408,7 +1408,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				
 		},
 		target: "normal",
-		type: "Ground",
+		type: "Fire",
 		},
 	},
 	swindle: {
