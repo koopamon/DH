@@ -1373,6 +1373,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
+			},
 		},
 		condition: {
 			duration: 3,
