@@ -1374,7 +1374,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
-				this.effectData.duration = 3
+				this.effectData.duration = 3;
 			},
 		},
 		target: "normal",
