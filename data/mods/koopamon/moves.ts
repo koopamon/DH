@@ -1378,7 +1378,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		target: "normal",
-		},
 	},
 	sunsquall: {
 		accuracy: 90,
@@ -1395,9 +1394,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.field.setWeather('sunnyday');
 			},
 		},
-		
 		target: "normal",
-		},
 	},
 	swindle: {
 		accuracy: 100,
