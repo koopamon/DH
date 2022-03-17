@@ -1373,15 +1373,15 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
-				this.effect.duration = 3;
-				this.effect.durationCallback(source, effect) {
-					if (source?.hasItem('smoothrock')) {
-						return 5;
-					}
-					return 3;
 		},
-				
-		},
+		condition: {
+			duration: 3,
+			durationCallback(source, effect) {
+				if (source?.hasItem('smoothrock')) {
+					return 5;
+				}
+				return 3;
+			},
 		target: "normal",
 		type: "Ground",
 		},
@@ -1398,15 +1398,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sunnyday');
-				this.effectData.duration = 3;
-				this.effectData.durationCallback(source, effect) {
-					if (source?.hasItem('heatrock')) {
-						return 5;
-					}
-					return 3;
+			},
 		},
-				
-		},
+		condition: {
+			duration: 3,
+			durationCallback(source, effect) {
+				if (source?.hasItem('heatrock')) {
+					return 5;
+				}
+				return 3;
+			},
 		target: "normal",
 		type: "Fire",
 		},
