@@ -1373,11 +1373,81 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
+				this.effect.duration: 3,
+				this.effect.durationCallback(source, effect) {
+					if (source?.hasItem('smoothrock')) {
+						return 5;
+					}
+					return 3;
+		},
+				
 		},
 		target: "normal",
 		type: "Ground",
 		},
 	},
-	
-	
+	sunsquall: {
+		accuracy: 90,
+		basePower: 70,
+		category: "Special",
+		name: "Sun Squall",
+		shortDesc: "Sets up harsh sunlight.",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		self: {
+			onHit(source) {
+				this.field.setWeather('sunnyday');
+				this.effectData.duration: 3,
+				this.effectData.durationCallback(source, effect) {
+					if (source?.hasItem('smoothrock')) {
+						return 5;
+					}
+					return 3;
+		},
+				
+		},
+		target: "normal",
+		type: "Ground",
+		},
+	},
+	swindle: {
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Swindle",
+		shortDesc: "Power  doubles if user is statused.",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onBasePower(basePower, pokemon) {
+			if (pokemon.status && pokemon.status !== 'slp') {
+				return this.chainModify(2);
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Cute",
+	},
+	facade: {
+		num: 263,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Facade",
+		shortDesc: "Power  doubles if user is statused.",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onBasePower(basePower, pokemon) {
+			if (pokemon.status && pokemon.status !== 'slp') {
+				return this.chainModify(2);
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Cute",
+	},
 }
