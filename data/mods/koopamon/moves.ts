@@ -1367,24 +1367,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 		category: "Special",
 		name: "Dust Devil",
 		shortDesc: "Sets up a sandstorm.",
+		type: "Ground",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		self: {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
+				this.effectData.duration = 3
 			},
 		},
-		condition: {
-			duration: 3,
-			durationCallback(source, effect) {
-				if (source?.hasItem('smoothrock')) {
-					return 5;
-				}
-				return 3;
-			},
 		target: "normal",
-		type: "Ground",
 		},
 	},
 	sunsquall: {
@@ -1393,6 +1386,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		category: "Special",
 		name: "Sun Squall",
 		shortDesc: "Sets up harsh sunlight.",
+		type: "Fire",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
@@ -1401,16 +1395,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.field.setWeather('sunnyday');
 			},
 		},
-		condition: {
-			duration: 3,
-			durationCallback(source, effect) {
-				if (source?.hasItem('heatrock')) {
-					return 5;
-				}
-				return 3;
-			},
+		
 		target: "normal",
-		type: "Fire",
 		},
 	},
 	swindle: {
