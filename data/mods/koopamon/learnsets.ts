@@ -34340,7 +34340,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sspiny": {
+  "starspiny": {
     "learnset": {
       "scratch": [
         "8M"
@@ -35001,7 +35001,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "sninji": {
+  "starninji": {
     "learnset": {
       "cut": [
         "8M"

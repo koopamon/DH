@@ -5132,7 +5132,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starbobomb: {
     num: 156,
-    name: "Bob-omb",
+    name: "Star Bob-omb",
     types: [
       "Ice",
       "Fire"
@@ -5163,7 +5163,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starblooper: {
     num: 157,
-    name: "Blooper",
+    name: "Star Blooper",
     types: [
       "Grass",
       "Psychic"
@@ -5193,7 +5193,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starpodoboo: {
     num: 158,
-    name: "Podoboo",
+    name: "Star Podoboo",
     types: [
       "Water",
       "Ice"
@@ -5223,7 +5223,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starkoopatroopa: {
     num: 159,
-    name: "Koopatroopa",
+    name: "Star Koopatroopa",
     types: [
       "Steel",
       "Dark"
@@ -5254,7 +5254,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starboo: {
     num: 160,
-    name: "Boo",
+    name: "Star Boo",
     types: [
       "Water",
       "Fairy"
@@ -5384,7 +5384,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starbuzzybeetle: {
     num: 164,
-    name: "Buzzybeetle",
+    name: "Star Buzzybeetle",
     types: [
       "Bug",
       "Dragon"
@@ -5643,7 +5643,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   stargoomba: {
     num: 172,
-    name: "Goomba",
+    name: "Star Goomba",
     types: [
       "Psychic",
       "Normal"
@@ -5849,7 +5849,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starplantranha: {
     num: 179,
-    name: "Plantranha",
+    name: "Star Plantranha",
     types: [
       "Fire",
       "Flying"
@@ -5879,7 +5879,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starcheepcheep: {
     num: 180,
-    name: "Cheep Cheep",
+    name: "Star Cheep Cheep",
     types: [
       "Electric",
       "Flying"
@@ -5999,7 +5999,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starbulletbill: {
     num: 184,
-    name: "Bullet Bill",
+    name: "Star Bullet Bill",
     types: [
       "Poison",
       "Steel"
@@ -6204,7 +6204,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starptooie: {
     num: 191,
-    name: "Ptooie",
+    name: "Star Ptooie",
     types: [
       "Grass",
       "Fighting"
@@ -6294,9 +6294,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  stmagikoopa: {
+  starmagikoopa: {
     num: 194,
-    name: "Magikoopa",
+    name: "Star Magikoopa",
     types: [
       "Psychic",
       "Ghost"
@@ -6326,7 +6326,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starchainchomp: {
     num: 195,
-    name: "Chain Chomp",
+    name: "Star Chain Chomp",
     types: [
       "Rock",
       "Ghost"
@@ -7120,7 +7120,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   cataquackred: {
     num: 217,
-    name: "Cataquack",
+    name: "Cataquack Red",
     types: [
       "Normal",
       "Ground"
@@ -7316,7 +7316,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starspiny: {
     num: 223,
-    name: "Spiny",
+    name: "Star Spiny",
     types: [
       "Ice",
       "Dark"
@@ -7365,7 +7365,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     abilities: {
       0: "Chill Out",
-      H: "FLASHFREEZE"
+      H: "Flash Freeze"
     },
     heightm: 3.8,
     weightkg: 177.4,
@@ -7441,7 +7441,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starninji: {
     num: 227,
-    name: "Ninji",
+    name: "Star Ninji",
     types: [
       "Poison",
       "Rock"
@@ -7459,8 +7459,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       spe: 100
     },
     abilities: {
-      0: "STARVENOM",
-      H: "STARSWORD"
+      0: "Star Venom",
+      H: "Star Sword"
     },
     heightm: 0.9,
     weightkg: 98.2,
