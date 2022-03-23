@@ -7334,9 +7334,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       spe: 55
     },
     abilities: {
-      0: "Refrigerate",
-      1: "Dry Skin",
-      H: "Fur Coat"
+      0: "Dry Skin",
+      1: "Fur Coat",
+      H: "Frozen Shell"
     },
     heightm: 0.9,
     weightkg: 68.6,

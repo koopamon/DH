@@ -35181,6 +35181,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "cut": [
         "8M"
       ],
+	  "snowslash": [
+        "8M"
+      ],
       "leer": [
         "8M"
       ],

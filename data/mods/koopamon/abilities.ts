@@ -356,4 +356,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
         },
 		rating: 4,
 	},
+	starsword: {
+		id: "starsword",
+		name: "Star Sword",
+		shortDesc: "Powers up slashing and cutting moves by 30%.",
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['slash']) {
+				return this.chainModify(1.3);
+			}
+		},
+	},
+	powerhammer: {
+		id: "powerhammer",
+		name: "Power Hammer",
+		shortDesc: "Powers up hammer moves by 50%.",
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['hammer']) {
+				return this.chainModify(1.5);
+			}
+		},
+	},
 };
