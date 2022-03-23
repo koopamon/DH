@@ -35001,6 +35001,181 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
+  "flopter": {
+    "learnset": {
+      "tackle": [
+        "8M"
+      ],
+      "leer": [
+        "8M"
+      ],
+      "gust": [
+        "8M"
+      ],
+      "stringshot": [
+        "8M"
+      ],
+      "strugglebug": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "aircutter": [
+        "8M"
+      ],
+      "screech": [
+        "8M"
+      ],
+      "silverwind": [
+        "8M"
+      ],
+      "hypnosis": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "mistywind": [
+        "8M"
+      ],
+      "signalbeam": [
+        "8M"
+      ],
+      "roost": [
+        "8M"
+      ],
+      "uproar": [
+        "8M"
+      ],
+      "bugbuzz": [
+        "8M"
+      ],
+      "quiverdance": [
+        "8M"
+      ],
+      "petaldance": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "uturn": [
+        "8M"
+      ],
+      "agility": [
+        "8M"
+      ],
+      "hurricane": [
+        "8M"
+      ],
+      "frigidbreeze": [
+        "8M"
+      ],
+      "infestation": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "pollenpuff": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "gigadrain": [
+        "8M"
+      ],
+      "leafblade": [
+        "8M"
+      ],
+      "grassknot": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "leechseed": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ]
+    }
+  },
   "starninji": {
     "learnset": {
       "cut": [

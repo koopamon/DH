@@ -6018,7 +6018,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     abilities: {
       0: "Levitate",
-      H: "Technician"
+      H: "Star Venom"
     },
     heightm: 0.8,
     weightkg: 48.7,
@@ -7465,6 +7465,38 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     heightm: 0.9,
     weightkg: 98.2,
     color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: []
+  }
+  flopter: {
+    num: 228,
+    name: "Flopter",
+    types: [
+      "Bug",
+      "Flying"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 80,
+      atk: 55,
+      def: 75,
+      spa: 90,
+      spd: 110,
+      spe: 90
+    },
+    abilities: {
+      0: "Tinted Lens",
+      1: "Shield Dust",
+      H: "Petal Copter"
+    },
+    heightm: 0.7,
+    weightkg: 18.2,
+    color: "Green",
     eggGroups: [
       "Amorphous"
     ],
