@@ -76,8 +76,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       F: 0.25
     },
     baseStats: {
-      hp: 82,
-      atk: 102,
+      hp: 87,
+      atk: 97,
       def: 90,
       spa: 113,
       spd: 80,
@@ -1322,7 +1322,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       def: 75,
       spa: 120,
       spd: 100,
-      spe: 65
+      spe: 35
     },
     abilities: {
       0: "Flame Body",
@@ -3243,10 +3243,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     baseStats: {
       hp: 90,
       atk: 145,
-      def: 65,
+      def: 90,
       spa: 45,
       spd: 55,
-      spe: 100
+      spe: 75
     },
     abilities: {
       0: "Sand Force",
@@ -3405,9 +3405,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       hp: 110,
       atk: 115,
       def: 105,
-      spa: 50,
-      spd: 75,
-      spe: 65
+      spa: 60,
+      spd: 65,
+      spe: 50
     },
     abilities: {
       0: "Cursed Body",
@@ -3434,9 +3434,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 105,
-      atk: 40,
-      def: 75,
-      spa: 95,
+      atk: 50,
+      def: 65,
+      spa: 60,
       spd: 115,
       spe: 80
     },
@@ -3788,11 +3788,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 80,
-      atk: 80,
+      atk: 75,
       def: 95,
       spa: 120,
-      spd: 65,
-      spe: 50
+      spd: 75,
+      spe: 45
     },
     abilities: {
       0: "Immunity",
@@ -3818,12 +3818,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       F: 0.25
     },
     baseStats: {
-      hp: 80,
-      atk: 120,
-      def: 80,
+      hp: 75,
+      atk: 110,
+      def: 75,
       spa: 40,
-      spd: 90,
-      spe: 105
+      spd: 105,
+      spe: 85
     },
     abilities: {
       0: "Intimidate",
@@ -4002,11 +4002,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 110,
-      atk: 85,
-      def: 70,
+      atk: 90,
+      def: 60,
       spa: 120,
       spd: 110,
-      spe: 80
+      spe: 70
     },
     abilities: {
       0: "Strong Jaw",
@@ -4597,9 +4597,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 110,
-      atk: 95,
+      atk: 105,
       def: 95,
-      spa: 145,
+      spa: 135,
       spd: 75,
       spe: 15
     },
@@ -5132,7 +5132,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starbobomb: {
     num: 156,
-    name: "Star Bob-omb",
+    name: "Bob-omb",
     types: [
       "Ice",
       "Fire"
@@ -5163,7 +5163,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starblooper: {
     num: 157,
-    name: "Star Blooper",
+    name: "Blooper",
     types: [
       "Grass",
       "Psychic"
@@ -5193,7 +5193,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starpodoboo: {
     num: 158,
-    name: "Star Podoboo",
+    name: "Podoboo",
     types: [
       "Water",
       "Ice"
@@ -5223,7 +5223,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starkoopatroopa: {
     num: 159,
-    name: "Star Koopatroopa",
+    name: "Koopatroopa",
     types: [
       "Steel",
       "Dark"
@@ -5234,10 +5234,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 60,
-      atk: 130,
+      atk: 110,
       def: 50,
       spa: 40,
-      spd: 85,
+      spd: 95,
       spe: 145
     },
     abilities: {
@@ -5254,7 +5254,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starboo: {
     num: 160,
-    name: "Star Boo",
+    name: "Boo",
     types: [
       "Water",
       "Fairy"
@@ -5286,7 +5286,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     num: 161,
     name: "Flappy",
     types: [
-      "Bug"
+      "Bug",
+      "Flying"
     ],
     genderRatio: {
       M: 0.75,
@@ -5383,7 +5384,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starbuzzybeetle: {
     num: 164,
-    name: "Star Buzzybeetle",
+    name: "Buzzybeetle",
     types: [
       "Bug",
       "Dragon"
@@ -5595,7 +5596,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     abilities: {
       0: "Own Tempo",
-      1: "Gluttony",
+      1: "Flare Boost",
       H: "Oblivious"
     },
     heightm: 2.4,
@@ -5622,14 +5623,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     baseStats: {
       hp: 85,
       atk: 95,
-      def: 145,
-      spa: 40,
+      def: 135,
+      spa: 80,
       spd: 70,
-      spe: 65
+      spe: 35
     },
     abilities: {
       0: "Own Tempo",
-      1: "Gluttony",
+      1: "Flare Boost",
       H: "Dazzling"
     },
     heightm: 6.1,
@@ -5642,7 +5643,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   stargoomba: {
     num: 172,
-    name: "Star Goomba",
+    name: "Goomba",
     types: [
       "Psychic",
       "Normal"
@@ -5848,7 +5849,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starplantranha: {
     num: 179,
-    name: "Star Plantranha",
+    name: "Plantranha",
     types: [
       "Fire",
       "Flying"
@@ -5878,7 +5879,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starcheepcheep: {
     num: 180,
-    name: "Star Cheep Cheep",
+    name: "Cheep Cheep",
     types: [
       "Electric",
       "Flying"
@@ -5998,7 +5999,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starbulletbill: {
     num: 184,
-    name: "Star Bullet Bill",
+    name: "Bullet Bill",
     types: [
       "Poison",
       "Steel"
@@ -6171,9 +6172,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  starluma: {
+  sluma: {
     num: 190,
-    name: "Star Luma",
+    name: "Luma",
     types: [
       "Dragon",
       "Psychic"
@@ -6203,7 +6204,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starptooie: {
     num: 191,
-    name: "Star Ptooie",
+    name: "Ptooie",
     types: [
       "Grass",
       "Fighting"
@@ -6245,15 +6246,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 75,
-      atk: 50,
+      atk: 85,
       def: 120,
-      spa: 110,
+      spa: 85,
       spd: 85,
       spe: 40
     },
     abilities: {
       0: "Sturdy",
-      1: "Insomnia",
+      1: "FROSTBOOST",
       H: "Sand Stream"
     },
     heightm: 0.9,
@@ -6293,9 +6294,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  starmagikoopa: {
+  stmagikoopa: {
     num: 194,
-    name: "Star Magikoopa",
+    name: "Magikoopa",
     types: [
       "Psychic",
       "Ghost"
@@ -6325,7 +6326,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   starchainchomp: {
     num: 195,
-    name: "Star Chain Chomp",
+    name: "Chain Chomp",
     types: [
       "Rock",
       "Ghost"
@@ -6943,12 +6944,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       F: 0.5
     },
     baseStats: {
-      hp: 60,
-      atk: 55,
-      def: 55,
-      spa: 55,
-      spd: 55,
-      spe: 55
+      hp: 45,
+      atk: 70,
+      def: 60,
+      spa: 70,
+      spd: 60,
+      spe: 70
     },
     abilities: {
       0: "Run Away",
@@ -6979,10 +6980,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     baseStats: {
       hp: 80,
       atk: 55,
-      def: 55,
-      spa: 125,
-      spd: 75,
-      spe: 85
+      def: 65,
+      spa: 120,
+      spd: 80,
+      spe: 75
     },
     abilities: {
       0: "Flash Fire",
@@ -7008,18 +7009,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 80,
-      atk: 75,
-      def: 60,
-      spa: 75,
-      spd: 60,
-      spe: 125
+      atk: 72,
+      def: 63,
+      spa: 77,
+      spd: 62,
+      spe: 126
     },
     abilities: {
       0: "Volt Absorb",
       H: "Voltaic Energy"
     },
-    heightm: 0.8,
-    weightkg: 42.5,
+    heightm: 1.1,
+    weightkg: 88.6,
     color: "Yellow",
     eggGroups: [
       "Flying"
@@ -7040,16 +7041,16 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       hp: 80,
       atk: 85,
       def: 125,
-      spa: 55,
-      spd: 55,
-      spe: 75
+      spa: 60,
+      spd: 80,
+      spe: 50
     },
     abilities: {
       0: "Water Absorb",
       H: "Water Bubble"
     },
-    heightm: 0.8,
-    weightkg: 42.5,
+    heightm: 0.9,
+    weightkg: 44.2,
     color: "Blue",
     eggGroups: [
       "Flying"
@@ -7058,7 +7059,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
   },
   fishinboo: {
     num: 216,
-    name: "Fishin Boo",
+    name: "Fishin' Boo",
     types: [
       "Fire",
       "Ghost"
@@ -7085,5 +7086,388 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Flying"
     ]
+  },
+  cataquack: {
+    num: 217,
+    name: "Cataquack",
+    types: [
+      "Normal",
+      "Ground"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 110,
+      atk: 95,
+      def: 95,
+      spa: 40,
+      spd: 70,
+      spe: 70
+    },
+    abilities: {
+      0: "Early Bird",
+      1: "Steadfast",
+      H: "Unaware"
+    },
+    heightm: 1.3,
+    weightkg: 27.6,
+    color: "Blue",
+    eggGroups: [
+      "Flying"
+    ]
+  },
+  cataquackred: {
+    num: 217,
+    name: "Cataquack",
+    types: [
+      "Normal",
+      "Ground"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 100,
+      atk: 110,
+      def: 70,
+      spa: 75,
+      spd: 50,
+      spe: 70
+    },
+    abilities: {
+      0: "Early Bird",
+      1: "Steadfast",
+      H: "Adaptability"
+    },
+    heightm: 1.3,
+    weightkg: 27.6,
+    color: "Blue",
+    eggGroups: [
+      "Flying"
+    ]
+  },
+  brambit: {
+    num: 218,
+    name: "Brambit",
+    types: [
+      "Grass",
+      "Poison"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 55,
+      atk: 60,
+      def: 80,
+      spa: 50,
+      spd: 35,
+      spe: 30
+    },
+    abilities: {
+      0: "Suction Cups",
+      1: "Poison Point",
+      H: "Rough Skin"
+    },
+    heightm: 0.6,
+    weightkg: 11.5,
+    color: "Yellow",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Bramball"
+    ]
+  },
+  bramball: {
+    num: 219,
+    name: "Bramball",
+    types: [
+      "Grass",
+      "Poison"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 85,
+      atk: 90,
+      def: 105,
+      spa: 80,
+      spd: 70,
+      spe: 50
+    },
+    abilities: {
+      0: "Suction Cups",
+      1: "Poison Point",
+      H: "Rough Skin"
+    },
+    heightm: 1.8,
+    weightkg: 54.2,
+    color: "Yellow",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [],
+    prevo: "Brambit"
+  },
+  zeusguy: {
+    num: 220,
+    name: "Zeus Guy",
+    types: [
+      "Fighting",
+      "Electric"
+    ],
+    genderRatio: {
+      M: 0.75,
+      F: 0.25
+    },
+    baseStats: {
+      hp: 65,
+      atk: 110,
+      def: 85,
+      spa: 50,
+      spd: 50,
+      spe: 130
+    },
+    abilities: {
+      0: "Defiant",
+      1: "Inner Focus",
+      H: "Justified"
+    },
+    heightm: 1.6,
+    weightkg: 102.4,
+    color: "White",
+    eggGroups: [
+      "Humanlike"
+    ]
+  },
+  biddybud: {
+    num: 221,
+    name: "Biddybud",
+    types: [
+      "Bug",
+      "Fairy"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 35,
+      atk: 60,
+      def: 35,
+      spa: 40,
+      spd: 50,
+      spe: 70
+    },
+    abilities: {
+      0: "Own Tempo",
+      1: "Sap Sipper",
+      H: "Technician"
+    },
+    heightm: 1.2,
+    weightkg: 47.4,
+    color: "Red",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Biddybuddies"
+    ]
+  },
+  biddybuddies: {
+    num: 222,
+    name: "Biddybuddies",
+    types: [
+      "Bug",
+      "Fairy"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 75,
+      atk: 90,
+      def: 55,
+      spa: 50,
+      spd: 75,
+      spe: 110
+    },
+    abilities: {
+      0: "Own Tempo",
+      1: "Sap Sipper",
+      H: "Technician"
+    },
+    heightm: 3.6,
+    weightkg: 142.2,
+    color: "Red",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [],
+    prevo: "Biddybud"
+  },
+  starspiny: {
+    num: 223,
+    name: "Spiny",
+    types: [
+      "Ice",
+      "Dark"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 82,
+      atk: 112,
+      def: 83,
+      spa: 46,
+      spd: 92,
+      spe: 55
+    },
+    abilities: {
+      0: "Refrigerate",
+      1: "Dry Skin",
+      H: "Fur Coat"
+    },
+    heightm: 0.9,
+    weightkg: 68.6,
+    color: "Blue",
+    eggGroups: [
+      "Amorphous"
+    ]
+  },
+  freezie: {
+    num: 224,
+    name: "Freezie",
+    types: [
+      "Ice"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 75,
+      atk: 100,
+      def: 75,
+      spa: 100,
+      spd: 75,
+      spe: 85
+    },
+    abilities: {
+      0: "Chill Out",
+      H: "FLASHFREEZE"
+    },
+    heightm: 3.8,
+    weightkg: 177.4,
+    color: "White",
+    eggGroups: [
+      "Amorphous"
+    ]
+  },
+  taptap: {
+    num: 225,
+    name: "Tap Tap",
+    types: [
+      "Steel",
+      "Fairy"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 50,
+      atk: 75,
+      def: 85,
+      spa: 10,
+      spd: 60,
+      spe: 30
+    },
+    abilities: {
+      0: "Iron Barbs",
+      H: "Hustle"
+    },
+    heightm: 0.8,
+    weightkg: 120.2,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Big Tap"
+    ]
+  },
+  bigtap: {
+    num: 226,
+    name: "Big Tap",
+    types: [
+      "Steel",
+      "Fairy"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 70,
+      atk: 100,
+      def: 135,
+      spa: 35,
+      spd: 100,
+      spe: 55
+    },
+    abilities: {
+      0: "Iron Barbs",
+      H: "Hustle"
+    },
+    heightm: 3.8,
+    weightkg: 382.5,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [],
+    prevo: "Tap Tap"
+  },
+  starninji: {
+    num: 227,
+    name: "Ninji",
+    types: [
+      "Poison",
+      "Rock"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 85,
+      atk: 130,
+      def: 75,
+      spa: 75,
+      spd: 55,
+      spe: 100
+    },
+    abilities: {
+      0: "STARVENOM",
+      H: "STARSWORD"
+    },
+    heightm: 0.9,
+    weightkg: 98.2,
+    color: "Gray",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: []
   }
 }

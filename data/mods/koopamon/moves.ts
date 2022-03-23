@@ -960,7 +960,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		shortDesc: "30% chance to flinch the target.",
 		pp: 10,
 		priority: 0,
-		flags: {bullet: 1, contact: 1, protect: 1, mirror: 1},
+		flags: {bullet: 1, protect: 1, mirror: 1},
 		secondary: {
 			chance: 30,
 			volatileStatus: 'flinch',
@@ -1020,7 +1020,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		shortDesc: "Lowers the target's speed.",
 		pp: 10,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1},
 		secondary: {
 			chance: 100,
 			boosts: {
@@ -1037,7 +1037,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Laser Eye",
 		pp: 5,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1},
 		secondary: {
 			chance: 30,
 			status: 'par',
@@ -1053,7 +1053,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		shortDesc: "10% chance to lower Special Defense.",
 		pp: 10,
 		priority: 0,
-		flags: {bullet: 1, contact: 1, protect: 1, mirror: 1},
+		flags: {bullet: 1, protect: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			boosts: {
@@ -1071,7 +1071,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		shortDesc: "No additional effect.",
 		pp: 10,
 		priority: 0,
-		flags: {sound: 1, contact: 1, protect: 1, mirror: 1},
+		flags: {sound: 1, protect: 1, mirror: 1},
 		secondary: null,
 		target: "normal",
 		type: "Dark",
@@ -1122,7 +1122,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		shortDesc: "50% chance to lower the target's Special Attack.",
 		pp: 5,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1},
 		secondary: {
 			chance: 10,
 			boosts: {
@@ -1219,12 +1219,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 	cursedchomp: {
 		accuracy: 95,
 		basePower: 75,
-		category: "Physical",
+		category: "Special",
 		name: "Cursed Chomp",
 		shortDesc: "20% chance to lower the target's speed.",
 		pp: 15,
 		priority: 0,
-		flags: {bite: 1, contact: 1, protect: 1, mirror: 1},
+		flags: {bite: 1, protect: 1, mirror: 1},
 		secondary: {
 			chance: 30,
 			boosts: {
@@ -1374,7 +1374,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
-				this.effectData.duration = 3;
+				weather.effectData.duration = 3;
 			},
 		},
 		target: "normal",

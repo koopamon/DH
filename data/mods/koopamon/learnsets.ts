@@ -43,6 +43,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flamethrower": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "uturn": [
         "8M"
       ],
@@ -215,6 +218,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flamethrower": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "uturn": [
         "8M"
       ],
@@ -327,10 +333,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "peteyranha": {
     "learnset": {
-      "wingattack": [
-        "8M"
-      ],
-      "knockoff": [
+      "airslash": [
         "8M"
       ],
       "hurricane": [
@@ -378,7 +381,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "synthesis": [
         "8M"
       ],
-      "airslash": [
+      "featherdance": [
         "8M"
       ],
       "flamethrower": [
@@ -390,13 +393,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "energyball": [
         "8M"
       ],
-      "hypervoice": [
+      "quiverdance": [
         "8M"
       ],
-      "calmmind": [
+      "leafstorm": [
         "8M"
       ],
-      "petalblizzard": [
+      "fireblast": [
         "8M"
       ],
       "bravebird": [
@@ -406,6 +409,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "petaldance": [
+        "8M"
+      ],
+      "woodhammer": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
         "8M"
       ],
       "uturn": [
@@ -465,6 +477,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "return": [
         "8M"
       ],
+      "hypervoice": [
+        "8M"
+      ],
       "sleeptalk": [
         "8M"
       ],
@@ -484,6 +499,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "gastroacid": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "calmmind": [
         "8M"
       ],
       "lightscreen": [
@@ -554,6 +575,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "flipturn": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "darkpulse": [
@@ -714,6 +738,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "flipturn": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "taunt": [
@@ -879,6 +906,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flipturn": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "taunt": [
         "8M"
       ],
@@ -1015,6 +1045,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flareblitz": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "pursuit": [
         "8M"
       ],
@@ -1136,6 +1169,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "magmaw": {
     "learnset": {
+      "firefang": [
+        "8M"
+      ],
       "tackle": [
         "8M"
       ],
@@ -1152,9 +1188,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "agility": [
-        "8M"
-      ],
-      "firefang": [
         "8M"
       ],
       "flameburst": [
@@ -1182,6 +1215,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "flareblitz": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "pursuit": [
@@ -1353,6 +1389,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sacredfire": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "pursuit": [
         "8M"
       ],
@@ -1502,6 +1541,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "gigaimpact": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "taunt": [
@@ -1694,6 +1736,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "slackoff": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "taunt": [
         "8M"
       ],
@@ -1815,6 +1860,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "aerialace": [
         "8M"
       ],
+      "frigidbreeze": [
+        "8M"
+      ],
       "skyattack": [
         "8M"
       ],
@@ -1848,7 +1896,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "crunch": [
         "8M"
       ],
-      "fly": [
+      "dualwingbeat": [
         "8M"
       ],
       "thief": [
@@ -1873,6 +1921,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "agility": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "taunt": [
@@ -1989,6 +2040,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "ironhead": [
         "8M"
       ],
+      "fly": [
+        "8M"
+      ],
       "defog": [
         "8M"
       ],
@@ -2008,13 +2062,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "withdraw": [
         "8M"
       ],
-      "rapidspin": [
+      "rocksmash": [
         "8M"
       ],
       "rollout": [
         "8M"
       ],
-      "rocksmash": [
+      "rapidspin": [
         "8M"
       ],
       "headbutt": [
@@ -2039,6 +2093,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "superpower": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "crunch": [
@@ -2174,128 +2231,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "superpower": [
         "8M"
       ],
-      "crunch": [
-        "8M"
-      ],
-      "dragondance": [
-        "8M"
-      ],
-      "dragonclaw": [
-        "8M"
-      ],
-      "dragonpulse": [
-        "8M"
-      ],
-      "thunderwave": [
-        "8M"
-      ],
-      "thundershock": [
-        "8M"
-      ],
-      "focusblast": [
-        "8M"
-      ],
-      "flamethrower": [
-        "8M"
-      ],
-      "firefang": [
-        "8M"
-      ],
-      "facade": [
-        "8M"
-      ],
-      "swift": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "hypervoice": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "protect": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "hyperbeam": [
-        "8M"
-      ],
-      "gigaimpact": [
-        "8M"
-      ],
-      "ironhead": [
-        "8M"
-      ],
-      "waterfall": [
-        "8M"
-      ],
-      "raindance": [
-        "8M"
-      ],
-      "scald": [
-        "8M"
-      ],
-      "waterpulse": [
-        "8M"
-      ],
-      "haze": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ]
-    }
-  },
-  "koopatroopagold": {
-    "learnset": {
-      "tackle": [
-        "8M"
-      ],
-      "withdraw": [
-        "8M"
-      ],
-      "rapidspin": [
-        "8M"
-      ],
-      "rollout": [
-        "8M"
-      ],
-      "rocksmash": [
-        "8M"
-      ],
-      "headbutt": [
-        "8M"
-      ],
-      "brickbreak": [
-        "8M"
-      ],
-      "hyperfang": [
-        "8M"
-      ],
-      "swordsdance": [
-        "8M"
-      ],
-      "doubleedge": [
-        "8M"
-      ],
-      "batonpass": [
-        "8M"
-      ],
-      "amnesia": [
-        "8M"
-      ],
-      "superpower": [
+      "swindle": [
         "8M"
       ],
       "crunch": [
@@ -2419,7 +2355,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "doubleedge": [
         "8M"
       ],
-      "drillpeck": [
+      "dualwingbeat": [
         "8M"
       ],
       "batonpass": [
@@ -2435,6 +2371,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "shellsmash": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "crunch": [
@@ -2534,6 +2473,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "roost": [
+        "8M"
+      ],
+      "drillpeck": [
         "8M"
       ]
     }
@@ -2579,7 +2521,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "doubleedge": [
         "8M"
       ],
-      "drillpeck": [
+      "dualwingbeat": [
         "8M"
       ],
       "batonpass": [
@@ -2595,6 +2537,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "shellsmash": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "crunch": [
@@ -2694,6 +2639,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "roost": [
+        "8M"
+      ],
+      "drillpeck": [
         "8M"
       ]
     }
@@ -2752,6 +2700,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "headsmash": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "payback": [
@@ -2878,6 +2829,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "headsmash": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "payback": [
         "8M"
       ],
@@ -2999,6 +2953,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "headsmash": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "payback": [
         "8M"
       ],
@@ -3090,6 +3047,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "toxic": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "infestation": [
         "8M"
       ],
@@ -3118,9 +3078,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "superpower": [
-        "8M"
-      ],
-      "aurasphere": [
         "8M"
       ],
       "solarbeam": [
@@ -3232,6 +3189,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "toxic": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "infestation": [
         "8M"
       ],
@@ -3260,9 +3220,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "superpower": [
-        "8M"
-      ],
-      "aurasphere": [
         "8M"
       ],
       "solarbeam": [
@@ -3380,7 +3337,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "toxic": [
         "8M"
       ],
-      "airslash": [
+      "aircutter": [
         "8M"
       ],
       "moonblast": [
@@ -3399,6 +3356,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "mysticburst": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "infestation": [
@@ -3420,9 +3380,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "superpower": [
-        "8M"
-      ],
-      "aurasphere": [
         "8M"
       ],
       "solarbeam": [
@@ -3555,6 +3512,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "stickyweb": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "infestation": [
         "8M"
       ],
@@ -3574,9 +3534,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "superpower": [
-        "8M"
-      ],
-      "aurasphere": [
         "8M"
       ],
       "solarbeam": [
@@ -3685,6 +3642,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rockslide": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "sleeptalk": [
         "8M"
       ],
@@ -3774,6 +3734,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "revenge": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "sleeptalk": [
@@ -3900,6 +3863,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "closecombat": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "sleeptalk": [
         "8M"
       ],
@@ -3955,7 +3921,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "aurorabeam": [
         "8M"
       ],
-      "focusblast": [
+      "auroraveil": [
         "8M"
       ],
       "iceshard": [
@@ -3982,13 +3948,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "icywind": [
         "8M"
       ],
-      "iceball": [
+      "frigidbreeze": [
         "8M"
       ],
       "icepunch": [
         "8M"
       ],
       "waterpulse": [
+        "8M"
+      ],
+      "frostpulse": [
         "8M"
       ],
       "hail": [
@@ -4003,13 +3972,25 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "blizzard": [
         "8M"
       ],
+      "frostbreath": [
+        "8M"
+      ],
       "hydropump": [
         "8M"
       ],
-      "sheercold": [
+      "snowsquall": [
         "8M"
       ],
-      "auroraveil": [
+      "focusblast": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "sleeptalk": [
@@ -4142,6 +4123,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "overheat": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "sleeptalk": [
         "8M"
       ],
@@ -4195,7 +4179,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "rocktomb": [
         "8M"
-      ],
+      ]
     }
   },
   "sporer": {
@@ -4207,6 +4191,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "megadrain": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "sleeptalk": [
@@ -4301,6 +4288,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "raindance": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "sleeptalk": [
@@ -4442,6 +4432,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "leechlife": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "sleeptalk": [
         "8M"
       ],
@@ -4569,6 +4562,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "fireblast": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "pursuit": [
         "8M"
       ],
@@ -4659,34 +4655,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "scaryface": [
         "8M"
       ],
-      "snatch": [
-        "8M"
-      ],
-      "spite": [
-        "8M"
-      ],
-      "suckerpunch": [
-        "8M"
-      ],
       "switcheroo": [
-        "8M"
-      ],
-      "faketears": [
-        "8M"
-      ],
-      "assurance": [
-        "8M"
-      ],
-      "confusion": [
-        "8M"
-      ],
-      "ominouswind": [
-        "8M"
-      ],
-      "curse": [
-        "8M"
-      ],
-      "stockpile": [
         "8M"
       ]
     }
@@ -4760,6 +4729,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "gunkshot": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "pursuit": [
@@ -4875,6 +4847,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "cottonguard": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "thunder": [
@@ -5010,6 +4985,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "icywind": [
         "8M"
       ],
+      "frigidbreeze": [
+        "8M"
+      ],
       "cottonguard": [
         "8M"
       ],
@@ -5025,6 +5003,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "thunderbolt": [
         "8M"
       ],
+      "snowsquall": [
+        "8M"
+      ],
       "fly": [
         "8M"
       ],
@@ -5037,6 +5018,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hurricane": [
         "8M"
       ],
+      "mysticburst": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
       "thundershock": [
         "8M"
       ],
@@ -5047,9 +5034,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dazzlinggleam": [
-        "8M"
-      ],
-      "mysticburst": [
         "8M"
       ],
       "aurasphere": [
@@ -5146,6 +5130,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "icywind": [
         "8M"
       ],
+      "frigidbreeze": [
+        "8M"
+      ],
       "cottonguard": [
         "8M"
       ],
@@ -5161,6 +5148,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "thunderbolt": [
         "8M"
       ],
+      "snowsquall": [
+        "8M"
+      ],
       "fly": [
         "8M"
       ],
@@ -5174,6 +5164,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "mysticburst": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "thundershock": [
@@ -5307,6 +5300,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "solarbeam": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "uturn": [
@@ -5511,6 +5507,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "petaldance": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "uturn": [
         "8M"
       ],
@@ -5683,6 +5682,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "inferno": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -5752,14 +5754,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "silverwind": [
         "8M"
       ],
-      "flareblitz": [
+      "aromatherapy": [
         "8M"
       ]
     }
   },
   "lavalotus": {
     "learnset": {
-      "powerwhip": [
+      "petaldance": [
         "8M"
       ],
       "flamethrower": [
@@ -5831,7 +5833,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "blazingseeds": [
         "8M"
       ],
-      "searingshot": [
+      "overheat": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "darkpulse": [
@@ -5962,6 +5967,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "moonblast": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "sandtomb": [
@@ -6148,6 +6156,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "earthpower": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "stealthrock": [
         "8M"
       ],
@@ -6290,10 +6301,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "knockoff": [
         "8M"
       ],
-      "extremespeed": [
+      "shadowclaw": [
+        "8M"
+      ],
+      "shadowsneak": [
         "8M"
       ],
       "suckerpunch": [
+        "8M"
+      ],
+      "rockslide": [
         "8M"
       ],
       "gigaimpact": [
@@ -6306,6 +6323,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "bulletseed": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "darkpulse": [
@@ -6326,19 +6346,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "poweruppunch": [
         "8M"
       ],
-      "bulkup": [
-        "8M"
-      ],
       "brickbreak": [
         "8M"
       ],
       "aerialace": [
-        "8M"
-      ],
-      "shadowsneak": [
-        "8M"
-      ],
-      "shadowclaw": [
         "8M"
       ],
       "facade": [
@@ -6371,7 +6382,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rocktomb": [
         "8M"
       ],
-      "swordsdance": [
+      "slash": [
         "8M"
       ],
       "armthrust": [
@@ -6438,10 +6449,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rockblast": [
         "8M"
       ],
-      "extremespeed": [
+      "shadowclaw": [
+        "8M"
+      ],
+      "shadowsneak": [
         "8M"
       ],
       "suckerpunch": [
+        "8M"
+      ],
+      "rockslide": [
         "8M"
       ],
       "gigaimpact": [
@@ -6454,6 +6471,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "bulletseed": [
+        "8M"
+      ],
+      "stoneedge": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "darkpulse": [
@@ -6474,19 +6497,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "poweruppunch": [
         "8M"
       ],
-      "bulkup": [
-        "8M"
-      ],
       "brickbreak": [
         "8M"
       ],
       "aerialace": [
-        "8M"
-      ],
-      "shadowsneak": [
-        "8M"
-      ],
-      "shadowclaw": [
         "8M"
       ],
       "facade": [
@@ -6584,6 +6598,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "earthquake": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "infestation": [
@@ -6744,6 +6761,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "stoneedge": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "infestation": [
@@ -6916,6 +6936,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "spikyshield": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "knockoff": [
@@ -7093,6 +7116,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "precipiceblades": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "crunch": [
         "8M"
       ],
@@ -7220,6 +7246,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "lastresort": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "amnesia": [
         "8M"
       ],
@@ -7327,6 +7356,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "lastresort": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "amnesia": [
@@ -7451,6 +7483,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "hyperbeam": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "icebeam": [
@@ -7614,6 +7649,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "gunkshot": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
         "8M"
       ],
       "xscissor": [
@@ -7782,6 +7823,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "gunkshot": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
       "xscissor": [
         "8M"
       ],
@@ -7942,6 +7989,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "gunkshot": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
       "xscissor": [
         "8M"
       ],
@@ -8096,6 +8149,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "wish": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "taunt": [
         "8M"
       ],
@@ -8248,6 +8304,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "nightmare": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "voltswitch": [
@@ -8437,6 +8496,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "woodhammer": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "infestation": [
         "8M"
       ],
@@ -8511,6 +8573,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "stoneedge": [
         "8M"
+      ],
+      "fellstinger": [
+        "8M"
       ]
     }
   },
@@ -8568,6 +8633,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "beeswarm": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "infestation": [
@@ -8664,6 +8732,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "curse": [
         "8M"
       ],
+      "frigidbreeze": [
+        "8M"
+      ],
       "flatter": [
         "8M"
       ],
@@ -8691,13 +8762,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rockslide": [
         "8M"
       ],
-      "iciclecrash": [
+      "snowslash": [
         "8M"
       ],
       "playrough": [
         "8M"
       ],
-      "tripleaxel": [
+      "iciclecrash": [
         "8M"
       ],
       "recover": [
@@ -8707,6 +8778,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "earthquake": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "mysticburst": [
@@ -8734,6 +8811,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "hail": [
+        "8M"
+      ],
+      "tripleaxel": [
         "8M"
       ],
       "facade": [
@@ -8782,9 +8862,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "lightscreen": [
-        "8M"
-      ],
-      "stealthrock": [
         "8M"
       ],
       "rocktomb": [
@@ -8827,6 +8904,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "curse": [
         "8M"
       ],
+      "frigidbreeze": [
+        "8M"
+      ],
       "flatter": [
         "8M"
       ],
@@ -8854,13 +8934,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rockslide": [
         "8M"
       ],
-      "iciclecrash": [
+      "snowslash": [
         "8M"
       ],
       "playrough": [
         "8M"
       ],
-      "tripleaxel": [
+      "iciclecrash": [
         "8M"
       ],
       "recover": [
@@ -8870,6 +8950,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "earthquake": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "snowsquall": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "mysticburst": [
@@ -8897,6 +8986,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "hail": [
+        "8M"
+      ],
+      "tripleaxel": [
         "8M"
       ],
       "facade": [
@@ -8945,9 +9037,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "lightscreen": [
-        "8M"
-      ],
-      "stealthrock": [
         "8M"
       ],
       "rocktomb": [
@@ -9012,6 +9101,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "hydropump": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
         "8M"
       ],
       "uturn": [
@@ -9165,6 +9260,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hydropump": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
       "uturn": [
         "8M"
       ],
@@ -9311,6 +9412,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "waterspout": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
         "8M"
       ],
       "uturn": [
@@ -9462,6 +9569,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "aquatail": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "poltergeist": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "frigidbreeze": [
         "8M"
       ],
       "pursuit": [
@@ -9651,6 +9770,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "aquatail": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "poltergeist": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "frigidbreeze": [
+        "8M"
+      ],
       "pursuit": [
         "8M"
       ],
@@ -9838,6 +9969,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flareblitz": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -10004,6 +10138,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flareblitz": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -10137,6 +10274,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "shadowforce": [
         "8M"
       ],
+      "swordsdance": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "poltergeist": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
       "pursuit": [
         "8M"
       ],
@@ -10252,9 +10401,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "gastroacid": [
-        "8M"
-      ],
-      "gunkshot": [
         "8M"
       ],
       "psychic": [
@@ -10339,6 +10485,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "shadowforce": [
         "8M"
       ],
+      "swordsdance": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "poltergeist": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
       "pursuit": [
         "8M"
       ],
@@ -10454,9 +10612,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "gastroacid": [
-        "8M"
-      ],
-      "gunkshot": [
         "8M"
       ],
       "psychic": [
@@ -10550,7 +10705,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "gunkshot": [
         "8M"
       ],
+      "poltergeist": [
+        "8M"
+      ],
       "spectralthief": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "pursuit": [
@@ -10725,6 +10886,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "powergem": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "xscissor": [
         "8M"
       ],
@@ -10894,10 +11058,19 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hydropump": [
         "8M"
       ],
-      "guillotine": [
+      "meteorbeam": [
         "8M"
       ],
       "rockpolish": [
+        "8M"
+      ],
+      "guillotine": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "xscissor": [
@@ -10994,7 +11167,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "clawgrip": {
     "learnset": {
-      "woodhammer": [
+      "dynamicpunch": [
         "8M"
       ],
       "lowkick": [
@@ -11058,6 +11231,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "focuspunch": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "xscissor": [
@@ -11229,6 +11405,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "belch": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -11389,6 +11568,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "belch": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -11498,6 +11680,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "furycutter": [
         "8M"
       ],
+      "wingattack": [
+        "8M"
+      ],
       "machpunch": [
         "8M"
       ],
@@ -11531,6 +11716,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flyswatter": [
         "8M"
       ],
+      "fellstinger": [
+        "8M"
+      ],
       "firepunch": [
         "8M"
       ],
@@ -11553,6 +11741,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dynamicpunch": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
         "8M"
       ],
       "uturn": [
@@ -11670,6 +11864,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "firefang": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "pursuit": [
         "8M"
       ],
@@ -11762,6 +11959,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "scald": [
         "8M"
+      ],
+      "aquaring": [
+        "8M"
+      ],
+      "aquatail": [
+        "8M"
+      ],
+      "fling": [
+        "8M"
       ]
     }
   },
@@ -11822,6 +12028,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "fishiousrend": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "pursuit": [
@@ -11921,7 +12130,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "jellybeam": {
     "learnset": {
-      "moonblast": [
+      "wish": [
         "8M"
       ],
       "tackle": [
@@ -11982,6 +12191,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "zapcannon": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "thundershock": [
@@ -12103,6 +12315,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "ironhead": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "uturn": [
@@ -12250,6 +12465,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dragonrush": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "uturn": [
         "8M"
       ],
@@ -12383,6 +12601,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dragonrush": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "uturn": [
         "8M"
       ],
@@ -12511,6 +12732,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "spikes": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "pollenpuff": [
@@ -12658,6 +12882,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "spikes": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "pollenpuff": [
         "8M"
       ],
@@ -12767,6 +12994,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "uproar": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
@@ -12861,6 +13091,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "powergem": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
@@ -12907,6 +13140,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "montytank": {
     "learnset": {
+      "flashcannon": [
+        "8M"
+      ],
       "thunderbolt": [
         "8M"
       ],
@@ -12946,9 +13182,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "mudbomb": [
         "8M"
       ],
-      "flashcannon": [
-        "8M"
-      ],
       "discharge": [
         "8M"
       ],
@@ -12971,6 +13204,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "steelbeam": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "facade": [
@@ -13089,6 +13328,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "mimic": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "hail": [
@@ -13218,6 +13460,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "magikoopa": {
     "learnset": {
+      "psybeam": [
+        "8M"
+      ],
       "confusion": [
         "8M"
       ],
@@ -13267,6 +13512,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "mimic": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "hail": [
@@ -13408,6 +13656,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "psywave": [
         "8M"
       ],
+      "psybeam": [
+        "8M"
+      ],
       "reflect": [
         "8M"
       ],
@@ -13439,6 +13690,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "mimic": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "hail": [
@@ -13616,6 +13870,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "overheat": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -13708,9 +13965,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
-  "nobully": {
+  "nobull": {
     "learnset": {
-      "doomdesire": [
+      "steelbeam": [
         "8M"
       ],
       "heavyslam": [
@@ -13771,6 +14028,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "overheat": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "darkpulse": [
@@ -13924,6 +14184,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sheercold": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "knockoff": [
         "8M"
       ],
@@ -14075,6 +14338,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "doubleedge": [
         "8M"
       ],
+      "snowslash": [
+        "8M"
+      ],
       "swordsdance": [
         "8M"
       ],
@@ -14088,6 +14354,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "sheercold": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "knockoff": [
@@ -14172,6 +14441,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "needlenose": {
     "learnset": {
+      "absorb": [
+        "8M"
+      ],
       "tackle": [
         "8M"
       ],
@@ -14245,6 +14517,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "cottonguard": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "xscissor": [
@@ -14417,6 +14692,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "cottonguard": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "xscissor": [
@@ -14594,6 +14872,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "woodhammer": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "xscissor": [
         "8M"
       ],
@@ -14688,6 +14969,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "leer": [
         "8M"
       ],
+      "spikes": [
+        "8M"
+      ],
       "focusenergy": [
         "8M"
       ],
@@ -14755,6 +15039,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "rockwrecker": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "knockoff": [
@@ -14860,6 +15147,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "leer": [
         "8M"
       ],
+      "spikes": [
+        "8M"
+      ],
       "focusenergy": [
         "8M"
       ],
@@ -14927,6 +15217,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "rockwrecker": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "knockoff": [
@@ -15053,6 +15346,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "knockoff": [
         "8M"
       ],
+      "healbell": [
+        "8M"
+      ],
       "drillrun": [
         "8M"
       ],
@@ -15081,6 +15377,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "closecombat": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
         "8M"
       ],
       "superpower": [
@@ -15228,6 +15530,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "calmmind": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "xscissor": [
         "8M"
       ],
@@ -15373,6 +15678,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "earthquake": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
       "pursuit": [
         "8M"
       ],
@@ -15485,6 +15796,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "shadowbone": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
@@ -15591,7 +15905,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "stoneedge": [
         "8M"
       ],
-      "fissure": [
+      "poltergeist": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "darkpulse": [
@@ -15763,6 +16083,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "oblivionwing": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "frigidbreeze": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -15899,6 +16231,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "explosion": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "willowisp": [
         "8M"
       ],
@@ -15994,6 +16329,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "explosion": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "willowisp": [
@@ -16115,6 +16453,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "nastyplot": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "willowisp": [
@@ -16254,6 +16595,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "swordsdance": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "poltergeist": [
         "8M"
       ],
       "taunt": [
@@ -16414,6 +16761,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "fissure": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "payback": [
@@ -16579,6 +16929,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "fissure": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "payback": [
         "8M"
       ],
@@ -16701,6 +17054,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "steelbeam": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "uturn": [
@@ -16857,6 +17213,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hyperbeam": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "dragondance": [
         "8M"
       ],
@@ -17002,6 +17361,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hyperbeam": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
@@ -17060,6 +17422,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "barrier": [
         "8M"
       ],
+      "psychocut": [
+        "8M"
+      ],
       "bubblebeam": [
         "8M"
       ],
@@ -17075,10 +17440,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "trickroom": [
         "8M"
       ],
-      "surf": [
+      "liquidation": [
         "8M"
       ],
       "psyshock": [
+        "8M"
+      ],
+      "surf": [
         "8M"
       ],
       "recover": [
@@ -17103,6 +17471,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "storedpower": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "hydrocannon": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "megahorn": [
@@ -17238,6 +17615,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "barrier": [
         "8M"
       ],
+      "psychocut": [
+        "8M"
+      ],
       "bubblebeam": [
         "8M"
       ],
@@ -17253,10 +17633,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "trickroom": [
         "8M"
       ],
-      "surf": [
+      "liquidation": [
         "8M"
       ],
       "psyshock": [
+        "8M"
+      ],
+      "surf": [
         "8M"
       ],
       "recover": [
@@ -17281,6 +17664,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "storedpower": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "hydrocannon": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "megahorn": [
@@ -17413,7 +17805,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "drainpunch": [
         "8M"
       ],
-      "batonpass": [
+      "bodypress": [
+        "8M"
+      ],
+      "noretreat": [
         "8M"
       ],
       "knockoff": [
@@ -17444,6 +17839,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "meteormash": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "taunt": [
@@ -17589,6 +17987,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "gunkshot": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "pollenpuff": [
@@ -17766,6 +18167,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "gunkshot": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "pollenpuff": [
         "8M"
       ],
@@ -17896,22 +18300,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flameburst": [
         "8M"
       ],
-      "protect": [
+      "dragonbreath": [
         "8M"
       ],
-      "dragonbreath": [
+      "protect": [
         "8M"
       ],
       "dragontail": [
         "8M"
       ],
-      "flamethrower": [
+      "dragonpulse": [
         "8M"
       ],
       "calmmind": [
         "8M"
       ],
-      "dragonpulse": [
+      "flamethrower": [
         "8M"
       ],
       "healbell": [
@@ -17929,10 +18333,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "fireblast": [
         "8M"
       ],
+      "wish": [
+        "8M"
+      ],
       "hyperbeam": [
         "8M"
       ],
       "dracometeor": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "megahorn": [
@@ -18101,6 +18511,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "heavyslam": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "taunt": [
         "8M"
       ],
@@ -18255,6 +18668,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "heavyslam": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "taunt": [
         "8M"
       ],
@@ -18392,6 +18808,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dracometeor": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "dragondance": [
@@ -18552,6 +18971,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "zapcannon": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "dragonpulse": [
@@ -18723,6 +19145,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "zapcannon": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "thundershock": [
         "8M"
       ],
@@ -18813,7 +19238,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flashcannon": [
         "8M"
       ],
-      "hurricane": [
+      "hypnosis": [
         "8M"
       ],
       "whirlpool": [
@@ -18844,6 +19269,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "drainingkiss": [
         "8M"
       ],
+      "frigidbreeze": [
+        "8M"
+      ],
       "haze": [
         "8M"
       ],
@@ -18856,7 +19284,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dazzlinggleam": [
         "8M"
       ],
-      "icebeam": [
+      "snowsquall": [
         "8M"
       ],
       "calmmind": [
@@ -18880,10 +19308,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "freezedry": [
         "8M"
       ],
+      "wish": [
+        "8M"
+      ],
       "blizzard": [
         "8M"
       ],
       "sheercold": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "taunt": [
@@ -18908,6 +19342,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "mist": [
+        "8M"
+      ],
+      "icebeam": [
         "8M"
       ],
       "aurorabeam": [
@@ -18950,6 +19387,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "sweetkiss": [
+        "8M"
+      ],
+      "healbell": [
         "8M"
       ],
       "hurricane": [
@@ -19020,6 +19460,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "hyperbeam": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "darkpulse": [
@@ -19135,6 +19578,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "hyperbeam": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "darkpulse": [
@@ -19258,6 +19704,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hyperbeam": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -19331,7 +19780,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "roost": [
         "8M"
       ],
-      "aerialace": [
+      "aircutter": [
         "8M"
       ],
       "tailwind": [
@@ -19370,6 +19819,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hyperbeam": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "snowsquall": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
       "uturn": [
         "8M"
       ],
@@ -19389,6 +19847,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "fly": [
+        "8M"
+      ],
+      "aerialace": [
         "8M"
       ],
       "defog": [
@@ -19433,7 +19894,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "lightscreen": [
         "8M"
       ],
-      "barrier": [
+      "healbell": [
         "8M"
       ],
       "healingwish": [
@@ -19449,7 +19910,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "drainingkiss": [
         "8M"
       ],
-      "amnesia": [
+      "strengthsap": [
         "8M"
       ],
       "tackle": [
@@ -19473,7 +19934,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "roost": [
         "8M"
       ],
-      "aerialace": [
+      "aircutter": [
         "8M"
       ],
       "tailwind": [
@@ -19518,7 +19979,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hyperbeam": [
         "8M"
       ],
-      "strengthsap": [
+      "swindle": [
+        "8M"
+      ],
+      "snowsquall": [
+        "8M"
+      ],
+      "dualwingbeat": [
         "8M"
       ],
       "uturn": [
@@ -19540,6 +20007,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "fly": [
+        "8M"
+      ],
+      "aerialace": [
         "8M"
       ],
       "defog": [
@@ -19633,19 +20103,28 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
-      "icebeam": [
+      "snowsquall": [
         "8M"
       ],
       "tailwind": [
         "8M"
       ],
-      "hurricane": [
+      "icebeam": [
         "8M"
       ],
       "calmmind": [
         "8M"
       ],
+      "hurricane": [
+        "8M"
+      ],
       "blizzard": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "frigidbreeze": [
         "8M"
       ],
       "hail": [
@@ -19736,7 +20215,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "tyfoo": {
     "learnset": {
-      "freezedry": [
+      "aeroblast": [
         "8M"
       ],
       "growl": [
@@ -19772,6 +20251,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "freeziewind": [
         "8M"
       ],
+      "aurorabeam": [
+        "8M"
+      ],
       "roost": [
         "8M"
       ],
@@ -19781,31 +20263,34 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
-      "icebeam": [
+      "snowsquall": [
         "8M"
       ],
       "tailwind": [
         "8M"
       ],
-      "hurricane": [
+      "icebeam": [
         "8M"
       ],
       "calmmind": [
         "8M"
       ],
-      "aeroblast": [
+      "hurricane": [
         "8M"
       ],
       "blizzard": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "frigidbreeze": [
         "8M"
       ],
       "hail": [
         "8M"
       ],
       "sunnyday": [
-        "8M"
-      ],
-      "aurorabeam": [
         "8M"
       ],
       "raindance": [
@@ -19893,7 +20378,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "iceshard": [
         "8M"
       ],
-      "iciclespear": [
+      "snowslash": [
         "8M"
       ],
       "tackle": [
@@ -19917,16 +20402,19 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "headbutt": [
         "8M"
       ],
+      "dive": [
+        "8M"
+      ],
       "flipturn": [
         "8M"
       ],
       "hail": [
         "8M"
       ],
-      "agility": [
+      "avalanche": [
         "8M"
       ],
-      "avalanche": [
+      "agility": [
         "8M"
       ],
       "waterfall": [
@@ -19954,6 +20442,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "sheercold": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "payback": [
@@ -20095,6 +20589,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "closecombat": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
@@ -20208,6 +20705,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "sacredfire": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "focusblast": [
@@ -20367,6 +20867,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "sacredfire": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "focusblast": [
         "8M"
       ],
@@ -20501,6 +21004,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "wickedlaugh": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "pursuit": [
@@ -20657,13 +21163,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "closecombat": [
         "8M"
       ],
-      "mysticburst": [
-        "8M"
-      ],
       "zapcannon": [
         "8M"
       ],
-      "darkpulse": [
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "taunt": [
@@ -20685,12 +21191,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "thunderwave": [
-        "8M"
-      ],
-      "playrough": [
-        "8M"
-      ],
-      "dazzlinggleam": [
         "8M"
       ],
       "superpower": [
@@ -20820,6 +21320,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "icefang": [
         "8M"
       ],
+      "permafrost": [
+        "8M"
+      ],
       "crunch": [
         "8M"
       ],
@@ -20851,6 +21354,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "gigaimpact": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "payback": [
@@ -20978,6 +21484,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "sludgewave": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "infestation": [
@@ -21117,6 +21626,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "quiverdance": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "infestation": [
@@ -21262,6 +21774,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "stoneedge": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "darkpulse": [
@@ -21418,6 +21933,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "stoneedge": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -21554,6 +22072,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "calmmind": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "xscissor": [
         "8M"
       ],
@@ -21567,9 +22088,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "fairywind": [
-        "8M"
-      ],
-      "superpower": [
         "8M"
       ],
       "defog": [
@@ -21690,7 +22208,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "focusblast": [
         "8M"
       ],
-      "darkpulse": [
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "taunt": [
@@ -21712,15 +22233,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "thunderwave": [
-        "8M"
-      ],
-      "mysticburst": [
-        "8M"
-      ],
-      "playrough": [
-        "8M"
-      ],
-      "dazzlinggleam": [
         "8M"
       ],
       "superpower": [
@@ -21862,6 +22374,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bravebird": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
       "uturn": [
         "8M"
       ],
@@ -21986,19 +22504,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "headbutt": [
         "8M"
       ],
+      "dive": [
+        "8M"
+      ],
       "flipturn": [
         "8M"
       ],
       "hail": [
         "8M"
       ],
-      "agility": [
+      "avalanche": [
         "8M"
       ],
       "iceshard": [
         "8M"
       ],
-      "avalanche": [
+      "agility": [
         "8M"
       ],
       "waterfall": [
@@ -22020,6 +22541,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "drillrun": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "payback": [
@@ -22159,6 +22683,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dracometeor": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "megahorn": [
@@ -22322,6 +22849,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dracometeor": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "megahorn": [
@@ -22493,6 +23023,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "magmastorm": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "crunch": [
         "8M"
       ],
@@ -22635,6 +23168,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "zenheadbutt": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
@@ -22724,6 +23260,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "zenheadbutt": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "facade": [
@@ -22842,6 +23381,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "drainpunch": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "crunch": [
@@ -23022,6 +23564,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "steelbeam": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
@@ -23104,9 +23649,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "powdersnow": [
         "8M"
       ],
-      "rapidspin": [
-        "8M"
-      ],
       "ember": [
         "8M"
       ],
@@ -23140,6 +23682,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "icywind": [
         "8M"
       ],
+      "frigidbreeze": [
+        "8M"
+      ],
       "flameburst": [
         "8M"
       ],
@@ -23158,7 +23703,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flashcannon": [
         "8M"
       ],
+      "wish": [
+        "8M"
+      ],
       "calmmind": [
+        "8M"
+      ],
+      "snowsquall": [
         "8M"
       ],
       "fireblast": [
@@ -23186,6 +23737,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "auroraveil": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "thunderwave": [
@@ -23339,49 +23896,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "earthquake": [
         "8M"
       ],
-      "facade": [
+      "swindle": [
         "8M"
       ],
-      "uturn": [
+      "xscissor": [
         "8M"
       ],
-      "fairywind": [
+      "taunt": [
         "8M"
       ],
-      "return": [
+      "torment": [
         "8M"
       ],
-      "toxic": [
+      "aerialace": [
         "8M"
       ],
-      "sandstorm": [
+      "shadowclaw": [
         "8M"
       ],
-      "shadowball": [
-        "8M"
-      ],
-      "infestation": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "confuseray": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "solarbeam": [
         "8M"
       ],
       "energyball": [
         "8M"
       ],
-      "shadowclaw": [
+      "leafblade": [
         "8M"
       ],
       "grassknot": [
@@ -23390,7 +23929,70 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "leechseed": [
         "8M"
       ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
       "trickroom": [
+        "8M"
+      ],
+      "metalclaw": [
         "8M"
       ]
     }
@@ -23415,10 +24017,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "agility": [
         "8M"
       ],
-      "bubblebeam": [
+      "frigidbreeze": [
         "8M"
       ],
-      "divinebubble": [
+      "bubblebeam": [
         "8M"
       ],
       "hail": [
@@ -23428,6 +24030,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "surf": [
+        "8M"
+      ],
+      "wish": [
         "8M"
       ],
       "nastyplot": [
@@ -23442,13 +24047,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "blizzard": [
         "8M"
       ],
-      "auroraveil": [
+      "hydropump": [
         "8M"
       ],
       "shadowball": [
         "8M"
       ],
-      "hydropump": [
+      "icebubble": [
+        "8M"
+      ],
+      "auroraveil": [
         "8M"
       ],
       "freezedry": [
@@ -23457,40 +24065,100 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "recover": [
         "8M"
       ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "snowsquall": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
       "mysticburst": [
         "8M"
       ],
-      "hurricane": [
+      "confuseray": [
         "8M"
       ],
       "avalanche": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
       "mist": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "defog": [
         "8M"
       ],
       "aurorabeam": [
         "8M"
       ],
       "haze": [
+        "8M"
+      ],
+      "tripleaxel": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
         "8M"
       ]
     }
@@ -23521,7 +24189,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "feintattack": [
         "8M"
       ],
-      "extremespeed": [
+      "quickattack": [
         "8M"
       ],
       "xscissor": [
@@ -23551,40 +24219,73 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "acrobatics": [
         "8M"
       ],
-      "facade": [
+      "swindle": [
         "8M"
       ],
-      "shadowsneak": [
+      "darkpulse": [
         "8M"
       ],
-      "dragonpulse": [
-        "8M"
-      ],
-      "pursuit": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "aerialace": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "crunch": [
         "8M"
       ],
       "taunt": [
         "8M"
       ],
-      "poweruppunch": [
+      "torment": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ]
     }
@@ -23595,6 +24296,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "haze": [
+        "8M"
+      ],
+      "whirlpool": [
         "8M"
       ],
       "watergun": [
@@ -23651,7 +24355,46 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "yawn": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
       "hex": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "tripleaxel": [
         "8M"
       ],
       "facade": [
@@ -23660,46 +24403,67 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "swift": [
         "8M"
       ],
-      "uturn": [
+      "substitute": [
         "8M"
       ],
       "return": [
         "8M"
       ],
-      "toxic": [
+      "disable": [
         "8M"
       ],
-      "shadowball": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
+      "hypervoice": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "defog": [
+      "rest": [
         "8M"
       ],
-      "airslash": [
+      "protect": [
         "8M"
       ],
-      "energyball": [
+      "toxic": [
         "8M"
       ],
-      "taunt": [
+      "painsplit": [
         "8M"
       ],
-      "aurorabeam": [
+      "hyperbeam": [
         "8M"
       ],
-      "thunderwave": [
+      "psychic": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "zenheadbutt": [
         "8M"
       ],
       "trickroom": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
         "8M"
       ]
     }
@@ -23719,6 +24483,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "furycutter": [
+        "8M"
+      ],
+      "wingattack": [
         "8M"
       ],
       "machpunch": [
@@ -23754,6 +24521,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flyswatter": [
         "8M"
       ],
+      "fellstinger": [
+        "8M"
+      ],
       "firepunch": [
         "8M"
       ],
@@ -23776,6 +24546,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dynamicpunch": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
         "8M"
       ],
       "uturn": [
@@ -23902,67 +24678,100 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "nastyplot": [
         "8M"
       ],
-      "facade": [
+      "swindle": [
         "8M"
       ],
-      "fairywind": [
-        "8M"
-      ],
-      "earthquake": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "aerialace": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "defog": [
+      "darkpulse": [
         "8M"
       ],
       "taunt": [
         "8M"
       ],
-      "rocktomb": [
+      "payback": [
         "8M"
       ],
-      "mudbomb": [
+      "torment": [
         "8M"
       ],
-      "mudshot": [
+      "fairywind": [
         "8M"
       ],
-      "scaryface": [
+      "fly": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "roost": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "facade": [
         "8M"
       ],
       "swift": [
         "8M"
       ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
       "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
         "8M"
       ],
       "hyperbeam": [
         "8M"
       ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "mudbomb": [
+        "8M"
+      ],
       "firespin": [
-        "8M"
-      ],
-      "painsplit": [
-        "8M"
-      ],
-      "smokescreen": [
-        "8M"
-      ],
-      "substitute": [
         "8M"
       ],
       "ominouswind": [
@@ -24026,37 +24835,91 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "nastyplot": [
         "8M"
       ],
-      "facade": [
+      "swindle": [
         "8M"
       ],
-      "fairywind": [
-        "8M"
-      ],
-      "earthquake": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "aerialace": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "defog": [
+      "darkpulse": [
         "8M"
       ],
       "taunt": [
         "8M"
       ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "roost": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
       "rocktomb": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ]
     }
@@ -24132,34 +24995,34 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dracometeor": [
         "8M"
       ],
-      "facade": [
+      "swindle": [
         "8M"
       ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "shadowball": [
+      "dualwingbeat": [
         "8M"
       ],
       "infestation": [
         "8M"
       ],
-      "aerialace": [
+      "xscissor": [
         "8M"
       ],
-      "icebeam": [
+      "megahorn": [
         "8M"
       ],
-      "rest": [
+      "pollenpuff": [
         "8M"
       ],
-      "sleeptalk": [
+      "dragondance": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "shadowball": [
         "8M"
       ],
       "energyball": [
@@ -24168,37 +25031,64 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "gigadrain": [
         "8M"
       ],
-      "aurorabeam": [
+      "grassknot": [
         "8M"
       ],
-      "haze": [
+      "confuseray": [
         "8M"
       ],
       "roost": [
         "8M"
       ],
-      "trickroom": [
+      "fly": [
         "8M"
       ],
-      "steelwing": [
+      "aerialace": [
         "8M"
       ],
-      "silverwind": [
+      "tailwind": [
         "8M"
       ],
-      "ancientpower": [
+      "facade": [
         "8M"
       ],
-      "dazzlinggleam": [
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hypervoice": [
         "8M"
       ],
       "hyperbeam": [
         "8M"
       ],
-      "focusblast": [
+      "gigaimpact": [
         "8M"
       ],
-      "thunderwave": [
+      "psychic": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "steelwing": [
         "8M"
       ]
     }
@@ -24235,7 +25125,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "knockoff": [
         "8M"
       ],
-      "piercingpoke": [
+      "smartstrike": [
         "8M"
       ],
       "drillpeck": [
@@ -24247,58 +25137,94 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "tailwind": [
         "8M"
       ],
-      "meteormash": [
+      "piercingpoke": [
         "8M"
       ],
-      "facade": [
-        "8M"
-      ],
-      "uturn": [
-        "8M"
-      ],
-      "return": [
-        "8M"
-      ],
-      "toxic": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "aerialace": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "sleeptalk": [
-        "8M"
-      ],
-      "haze": [
+      "drillrun": [
         "8M"
       ],
       "stealthrock": [
         "8M"
       ],
-      "ominouswind": [
+      "acrobatics": [
+        "8M"
+      ],
+      "irondefense": [
         "8M"
       ],
       "bravebird": [
         "8M"
       ],
-      "playrough": [
+      "meteormash": [
+        "8M"
+      ],
+      "bodypress": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "megahorn": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "ominouswind": [
         "8M"
       ],
       "foulplay": [
         "8M"
       ],
-      "spikes": [
-        "8M"
-      ],
       "smackdown": [
-        "8M"
-      ],
-      "irondefense": [
         "8M"
       ]
     }
@@ -24371,82 +25297,67 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "psychoboost": [
         "8M"
       ],
-      "avalanche": [
+      "swindle": [
         "8M"
       ],
-      "facade": [
+      "pollenpuff": [
         "8M"
       ],
-      "shadowsneak": [
-        "8M"
-      ],
-      "raindance": [
+      "darkpulse": [
         "8M"
       ],
       "dragonpulse": [
         "8M"
       ],
-      "swift": [
+      "dragondance": [
         "8M"
       ],
-      "pursuit": [
+      "taunt": [
         "8M"
       ],
-      "uturn": [
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "fireblast": [
         "8M"
       ],
       "willowisp": [
         "8M"
       ],
-      "earthquake": [
+      "flamethrower": [
         "8M"
       ],
-      "return": [
+      "incinerate": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "thundershock": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "infestation": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "voltswitch": [
-        "8M"
-      ],
-      "poisonfang": [
-        "8M"
-      ],
-      "aerialace": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "sunnyday": [
         "8M"
       ],
       "defog": [
@@ -24455,85 +25366,148 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
+      "tailwind": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
       "gigadrain": [
         "8M"
       ],
-      "incinerate": [
-        "8M"
-      ],
-      "taunt": [
-        "8M"
-      ],
-      "aurorabeam": [
-        "8M"
-      ],
-      "haze": [
-        "8M"
-      ],
-      "thunderbolt": [
-        "8M"
-      ],
-      "shadowclaw": [
-        "8M"
-      ],
-      "grassknot": [
-        "8M"
-      ],
-      "rocktomb": [
-        "8M"
-      ],
-      "waterpulse": [
-        "8M"
-      ],
-      "stealthrock": [
-        "8M"
-      ],
-      "thunderwave": [
+      "leafblade": [
         "8M"
       ],
       "leechseed": [
         "8M"
       ],
-      "roost": [
+      "earthquake": [
         "8M"
       ],
-      "trickroom": [
+      "avalanche": [
         "8M"
       ],
-      "firefang": [
+      "blizzard": [
         "8M"
       ],
-      "poweruppunch": [
+      "mist": [
         "8M"
       ],
-      "steelwing": [
+      "haze": [
         "8M"
       ],
-      "flamethrower": [
+      "icebeam": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "tripleaxel": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "painsplit": [
         "8M"
       ],
       "hyperbeam": [
         "8M"
       ],
-      "mirrorcoat": [
+      "gigaimpact": [
         "8M"
       ],
-      "signalbeam": [
+      "zenheadbutt": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "ironhead": [
         "8M"
       ],
       "flashcannon": [
         "8M"
       ],
-      "icywind": [
+      "raindance": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "mirrorcoat": [
         "8M"
       ],
       "trick": [
         "8M"
       ],
       "healingwish": [
-        "8M"
-      ],
-      "knockoff": [
         "8M"
       ],
       "healbell": [
@@ -24612,82 +25586,67 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "psychoboost": [
         "8M"
       ],
-      "avalanche": [
+      "swindle": [
         "8M"
       ],
-      "facade": [
+      "pollenpuff": [
         "8M"
       ],
-      "shadowsneak": [
-        "8M"
-      ],
-      "raindance": [
+      "darkpulse": [
         "8M"
       ],
       "dragonpulse": [
         "8M"
       ],
-      "swift": [
+      "dragondance": [
         "8M"
       ],
-      "pursuit": [
+      "taunt": [
         "8M"
       ],
-      "uturn": [
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "fireblast": [
         "8M"
       ],
       "willowisp": [
         "8M"
       ],
-      "earthquake": [
+      "flamethrower": [
         "8M"
       ],
-      "return": [
+      "incinerate": [
         "8M"
       ],
-      "toxic": [
-        "8M"
-      ],
-      "thundershock": [
-        "8M"
-      ],
-      "mist": [
-        "8M"
-      ],
-      "metalclaw": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "infestation": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "sludgebomb": [
-        "8M"
-      ],
-      "voltswitch": [
-        "8M"
-      ],
-      "poisonfang": [
-        "8M"
-      ],
-      "aerialace": [
-        "8M"
-      ],
-      "icebeam": [
-        "8M"
-      ],
-      "rest": [
-        "8M"
-      ],
-      "lowsweep": [
-        "8M"
-      ],
-      "sleeptalk": [
+      "sunnyday": [
         "8M"
       ],
       "defog": [
@@ -24696,58 +25655,139 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "airslash": [
         "8M"
       ],
+      "tailwind": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
       "gigadrain": [
         "8M"
       ],
-      "incinerate": [
-        "8M"
-      ],
-      "taunt": [
-        "8M"
-      ],
-      "aurorabeam": [
-        "8M"
-      ],
-      "haze": [
-        "8M"
-      ],
-      "thunderbolt": [
-        "8M"
-      ],
-      "shadowclaw": [
-        "8M"
-      ],
-      "grassknot": [
-        "8M"
-      ],
-      "rocktomb": [
-        "8M"
-      ],
-      "waterpulse": [
-        "8M"
-      ],
-      "stealthrock": [
-        "8M"
-      ],
-      "thunderwave": [
+      "leafblade": [
         "8M"
       ],
       "leechseed": [
         "8M"
       ],
-      "roost": [
+      "earthquake": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "tripleaxel": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "amnesia": [
         "8M"
       ],
       "trickroom": [
         "8M"
       ],
-      "firefang": [
+      "powergem": [
         "8M"
       ],
-      "poweruppunch": [
+      "rockslide": [
         "8M"
       ],
-      "steelwing": [
+      "stealthrock": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
         "8M"
       ]
     }
@@ -24781,6 +25821,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dualchop": [
         "8M"
       ],
+      "aromatherapy": [
+        "8M"
+      ],
       "synthesis": [
         "8M"
       ],
@@ -24794,6 +25837,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dragonhammer": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "facade": [
@@ -24823,28 +25869,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "grassknot": [
         "8M"
       ],
-      "gunkshot": [
-        "8M"
-      ],
-      "gigadrain": [
-        "8M"
-      ],
       "hammerarm": [
         "8M"
       ],
-      "brickbreak": [
-        "8M"
-      ],
-      "superpower": [
-        "8M"
-      ],
       "foulplay": [
-        "8M"
-      ],
-      "knockoff": [
-        "8M"
-      ],
-      "irondefense": [
         "8M"
       ],
       "bodypress": [
@@ -24884,6 +25912,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "dualchop": [
         "8M"
       ],
+      "aromatherapy": [
+        "8M"
+      ],
       "psychicfangs": [
         "8M"
       ],
@@ -24920,13 +25951,82 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "solarblade": [
         "8M"
       ],
-      "facade": [
+      "swindle": [
+        "8M"
+      ],
+      "infestation": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "knockoff": [
         "8M"
       ],
       "dragonpulse": [
         "8M"
       ],
+      "dragondance": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "shadowclaw": [
+        "8M"
+      ],
       "earthquake": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "gigadrain": [
+        "8M"
+      ],
+      "leafblade": [
+        "8M"
+      ],
+      "grassknot": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
         "8M"
       ],
       "return": [
@@ -24935,25 +26035,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "toxic": [
         "8M"
       ],
-      "poisonfang": [
-        "8M"
-      ],
       "rest": [
         "8M"
       ],
       "sleeptalk": [
         "8M"
       ],
-      "incinerate": [
+      "hyperbeam": [
         "8M"
       ],
-      "taunt": [
+      "gigaimpact": [
         "8M"
       ],
-      "shadowclaw": [
+      "poisonfang": [
         "8M"
       ],
-      "grassknot": [
+      "gunkshot": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "": [
         "8M"
       ]
     }
@@ -25014,52 +26120,106 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "doubleedge": [
         "8M"
       ],
-      "facade": [
+      "swindle": [
         "8M"
       ],
       "dragonpulse": [
         "8M"
       ],
-      "swift": [
+      "dragonclaw": [
         "8M"
       ],
       "fairywind": [
         "8M"
       ],
-      "return": [
+      "dazzlinggleam": [
         "8M"
       ],
-      "toxic": [
+      "mysticburst": [
         "8M"
       ],
-      "metalclaw": [
-        "8M"
-      ],
-      "sandstorm": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "rest": [
+      "superpower": [
         "8M"
       ],
       "lowsweep": [
         "8M"
       ],
-      "sleeptalk": [
+      "aurasphere": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "flamethrower": [
         "8M"
       ],
       "incinerate": [
         "8M"
       ],
-      "taunt": [
+      "sunnyday": [
         "8M"
       ],
-      "shadowclaw": [
+      "firefang": [
         "8M"
       ],
-      "grassknot": [
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "rockslide": [
         "8M"
       ],
       "rocktomb": [
@@ -25068,31 +26228,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "stealthrock": [
         "8M"
       ],
-      "poweruppunch": [
+      "ironhead": [
         "8M"
       ],
-      "rollout": [
+      "metalclaw": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ],
       "rockblast": [
         "8M"
       ],
-      "moonblast": [
-        "8M"
-      ],
-      "foulplay": [
-        "8M"
-      ],
       "heavyslam": [
         "8M"
       ],
-      "gyroball": [
-        "8M"
-      ],
       "lavaplume": [
-        "8M"
-      ],
-      "willowisp": [
         "8M"
       ]
     }
@@ -25165,58 +26316,127 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bodypress": [
         "8M"
       ],
-      "facade": [
+      "moonblast": [
+        "8M"
+      ],
+      "wish": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "dragonpulse": [
         "8M"
       ],
-      "swift": [
+      "dragonclaw": [
         "8M"
       ],
-      "return": [
+      "fairywind": [
         "8M"
       ],
-      "toxic": [
+      "dazzlinggleam": [
         "8M"
       ],
-      "metalclaw": [
+      "mysticburst": [
         "8M"
       ],
-      "sandstorm": [
-        "8M"
-      ],
-      "sandtomb": [
-        "8M"
-      ],
-      "rest": [
+      "superpower": [
         "8M"
       ],
       "lowsweep": [
         "8M"
       ],
-      "sleeptalk": [
+      "aurasphere": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "flamethrower": [
         "8M"
       ],
       "incinerate": [
         "8M"
       ],
-      "taunt": [
+      "sunnyday": [
         "8M"
       ],
-      "shadowclaw": [
+      "firefang": [
         "8M"
       ],
-      "grassknot": [
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "rockslide": [
         "8M"
       ],
       "rocktomb": [
         "8M"
       ],
-      "trickroom": [
+      "ironhead": [
         "8M"
       ],
-      "poweruppunch": [
+      "metalclaw": [
+        "8M"
+      ],
+      "flashcannon": [
         "8M"
       ]
     }
@@ -25289,6 +26509,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "electroball": [
         "8M"
       ],
+      "wish": [
+        "8M"
+      ],
       "weatherball": [
         "8M"
       ],
@@ -25298,10 +26521,73 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hyperbeam": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
       "trickroom": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "powergem": [
         "8M"
       ]
     }
@@ -25368,7 +26654,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "futuresight": [
         "8M"
       ],
-      "oblivionwing": [
+      "mindreader": [
         "8M"
       ],
       "telebeam": [
@@ -25377,10 +26663,100 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hurricane": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "drillpeck": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
       "calmmind": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
         "8M"
       ]
     }
@@ -25449,6 +26825,102 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "shoreup": [
         "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "gigadrain": [
+        "8M"
+      ],
+      "grassknot": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
       ]
     }
   },
@@ -25496,10 +26968,55 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "moonlight": [
         "8M"
       ],
-      "magicalleaf": [
+      "swindle": [
         "8M"
       ],
-      "thunderwave": [
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
         "8M"
       ],
       "lightscreen": [
@@ -25508,32 +27025,35 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "reflect": [
         "8M"
       ],
-      "hydropump": [
+      "psychic": [
         "8M"
       ],
-      "uturn": [
+      "calmmind": [
         "8M"
       ],
-      "raindance": [
-        "8M"
-      ],
-      "sunnyday": [
-        "8M"
-      ],
-      "faketears": [
+      "zenheadbutt": [
         "8M"
       ],
       "trickroom": [
         "8M"
       ],
-      "hypervoice": [
+      "amnesia": [
+        "8M"
+      ],
+      "magicalleaf": [
+        "8M"
+      ],
+      "mysticalfire": [
+        "8M"
+      ],
+      "wish": [
         "8M"
       ]
     }
   },
   "starspirit": {
     "learnset": {
-      "zenheadbutt": [
+      "psychocut": [
         "8M"
       ],
       "fairywind": [
@@ -25584,7 +27104,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "bodyslam": [
         "8M"
       ],
-      "swordsdance": [
+      "bulkup": [
         "8M"
       ],
       "celestialrocket": [
@@ -25593,10 +27113,94 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "meteormash": [
         "8M"
       ],
-      "extremespeed": [
+      "closecombat": [
         "8M"
       ],
       "doubleedge": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "": [
         "8M"
       ]
     }
@@ -25668,6 +27272,90 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "hyperbeam": [
         "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
       ]
     }
   },
@@ -25731,6 +27419,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "agility": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "uturn": [
@@ -25913,6 +27604,78 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "woodhammer": [
         "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "drillpeck": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "steelwing": [
+        "8M"
       ]
     }
   },
@@ -26005,13 +27768,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hyperbeam": [
         "8M"
       ],
-      "boomburst": [
+      "swindle": [
         "8M"
       ],
       "thunderbolt": [
         "8M"
       ],
       "defog": [
+        "8M"
+      ],
+      "dualwingbeat": [
         "8M"
       ]
     }
@@ -26075,22 +27841,103 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "fireblast": [
         "8M"
       ],
-      "freezedry": [
+      "swindle": [
         "8M"
       ],
-      "aurasphere": [
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "freezedry": [
         "8M"
       ],
       "healpulse": [
         "8M"
       ],
-      "psychic": [
-        "8M"
-      ],
       "icywind": [
-        "8M"
-      ],
-      "hydropump": [
         "8M"
       ]
     }
@@ -26152,6 +27999,96 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "fireblast": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "hydropump": [
         "8M"
       ]
     }
@@ -26222,6 +28159,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "gigaimpact": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "scald": [
@@ -26385,6 +28325,93 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "partingshot": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "shadowclaw": [
+        "8M"
+      ],
+      "poltergeist": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "frigidbreeze": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
       "acidarmor": [
         "8M"
       ],
@@ -26449,7 +28476,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "rockslide": [
         "8M"
       ],
-      "drillpeck": [
+      "dualwingbeat": [
         "8M"
       ],
       "bodyslam": [
@@ -26476,6 +28503,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "skullbash": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "haze": [
         "8M"
       ],
@@ -26495,6 +28525,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "airslash": [
+        "8M"
+      ],
+      "drillpeck": [
         "8M"
       ],
       "infestation": [
@@ -26676,6 +28709,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "morningsun": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "willowisp": [
@@ -26905,6 +28941,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "crunch": [
         "8M"
       ],
+      "snowslash": [
+        "8M"
+      ],
       "doubleedge": [
         "8M"
       ],
@@ -27028,6 +29067,99 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ],
       "galacticnova": [
         "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "scaleshot": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
       ]
     }
   },
@@ -27117,7 +29249,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "solarblade": [
         "8M"
       ],
-      "closecombat": [
+      "superpower": [
         "8M"
       ],
       "woodhammer": [
@@ -27169,6 +29301,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "ancientpower": [
         "8M"
       ],
+      "spikes": [
+        "8M"
+      ],
       "shadowball": [
         "8M"
       ],
@@ -27208,40 +29343,142 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "gyroball": [
         "8M"
       ],
-      "spite": [
+      "swindle": [
         "8M"
       ],
-      "curse": [
+      "crunch": [
         "8M"
       ],
-      "confuseray": [
+      "taunt": [
         "8M"
       ],
-      "willowisp": [
+      "payback": [
         "8M"
       ],
-      "sludgebomb": [
+      "torment": [
         "8M"
       ],
-      "bodypress": [
+      "knockoff": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "dragonpulse": [
         "8M"
       ],
       "aurasphere": [
         "8M"
       ],
-      "focusblast": [
+      "brickbreak": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "shadowclaw": [
+        "8M"
+      ],
+      "poltergeist": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "frigidbreeze": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
         "8M"
       ],
       "hypervoice": [
         "8M"
       ],
-      "ominouswind": [
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "curse": [
+        "8M"
+      ],
+      "bodypress": [
         "8M"
       ],
       "partingshot": [
-        "8M"
-      ],
-      "spikes": [
         "8M"
       ]
     }
@@ -27420,16 +29657,94 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "topsyturvy": [
         "8M"
       ],
-      "sludgewave": [
+      "swindle": [
         "8M"
       ],
-      "psychocut": [
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "confuseray": [
         "8M"
       ],
       "shadowclaw": [
         "8M"
       ],
-      "knockoff": [
+      "poltergeist": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "sludgewave": [
+        "8M"
+      ],
+      "psychocut": [
         "8M"
       ],
       "foulplay": [
@@ -27521,6 +29836,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "headsmash": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "poltergeist": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "darkpulse": [
@@ -27707,6 +30031,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "gigaimpact": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "xscissor": [
         "8M"
       ],
@@ -27801,22 +30128,22 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "flameburst": [
         "8M"
       ],
-      "protect": [
+      "dragonbreath": [
         "8M"
       ],
-      "dragonbreath": [
+      "protect": [
         "8M"
       ],
       "dragontail": [
         "8M"
       ],
-      "flamethrower": [
+      "dragonpulse": [
         "8M"
       ],
       "calmmind": [
         "8M"
       ],
-      "dragonpulse": [
+      "flamethrower": [
         "8M"
       ],
       "healbell": [
@@ -27838,6 +30165,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dracometeor": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "megahorn": [
@@ -28009,6 +30339,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "burnup": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "torment": [
         "8M"
       ],
@@ -28172,6 +30505,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "burnup": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "torment": [
         "8M"
       ],
@@ -28321,6 +30657,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "moonblast": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "darkpulse": [
@@ -28480,6 +30819,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "moonblast": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "poltergeist": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -28608,6 +30953,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "overheat": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "toxic": [
@@ -28776,6 +31124,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "magmastorm": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "toxic": [
         "8M"
       ],
@@ -28919,6 +31270,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "moongeistbeam": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "pursuit": [
@@ -29105,6 +31459,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "powerwhip": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "toxic": [
         "8M"
       ],
@@ -29274,6 +31631,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "magiccoat": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
       "dragonpulse": [
         "8M"
       ],
@@ -29440,7 +31803,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "magiccoat": [
         "8M"
       ],
-      "gigadrain": [
+      "swindle": [
+        "8M"
+      ],
+      "permafrost": [
         "8M"
       ],
       "dragonpulse": [
@@ -29621,7 +31987,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "oblivionwing": [
         "8M"
       ],
-      "boomburst": [
+      "swindle": [
         "8M"
       ],
       "raindance": [
@@ -29730,9 +32096,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "poweruppunch": [
         "8M"
       ],
-      "rapidspin": [
-        "8M"
-      ],
       "leer": [
         "8M"
       ],
@@ -29805,10 +32168,19 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "closecombat": [
         "8M"
       ],
+      "focusblast": [
+        "8M"
+      ],
       "suckerpunch": [
         "8M"
       ],
       "focuspunch": [
+        "8M"
+      ],
+      "boomburst": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "payback": [
@@ -29827,9 +32199,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "superpower": [
-        "8M"
-      ],
-      "focusblast": [
         "8M"
       ],
       "darkpulse": [
@@ -29975,6 +32344,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "photongeyser": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "crunch": [
@@ -30191,6 +32563,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "darkvoid": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "crunch": [
         "8M"
       ],
@@ -30234,6 +32609,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "hex": [
+        "8M"
+      ],
+      "poltergeist": [
         "8M"
       ],
       "shadowball": [
@@ -30297,10 +32675,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
   },
   "strollinstu": {
     "learnset": {
-      "tackle": [
+      "growl": [
         "8M"
       ],
-      "growl": [
+      "tackle": [
         "8M"
       ],
       "helpinghand": [
@@ -30334,6 +32712,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "doubleedge": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "facade": [
@@ -30409,6 +32790,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "attract": [
         "8M"
       ],
+      "mudbomb": [
+        "8M"
+      ],
       "flamecharge": [
         "8M"
       ],
@@ -30425,6 +32809,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "wish": [
+        "8M"
+      ],
+      "earthpower": [
         "8M"
       ],
       "lavaplume": [
@@ -30446,6 +32833,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "inferno": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "facade": [
@@ -30575,6 +32965,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "storedpower": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "facade": [
         "8M"
       ],
@@ -30669,7 +33062,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "whirlpool": [
         "8M"
       ],
-      "raindance": [
+      "dive": [
         "8M"
       ],
       "charm": [
@@ -30679,6 +33072,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "wish": [
+        "8M"
+      ],
+      "raindance": [
         "8M"
       ],
       "liquidation": [
@@ -30693,13 +33089,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "calmmind": [
         "8M"
       ],
-      "fishiousrend": [
-        "8M"
-      ],
       "iciclecrash": [
         "8M"
       ],
       "playrough": [
+        "8M"
+      ],
+      "swindle": [
         "8M"
       ],
       "facade": [
@@ -30739,6 +33135,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "dazzlinggleam": [
+        "8M"
+      ],
+      "snowsquall": [
+        "8M"
+      ],
+      "frigidbreeze": [
         "8M"
       ],
       "avalanche": [
@@ -30838,6 +33240,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "hurricane": [
         "8M"
       ],
+      "swindle": [
+        "8M"
+      ],
       "darkpulse": [
         "8M"
       ],
@@ -30914,6 +33319,1838 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "venoshock": [
+        "8M"
+      ]
+    }
+  },
+  "cataquack": {
+    "learnset": {
+      "tackle": [
+        "8M"
+      ],
+      "mudslap": [
+        "8M"
+      ],
+      "tickle": [
+        "8M"
+      ],
+      "quickattack": [
+        "8M"
+      ],
+      "magnitude": [
+        "8M"
+      ],
+      "flail": [
+        "8M"
+      ],
+      "teeterdance": [
+        "8M"
+      ],
+      "headbutt": [
+        "8M"
+      ],
+      "bulldoze": [
+        "8M"
+      ],
+      "yawn": [
+        "8M"
+      ],
+      "workup": [
+        "8M"
+      ],
+      "jumpkick": [
+        "8M"
+      ],
+      "bodyslam": [
+        "8M"
+      ],
+      "roar": [
+        "8M"
+      ],
+      "refresh": [
+        "8M"
+      ],
+      "drillrun": [
+        "8M"
+      ],
+      "drillpeck": [
+        "8M"
+      ],
+      "swordsdance": [
+        "8M"
+      ],
+      "doubleedge": [
+        "8M"
+      ],
+      "earthquake": [
+        "8M"
+      ],
+      "highjumpkick": [
+        "8M"
+      ],
+      "circlethrow": [
+        "8M"
+      ],
+      "slackoff": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "poweruppunch": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "roost": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "earthpower": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "scorchingsands": [
+        "8M"
+      ],
+      "irontail": [
+        "8M"
+      ],
+      "seedbomb": [
+        "8M"
+      ]
+    }
+  },
+  "brambit": {
+    "learnset": {
+      "absorb": [
+        "8M"
+      ],
+      "leer": [
+        "8M"
+      ],
+      "poisonsting": [
+        "8M"
+      ],
+      "poisonpowder": [
+        "8M"
+      ],
+      "megadrain": [
+        "8M"
+      ],
+      "acid": [
+        "8M"
+      ],
+      "harden": [
+        "8M"
+      ],
+      "sludge": [
+        "8M"
+      ],
+      "leechseed": [
+        "8M"
+      ],
+      "magicalleaf": [
+        "8M"
+      ],
+      "toxicspikes": [
+        "8M"
+      ],
+      "venoshock": [
+        "8M"
+      ],
+      "gigadrain": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "stunspore": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "pollenpuff": [
+        "8M"
+      ],
+      "sleeppowder": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "growth": [
+        "8M"
+      ],
+      "weatherball": [
+        "8M"
+      ],
+      "synthesis": [
+        "8M"
+      ],
+      "thornstorm": [
+        "8M"
+      ],
+      "powerwhip": [
+        "8M"
+      ],
+      "leafstorm": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "infestation": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "megahorn": [
+        "8M"
+      ],
+      "uturn": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "leafblade": [
+        "8M"
+      ],
+      "grassknot": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "sludgewave": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "gyroball": [
+        "8M"
+      ],
+      "aromatherapy": [
+        "8M"
+      ],
+      "ingrain": [
+        "8M"
+      ]
+    }
+  },
+  "bramball": {
+    "learnset": {
+      "hornleech": [
+        "8M"
+      ],
+      "absorb": [
+        "8M"
+      ],
+      "leer": [
+        "8M"
+      ],
+      "poisonsting": [
+        "8M"
+      ],
+      "poisonpowder": [
+        "8M"
+      ],
+      "megadrain": [
+        "8M"
+      ],
+      "acid": [
+        "8M"
+      ],
+      "harden": [
+        "8M"
+      ],
+      "sludge": [
+        "8M"
+      ],
+      "leechseed": [
+        "8M"
+      ],
+      "magicalleaf": [
+        "8M"
+      ],
+      "gigadrain": [
+        "8M"
+      ],
+      "toxicspikes": [
+        "8M"
+      ],
+      "venoshock": [
+        "8M"
+      ],
+      "leafblade": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "stunspore": [
+        "8M"
+      ],
+      "poisonjab": [
+        "8M"
+      ],
+      "pollenpuff": [
+        "8M"
+      ],
+      "sleeppowder": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "growth": [
+        "8M"
+      ],
+      "weatherball": [
+        "8M"
+      ],
+      "synthesis": [
+        "8M"
+      ],
+      "thornstorm": [
+        "8M"
+      ],
+      "powerwhip": [
+        "8M"
+      ],
+      "leafstorm": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "infestation": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "megahorn": [
+        "8M"
+      ],
+      "uturn": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "grassknot": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "sludgewave": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ]
+    }
+  },
+  "zeusguy": {
+    "learnset": {
+      "leer": [
+        "8M"
+      ],
+      "tackle": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "karatechop": [
+        "8M"
+      ],
+      "detect": [
+        "8M"
+      ],
+      "doublekick": [
+        "8M"
+      ],
+      "lowkick": [
+        "8M"
+      ],
+      "spark": [
+        "8M"
+      ],
+      "charge": [
+        "8M"
+      ],
+      "rollingkick": [
+        "8M"
+      ],
+      "drainpunch": [
+        "8M"
+      ],
+      "thunderpunch": [
+        "8M"
+      ],
+      "counter": [
+        "8M"
+      ],
+      "takedown": [
+        "8M"
+      ],
+      "machpunch": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "jumpkick": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "fakeout": [
+        "8M"
+      ],
+      "doubleedge": [
+        "8M"
+      ],
+      "encore": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "highjumpkick": [
+        "8M"
+      ],
+      "swordsdance": [
+        "8M"
+      ],
+      "plasmafists": [
+        "8M"
+      ],
+      "thunderouskick": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "focusblast": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "poweruppunch": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ]
+    }
+  },
+  "biddybud": {
+    "learnset": {
+      "absorb": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "tackle": [
+        "8M"
+      ],
+      "stringshot": [
+        "8M"
+      ],
+      "bugbite": [
+        "8M"
+      ],
+      "powder": [
+        "8M"
+      ],
+      "doublehit": [
+        "8M"
+      ],
+      "sweetkiss": [
+        "8M"
+      ],
+      "charm": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "headbutt": [
+        "8M"
+      ],
+      "lunge": [
+        "8M"
+      ],
+      "stickyweb": [
+        "8M"
+      ],
+      "uturn": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "seedbomb": [
+        "8M"
+      ],
+      "aromatherapy": [
+        "8M"
+      ],
+      "rockblast": [
+        "8M"
+      ],
+      "encore": [
+        "8M"
+      ],
+      "firstimpression": [
+        "8M"
+      ],
+      "lovelykiss": [
+        "8M"
+      ],
+      "moonlight": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "infestation": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "megahorn": [
+        "8M"
+      ],
+      "pollenpuff": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "gigadrain": [
+        "8M"
+      ],
+      "leafblade": [
+        "8M"
+      ],
+      "grassknot": [
+        "8M"
+      ],
+      "leechseed": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "endure": [
+        "8M"
+      ],
+      "whirlwind": [
+        "8M"
+      ],
+      "wish": [
+        "8M"
+      ]
+    }
+  },
+  "biddybuddies": {
+    "learnset": {
+      "wish": [
+        "8M"
+      ],
+      "absorb": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "tackle": [
+        "8M"
+      ],
+      "stringshot": [
+        "8M"
+      ],
+      "bugbite": [
+        "8M"
+      ],
+      "powder": [
+        "8M"
+      ],
+      "doublehit": [
+        "8M"
+      ],
+      "sweetkiss": [
+        "8M"
+      ],
+      "charm": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "headbutt": [
+        "8M"
+      ],
+      "lunge": [
+        "8M"
+      ],
+      "stickyweb": [
+        "8M"
+      ],
+      "uturn": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "seedbomb": [
+        "8M"
+      ],
+      "buddybop": [
+        "8M"
+      ],
+      "aromatherapy": [
+        "8M"
+      ],
+      "rockblast": [
+        "8M"
+      ],
+      "encore": [
+        "8M"
+      ],
+      "firstimpression": [
+        "8M"
+      ],
+      "lovelykiss": [
+        "8M"
+      ],
+      "moonlight": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "infestation": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "megahorn": [
+        "8M"
+      ],
+      "pollenpuff": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "gigadrain": [
+        "8M"
+      ],
+      "leafblade": [
+        "8M"
+      ],
+      "grassknot": [
+        "8M"
+      ],
+      "leechseed": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ]
+    }
+  },
+  "sspiny": {
+    "learnset": {
+      "scratch": [
+        "8M"
+      ],
+      "pursuit": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "icywind": [
+        "8M"
+      ],
+      "bite": [
+        "8M"
+      ],
+      "spikes": [
+        "8M"
+      ],
+      "icefang": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "rapidspin": [
+        "8M"
+      ],
+      "iciclespear": [
+        "8M"
+      ],
+      "crunch": [
+        "8M"
+      ],
+      "focusenergy": [
+        "8M"
+      ],
+      "bodyslam": [
+        "8M"
+      ],
+      "honeclaws": [
+        "8M"
+      ],
+      "iciclecrash": [
+        "8M"
+      ],
+      "icespikes": [
+        "8M"
+      ],
+      "skullbash": [
+        "8M"
+      ],
+      "switcheroo": [
+        "8M"
+      ],
+      "fling": [
+        "8M"
+      ],
+      "flail": [
+        "8M"
+      ],
+      "shellsmash": [
+        "8M"
+      ],
+      "lastresort": [
+        "8M"
+      ],
+      "iceshard": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "knockoff": [
+        "8M"
+      ],
+      "dragondance": [
+        "8M"
+      ],
+      "dragonclaw": [
+        "8M"
+      ],
+      "scaleshot": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "tripleaxel": [
+        "8M"
+      ],
+      "frigidbreeze": [
+        "8M"
+      ],
+      "snowsquall": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ]
+    }
+  },
+  "freezie": {
+    "learnset": {
+      "growl": [
+        "8M"
+      ],
+      "bite": [
+        "8M"
+      ],
+      "powdersnow": [
+        "8M"
+      ],
+      "harden": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "icywind": [
+        "8M"
+      ],
+      "iceshard": [
+        "8M"
+      ],
+      "safeguard": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "iciclespear": [
+        "8M"
+      ],
+      "crunch": [
+        "8M"
+      ],
+      "agility": [
+        "8M"
+      ],
+      "frostbreath": [
+        "8M"
+      ],
+      "icefang": [
+        "8M"
+      ],
+      "permafrost": [
+        "8M"
+      ],
+      "magiccoat": [
+        "8M"
+      ],
+      "mistywind": [
+        "8M"
+      ],
+      "iciclecrash": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "frigidbreeze": [
+        "8M"
+      ],
+      "mirrorcoat": [
+        "8M"
+      ],
+      "snowsquall": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "freezeup": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "tripleaxel": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "razorwind": [
+        "8M"
+      ],
+      "rockblast": [
+        "8M"
+      ],
+      "glare": [
+        "8M"
+      ]
+    }
+  },
+  "taptap": {
+    "learnset": {
+      "tackle": [
+        "8M"
+      ],
+      "leer": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "sweetkiss": [
+        "8M"
+      ],
+      "ironbash": [
+        "8M"
+      ],
+      "defensecurl": [
+        "8M"
+      ],
+      "rollout": [
+        "8M"
+      ],
+      "yawn": [
+        "8M"
+      ],
+      "lowkick": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "lockon": [
+        "8M"
+      ],
+      "gyroball": [
+        "8M"
+      ],
+      "metalsound": [
+        "8M"
+      ],
+      "irondefense": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "bodypress": [
+        "8M"
+      ],
+      "spikes": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "metalburst": [
+        "8M"
+      ],
+      "heavyslam": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "counter": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "skullbash": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "poweruppunch": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "fakeout": [
+        "8M"
+      ],
+      "teeterdance": [
+        "8M"
+      ],
+      "spikeball": [
+        "8M"
+      ]
+    }
+  },
+  "bigtap": {
+    "learnset": {
+      "tackle": [
+        "8M"
+      ],
+      "leer": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "sweetkiss": [
+        "8M"
+      ],
+      "ironbash": [
+        "8M"
+      ],
+      "defensecurl": [
+        "8M"
+      ],
+      "rollout": [
+        "8M"
+      ],
+      "yawn": [
+        "8M"
+      ],
+      "lowkick": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "lockon": [
+        "8M"
+      ],
+      "gyroball": [
+        "8M"
+      ],
+      "metalsound": [
+        "8M"
+      ],
+      "irondefense": [
+        "8M"
+      ],
+      "ironhead": [
+        "8M"
+      ],
+      "bodypress": [
+        "8M"
+      ],
+      "spikes": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "metalburst": [
+        "8M"
+      ],
+      "heavyslam": [
+        "8M"
+      ],
+      "superpower": [
+        "8M"
+      ],
+      "counter": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "skullbash": [
+        "8M"
+      ],
+      "headsmash": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "lowsweep": [
+        "8M"
+      ],
+      "poweruppunch": [
+        "8M"
+      ],
+      "aurasphere": [
+        "8M"
+      ],
+      "bulkup": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "sandtomb": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "zenheadbutt": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "metalclaw": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ]
+    }
+  },
+  "sninji": {
+    "learnset": {
+      "cut": [
+        "8M"
+      ],
+      "leer": [
+        "8M"
+      ],
+      "rockthrow": [
+        "8M"
+      ],
+      "poisonsting": [
+        "8M"
+      ],
+      "poisongas": [
+        "8M"
+      ],
+      "rocktomb": [
+        "8M"
+      ],
+      "detect": [
+        "8M"
+      ],
+      "furycutter": [
+        "8M"
+      ],
+      "venoshock": [
+        "8M"
+      ],
+      "endure": [
+        "8M"
+      ],
+      "reversal": [
+        "8M"
+      ],
+      "crosspoison": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "slash": [
+        "8M"
+      ],
+      "nightslash": [
+        "8M"
+      ],
+      "swordsdance": [
+        "8M"
+      ],
+      "obsidianblade": [
+        "8M"
+      ],
+      "sludgewave": [
+        "8M"
+      ],
+      "xscissor": [
+        "8M"
+      ],
+      "sacredsword": [
+        "8M"
+      ],
+      "rockpolish": [
+        "8M"
+      ],
+      "poisonjab": [
+        "8M"
+      ],
+      "leafblade": [
+        "8M"
+      ],
+      "stealthrock": [
+        "8M"
+      ],
+      "stoneedge": [
+        "8M"
+      ],
+      "smartstrike": [
+        "8M"
+      ],
+      "toxicspikes": [
+        "8M"
+      ],
+      "gunkshot": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "brickbreak": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "dig": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "rockclimb": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "sludgebomb": [
+        "8M"
+      ],
+      "poisonfang": [
+        "8M"
+      ],
+      "gastroacid": [
+        "8M"
+      ],
+      "sandstorm": [
+        "8M"
+      ],
+      "powergem": [
+        "8M"
+      ],
+      "rockslide": [
+        "8M"
+      ],
+      "metalclaw": [
         "8M"
       ]
     }
