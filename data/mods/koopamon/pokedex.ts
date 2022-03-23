@@ -7469,7 +7469,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
     evos: []
-  }
+  },
   flopter: {
     num: 228,
     name: "Flopter",
