@@ -878,5 +878,49 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatData} = {
   fishinboo: {
     tier: "KOOPAMON",
     doublesTier: "KOOPAMON"
+  },
+  brambit: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  bramball: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  zeusguy: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  biddybud: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  biddybuddies: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  starspiny: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  freezie: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  taptap: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  bigtap: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  starninji: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  flopter: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
   }
 }
