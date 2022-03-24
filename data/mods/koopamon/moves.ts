@@ -581,15 +581,15 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 30,
 		category: "Physical",
 		name: "Thorn Storm",
-		shortDesc: "Hits 2-5 times. User: -1 SpD, +1 SpA after last hit..",
+		shortDesc: "Hits 2-5 times. User: -1 Def, +1 Atk after last hit..",
 		pp: 20,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		multihit: [2, 5],
 		selfBoost: {
 			boosts: {
-				spd: -1,
-				spa: 1,
+				def: -1,
+				atk: 1,
 			},
 		},
 		secondary: null,

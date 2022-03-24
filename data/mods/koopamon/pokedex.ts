@@ -877,7 +877,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     abilities: {
       0: "Technician",
       1: "Guts",
-      H: "Sheer Force"
+      H: "Power Hammer"
     },
     heightm: 2.2,
     weightkg: 229.8,
@@ -6716,7 +6716,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Uproot-Busted"
     ]
   },
-  uprootpotless: {
+  uprootbusted: {
     num: 205,
     name: "Uproot-Busted",
     types: [
