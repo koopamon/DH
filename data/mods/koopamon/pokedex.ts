@@ -6716,9 +6716,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Uproot-Busted"
     ]
   },
-  uprootbusted: {
+  uprootpotless: {
     num: 205,
     name: "Uproot-Busted",
+	basespecies: "Uproot",
+	forme: "Busted",
     types: [
       "Grass",
       "Dark"
@@ -6738,10 +6740,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     heightm: 1.4,
     weightkg: 8.4,
-    color: "Green",
+    color: "Green",",
     eggGroups: [
       "Amorphous"
     ],
+	requiredAbility: "Disguise",
+	battleOnly: "Uproot
     evos: []
   },
   madpole: {

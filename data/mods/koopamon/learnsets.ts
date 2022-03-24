@@ -3806,6 +3806,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       "knockoff": [
         "8M"
       ],
+      "ironhammer": [
+        "8M"
+      ],
+      "icehammer": [
+        "8M"
+      ],
       "dragonhammer": [
         "8M"
       ],
