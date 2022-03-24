@@ -6740,7 +6740,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     heightm: 1.4,
     weightkg: 8.4,
-    color: "Green",",
+    color: "Green",
     eggGroups: [
       "Amorphous"
     ],
