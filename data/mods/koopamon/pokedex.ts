@@ -6745,7 +6745,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
 	requiredAbility: "Disguise",
-	battleOnly: "Uproot
+	battleOnly: "Uproot",
     evos: []
   },
   madpole: {
