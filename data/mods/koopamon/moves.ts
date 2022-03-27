@@ -1539,7 +1539,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.field.setWeather('sandstorm');
 				if (source?.hasItem('smoothrock')) {
 					field.weatherState.duration = 5;
-				else
+				} else {
 					field.weatherState.duration = 3;
 				}
 			},
