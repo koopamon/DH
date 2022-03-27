@@ -1537,15 +1537,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
-			},
-		},
-		condition: {
-			duration: 3,
-			durationCallback(target, source, effect) {
 				if (source?.hasItem('smoothrock')) {
-					return 5;
+					this.field.duration = 5;
+				} else {
+					this.field.duration = 3;
 				}
-				return 3;
 			},
 		},
 		target: "normal",
