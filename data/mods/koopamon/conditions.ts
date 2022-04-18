@@ -599,6 +599,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 				return 5;
 			} else {
 			return 5;
+			}
 		},
 		// This should be applied directly to the stat before any of the other modifiers are chained
 		// So we give it increased priority.
