@@ -375,7 +375,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       spe: 115
     },
     abilities: {
-      0: "Keen Eye",
+      0: "Hustle",
       1: "Infiltrator",
       H: "Unburden"
     },
@@ -433,9 +433,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     baseStats: {
       hp: 60,
       atk: 70,
-      def: 80,
+      def: 60,
       spa: 50,
-      spd: 60,
+      spd: 40,
       spe: 70
     },
     abilities: {
@@ -450,7 +450,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Humanlike"
     ],
     evos: [
-      "Paratroopa"
+      "Paratroopa",
+	  "Tubotroopa"
     ],
     otherFormes: [
       "Koopatroopa Gold"
@@ -506,12 +507,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       F: 0.5
     },
     baseStats: {
-      hp: 70,
-      atk: 85,
-      def: 85,
+      hp: 75,
+      atk: 100,
+      def: 70,
       spa: 60,
-      spd: 65,
-      spe: 90
+      spd: 70,
+      spe: 100
     },
     abilities: {
       0: "Shell Armor",
@@ -523,9 +524,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     eggGroups: [
       "Field",
       "Humanlike"
-    ],
-    evos: [
-      "Tubotroopa"
     ],
     prevo: "Koopatroopa"
   },
@@ -542,11 +540,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 85,
-      atk: 100,
-      def: 110,
-      spa: 95,
-      spd: 85,
-      spe: 75
+      atk: 55,
+      def: 60,
+      spa: 115,
+      spd: 130,
+      spe: 30
     },
     abilities: {
       0: "Shell Armor",
@@ -559,7 +557,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Field",
       "Humanlike"
     ],
-    prevo: "Paratroopa"
+    prevo: "Koopatroopa"
   },
   thwimp: {
     num: 17,
@@ -1092,10 +1090,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 125,
-      atk: 65,
-      def: 60,
+      atk: 60,
+      def: 65,
       spa: 100,
-      spd: 75,
+      spd: 85,
       spe: 55
     },
     abilities: {
@@ -5713,9 +5711,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       hp: 95,
       atk: 65,
       def: 85,
-      spa: 90,
+      spa: 80,
       spd: 115,
-      spe: 45
+      spe: 35
     },
     abilities: {
       0: "Aqua Amplify",
@@ -7505,5 +7503,72 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ],
     evos: []
+  },
+  goonie: {
+    num: 229,
+    name: "Goonie",
+    types: [
+      "Water",
+      "Flying"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 90,
+      atk: 60,
+      def: 60,
+      spa: 30,
+      spd: 50,
+      spe: 90
+    },
+    abilities: {
+      0: "Damp",
+	  1: "Rain Dish",
+      H: "Clear Skies"
+    },
+    heightm: 0.6,
+    weightkg: 0.3,
+    color: "White",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [
+      "Heftygoon"
+    ]
+  },
+  heftygoon: {
+    num: 230,
+    name: "Heftygoon",
+    types: [
+      "Water",
+      "Flying"
+    ],
+    genderRatio: {
+      M: 0.5,
+      F: 0.5
+    },
+    baseStats: {
+      hp: 130,
+      atk: 80,
+      def: 90,
+      spa: 60,
+      spd: 65,
+      spe: 35
+    },
+    abilities: {
+      0: "Damp",
+	  1: "Rain Dish",
+      H: "Clear Skies"
+    },
+    heightm: 1.2,
+    weightkg: 156.8,
+    color: "White",
+    eggGroups: [
+      "Amorphous"
+    ],
+    evos: [],
+    prevo: "Goonie"
   }
 }

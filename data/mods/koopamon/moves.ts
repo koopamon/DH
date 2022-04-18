@@ -553,9 +553,46 @@ export const Moves: {[moveid: string]: MoveData} = {
 			status: 'brn',
 		},
 		selfSwitch: true,
-		secondary: null,
 		target: "normal",
 		type: "Fire",
+	},
+	celestialrocket: {
+		accuracy: 90,
+		basePower: 150,
+		category: "Physical",
+		name: "Celestial Rocket",
+		shortDesc: "Lowers the user's Defense, Sp. Def, Speed by 1."
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				spe: -1,
+				def: -1,
+				spd: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fairy",
+	},
+	celestialbeam: {
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Celestial Beam",
+		pp: 30,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onHitField() {
+			this.add('-clearallboost');
+			for (const pokemon of this.getAllActive()) {
+				pokemon.clearBoosts();
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fairy",
 	},
 	buddybop: {
 		accuracy: 90,
@@ -564,7 +601,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return 20 * move.hit;
 		},
 		category: "Physical",
-		name: "Triple Axel",
+		name: "Buddy Bop",
 		pp: 10,
 		priority: 0,
 		name: "Buddy Bop",
@@ -1038,6 +1075,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Rock",
 	},
+	thunderthrust: {
+		accuracy: 100,
+		basePower: 95,
+		category: "Physical",
+		name: "Thunder Thrust",
+		shortDesc: "50% chance to paralyze the target.",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 50,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Fighting",
+	},
 	spikeball: {
 		accuracy: 85,
 		basePower: 100,
@@ -1279,7 +1332,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 85,
 		basePower: 110,
 		category: "Physical",
-		name: "Gravity Cannon",
+		name: "Gravity Smash",
 		shortDesc: "30% chance to confuse the target.",
 		pp: 5,
 		priority: 0,
@@ -1295,7 +1348,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 90,
 		basePower: 60,
 		category: "Physical",
-		name: "Gravity Cannon",
+		name: "Spike Storm",
 		shortDesc: "Sets up a layer of spikes.",
 		pp: 10,
 		priority: 0,
@@ -1423,7 +1476,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 90,
 		basePower: 80,
 		category: "Physical",
-		name: "Meteor Mash",
+		name: "Corrupt Claws",
 		shortDesc: "30% chance to increase Attack.",
 		pp: 15,
 		priority: 0,
@@ -1536,12 +1589,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1},
 		self: {
 			onHit(source) {
+				onHit(source) {
 				this.field.setWeather('sandstorm');
-				if (source?.hasItem('smoothrock')) {
-					this.field.duration = 5;
-				} else {
-					this.field.duration = 3;
-				}
+			},
 			},
 		},
 		target: "normal",
@@ -1571,7 +1621,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		shortDesc: "Power  doubles if user is statused.",
 		pp: 20,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1},
 		onBasePower(basePower, pokemon) {
 			if (pokemon.status && pokemon.status !== 'slp') {
 				return this.chainModify(2);

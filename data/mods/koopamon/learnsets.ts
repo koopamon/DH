@@ -35182,6 +35182,362 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
+  "goonie": {
+    "learnset": {
+      "watergun": [
+        "8M"
+      ],
+      "growl": [
+        "8M"
+      ],
+      "peck": [
+        "8M"
+      ],
+      "defensecurl": [
+        "8M"
+      ],
+      "workup": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "aquaring": [
+        "8M"
+      ],
+      "wingattack": [
+        "8M"
+      ],
+      "roost": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "pluck": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "dive": [
+        "8M"
+      ],
+      "featherdance": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
+      "soak": [
+        "8M"
+      ],
+      "bodyslam": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "bravebird": [
+        "8M"
+      ],
+      "liquidation": [
+        "8M"
+      ],
+      "bodypress": [
+        "8M"
+      ],
+      "uturn": [
+        "8M"
+      ],
+      "agility": [
+        "8M"
+      ],
+      "stockpile": [
+        "8M"
+      ],
+      "spitup": [
+        "8M"
+      ],
+      "swallow": [
+        "8M"
+      ],
+      "skyattack": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "drillpeck": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "frigidbreeze": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ]
+    }
+  },
+  "heftygoon": {
+    "learnset": {
+      "watergun": [
+        "8M"
+      ],
+      "growl": [
+        "8M"
+      ],
+      "peck": [
+        "8M"
+      ],
+      "defensecurl": [
+        "8M"
+      ],
+      "workup": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "aquaring": [
+        "8M"
+      ],
+      "wingattack": [
+        "8M"
+      ],
+      "roost": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "pluck": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "dive": [
+        "8M"
+      ],
+      "featherdance": [
+        "8M"
+      ],
+      "fly": [
+        "8M"
+      ],
+      "tailwind": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "dualwingbeat": [
+        "8M"
+      ],
+      "soak": [
+        "8M"
+      ],
+      "bodyslam": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "bravebird": [
+        "8M"
+      ],
+      "liquidation": [
+        "8M"
+      ],
+      "bodypress": [
+        "8M"
+      ],
+      "uturn": [
+        "8M"
+      ],
+      "agility": [
+        "8M"
+      ],
+      "stockpile": [
+        "8M"
+      ],
+      "spitup": [
+        "8M"
+      ],
+      "swallow": [
+        "8M"
+      ],
+      "skyattack": [
+        "8M"
+      ],
+      "fairywind": [
+        "8M"
+      ],
+      "playrough": [
+        "8M"
+      ],
+      "mysticburst": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "aerialace": [
+        "8M"
+      ],
+      "defog": [
+        "8M"
+      ],
+      "airslash": [
+        "8M"
+      ],
+      "drillpeck": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "frigidbreeze": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "gigaimpact": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ],
+      "rollout": [
+        "8M"
+      ],
+      "heavyslam": [
+        "8M"
+      ]
+    }
+  },
   "starninji": {
     "learnset": {
       "cut": [

@@ -922,5 +922,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatData} = {
   flopter: {
     tier: "KOOPAMON",
     doublesTier: "KOOPAMON"
+  },
+  goonie: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  heftygoon: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
   }
 }
