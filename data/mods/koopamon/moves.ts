@@ -1592,7 +1592,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 				onHit(source) {
 				this.field.setWeather('sandstorm');
 			},
-			},
 		},
 		target: "normal",
 	},
