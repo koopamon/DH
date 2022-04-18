@@ -1589,7 +1589,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1},
 		self: {
 			onHit(source) {
-				onHit(source) {
 				this.field.setWeather('sandstorm');
 			},
 		},
