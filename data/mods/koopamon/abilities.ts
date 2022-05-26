@@ -410,15 +410,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 116,
 	},
 	sandboost: {
-		if (this.field.isWeather('sandstorm')) {
+		
 			onBoost(boost, target, source, effect) {
-			if (effect && effect.id === 'zpower') return;
-			let i: BoostName;
-			for (i in boost) {
-				boost[i]! *= 2;
+			if (this.field.isWeather('sandstorm')) {
+				if (effect && effect.id === 'zpower') return;
+				let i: BoostName;
+				for (i in boost) {
+					boost[i]! *= 2;
+				}
 			}
 			},
-		}
 		id: "sandboost",
 		name: "Sand Boost",
 		shortDesc: "When this Koopamon's stat stages are raised or lowered, the effect is doubled in a sandstorm.",
