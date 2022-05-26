@@ -1337,6 +1337,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 62,
 	},
+	frostboost: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.status === 'fbt') {
+				return this.chainModify(1.5);
+			}
+		},
+		id: "frostboost",
+		name: "Frost Boost",
+		shortDesc: "While this Koopamon is frostbit, its Sp. Atk is 1.5x; ignores frostbite halving damage.",
+	},
 	harvest: {
 		name: "Harvest",
 		onResidualOrder: 26,
