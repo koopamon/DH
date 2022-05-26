@@ -4526,7 +4526,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {contact: 1, protect: 1, mirror: 1},
 		onBasePower(basePower, pokemon) {
 			if (pokemon.status && pokemon.status !== 'slp') {
-				return this.chainModify(2);
+				return this.chainModify(1.7);
 			}
 		},
 		secondary: null,

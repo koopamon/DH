@@ -1590,7 +1590,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
-				this.field.weatherState.duration === 3;
+				this.effectData.duration = 3;
 			},
 		},
 		target: "normal",
@@ -1608,7 +1608,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sunnyday');
-				this.field.weatherState.duration === 3;
+				this.field.weatherState.duration = 3;
 			},
 		},
 		target: "normal",
@@ -1624,7 +1624,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1},
 		onBasePower(basePower, pokemon) {
 			if (pokemon.status && pokemon.status !== 'slp') {
-				return this.chainModify(2);
+				return this.chainModify(1.7);
 			}
 		},
 		secondary: null,

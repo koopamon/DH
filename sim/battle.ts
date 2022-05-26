@@ -2258,12 +2258,12 @@ export class Battle {
 		if (isCrit && !suppressMessages) this.add('-crit', target);
 
 		if (pokemon.status === 'brn' && move.category === 'Physical' && !pokemon.hasAbility('guts')) {
-			if (this.gen < 6 || move.id !== 'facade') {
+			if (this.gen < 6 || move.id !== 'facade' || move.id !== 'swindle') {
 				baseDamage = this.modify(baseDamage, 0.5);
 			}
 		}
-		if (pokemon.status === 'fbt' && move.category === 'Special') {
-			if (this.gen < 6 || move.id !== 'facade') {
+		if (pokemon.status === 'fbt' && move.category === 'Special') && !pokemon.hasAbility('frostboost')) {
+			if (this.gen < 6 || move.id !== 'facade' || move.id !== 'swindle') {
 				baseDamage = this.modify(baseDamage, 0.5);
 			}
 		}
