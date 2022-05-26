@@ -923,6 +923,18 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatData} = {
     tier: "KOOPAMON",
     doublesTier: "KOOPAMON"
   },
+  cataquack: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  cataquackred: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
+  soulubble: {
+    tier: "KOOPAMON",
+    doublesTier: "KOOPAMON"
+  },
   goonie: {
     tier: "KOOPAMON",
     doublesTier: "KOOPAMON"

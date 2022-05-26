@@ -289,6 +289,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		rating: 2,
 	},
+	starvenom: {
+		id: "starvenom",
+		name: "Star Venom",
+		shortDesc: "Attacks have an extra 20% chance to badly poison.",
+		onModifyMove(move) {
+			if (!move.secondaries) {
+				move.secondaries = [];
+			}
+			move.secondaries.push({
+				chance: 20,
+				status: 'tox',
+				ability: this.dex.getAbility('starvenom'),
+			});
+		},
+		rating: 2,
+	},
 	blowaway: {
 		id: "blowaway",
 		name: "Blow Away",
@@ -367,6 +383,154 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 	},
+	chillout: {
+		onDamagingHit(damage, target, source, move) {
+			if (!move.flags['contact']) {
+				if (this.randomChance(3, 10)) {
+					source.trySetStatus('fbt', target);
+				}
+			}
+		},
+		id: "chillout",
+		name: "Chill Out",
+		shortDesc: "30% chance of a Koopamon not making contact with this Koopamon will be frostbit.",
+		rating: 2,
+	},
+	goldarmor: {
+		onSourceModifyDamage(damage, source, target, move) {
+			if (target.getMoveHitData(move).typeMod > 0) {
+				this.debug('Gold Armor neutralize');
+				return this.chainModify(0.75);
+			}
+		},
+		id: "goldarmor",
+		name: "Gold Armor",
+		shortDesc: "This Koopamon receives 3/4 damage from supereffective attacks.",
+		rating: 3,
+		num: 116,
+	},
+	sandboost: {
+		if (this.field.isWeather('sandstorm')) {
+			onBoost(boost, target, source, effect) {
+			if (effect && effect.id === 'zpower') return;
+			let i: BoostName;
+			for (i in boost) {
+				boost[i]! *= 2;
+			}
+			},
+		}
+		id: "sandboost",
+		name: "Sand Boost",
+		shortDesc: "When this Koopamon's stat stages are raised or lowered, the effect is doubled in a sandstorm.",
+		rating: 4,
+	},
+	oceansfavor: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Water') {
+				this.debug('Oceans Favor boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Water') {
+				this.debug('Oceans Favor boost');
+				return this.chainModify(1.5);
+			}
+		},
+		id: "oceansfavor",
+		name: "Oceans Favor",
+		shortDesc: "This Koopamon's attacking stat is multiplied by 1.5 while using a Water-Type attack.",
+		rating: 3.5,
+	},
+	starguard: {
+		onTryHit(target, source, move) {
+			if (target === source || move.category === 'Status' || move.type === '???' || move.id === 'struggle') return;
+			if (move.id === 'skydrop' && !source.volatiles['skydrop']) return;
+			this.debug('Star Guard immunity: ' + move.id);
+			if (target.runEffectiveness(move) >= 0) {
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-immune', target, '[from] ability: Star Guard');
+				}
+				return null;
+			}
+		},
+		id: "starguard",
+		name: "Star Guard",
+		shortDesc: "This Koopamon cannot damaged by moves that are supereffective against it.",
+		rating: 5,
+	},
+	starshock: {
+		onModifyCritRatio(critRatio, source, target) {
+			if (target && ['par'].includes(target.status)) return 5;
+		},
+		id: "starshock",
+		name: "Star Shock",
+		shortDesc: "This Koopamon's attacks are critical hits if the target is paralyzed.",
+		rating: 1.5,
+	},
+	starbat: {
+		id: "starbat",
+		name: "Star Bat",
+		shortDesc: "Powers up bomb and ball moves by 30%.",
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['bullet']) {
+				return this.chainModify(1.3);
+			}
+		},
+	},
+	stardash: {
+		onBasePowerPriority: 30,
+		onBasePower(basePower, attacker, defender, move) {
+			const basePowerAfterMultiplier = this.modify(basePower, this.event.modifier);
+			this.debug('Base Power: ' + basePowerAfterMultiplier);
+			if (basePowerAfterMultiplier <= 50) {
+				this.debug('Star Dash boost');
+				return priority + 1;
+			}
+		},
+		id: "stardash",
+		name: "Star Dash",
+		shortDesc: "Moves with 50 BP or lower have priority raisoed by 1.",
+	},
+	frozenshell: {
+		onModifyDefPriority: 5,
+		onModifyDef(def, pokemon) {
+			if (pokemon.hp <= pokemon.maxhp / 2) {
+				return this.chainModify(2.5);
+			}
+		},
+		onModifySpDPriority: 5,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.hp <= pokemon.maxhp / 2) {
+				return this.chainModify(2.5);
+			}
+		},
+		id: "frozenshell",
+		name: "Frozen Shell",
+		shortDesc: "While this Koopamopn has 1/2 or less of its max HP, its Def and Sp. Def are x2.5",
+	},
+	frostboost: {
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (attacker.status === 'fbt' && move.category === 'Special') {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.status === 'fbt') {
+				return this.chainModify(1.5);
+			}
+		},
+		id: "frostboost",
+		name: "Frost Boost",
+		shortDesc: "While this Koopamon is frostbit, its Sp. Atk is 1.5x; ignores frostbite halving special damage.",
+	},
 	powerhammer: {
 		id: "powerhammer",
 		name: "Power Hammer",
@@ -378,4 +542,5 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 	},
+	
 };

@@ -19089,6 +19089,468 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       ]
     }
   },
+  "mechakoopafire": {
+    "learnset": {
+      "thundershock": [
+        "8M"
+      ],
+      "growl": [
+        "8M"
+      ],
+      "magnetrise": [
+        "8M"
+      ],
+      "confusion": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "metalsound": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "discharge": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "zapcannon": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dragonpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ]
+    }
+  },
+  "mechakoopawater": {
+    "learnset": {
+      "thundershock": [
+        "8M"
+      ],
+      "growl": [
+        "8M"
+      ],
+      "magnetrise": [
+        "8M"
+      ],
+      "confusion": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "metalsound": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "discharge": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "zapcannon": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dragonpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ]
+    }
+  },
+  "mechakoopaice": {
+    "learnset": {
+      "thundershock": [
+        "8M"
+      ],
+      "growl": [
+        "8M"
+      ],
+      "magnetrise": [
+        "8M"
+      ],
+      "confusion": [
+        "8M"
+      ],
+      "shockwave": [
+        "8M"
+      ],
+      "metalsound": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "discharge": [
+        "8M"
+      ],
+      "substitute": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "zapcannon": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "dragonpulse": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "fireblast": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "flamethrower": [
+        "8M"
+      ],
+      "incinerate": [
+        "8M"
+      ],
+      "firefang": [
+        "8M"
+      ],
+      "sunnyday": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "avalanche": [
+        "8M"
+      ],
+      "blizzard": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "icebeam": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "hail": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "toxic": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ],
+      "waterfall": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "scald": [
+        "8M"
+      ],
+      "hydropump": [
+        "8M"
+      ]
+    }
+  },
   "jelectro": {
     "learnset": {
       "tackle": [
@@ -31261,6 +31723,184 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
         "8M"
       ],
       "recover": [
+        "8M"
+      ],
+      "thunder": [
+        "8M"
+      ],
+      "lasereye": [
+        "8M"
+      ],
+      "calmmind": [
+        "8M"
+      ],
+      "psychic": [
+        "8M"
+      ],
+      "moongeistbeam": [
+        "8M"
+      ],
+      "swindle": [
+        "8M"
+      ],
+      "pursuit": [
+        "8M"
+      ],
+      "taunt": [
+        "8M"
+      ],
+      "payback": [
+        "8M"
+      ],
+      "torment": [
+        "8M"
+      ],
+      "thunderbolt": [
+        "8M"
+      ],
+      "thunderwave": [
+        "8M"
+      ],
+      "voltswitch": [
+        "8M"
+      ],
+      "wildcharge": [
+        "8M"
+      ],
+      "thundershock": [
+        "8M"
+      ],
+      "dazzlinggleam": [
+        "8M"
+      ],
+      "willowisp": [
+        "8M"
+      ],
+      "hex": [
+        "8M"
+      ],
+      "shadowsneak": [
+        "8M"
+      ],
+      "confuseray": [
+        "8M"
+      ],
+      "solarbeam": [
+        "8M"
+      ],
+      "energyball": [
+        "8M"
+      ],
+      "gigadrain": [
+        "8M"
+      ],
+      "grassknot": [
+        "8M"
+      ],
+      "mist": [
+        "8M"
+      ],
+      "haze": [
+        "8M"
+      ],
+      "aurorabeam": [
+        "8M"
+      ],
+      "facade": [
+        "8M"
+      ],
+      "swift": [
+        "8M"
+      ],
+      "return": [
+        "8M"
+      ],
+      "disable": [
+        "8M"
+      ],
+      "hypervoice": [
+        "8M"
+      ],
+      "sleeptalk": [
+        "8M"
+      ],
+      "rest": [
+        "8M"
+      ],
+      "protect": [
+        "8M"
+      ],
+      "hyperbeam": [
+        "8M"
+      ],
+      "reflect": [
+        "8M"
+      ],
+      "lightscreen": [
+        "8M"
+      ],
+      "amnesia": [
+        "8M"
+      ],
+      "trickroom": [
+        "8M"
+      ],
+      "flashcannon": [
+        "8M"
+      ],
+      "waterpulse": [
+        "8M"
+      ],
+      "surf": [
+        "8M"
+      ],
+      "raindance": [
+        "8M"
+      ]
+    }
+  },
+  "mrismall": {
+    "learnset": {
+      "rapidspin": [
+        "8M"
+      ],
+      "leer": [
+        "8M"
+      ],
+      "powertrip": [
+        "8M"
+      ],
+      "ominouswind": [
+        "8M"
+      ],
+      "scaryface": [
+        "8M"
+      ],
+      "meanlook": [
+        "8M"
+      ],
+      "faketears": [
+        "8M"
+      ],
+      "psybeam": [
+        "8M"
+      ],
+      "painsplit": [
+        "8M"
+      ],
+      "darkpulse": [
+        "8M"
+      ],
+      "trickortreat": [
+        "8M"
+      ],
+      "shadowball": [
+        "8M"
+      ],
+      "foulplay": [
+        "8M"
+      ],
+      "nastyplot": [
         "8M"
       ],
       "thunder": [

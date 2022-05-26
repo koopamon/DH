@@ -4340,11 +4340,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     baseStats: {
       hp: 85,
-      atk: 73,
+      atk: 63,
       def: 75,
-      spa: 97,
-      spd: 105,
-      spe: 75
+      spa: 87,
+      spd: 125,
+      spe: 70
     },
     abilities: {
       0: "Unaware",
@@ -6170,9 +6170,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Amorphous"
     ]
   },
-  sluma: {
+  starluma: {
     num: 190,
-    name: "Luma",
+    name: "Star Luma",
     types: [
       "Dragon",
       "Psychic"
@@ -6714,7 +6714,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
       "Uproot-Busted"
     ]
   },
-  uprootpotless: {
+  uprootbusted: {
     num: 205,
     name: "Uproot-Busted",
 	basespecies: "Uproot",
@@ -7570,5 +7570,37 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     ],
     evos: [],
     prevo: "Goonie"
+  },
+  soulubble: {
+    num: 231,
+    name: "Soulubble",
+    types: [
+      "Fairy",
+      "Flying"
+    ],
+    genderRatio: {
+      M: 0.25,
+      F: 0.75
+    },
+    baseStats: {
+      hp: 110,
+      atk: 70,
+      def: 86,
+      spa: 111,
+      spd: 79,
+      spe: 54
+    },
+    abilities: {
+      0: "Unaware",
+      1: "Sweet Veil",
+      H: "Soul Heart"
+    },
+    heightm: 0.7,
+    weightkg: 27.2,
+    color: "Pink",
+    eggGroups: [
+      "Amorphous"
+    ],
+    prevo: "Lovubble"
   }
 }
