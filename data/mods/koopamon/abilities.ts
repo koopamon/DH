@@ -410,15 +410,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 116,
 	},
 	sandboost: {
-		
 			onBoost(boost, target, source, effect) {
-			if (this.field.isWeather('sandstorm')) {
+			
 				if (effect && effect.id === 'zpower') return;
 				let i: BoostName;
+				if (this.field.isWeather('sandstorm')) {
 				for (i in boost) {
 					boost[i]! *= 2;
 				}
-			}
+				}
 			},
 		id: "sandboost",
 		name: "Sand Boost",
@@ -447,9 +447,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	starguard: {
 		onTryHit(target, source, move) {
-			if (target === source || move.category === 'Status' || move.type === '???' || move.id === 'struggle') return;
-			if (move.id === 'skydrop' && !source.volatiles['skydrop']) return;
-			this.debug('Star Guard immunity: ' + move.id);
 			if (target.runEffectiveness(move) >= 0) {
 				if (move.smartTarget) {
 					move.smartTarget = false;
@@ -513,12 +510,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		shortDesc: "While this Koopamon has 1/2 or less of its max HP, its Def and Sp. Def are x2.5",
 	},
 	frostboost: {
-		onBasePowerPriority: 19,
-		onBasePower(basePower, attacker, defender, move) {
-			if (attacker.status === 'fbt' && move.category === 'Special') {
-				return this.chainModify(1.5);
-			}
-		},
 		onModifySpAPriority: 5,
 		onModifySpA(spa, pokemon) {
 			if (pokemon.status === 'fbt') {

@@ -1590,6 +1590,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
+				this.field.weatherState.duration === 3;
 			},
 		},
 		target: "normal",
@@ -1607,6 +1608,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		self: {
 			onHit(source) {
 				this.field.setWeather('sunnyday');
+				this.field.weatherState.duration === 3;
 			},
 		},
 		target: "normal",

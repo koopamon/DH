@@ -593,13 +593,8 @@ export const Conditions: {[k: string]: ConditionData} = {
 		durationCallback(source, effect) {
 			if (source?.hasItem('smoothrock')) {
 				return 8;
-			} else if (move.id === 'dustdevil') {
-				return 3;
-			} else if (move.id === 'dustdevil' && source?.hasItem('smoothrock')) {
-				return 5;
-			} else {
-			return 5;
 			}
+			return 5;
 		},
 		// This should be applied directly to the stat before any of the other modifiers are chained
 		// So we give it increased priority.
