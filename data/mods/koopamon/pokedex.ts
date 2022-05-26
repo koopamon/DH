@@ -5986,7 +5986,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     abilities: {
       0: "Swift Swim",
       1: "Water Absorb",
-      H: "Ocean's Favor"
+      H: "Oceans Favor"
     },
     heightm: 3.1,
     weightkg: 216.8,
@@ -6252,7 +6252,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
     },
     abilities: {
       0: "Sturdy",
-      1: "FROSTBOOST",
+      1: "Frost Boost",
       H: "Sand Stream"
     },
     heightm: 0.9,

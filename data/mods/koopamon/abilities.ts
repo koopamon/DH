@@ -485,11 +485,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 	},
 	stardash: {
-		onBasePowerPriority: 30,
-		onBasePower(basePower, attacker, defender, move) {
-			const basePowerAfterMultiplier = this.modify(basePower, this.event.modifier);
-			this.debug('Base Power: ' + basePowerAfterMultiplier);
-			if (basePowerAfterMultiplier <= 50) {
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move.basePower <= 50) {
 				this.debug('Star Dash boost');
 				return priority + 1;
 			}
@@ -513,7 +510,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		id: "frozenshell",
 		name: "Frozen Shell",
-		shortDesc: "While this Koopamopn has 1/2 or less of its max HP, its Def and Sp. Def are x2.5",
+		shortDesc: "While this Koopamon has 1/2 or less of its max HP, its Def and Sp. Def are x2.5",
 	},
 	frostboost: {
 		onBasePowerPriority: 19,
@@ -530,7 +527,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		id: "frostboost",
 		name: "Frost Boost",
-		shortDesc: "While this Koopamon is frostbit, its Sp. Atk is 1.5x; ignores frostbite halving special damage.",
+		shortDesc: "While this Koopamon is frostbit, its Sp. Atk is 1.5x; ignores frostbite halving damage.",
 	},
 	powerhammer: {
 		id: "powerhammer",
