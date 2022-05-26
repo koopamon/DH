@@ -4534,6 +4534,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Cute",
 	},
+	
+	swindle: {
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Swindle",
+		shortDesc: "Power  doubles if user is statused.",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onBasePower(basePower, pokemon) {
+			if (pokemon.status && pokemon.status !== 'slp') {
+				return this.chainModify(1.7);
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Cute",
+	},
 	fairylock: {
 		num: 587,
 		accuracy: true,
