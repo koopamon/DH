@@ -2262,7 +2262,7 @@ export class Battle {
 				baseDamage = this.modify(baseDamage, 0.5);
 			}
 		}
-		if (pokemon.status === 'fbt' && move.category === 'Special') && !pokemon.hasAbility('frostboost')) {
+		if (pokemon.status === 'fbt' && move.category === 'Special' && !pokemon.hasAbility('frostboost')) {
 			if (this.gen < 6 || move.id !== 'facade' || move.id !== 'swindle') {
 				baseDamage = this.modify(baseDamage, 0.5);
 			}
