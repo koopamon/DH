@@ -1652,7 +1652,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1},
 		self: {
 			weather: 'Sandstorm',
-			this.effectData.duration = 3;
+			onHit(source) {
+				this.effectData.duration = 3;
+			},
 		},
 		target: "normal",
 	},
