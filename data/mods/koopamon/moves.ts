@@ -219,6 +219,67 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {accuracy: 1}},
 		contestType: "Cool",
 	},
+	magmaenergy: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Magma Energy",
+		id: "magmaenergy",
+		pp: 20,
+		priority: 0,
+		flags: {snatch: 1},
+		sideCondition: 'magmaenergy',
+		condition: {
+			duration: 5,
+			durationCallback(target, source, effect) {
+				if (source?.hasItem('lightclay')) {
+					return 8;
+				}
+				return 5;
+			},
+			onTryHit(target, source, move) {
+				if (target !== source && move.type === 'Water') {
+					if (!this.boost({spa: 1})) {
+						this.add('-immune', target, '[from] condition: Magma Energy');
+					}
+					return null;
+				}
+			},
+			onAnyRedirectTarget(target, source, source2, move) {
+				if (move.type !== 'Water' || ['firepledge', 'grasspledge', 'waterpledge'].includes(move.id)) return;
+				const redirectTarget = ['randomNormal', 'adjacentFoe'].includes(move.target) ? 'normal' : move.target;
+				if (this.validTarget(this.effectData.target, source, redirectTarget)) {
+					if (move.smartTarget) move.smartTarget = false;
+					if (this.effectData.target !== target) {
+						this.add('-activate', this.effectData.target, 'condition: Magma Energy');
+					}
+					return this.effectData.target;
+				}
+			},
+//			onAnyModifyDamage(damage, source, target, move) {
+//				if (target !== source && target.side === this.effectData.target && this.getCategory(move) === 'Special') {
+//					if (!target.getMoveHitData(move).crit && !move.infiltrates) {
+//						this.debug('Light Screen weaken');
+//						if (target.side.active.length > 1) return this.chainModify([0xAAC, 0x1000]);
+//						return this.chainModify(0.5);
+//					}
+//				}
+//			},
+			onStart(side) {
+				this.add('-sidestart', side, 'move: Light Screen');
+			},
+			onResidualOrder: 21,
+			onResidualSubOrder: 1,
+			onEnd(side) {
+				this.add('-sideend', side, 'move: Light Screen');
+			},
+		},
+		secondary: null,
+		target: "allySide",
+		type: "Psychic",
+		zMove: {boost: {spd: 1}},
+		contestType: "Beautiful",
+	},
 	oblivionwing: {
 		num: 613,
 		accuracy: 100,
