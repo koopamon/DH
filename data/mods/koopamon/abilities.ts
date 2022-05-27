@@ -526,7 +526,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	hauntedhook: {
 		onTryHit(target, source, move) {
 			if (move.type === 'Ghost' && target.type === 'Water') {
-				target.runEffectiveness(move) > 0;
+				target.runEffectiveness(move) = 2;
 			}
 			
 		},
