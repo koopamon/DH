@@ -450,6 +450,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (target.runEffectiveness(move) > 0) {
 				this.add('-immune', target, '[from] ability: Star Guard');
 			}
+			return null;
 		},
 		id: "starguard",
 		name: "Star Guard",
