@@ -590,14 +590,15 @@ export const Conditions: {[k: string]: ConditionData} = {
 		name: 'Sandstorm',
 		effectType: 'Weather',
 		duration: 5,
-		durationCallback(source, effect) {
+		durationCallback(source, effect, move) {
 			if (source?.hasItem('smoothrock')) {
 				return 8;
-			} else if (move.id === 'dust devil') {
+			} else if (move.id === 'dustdevil') {
 				return 3;
 			}
 			return 5;
 		},
+		
 		// This should be applied directly to the stat before any of the other modifiers are chained
 		// So we give it increased priority.
 		onModifySpDPriority: 10,
