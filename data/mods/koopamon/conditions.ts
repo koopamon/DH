@@ -590,7 +590,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		name: 'Sandstorm',
 		effectType: 'Weather',
 		duration: 5,
-		durationCallback(source, effect, move) {
+		durationCallback(source, move, effect) {
 			if (source?.hasItem('smoothrock')) {
 				return 8;
 			} else if (move.id === 'dustdevil') {
