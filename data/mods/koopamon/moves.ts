@@ -1647,8 +1647,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		self: {
-			onHit(source) {
-				this.field.setWeather('sandstorm');
+			weather: 'Sandstorm',
+			condition: {
+				duration: 3,
 			},
 		},
 		target: "normal",
@@ -1682,10 +1683,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {charge: 1, snatch: 1},
-		
-		sideCondition: 'magiccircle',
-		condition: {
-			onTryMove(attacker, defender, move) {
+		onTryMove(attacker, defender, move) {
 				if (attacker.removeVolatile(move.id)) {
 					return;
 				}
@@ -1696,6 +1694,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 				attacker.addVolatile('twoturnmove', defender);
 				return null;
 			},
+		sideCondition: 'magiccircle',
+		condition: {
 			onStart(side) {
 				this.add('-sidestart', side, 'move: Magic Circle');
 			},
