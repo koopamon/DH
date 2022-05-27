@@ -219,16 +219,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {accuracy: 1}},
 		contestType: "Cool",
 	},
-	magmaenergy: {
+	magmaaura: {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "Magma Energy",
-		id: "magmaenergy",
+		name: "Magma Aura",
+		id: "magmaaura",
 		pp: 20,
 		priority: 0,
 		flags: {snatch: 1},
-		sideCondition: 'magmaenergy',
+		sideCondition: 'magmaaura',
 		condition: {
 			duration: 5,
 			durationCallback(target, source, effect) {
@@ -240,7 +240,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onTryHit(target, source, move) {
 				if (target !== source && move.type === 'Water') {
 					if (!this.boost({spa: 1})) {
-						this.add('-immune', target, '[from] condition: Magma Energy');
+						this.add('-immune', target, '[from] condition: Magma Aura');
 					}
 					return null;
 				}
@@ -251,7 +251,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (this.validTarget(this.effectData.target, source, redirectTarget)) {
 					if (move.smartTarget) move.smartTarget = false;
 					if (this.effectData.target !== target) {
-						this.add('-activate', this.effectData.target, 'condition: Magma Energy');
+						this.add('-activate', this.effectData.target, 'condition: Magma Aura');
 					}
 					return this.effectData.target;
 				}
@@ -266,19 +266,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 //				}
 //			},
 			onStart(side) {
-				this.add('-sidestart', side, 'move: Light Screen');
+				this.add('-sidestart', side, 'move: Magma Aura');
 			},
 			onResidualOrder: 21,
 			onResidualSubOrder: 1,
 			onEnd(side) {
-				this.add('-sideend', side, 'move: Light Screen');
+				this.add('-sideend', side, 'move: Magma Aura');
 			},
 		},
 		secondary: null,
 		target: "allySide",
-		type: "Psychic",
-		zMove: {boost: {spd: 1}},
-		contestType: "Beautiful",
+		type: "Fire",
 	},
 	oblivionwing: {
 		num: 613,
@@ -1652,6 +1650,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
 			},
+			condition: {
+				duration: 3,
+			}
 		},
 		target: "normal",
 	},
