@@ -273,6 +273,71 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		rating: 4.5,
 	},
+	
+	voltaicenergy: {
+		name: "Voltaic Energy",
+		id: "voltaicenergy",
+		shortDesc: "Electric power is 2x, contact moves may cause paralysis.",
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Electric') {
+				return this.chainModify(2.0);
+			}
+		},
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Electric') {
+				return this.chainModify(2.0);
+			}
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				if (this.randomChance(3, 10)) {
+					source.trySetStatus('par', target);
+				}
+			}
+		},
+		rating: 2,
+	},
+	eternalflame: {
+		name: "Eternal Flame",
+		id: "eternalflame",
+		shortDesc: "Fire power is 2x, it can't be frostbit; Water power against it is halved.",
+		onSourceModifyAtkPriority: 5,
+		onSourceModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Water') {
+				return this.chainModify(0.5);
+			}
+		},
+		onSourceModifySpAPriority: 5,
+		onSourceModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Water') {
+				return this.chainModify(0.5);
+			}
+		},
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				return this.chainModify(2.0);
+			}
+		},
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				return this.chainModify(2.0);
+			}
+		},
+		onUpdate(pokemon) {
+			if (pokemon.status === 'fbt') {
+				this.add('-activate', pokemon, 'ability: Eternal Flame');
+				pokemon.cureStatus();
+			}
+		},
+		onSetStatus(status, target, source, effect) {
+			if (status.id !== 'fbt') return;
+			if ((effect as Move)?.status) {
+				this.add('-immune', target, '[from] ability: Eternal Flame');
+			}
+			return false;
+		},
+		rating: 4.5,
+	},
 	starflame: {
 		id: "starflame",
 		name: "Star Flame",
@@ -456,6 +521,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		id: "starguard",
 		name: "Star Guard",
 		shortDesc: "This Koopamon cannot damaged by moves that are supereffective against it.",
+		rating: 5,
+	},
+	hauntedhook: {
+		onTryHit(target, source, move) {
+			if (move.type === 'Ghost' && target.type === 'Water') {
+				target.runEffectiveness(move) > 0;
+			}
+			
+		},
+		id: "hauntedhook",
+		name: "Haunted Hook",
+		shortDesc: "Ghost-Type moves are supereffective against Water-Types.",
 		rating: 5,
 	},
 	starshock: {
