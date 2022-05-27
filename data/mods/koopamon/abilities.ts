@@ -524,8 +524,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 	},
 	hauntedhook: {
-		onEffectiveness(typeMod, move, target, type) {
-			if (move.type === 'Ghost' && target.type === ' Water') return 1;
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Ghost' && target?.hasType('Water')) return 1;
 		},
 		id: "hauntedhook",
 		name: "Haunted Hook",
