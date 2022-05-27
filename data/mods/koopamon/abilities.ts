@@ -447,7 +447,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	starguard: {
 		onTryHit(target, source, move) {
-			if (target.runEffectiveness(move) = 2) {
+			if (target.runEffectiveness(move) > 0) {
 				this.add('-immune', target, '[from] ability: Star Guard');
 			}
 		},
