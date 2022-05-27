@@ -447,13 +447,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	starguard: {
 		onTryHit(target, source, move) {
-			if (target.runEffectiveness(move) >= 0) {
-				if (move.smartTarget) {
-					move.smartTarget = false;
-				} else {
-					this.add('-immune', target, '[from] ability: Star Guard');
-				}
-				return null;
+			if (target.runEffectiveness(move) = 2) {
+				this.add('-immune', target, '[from] ability: Star Guard');
 			}
 		},
 		id: "starguard",

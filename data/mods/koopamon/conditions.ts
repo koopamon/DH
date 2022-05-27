@@ -593,6 +593,8 @@ export const Conditions: {[k: string]: ConditionData} = {
 		durationCallback(source, effect) {
 			if (source?.hasItem('smoothrock')) {
 				return 8;
+			} else if (move.id === 'dust devil') {
+				return 3;
 			}
 			return 5;
 		},
