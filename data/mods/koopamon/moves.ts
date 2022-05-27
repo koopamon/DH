@@ -192,10 +192,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 			let success = false;
 			if (!target.volatiles['substitute'] || move.infiltrates) success = !!this.boost({evasion: -1});
 			const removeTarget = [
-				'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'secretseeds',
+				'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'secretseeds', 'magiccircle',
 			];
 			const removeAll = [
-				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'secretseeds',
+				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'secretseeds', 'magiccircle',
 			];
 			for (const targetCondition of removeTarget) {
 				if (target.side.removeSideCondition(targetCondition)) {
@@ -234,7 +234,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Flying",
 		contestType: "Cool",
 	},
-	
 	ingrain: {
 		num: 275,
 		accuracy: true,
@@ -1613,6 +1612,39 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		target: "normal",
+	},
+	magiccircle: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Magic Circle",
+		id: "magiccircle",
+		shortDesc: "Takes 2 turns to charge. Creates a magic circle which increases Sp. Atk on switch in.",
+		pp: 10,
+		priority: 0,
+		flags: {charge: 1, snatch: 1},
+		sideCondition: 'magiccircle',
+		condition: {
+			onStart(side) {
+				this.add('-sidestart', side, 'move: Magic Circle');
+			},
+			onSwitchIn(pokemon) {
+				this.add('-activate', pokemon, 'move: Magic Circle');
+				this.boost({spa: +1}, pokemon, this.effectData.source, this.dex.getActiveMove('magiccircle'));
+			},
+		},
+		onTryMove(attacker, defender, move) {
+			
+			this.add('-prepare', attacker, move.name);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		secondary: null,
+		target: "allySide",
+		type: "Psychic",
 	},
 	swindle: {
 		accuracy: 100,
