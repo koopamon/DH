@@ -1650,9 +1650,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onHit(source) {
 				this.field.setWeather('sandstorm');
 			},
-			condition: {
-				duration: 3,
-			}
 		},
 		target: "normal",
 	},
@@ -1685,8 +1682,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {charge: 1, snatch: 1},
+		
 		sideCondition: 'magiccircle',
 		condition: {
+			onTryMove(attacker, defender, move) {
+				if (attacker.removeVolatile(move.id)) {
+					return;
+				}
+				this.add('-prepare', attacker, move.name);
+				if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+					return;
+				}
+				attacker.addVolatile('twoturnmove', defender);
+				return null;
+			},
 			onStart(side) {
 				this.add('-sidestart', side, 'move: Magic Circle');
 			},
@@ -1694,15 +1703,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.add('-activate', pokemon, 'move: Magic Circle');
 				this.boost({spa: +1}, pokemon, this.effectData.source, this.dex.getActiveMove('magiccircle'));
 			},
-		},
-		onTryMove(attacker, defender, move) {
-			
-			this.add('-prepare', attacker, move.name);
-			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
-				return;
-			}
-			attacker.addVolatile('twoturnmove', defender);
-			return null;
 		},
 		secondary: null,
 		target: "allySide",
