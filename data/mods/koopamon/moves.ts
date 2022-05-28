@@ -639,6 +639,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 85,
 		category: "Special",
 		name: "Celestial Beam",
+		id: "celestialbeam",
+		shortDesc: "Eliminates all stat changes.",
 		pp: 30,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
