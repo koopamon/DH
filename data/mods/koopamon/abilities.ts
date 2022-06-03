@@ -524,7 +524,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 	},
 	hauntedhook: {
-		onSourceEffectiveness(typeMod, target, type) {
+		onAnyEffectiveness(typeMod, target, type) {
 			if (type === 'Ghost' && target?.hasType('Water')) return typeMod + 1;
 		},
 		id: "hauntedhook",
