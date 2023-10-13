@@ -158,7 +158,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	snowforce: {
 		id: "snowforce",
 		name: "Snow Force",
-		shortDesc: "During hail Ice moves deal 1.5x more damage and Accuracy increased by 30%.",
+		shortDesc: "During snow Ice moves deal 1.5x more damage and Accuracy increased by 30%.",
 		onBasePowerPriority: 21,
 		onBasePower(basePower, attacker, defender, move) {
 			if (this.field.isWeather('hail')) {
